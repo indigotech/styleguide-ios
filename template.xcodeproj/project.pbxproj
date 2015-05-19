@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E26027BF014FFBC2D898EBA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA28BDDDDF9C76FD0A855F0E /* libPods.a */; };
-		5B24E4691A80FBB700230072 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B24E4681A80FBB700230072 /* Constants.m */; };
+		4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167D01B0BCDAC00C3010B /* Constants.m */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -19,8 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B24E4671A80FBB700230072 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		5B24E4681A80FBB700230072 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		4D3167CF1B0BCDAC00C3010B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4D3167D01B0BCDAC00C3010B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		4D3167D21B0BCDEB00C3010B /* Components.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Components.h; sourceTree = "<group>"; };
+		4D3167D31B0BCE8600C3010B /* Fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fonts.h; sourceTree = "<group>"; };
+		4D3167D41B0BCEFD00C3010B /* Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		4D3167D51B0BDB1800C3010B /* UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -57,6 +61,19 @@
 				ECD02A87E81E73284C83F576 /* Pods.release-production.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D3167CE1B0BCDAC00C3010B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4D3167CF1B0BCDAC00C3010B /* Constants.h */,
+				4D3167D01B0BCDAC00C3010B /* Constants.m */,
+				4D3167D21B0BCDEB00C3010B /* Components.h */,
+				4D3167D31B0BCE8600C3010B /* Fonts.h */,
+				4D3167D41B0BCEFD00C3010B /* Colors.h */,
+				4D3167D51B0BDB1800C3010B /* UserDefaults.h */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		4DEB0ECA1A8E4FE60048477D /* Fonts */ = {
@@ -112,8 +129,7 @@
 		5BECD2901A6FEF2D00A48259 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B24E4671A80FBB700230072 /* Constants.h */,
-				5B24E4681A80FBB700230072 /* Constants.m */,
+				4D3167CE1B0BCDAC00C3010B /* Constants */,
 				5BECD2911A6FEF2D00A48259 /* Info.plist */,
 				5BECD2921A6FEF2D00A48259 /* main.m */,
 			);
@@ -288,10 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */,
 				5BECD2971A6FEF2D00A48259 /* main.m in Sources */,
 				5BFCA8D51A7928C5001B1BA5 /* HomeViewController.m in Sources */,
 				5BFCA8DE1A792BE1001B1BA5 /* AppDelegate.m in Sources */,
-				5B24E4691A80FBB700230072 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
