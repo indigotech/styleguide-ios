@@ -18,6 +18,7 @@
 		4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167ED1B0BDC9400C3010B /* UIView+UIViewStyle.m */; };
 		4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167EF1B0BDC9400C3010B /* UIViewAttributes.m */; };
 		4D3167FE1B0BEF7200C3010B /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167FD1B0BEF7200C3010B /* UIImage+ImageWithColor.m */; };
+		4D3168001B0C3DD800C3010B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3167FF1B0C3DD800C3010B /* HomeViewController.xib */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		4D3167F91B0BDEE400C3010B /* Stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stylesheet.h; sourceTree = "<group>"; };
 		4D3167FC1B0BEF7200C3010B /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
 		4D3167FD1B0BEF7200C3010B /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		4D3167FF1B0C3DD800C3010B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 			children = (
 				5BFCA8D31A7928C5001B1BA5 /* HomeViewController.h */,
 				5BFCA8D41A7928C5001B1BA5 /* HomeViewController.m */,
+				4D3167FF1B0C3DD800C3010B /* HomeViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,
 				5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */,
 				5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */,
+				4D3168001B0C3DD800C3010B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

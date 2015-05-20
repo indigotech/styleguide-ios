@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    HomeViewController *viewController = [[HomeViewController alloc] initWithNibName:nil bundle:nil];
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
