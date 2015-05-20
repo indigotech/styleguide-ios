@@ -11,6 +11,8 @@
 //
 // All component constants in this file use the following pattern (in eBNF):
 // component_name + [sub_component_name] + ["_TYPE_" type_name] + ["_IS_" state_name] + "_" + attribute_name
+#import "Colors.h"
+#import "Fonts.h"
 
 #ifndef template_Components_h
 #define template_Components_h
@@ -24,5 +26,7 @@
 #define ANIMATION_IMAGE_FADE_IN_DURATION 0.3
 
 // Component constants
+#define NAVIGATION_BAR_TINT_COLOR UICOLOR_FROM_HEX(COLOR_PRIMARY)
+#define NAVIGATION_BAR_FONT       FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_REGULAR)
 
 #endif
