@@ -10,13 +10,13 @@
 // should be defined in the hexadecimal format
 //
 // ex:
-// #define COLOR_SWATCH_PRIMARY             0x5B2B85
+// #define COLOR_PRIMARY             0x5B2B85
 
 // To get a UIColor in your code, use the macro UICOLOR_FROM_HEXA or
 // UICOLOR_FROM_HEX
 //
 // ex:
-// myView.backgroundColor = UICOLOR_FROM_HEX(COLOR_SWATCH_PRIMARY);
+// myView.backgroundColor = UICOLOR_FROM_HEX(COLOR_PRIMARY);
 
 // TO get a highlighted or disabled scale of a color, use the macro UICOLOR_HIGHLIGHTED_FROM_HEXA or
 // UICOLOR_HIGHLIGHTED_FROM_HEX, UICOLOR_DISABLED_FROM_HEX, UICOLOR_DISABLED_FROM_HEX

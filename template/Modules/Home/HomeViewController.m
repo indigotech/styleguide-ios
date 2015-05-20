@@ -31,6 +31,6 @@
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:UICOLOR_FROM_HEX(COLOR_WHITE), NSFontAttributeName:[UIFont fontWithName:NAVIGATION_BAR_FONT size:FONT_SIZE_EXTRA_LARGE]}];
     [self.navigationController.navigationBar setBarTintColor:NAVIGATION_BAR_TINT_COLOR];
     
-    _titleLabel.text = @"My favourite label H2";
+    _titleLabel.text = @"My favorite label H2";
 }
 @end

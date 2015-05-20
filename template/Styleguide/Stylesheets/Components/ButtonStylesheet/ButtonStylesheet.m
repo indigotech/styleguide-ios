@@ -40,6 +40,8 @@
                      PK_BUTTON_BORDER_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY),
                      PK_BUTTON_BORDER_WIDTH: @BORDER_SMALL_WIDTH,
                      PK_BUTTON_CORNER_RADIUS: @CORNER_RADIUS,
+                     PK_BUTTON_NORMAL_BACKGROUND_IMAGE: [UIImage imageWithColor: UICOLOR_FROM_HEX(COLOR_WHITE)],
+                     PK_BUTTON_HIGHLIGHTED_BACKGROUND_IMAGE: [UIImage imageWithColor:UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_WHITE)],
                      },
              @"AlertOutlined_Button": @{
                      PK_BUTTON_NORMAL_TITLE_COLOR: UICOLOR_FROM_HEX(COLOR_ALERT),
@@ -47,6 +49,9 @@
                      PK_BUTTON_BORDER_COLOR: UICOLOR_FROM_HEX(COLOR_ALERT),
                      PK_BUTTON_BORDER_WIDTH: @BORDER_SMALL_WIDTH,
                      PK_BUTTON_CORNER_RADIUS: @CORNER_RADIUS,
+                     PK_BUTTON_MASKS_TO_BOUNDS: [NSNumber numberWithBool:YES],
+                     PK_BUTTON_NORMAL_BACKGROUND_IMAGE: [UIImage imageWithColor: UICOLOR_FROM_HEX(COLOR_WHITE)],
+                     PK_BUTTON_HIGHLIGHTED_BACKGROUND_IMAGE: [UIImage imageWithColor:UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_WHITE)],
                      }
              };
 }

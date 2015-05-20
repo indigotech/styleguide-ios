@@ -20,6 +20,7 @@ All constants in this file use the following pattern (in eBNF):
 #define PK_BUTTON_BORDER_COLOR                          @"borderColor"
 #define PK_BUTTON_BORDER_WIDTH                          @"layer.borderWidth"
 #define PK_BUTTON_CORNER_RADIUS                         PK_VIEW_CORNER_RADIUS
+#define PK_BUTTON_MASKS_TO_BOUNDS                       PK_VIEW_MASKS_TO_BOUNDS
 #define PK_BUTTON_LABEL_COLOR                           @"titleLabel.textColor"
 #define PK_BUTTON_LABEL_FONT                            @"titleLabel.font"
 #define PK_BUTTON_BACKGROUND_COLOR                      @"backgroundColor"
