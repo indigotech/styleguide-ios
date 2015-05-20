@@ -8,11 +8,37 @@
 
 #import "TitleStylesheet.h"
 #import "Stylesheet.h"
+#import "Fonts.h"
+#import "Colors.h"
 
 @implementation TitleStylesheet
 
 + (NSDictionary *)stylesheet {
     return @{
+             @"H1_Label": @{
+                     PK_LABEL_FONT:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_REGULAR) size:FONT_SIZE_EXTRA_LARGE],
+                     PK_LABEL_TEXT_COLOR: UICOLOR_FROM_HEX(COLOR_WHITE),
+                     },
+             @"H2_Label": @{
+                     PK_LABEL_FONT:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_MEDIUM) size:FONT_SIZE_LARGE],
+                     PK_LABEL_TEXT_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY_DARKEST),
+                     },
+             @"H3_Label": @{
+                     PK_LABEL_FONT:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_REGULAR) size:FONT_SIZE_EXTRA_LARGE],
+                     PK_LABEL_TEXT_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY),
+                     },
+             @"H4_Label": @{
+                     PK_LABEL_FONT:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_REGULAR) size:FONT_SIZE_EXTRA_LARGE],
+                     PK_LABEL_TEXT_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY_DARKEST),
+                     },
+             @"H4Sub_Label": @{
+                     PK_LABEL_FONT:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_LIGHT) size:FONT_SIZE_EXTRA_LARGE],
+                     PK_LABEL_TEXT_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY),
+                     },
+             @"H5_Label": @{
+                     PK_LABEL_FONT:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_REGULAR) size:FONT_SIZE_EXTRA_LARGE],
+                     PK_LABEL_TEXT_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY),
+                     },
              };
 }
 @end
