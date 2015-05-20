@@ -7,11 +7,17 @@
 //
 
 #import "BaseStylesheet.h"
+#import "Stylesheet.h"
+#import "Fonts.h"
 #import "UIImage+ImageWithColor.h"
 
 @implementation BaseStylesheet
 + (NSDictionary *)stylesheet {
     return @{
+             @"UIButton": @{
+                     PK_BUTTON_LABEL_FONT: [UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_REGULAR) size:FONT_SIZE_SMALL],
+                     PK_BUTTON_TYPE: [NSNumber numberWithInt:UIButtonTypeCustom],
+                    },
              };
 }
 @end

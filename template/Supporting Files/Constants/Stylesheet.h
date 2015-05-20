@@ -19,9 +19,11 @@ All constants in this file use the following pattern (in eBNF):
 
 #define PK_BUTTON_BORDER_COLOR                          @"borderColor"
 #define PK_BUTTON_BORDER_WIDTH                          @"layer.borderWidth"
+#define PK_BUTTON_CORNER_RADIUS                         PK_VIEW_CORNER_RADIUS
 #define PK_BUTTON_LABEL_COLOR                           @"titleLabel.textColor"
 #define PK_BUTTON_LABEL_FONT                            @"titleLabel.font"
 #define PK_BUTTON_BACKGROUND_COLOR                      @"backgroundColor"
+#define PK_BUTTON_TYPE                                  @"buttonType"
 // Created properties on UIButton+ButtonStyle
 #define PK_BUTTON_NORMAL_BACKGROUND_IMAGE               @"normalBackgroundImage"
 #define PK_BUTTON_NORMAL_TITLE_COLOR                    @"normalTitleColor"

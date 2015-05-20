@@ -25,11 +25,24 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="H2_Label"/>
                     </userDefinedRuntimeAttributes>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MF3-6D-y7W">
+                    <rect key="frame" x="8" y="36" width="359" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="oJt-BX-6xg"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="AlertOutlined_Button"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="Q6G-cj-DXa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="E7w-7b-vC1"/>
+                <constraint firstAttribute="trailing" secondItem="MF3-6D-y7W" secondAttribute="trailing" constant="8" id="ULl-u9-p8w"/>
                 <constraint firstAttribute="trailing" secondItem="Q6G-cj-DXa" secondAttribute="trailing" constant="8" id="bih-hG-Xzd"/>
+                <constraint firstItem="MF3-6D-y7W" firstAttribute="top" secondItem="Q6G-cj-DXa" secondAttribute="bottom" constant="8" id="diX-AZ-dGE"/>
+                <constraint firstItem="MF3-6D-y7W" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="pvJ-7Z-sIx"/>
                 <constraint firstItem="Q6G-cj-DXa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="sVG-zR-sNK"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

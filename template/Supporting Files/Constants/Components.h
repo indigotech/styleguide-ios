@@ -16,8 +16,8 @@
 #define template_Components_h
 
 // Auxiliary style constants
-#define BORDER_SMALL_WIDTH 0.5f
-#define BORDER_EXTRA_SMALL_WIDTH 0.25f
+#define BORDER_SMALL_WIDTH 1
+#define CORNER_RADIUS      4
 #define STYLESHEET_KEYWORD @"stylesheet"
 
 // Auxiliary animation constants

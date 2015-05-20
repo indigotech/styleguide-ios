@@ -8,10 +8,46 @@
 
 #import "ButtonStylesheet.h"
 #import "UIImage+ImageWithColor.h"
+#import "Colors.h"
+#import "Fonts.h"
+#import "Stylesheet.h"
+#import "Components.h"
 
 @implementation ButtonStylesheet
 + (NSDictionary *)stylesheet {
     return @{
+             @"Primary_Button": @{
+                     PK_BUTTON_NORMAL_TITLE_COLOR: UICOLOR_FROM_HEX(COLOR_WHITE),
+                     PK_BUTTON_HIGHLIGHTED_TITLE_COLOR:UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_WHITE),
+                     PK_BUTTON_NORMAL_BACKGROUND_IMAGE: [UIImage imageWithColor: UICOLOR_FROM_HEX(COLOR_PRIMARY)],
+                     PK_BUTTON_HIGHLIGHTED_BACKGROUND_IMAGE: [UIImage imageWithColor:UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_PRIMARY)],
+                     },
+             @"Alert_Button": @{
+                     PK_BUTTON_NORMAL_TITLE_COLOR: UICOLOR_FROM_HEX(COLOR_WHITE),
+                     PK_BUTTON_HIGHLIGHTED_TITLE_COLOR:UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_WHITE),
+                     PK_BUTTON_NORMAL_BACKGROUND_IMAGE: [UIImage imageWithColor: UICOLOR_FROM_HEX(COLOR_ALERT)],
+                     PK_BUTTON_HIGHLIGHTED_BACKGROUND_IMAGE: [UIImage imageWithColor:UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_ALERT)],
+                     },
+             @"CallToAction_Button": @{
+                     PK_BUTTON_NORMAL_TITLE_COLOR: UICOLOR_FROM_HEX(COLOR_WHITE),
+                     PK_BUTTON_HIGHLIGHTED_TITLE_COLOR:UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_WHITE),
+                     PK_BUTTON_NORMAL_BACKGROUND_IMAGE: [UIImage imageWithColor: UICOLOR_FROM_HEX(COLOR_CALL_TO_ACTION)],
+                     PK_BUTTON_HIGHLIGHTED_BACKGROUND_IMAGE: [UIImage imageWithColor:UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_CALL_TO_ACTION)],
+                     },
+             @"Neutral_Button": @{
+                     PK_BUTTON_NORMAL_TITLE_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY),
+                     PK_BUTTON_HIGHLIGHTED_TITLE_COLOR:UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_GRAY),
+                     PK_BUTTON_BORDER_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY),
+                     PK_BUTTON_BORDER_WIDTH: @BORDER_SMALL_WIDTH,
+                     PK_BUTTON_CORNER_RADIUS: @CORNER_RADIUS,
+                     },
+             @"AlertOutlined_Button": @{
+                     PK_BUTTON_NORMAL_TITLE_COLOR: UICOLOR_FROM_HEX(COLOR_ALERT),
+                     PK_BUTTON_HIGHLIGHTED_TITLE_COLOR:UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_ALERT),
+                     PK_BUTTON_BORDER_COLOR: UICOLOR_FROM_HEX(COLOR_ALERT),
+                     PK_BUTTON_BORDER_WIDTH: @BORDER_SMALL_WIDTHz
+                     PK_BUTTON_CORNER_RADIUS: @CORNER_RADIUS,
+                     }
              };
 }
 @end
