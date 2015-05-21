@@ -17,8 +17,11 @@
 		4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167EA1B0BDC9400C3010B /* UIButton+ButtonStyle.m */; };
 		4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167ED1B0BDC9400C3010B /* UIView+UIViewStyle.m */; };
 		4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167EF1B0BDC9400C3010B /* UIViewAttributes.m */; };
-		4D3167FE1B0BEF7200C3010B /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167FD1B0BEF7200C3010B /* UIImage+ImageWithColor.m */; };
 		4D3168001B0C3DD800C3010B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3167FF1B0C3DD800C3010B /* HomeViewController.xib */; };
+		4D3168101B0D564500C3010B /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D31680F1B0D564500C3010B /* TitleView.m */; };
+		4D3168141B0D578400C3010B /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3168131B0D578400C3010B /* TitleView.xib */; };
+		4D3168191B0D579100C3010B /* BaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3168171B0D579100C3010B /* BaseComponentsView.m */; };
+		4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -51,9 +54,14 @@
 		4D3167EE1B0BDC9400C3010B /* UIViewAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAttributes.h; sourceTree = "<group>"; };
 		4D3167EF1B0BDC9400C3010B /* UIViewAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAttributes.m; sourceTree = "<group>"; };
 		4D3167F91B0BDEE400C3010B /* Stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stylesheet.h; sourceTree = "<group>"; };
-		4D3167FC1B0BEF7200C3010B /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
-		4D3167FD1B0BEF7200C3010B /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
 		4D3167FF1B0C3DD800C3010B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		4D31680E1B0D564500C3010B /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleView.h; path = TitleView/TitleView.h; sourceTree = "<group>"; };
+		4D31680F1B0D564500C3010B /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleView.m; path = TitleView/TitleView.m; sourceTree = "<group>"; };
+		4D3168131B0D578400C3010B /* TitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TitleView.xib; path = TitleView/TitleView.xib; sourceTree = "<group>"; };
+		4D3168161B0D579100C3010B /* BaseComponentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseComponentsView.h; sourceTree = "<group>"; };
+		4D3168171B0D579100C3010B /* BaseComponentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseComponentsView.m; sourceTree = "<group>"; };
+		4D3168211B0D8E4900C3010B /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -110,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				4D3167D71B0BDC9400C3010B /* Stylesheets */,
+				4D31681F1B0D8E4900C3010B /* UIImage */,
 				4D3167E81B0BDC9400C3010B /* UIButton */,
 				4D3167EB1B0BDC9400C3010B /* UIView */,
 			);
@@ -119,7 +128,6 @@
 		4D3167D71B0BDC9400C3010B /* Stylesheets */ = {
 			isa = PBXGroup;
 			children = (
-				4D3167FA1B0BEF2000C3010B /* UIImage */,
 				4D3167D81B0BDC9400C3010B /* Components */,
 				4D3167E51B0BDC9400C3010B /* MainStylesheet.h */,
 				4D3167E61B0BDC9400C3010B /* MainStylesheet.m */,
@@ -185,19 +193,38 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		4D3167FA1B0BEF2000C3010B /* UIImage */ = {
+		4D31680D1B0D560B00C3010B /* TitleView */ = {
 			isa = PBXGroup;
 			children = (
-				4D3167FB1B0BEF7200C3010B /* UIImage+ImageWithColor */,
+				4D3168131B0D578400C3010B /* TitleView.xib */,
+				4D31680E1B0D564500C3010B /* TitleView.h */,
+				4D31680F1B0D564500C3010B /* TitleView.m */,
 			);
-			name = UIImage;
+			name = TitleView;
 			sourceTree = "<group>";
 		};
-		4D3167FB1B0BEF7200C3010B /* UIImage+ImageWithColor */ = {
+		4D3168151B0D579100C3010B /* BaseComponentsView */ = {
 			isa = PBXGroup;
 			children = (
-				4D3167FC1B0BEF7200C3010B /* UIImage+ImageWithColor.h */,
-				4D3167FD1B0BEF7200C3010B /* UIImage+ImageWithColor.m */,
+				4D3168161B0D579100C3010B /* BaseComponentsView.h */,
+				4D3168171B0D579100C3010B /* BaseComponentsView.m */,
+			);
+			path = BaseComponentsView;
+			sourceTree = "<group>";
+		};
+		4D31681F1B0D8E4900C3010B /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				4D3168201B0D8E4900C3010B /* UIImage+ImageWithColor */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		4D3168201B0D8E4900C3010B /* UIImage+ImageWithColor */ = {
+			isa = PBXGroup;
+			children = (
+				4D3168211B0D8E4900C3010B /* UIImage+ImageWithColor.h */,
+				4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */,
 			);
 			path = "UIImage+ImageWithColor";
 			sourceTree = "<group>";
@@ -299,6 +326,8 @@
 		5BFCA8DA1A792AE7001B1BA5 /* ViewComponents */ = {
 			isa = PBXGroup;
 			children = (
+				4D3168151B0D579100C3010B /* BaseComponentsView */,
+				4D31680D1B0D560B00C3010B /* TitleView */,
 			);
 			path = ViewComponents;
 			sourceTree = "<group>";
@@ -387,6 +416,7 @@
 			files = (
 				4D3167F51B0BDC9400C3010B /* README in Resources */,
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
+				4D3168141B0D578400C3010B /* TitleView.xib in Resources */,
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,
 				5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */,
 				5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */,
@@ -436,12 +466,14 @@
 			files = (
 				4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */,
 				5BECD2971A6FEF2D00A48259 /* main.m in Sources */,
-				4D3167FE1B0BEF7200C3010B /* UIImage+ImageWithColor.m in Sources */,
+				4D3168101B0D564500C3010B /* TitleView.m in Sources */,
 				5BFCA8D51A7928C5001B1BA5 /* HomeViewController.m in Sources */,
+				4D3168191B0D579100C3010B /* BaseComponentsView.m in Sources */,
 				4D3167F41B0BDC9400C3010B /* MainStylesheet.m in Sources */,
 				4D3167F11B0BDC9400C3010B /* ButtonStylesheet.m in Sources */,
 				4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */,
 				5BFCA8DE1A792BE1001B1BA5 /* AppDelegate.m in Sources */,
+				4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */,
 				4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */,
 				4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */,
 				4D3167F01B0BDC9400C3010B /* BaseStylesheet.m in Sources */,
