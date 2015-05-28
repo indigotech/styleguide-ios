@@ -26,6 +26,8 @@
 		4DCE3D5F1B271E99002C7995 /* TAQUnknownKeyException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D5E1B271E99002C7995 /* TAQUnknownKeyException.m */; };
 		4DCE3D621B272128002C7995 /* TAQInvalidStyleRuleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D611B272128002C7995 /* TAQInvalidStyleRuleException.m */; };
 		4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D641B27323C002C7995 /* TAQBaseException.m */; };
+		4DCE3D6A1B2772FE002C7995 /* ComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D681B2772FE002C7995 /* ComponentsViewController.m */; };
+		4DCE3D6B1B2772FE002C7995 /* ComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3D691B2772FE002C7995 /* ComponentsViewController.xib */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -74,6 +76,9 @@
 		4DCE3D611B272128002C7995 /* TAQInvalidStyleRuleException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQInvalidStyleRuleException.m; sourceTree = "<group>"; };
 		4DCE3D631B27323C002C7995 /* TAQBaseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQBaseException.h; sourceTree = "<group>"; };
 		4DCE3D641B27323C002C7995 /* TAQBaseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQBaseException.m; sourceTree = "<group>"; };
+		4DCE3D671B2772FE002C7995 /* ComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentsViewController.h; sourceTree = "<group>"; };
+		4DCE3D681B2772FE002C7995 /* ComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentsViewController.m; sourceTree = "<group>"; };
+		4DCE3D691B2772FE002C7995 /* ComponentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComponentsViewController.xib; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -257,6 +262,23 @@
 			path = Exceptions;
 			sourceTree = "<group>";
 		};
+		4DCE3D661B2772FE002C7995 /* ComponentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3D671B2772FE002C7995 /* ComponentsViewController.h */,
+				4DCE3D681B2772FE002C7995 /* ComponentsViewController.m */,
+				4DCE3D691B2772FE002C7995 /* ComponentsViewController.xib */,
+			);
+			path = ComponentsViewController;
+			sourceTree = "<group>";
+		};
+		4DCE3D6C1B277305002C7995 /* TAQGuideViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TAQGuideViewController;
+			sourceTree = "<group>";
+		};
 		4DEB0ECA1A8E4FE60048477D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +343,8 @@
 		5BFCA8D11A7928B0001B1BA5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4DCE3D6C1B277305002C7995 /* TAQGuideViewController */,
+				4DCE3D661B2772FE002C7995 /* ComponentsViewController */,
 				5BFCA8D21A7928B0001B1BA5 /* Home */,
 			);
 			path = Modules;
@@ -444,6 +468,7 @@
 			files = (
 				4D3167F51B0BDC9400C3010B /* README.md in Resources */,
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
+				4DCE3D6B1B2772FE002C7995 /* ComponentsViewController.xib in Resources */,
 				4D3168141B0D578400C3010B /* TitleView.xib in Resources */,
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,
 				5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */,
@@ -507,6 +532,7 @@
 				4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */,
 				4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */,
 				4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */,
+				4DCE3D6A1B2772FE002C7995 /* ComponentsViewController.m in Sources */,
 				4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */,
 				4D3167F01B0BDC9400C3010B /* BaseStylesheet.m in Sources */,
 				4D3167F21B0BDC9400C3010B /* TitleStylesheet.m in Sources */,
