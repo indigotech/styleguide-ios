@@ -7,7 +7,9 @@
 //
 
 #import "GuideViewController.h"
+#import "GuideTableViewDataModel.h"
 #import "ComponentsViewController.h"
+#import "TypographyViewController.h"
 
 #define CELL_IDENTIFIER @"defaultCellIdentifier"
 
@@ -53,14 +55,14 @@
     UITableViewCell *cell = [_tableView dequeueReusableCellWithIdentifier:CELL_IDENTIFIER];
     
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.textLabel.text = self.tableViewData[indexPath.row];
+    cell.textLabel.text = ((GuideTableViewDataModel *)self.tableViewData[indexPath.row]).text;
     
     return cell;
 }
 
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    ComponentsViewController *vc = [[ComponentsViewController alloc] init];
+    UIViewController *vc = [[((GuideTableViewDataModel *)self.tableViewData[indexPath.row]).nextViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
     [_tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
@@ -73,7 +75,16 @@
 #pragma mark - getter
 -(NSArray *)tableViewData {
     if (!_tableViewData) {
-        _tableViewData = @[@"Typgraphy", @"Colors", @"Controls", @"Forms", @"Lists", @"Notifications", @"Other components"];
+        
+        _tableViewData = @[
+                            [[GuideTableViewDataModel alloc] initWithText:@"Typography" class:[TypographyViewController class]],
+                            [[GuideTableViewDataModel alloc] initWithText:@"Colors" class:[UIViewController class]],
+                            [[GuideTableViewDataModel alloc] initWithText:@"Controls" class:[UIViewController class]],
+                            [[GuideTableViewDataModel alloc] initWithText:@"Forms" class:[UIViewController class]],
+                            [[GuideTableViewDataModel alloc] initWithText:@"Lists" class:[UIViewController class]],
+                            [[GuideTableViewDataModel alloc] initWithText:@"Notifications" class:[UIViewController class]],
+                            [[GuideTableViewDataModel alloc] initWithText:@"Other components" class:[ComponentsViewController class]],
+                            ];
     }
     return _tableViewData;
 }
