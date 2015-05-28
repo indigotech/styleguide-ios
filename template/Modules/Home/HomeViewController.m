@@ -11,7 +11,7 @@
 #import "Components.h"
 
 #ifdef ENV_DEVELOPMENT
-#import "ComponentsViewController.h"
+#import "GuideViewController.h"
 #endif
 
 @interface HomeViewController ()
@@ -66,7 +66,7 @@
 }
 
 - (void)didTouchUpComponentsButton:(UIButton *)sender {
-    ComponentsViewController *vc = [[ComponentsViewController alloc] initWithNibName:nil bundle:nil];
+    GuideViewController *vc = [[GuideViewController alloc] initWithNibName:nil bundle:nil];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:nav animated:YES completion:nil];
 }

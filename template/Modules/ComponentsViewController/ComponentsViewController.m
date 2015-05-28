@@ -75,8 +75,8 @@
     }
 }
 
-#pragma mark - IBAction
-- (IBAction)didTouchCloseButton:(id)sender {
+#pragma mark - Action
+- (void)didTouchCloseButton:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
