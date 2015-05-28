@@ -7,6 +7,8 @@
 //
 
 #import "TypographyViewController.h"
+#import "GuideTitleView.h"
+#import "GuideSubtitleView.h"
 
 @interface TypographyViewController ()
 
@@ -14,29 +16,19 @@
 
 @implementation TypographyViewController
 {
-    __weak IBOutlet UILabel *_fontFamilyPrimaryLabel;
-    __weak IBOutlet UILabel *_fontFamilySecondaryLabel;
-    
+    __weak IBOutlet GuideTitleView *_generalRulesGuideTitleView;
+    __weak IBOutlet GuideSubtitleView *_fontFamilyGuideSubtitleView;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    [_generalRulesGuideTitleView setTitle:@"1.1 GENERAL RULES"];
+    [_fontFamilyGuideSubtitleView setSubtitle:@"1.1.1 FONT FAMILY"];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

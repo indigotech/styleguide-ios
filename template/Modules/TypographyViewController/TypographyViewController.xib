@@ -7,6 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TypographyViewController">
             <connections>
+                <outlet property="_fontFamilyGuideSubtitleView" destination="Enj-SN-3kN" id="6yj-Jn-tet"/>
+                <outlet property="_generalRulesGuideTitleView" destination="xBG-Ts-vOK" id="h9U-D3-i0E"/>
                 <outlet property="view" destination="iN0-l3-epB" id="GMu-MI-MUy"/>
             </connections>
         </placeholder>
@@ -15,12 +17,43 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hKd-Qp-mcu">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hKd-Qp-mcu">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
-                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8FY-SM-HYP">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8FY-SM-HYP">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xBG-Ts-vOK" userLabel="_generalRulesGuideTitleView" customClass="GuideTitleView">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="32"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="32" placeholder="YES" id="Ccp-W4-BgO"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Enj-SN-3kN" customClass="GuideSubtitleView">
+                                    <rect key="frame" x="0.0" y="32" width="375" height="32"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="32" placeholder="YES" id="DXU-yj-G1F"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="Enj-SN-3kN" firstAttribute="leading" secondItem="8FY-SM-HYP" secondAttribute="leading" id="1qM-kk-mWS"/>
+                                <constraint firstItem="xBG-Ts-vOK" firstAttribute="top" secondItem="8FY-SM-HYP" secondAttribute="top" id="6cF-26-Zvm"/>
+                                <constraint firstItem="Enj-SN-3kN" firstAttribute="top" secondItem="xBG-Ts-vOK" secondAttribute="bottom" id="EI5-Oc-4FX"/>
+                                <constraint firstAttribute="trailing" secondItem="xBG-Ts-vOK" secondAttribute="trailing" id="MP9-Px-P5G"/>
+                                <constraint firstItem="xBG-Ts-vOK" firstAttribute="leading" secondItem="8FY-SM-HYP" secondAttribute="leading" id="UV4-6X-0LN"/>
+                                <constraint firstAttribute="trailing" secondItem="Enj-SN-3kN" secondAttribute="trailing" id="cgb-Dw-2U6"/>
+                                <constraint firstAttribute="bottom" secondItem="xBG-Ts-vOK" secondAttribute="bottom" id="ljN-Fd-2IA"/>
+                                <constraint firstAttribute="bottom" secondItem="Enj-SN-3kN" secondAttribute="bottom" id="xVV-9o-PuL"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="ljN-Fd-2IA"/>
+                                </mask>
+                            </variation>
                         </view>
                     </subviews>
                     <constraints>

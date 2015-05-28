@@ -33,6 +33,10 @@
 		4DCE3D781B2773AD002C7995 /* TypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D761B2773AD002C7995 /* TypographyViewController.m */; };
 		4DCE3D791B2773AD002C7995 /* TypographyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3D771B2773AD002C7995 /* TypographyViewController.xib */; };
 		4DCE3D7C1B2773E9002C7995 /* GuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D7B1B2773E9002C7995 /* GuideTableViewDataModel.m */; };
+		4DCE3D851B277424002C7995 /* GuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D7F1B277424002C7995 /* GuideSubtitleView.m */; };
+		4DCE3D861B277424002C7995 /* GuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3D801B277424002C7995 /* GuideSubtitleView.xib */; };
+		4DCE3D871B277424002C7995 /* GuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D831B277424002C7995 /* GuideTitleView.m */; };
+		4DCE3D881B277424002C7995 /* GuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3D841B277424002C7995 /* GuideTitleView.xib */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -92,6 +96,12 @@
 		4DCE3D771B2773AD002C7995 /* TypographyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TypographyViewController.xib; sourceTree = "<group>"; };
 		4DCE3D7A1B2773E9002C7995 /* GuideTableViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideTableViewDataModel.h; sourceTree = "<group>"; };
 		4DCE3D7B1B2773E9002C7995 /* GuideTableViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideTableViewDataModel.m; sourceTree = "<group>"; };
+		4DCE3D7E1B277424002C7995 /* GuideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideSubtitleView.h; sourceTree = "<group>"; };
+		4DCE3D7F1B277424002C7995 /* GuideSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideSubtitleView.m; sourceTree = "<group>"; };
+		4DCE3D801B277424002C7995 /* GuideSubtitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideSubtitleView.xib; sourceTree = "<group>"; };
+		4DCE3D821B277424002C7995 /* GuideTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideTitleView.h; sourceTree = "<group>"; };
+		4DCE3D831B277424002C7995 /* GuideTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideTitleView.m; sourceTree = "<group>"; };
+		4DCE3D841B277424002C7995 /* GuideTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideTitleView.xib; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -288,6 +298,8 @@
 		4DCE3D6E1B27735E002C7995 /* GuideViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4DCE3D7D1B277424002C7995 /* GuideSubtitleView */,
+				4DCE3D811B277424002C7995 /* GuideTitleView */,
 				4DCE3D7A1B2773E9002C7995 /* GuideTableViewDataModel.h */,
 				4DCE3D7B1B2773E9002C7995 /* GuideTableViewDataModel.m */,
 				4DCE3D6F1B27735E002C7995 /* GuideViewController.h */,
@@ -305,6 +317,26 @@
 				4DCE3D771B2773AD002C7995 /* TypographyViewController.xib */,
 			);
 			path = TypographyViewController;
+			sourceTree = "<group>";
+		};
+		4DCE3D7D1B277424002C7995 /* GuideSubtitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3D7E1B277424002C7995 /* GuideSubtitleView.h */,
+				4DCE3D7F1B277424002C7995 /* GuideSubtitleView.m */,
+				4DCE3D801B277424002C7995 /* GuideSubtitleView.xib */,
+			);
+			path = GuideSubtitleView;
+			sourceTree = "<group>";
+		};
+		4DCE3D811B277424002C7995 /* GuideTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3D821B277424002C7995 /* GuideTitleView.h */,
+				4DCE3D831B277424002C7995 /* GuideTitleView.m */,
+				4DCE3D841B277424002C7995 /* GuideTitleView.xib */,
+			);
+			path = GuideTitleView;
 			sourceTree = "<group>";
 		};
 		4DEB0ECA1A8E4FE60048477D /* Fonts */ = {
@@ -500,10 +532,12 @@
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
 				4DCE3D6B1B2772FE002C7995 /* ComponentsViewController.xib in Resources */,
 				4D3168141B0D578400C3010B /* TitleView.xib in Resources */,
+				4DCE3D861B277424002C7995 /* GuideSubtitleView.xib in Resources */,
 				4DCE3D731B27735E002C7995 /* GuideViewController.xib in Resources */,
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,
 				5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */,
 				5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */,
+				4DCE3D881B277424002C7995 /* GuideTitleView.xib in Resources */,
 				4D3168001B0C3DD800C3010B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,10 +599,12 @@
 				4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */,
 				4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */,
 				4DCE3D6A1B2772FE002C7995 /* ComponentsViewController.m in Sources */,
+				4DCE3D851B277424002C7995 /* GuideSubtitleView.m in Sources */,
 				4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */,
 				4DCE3D721B27735E002C7995 /* GuideViewController.m in Sources */,
 				4D3167F01B0BDC9400C3010B /* BaseStylesheet.m in Sources */,
 				4DCE3D7C1B2773E9002C7995 /* GuideTableViewDataModel.m in Sources */,
+				4DCE3D871B277424002C7995 /* GuideTitleView.m in Sources */,
 				4D3167F21B0BDC9400C3010B /* TitleStylesheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
