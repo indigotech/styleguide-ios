@@ -6,4 +6,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ComponentsViewController : UIViewController
+-(UIView *)addViewWithClass:(Class)class height:(CGFloat)height;
+-(void)addGuideTitleWithText:(NSString *)title;
+-(void)addGuideSubtitleWithText:(NSString *)subtitle;
 @end

@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		0E26027BF014FFBC2D898EBA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA28BDDDDF9C76FD0A855F0E /* libPods.a */; };
 		4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167D01B0BCDAC00C3010B /* Constants.m */; };
-		4D3167F01B0BDC9400C3010B /* BaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167DB1B0BDC9400C3010B /* BaseStylesheet.m */; };
-		4D3167F11B0BDC9400C3010B /* ButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167DE1B0BDC9400C3010B /* ButtonStylesheet.m */; };
-		4D3167F21B0BDC9400C3010B /* TitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167E11B0BDC9400C3010B /* TitleStylesheet.m */; };
 		4D3167F41B0BDC9400C3010B /* MainStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167E61B0BDC9400C3010B /* MainStylesheet.m */; };
 		4D3167F51B0BDC9400C3010B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D3167E71B0BDC9400C3010B /* README.md */; };
 		4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167EA1B0BDC9400C3010B /* UIButton+ButtonStyle.m */; };
@@ -31,12 +28,17 @@
 		4DCE3D721B27735E002C7995 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D701B27735E002C7995 /* GuideViewController.m */; };
 		4DCE3D731B27735E002C7995 /* GuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3D711B27735E002C7995 /* GuideViewController.xib */; };
 		4DCE3D781B2773AD002C7995 /* TypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D761B2773AD002C7995 /* TypographyViewController.m */; };
-		4DCE3D791B2773AD002C7995 /* TypographyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3D771B2773AD002C7995 /* TypographyViewController.xib */; };
 		4DCE3D7C1B2773E9002C7995 /* GuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D7B1B2773E9002C7995 /* GuideTableViewDataModel.m */; };
 		4DCE3D851B277424002C7995 /* GuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D7F1B277424002C7995 /* GuideSubtitleView.m */; };
 		4DCE3D861B277424002C7995 /* GuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3D801B277424002C7995 /* GuideSubtitleView.xib */; };
 		4DCE3D871B277424002C7995 /* GuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D831B277424002C7995 /* GuideTitleView.m */; };
 		4DCE3D881B277424002C7995 /* GuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3D841B277424002C7995 /* GuideTitleView.xib */; };
+		4DCE3DC01B2774FD002C7995 /* BaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DB01B2774FD002C7995 /* BaseStylesheet.m */; };
+		4DCE3DC11B2774FD002C7995 /* BodyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DB31B2774FD002C7995 /* BodyStylesheet.m */; };
+		4DCE3DC21B2774FD002C7995 /* ButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DB61B2774FD002C7995 /* ButtonStylesheet.m */; };
+		4DCE3DC31B2774FD002C7995 /* CaptionStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DB91B2774FD002C7995 /* CaptionStylesheet.m */; };
+		4DCE3DC41B2774FD002C7995 /* FormTextualElementsStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DBC1B2774FD002C7995 /* FormTextualElementsStylesheet.m */; };
+		4DCE3DC51B2774FD002C7995 /* TitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DBF1B2774FD002C7995 /* TitleStylesheet.m */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -53,12 +55,6 @@
 		4D3167D31B0BCE8600C3010B /* Fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fonts.h; sourceTree = "<group>"; };
 		4D3167D41B0BCEFD00C3010B /* Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
 		4D3167D51B0BDB1800C3010B /* UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
-		4D3167DA1B0BDC9400C3010B /* BaseStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStylesheet.h; sourceTree = "<group>"; };
-		4D3167DB1B0BDC9400C3010B /* BaseStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStylesheet.m; sourceTree = "<group>"; };
-		4D3167DD1B0BDC9400C3010B /* ButtonStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonStylesheet.h; sourceTree = "<group>"; };
-		4D3167DE1B0BDC9400C3010B /* ButtonStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonStylesheet.m; sourceTree = "<group>"; };
-		4D3167E01B0BDC9400C3010B /* TitleStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleStylesheet.h; sourceTree = "<group>"; };
-		4D3167E11B0BDC9400C3010B /* TitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleStylesheet.m; sourceTree = "<group>"; };
 		4D3167E51B0BDC9400C3010B /* MainStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainStylesheet.h; sourceTree = "<group>"; };
 		4D3167E61B0BDC9400C3010B /* MainStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStylesheet.m; sourceTree = "<group>"; };
 		4D3167E71B0BDC9400C3010B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -93,7 +89,6 @@
 		4DCE3D711B27735E002C7995 /* GuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideViewController.xib; sourceTree = "<group>"; };
 		4DCE3D751B2773AD002C7995 /* TypographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypographyViewController.h; sourceTree = "<group>"; };
 		4DCE3D761B2773AD002C7995 /* TypographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypographyViewController.m; sourceTree = "<group>"; };
-		4DCE3D771B2773AD002C7995 /* TypographyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TypographyViewController.xib; sourceTree = "<group>"; };
 		4DCE3D7A1B2773E9002C7995 /* GuideTableViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideTableViewDataModel.h; sourceTree = "<group>"; };
 		4DCE3D7B1B2773E9002C7995 /* GuideTableViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideTableViewDataModel.m; sourceTree = "<group>"; };
 		4DCE3D7E1B277424002C7995 /* GuideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideSubtitleView.h; sourceTree = "<group>"; };
@@ -102,6 +97,18 @@
 		4DCE3D821B277424002C7995 /* GuideTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideTitleView.h; sourceTree = "<group>"; };
 		4DCE3D831B277424002C7995 /* GuideTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideTitleView.m; sourceTree = "<group>"; };
 		4DCE3D841B277424002C7995 /* GuideTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideTitleView.xib; sourceTree = "<group>"; };
+		4DCE3DAF1B2774FD002C7995 /* BaseStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStylesheet.h; sourceTree = "<group>"; };
+		4DCE3DB01B2774FD002C7995 /* BaseStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStylesheet.m; sourceTree = "<group>"; };
+		4DCE3DB21B2774FD002C7995 /* BodyStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyStylesheet.h; sourceTree = "<group>"; };
+		4DCE3DB31B2774FD002C7995 /* BodyStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyStylesheet.m; sourceTree = "<group>"; };
+		4DCE3DB51B2774FD002C7995 /* ButtonStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonStylesheet.h; sourceTree = "<group>"; };
+		4DCE3DB61B2774FD002C7995 /* ButtonStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonStylesheet.m; sourceTree = "<group>"; };
+		4DCE3DB81B2774FD002C7995 /* CaptionStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptionStylesheet.h; sourceTree = "<group>"; };
+		4DCE3DB91B2774FD002C7995 /* CaptionStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptionStylesheet.m; sourceTree = "<group>"; };
+		4DCE3DBB1B2774FD002C7995 /* FormTextualElementsStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormTextualElementsStylesheet.h; sourceTree = "<group>"; };
+		4DCE3DBC1B2774FD002C7995 /* FormTextualElementsStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormTextualElementsStylesheet.m; sourceTree = "<group>"; };
+		4DCE3DBE1B2774FD002C7995 /* TitleStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleStylesheet.h; sourceTree = "<group>"; };
+		4DCE3DBF1B2774FD002C7995 /* TitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleStylesheet.m; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -169,49 +176,12 @@
 		4D3167D71B0BDC9400C3010B /* Stylesheets */ = {
 			isa = PBXGroup;
 			children = (
-				4D3167D81B0BDC9400C3010B /* Components */,
+				4DCE3DAD1B2774FD002C7995 /* Components */,
 				4D3167E51B0BDC9400C3010B /* MainStylesheet.h */,
 				4D3167E61B0BDC9400C3010B /* MainStylesheet.m */,
 				4D3167E71B0BDC9400C3010B /* README.md */,
 			);
 			path = Stylesheets;
-			sourceTree = "<group>";
-		};
-		4D3167D81B0BDC9400C3010B /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				4D3167D91B0BDC9400C3010B /* BaseStylesheet */,
-				4D3167DC1B0BDC9400C3010B /* ButtonStylesheet */,
-				4D3167DF1B0BDC9400C3010B /* TitleStylesheet */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		4D3167D91B0BDC9400C3010B /* BaseStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4D3167DA1B0BDC9400C3010B /* BaseStylesheet.h */,
-				4D3167DB1B0BDC9400C3010B /* BaseStylesheet.m */,
-			);
-			path = BaseStylesheet;
-			sourceTree = "<group>";
-		};
-		4D3167DC1B0BDC9400C3010B /* ButtonStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4D3167DD1B0BDC9400C3010B /* ButtonStylesheet.h */,
-				4D3167DE1B0BDC9400C3010B /* ButtonStylesheet.m */,
-			);
-			path = ButtonStylesheet;
-			sourceTree = "<group>";
-		};
-		4D3167DF1B0BDC9400C3010B /* TitleStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4D3167E01B0BDC9400C3010B /* TitleStylesheet.h */,
-				4D3167E11B0BDC9400C3010B /* TitleStylesheet.m */,
-			);
-			path = TitleStylesheet;
 			sourceTree = "<group>";
 		};
 		4D3167E81B0BDC9400C3010B /* UIButton */ = {
@@ -314,7 +284,6 @@
 			children = (
 				4DCE3D751B2773AD002C7995 /* TypographyViewController.h */,
 				4DCE3D761B2773AD002C7995 /* TypographyViewController.m */,
-				4DCE3D771B2773AD002C7995 /* TypographyViewController.xib */,
 			);
 			path = TypographyViewController;
 			sourceTree = "<group>";
@@ -337,6 +306,73 @@
 				4DCE3D841B277424002C7995 /* GuideTitleView.xib */,
 			);
 			path = GuideTitleView;
+			sourceTree = "<group>";
+		};
+		4DCE3DAD1B2774FD002C7995 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3DAE1B2774FD002C7995 /* BaseStylesheet */,
+				4DCE3DB11B2774FD002C7995 /* BodyStylesheet */,
+				4DCE3DB41B2774FD002C7995 /* ButtonStylesheet */,
+				4DCE3DB71B2774FD002C7995 /* CaptionStylesheet */,
+				4DCE3DBA1B2774FD002C7995 /* FormTextualElementsStylesheet */,
+				4DCE3DBD1B2774FD002C7995 /* TitleStylesheet */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4DCE3DAE1B2774FD002C7995 /* BaseStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3DAF1B2774FD002C7995 /* BaseStylesheet.h */,
+				4DCE3DB01B2774FD002C7995 /* BaseStylesheet.m */,
+			);
+			path = BaseStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3DB11B2774FD002C7995 /* BodyStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3DB21B2774FD002C7995 /* BodyStylesheet.h */,
+				4DCE3DB31B2774FD002C7995 /* BodyStylesheet.m */,
+			);
+			path = BodyStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3DB41B2774FD002C7995 /* ButtonStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3DB51B2774FD002C7995 /* ButtonStylesheet.h */,
+				4DCE3DB61B2774FD002C7995 /* ButtonStylesheet.m */,
+			);
+			path = ButtonStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3DB71B2774FD002C7995 /* CaptionStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3DB81B2774FD002C7995 /* CaptionStylesheet.h */,
+				4DCE3DB91B2774FD002C7995 /* CaptionStylesheet.m */,
+			);
+			path = CaptionStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3DBA1B2774FD002C7995 /* FormTextualElementsStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3DBB1B2774FD002C7995 /* FormTextualElementsStylesheet.h */,
+				4DCE3DBC1B2774FD002C7995 /* FormTextualElementsStylesheet.m */,
+			);
+			path = FormTextualElementsStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3DBD1B2774FD002C7995 /* TitleStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3DBE1B2774FD002C7995 /* TitleStylesheet.h */,
+				4DCE3DBF1B2774FD002C7995 /* TitleStylesheet.m */,
+			);
+			path = TitleStylesheet;
 			sourceTree = "<group>";
 		};
 		4DEB0ECA1A8E4FE60048477D /* Fonts */ = {
@@ -528,7 +564,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D3167F51B0BDC9400C3010B /* README.md in Resources */,
-				4DCE3D791B2773AD002C7995 /* TypographyViewController.xib in Resources */,
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
 				4DCE3D6B1B2772FE002C7995 /* ComponentsViewController.xib in Resources */,
 				4D3168141B0D578400C3010B /* TitleView.xib in Resources */,
@@ -585,16 +620,19 @@
 				4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */,
 				4DCE3D5F1B271E99002C7995 /* TAQUnknownKeyException.m in Sources */,
 				5BECD2971A6FEF2D00A48259 /* main.m in Sources */,
+				4DCE3DC21B2774FD002C7995 /* ButtonStylesheet.m in Sources */,
 				4D3168101B0D564500C3010B /* TitleView.m in Sources */,
+				4DCE3DC51B2774FD002C7995 /* TitleStylesheet.m in Sources */,
 				5BFCA8D51A7928C5001B1BA5 /* HomeViewController.m in Sources */,
+				4DCE3DC41B2774FD002C7995 /* FormTextualElementsStylesheet.m in Sources */,
 				4D3168191B0D579100C3010B /* BaseComponentsView.m in Sources */,
 				4DCE3D781B2773AD002C7995 /* TypographyViewController.m in Sources */,
 				4DCE3D621B272128002C7995 /* TAQInvalidStyleRuleException.m in Sources */,
 				4D3167F41B0BDC9400C3010B /* MainStylesheet.m in Sources */,
-				4D3167F11B0BDC9400C3010B /* ButtonStylesheet.m in Sources */,
 				4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */,
 				5BFCA8DE1A792BE1001B1BA5 /* AppDelegate.m in Sources */,
 				4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */,
+				4DCE3DC01B2774FD002C7995 /* BaseStylesheet.m in Sources */,
 				4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */,
 				4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */,
 				4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */,
@@ -602,10 +640,10 @@
 				4DCE3D851B277424002C7995 /* GuideSubtitleView.m in Sources */,
 				4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */,
 				4DCE3D721B27735E002C7995 /* GuideViewController.m in Sources */,
-				4D3167F01B0BDC9400C3010B /* BaseStylesheet.m in Sources */,
+				4DCE3DC31B2774FD002C7995 /* CaptionStylesheet.m in Sources */,
 				4DCE3D7C1B2773E9002C7995 /* GuideTableViewDataModel.m in Sources */,
+				4DCE3DC11B2774FD002C7995 /* BodyStylesheet.m in Sources */,
 				4DCE3D871B277424002C7995 /* GuideTitleView.m in Sources */,
-				4D3167F21B0BDC9400C3010B /* TitleStylesheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

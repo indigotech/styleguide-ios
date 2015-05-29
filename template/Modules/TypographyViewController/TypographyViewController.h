@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ComponentsViewController.h"
 
-@interface TypographyViewController : UIViewController
+@interface TypographyViewController : ComponentsViewController
 
 @end

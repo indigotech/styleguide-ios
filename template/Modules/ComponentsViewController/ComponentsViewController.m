@@ -4,6 +4,8 @@
 //
 
 #import "ComponentsViewController.h"
+#import "GuideTitleView.h"
+#import "GuideSubtitleView.h"
 #import "Components.h"
 
 @implementation ComponentsViewController
@@ -22,6 +24,19 @@
 }
 
 #pragma mark - DON'T CHANGE THE FILE BELOW THIS LINE
+#pragma mark - Public
+-(UIView *)addViewWithClass:(Class)class height:(CGFloat)height {
+    UIView *view = [[class alloc] initWithFrame:CGRectMake(0, 0, _contentView.frame.size.width, height)];
+    
+    [_contentView addSubview:view];
+    [self addConstraintsToView:view withHeight:height];
+    
+    _lastAddedView = view;
+    
+    return view;
+}
+
+#pragma mark - VC lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setup];
@@ -38,23 +53,12 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop target:self action:@selector(didTouchCloseButton:)];
 }
 
--(UIView *)addViewWithClass:(Class)class height:(CGFloat)height {
-    UIView *view = [[class alloc] initWithFrame:CGRectMake(0, 0, _contentView.frame.size.width, height)];
-    
-    [_contentView addSubview:view];
-    [self addConstraintsToView:view withHeight:height];
-    
-    _lastAddedView = view;
-    
-    return view;
-}
-
 /**
  * Add constraints to attach view to the last added view. If it is the first view, it will
  * attach it to the root view
  * @param view view you want to attach
  * @param height height constraint for this view. If you don't want to set a height constraint (in case 
- * your view has instrinsic height) then set this param as nil
+ * your view has instrinsic height) then set this param as 0
  */
 - (void)addConstraintsToView:(UIView *)view withHeight:(CGFloat)height {
     view.translatesAutoresizingMaskIntoConstraints = NO;
@@ -73,6 +77,17 @@
         NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:[view]-|"  options:0 metrics:nil views:viewsMapping];
         [_contentView addConstraints:verticalConstraints];
     }
+}
+
+#pragma mark - methods to add title/subtitle
+-(void)addGuideTitleWithText:(NSString *)title {
+    GuideTitleView *guideTitleView = (GuideTitleView *)[self addViewWithClass:[GuideTitleView class] height:0];
+    [guideTitleView setTitle:title];
+}
+
+-(void)addGuideSubtitleWithText:(NSString *)subtitle {
+    GuideSubtitleView *guideSubtitleView = (GuideSubtitleView *)[self addViewWithClass:[GuideSubtitleView class] height:0];
+    [guideSubtitleView setSubtitle:subtitle];
 }
 
 #pragma mark - Action

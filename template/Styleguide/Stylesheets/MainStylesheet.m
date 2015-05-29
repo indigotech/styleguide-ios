@@ -11,6 +11,9 @@
 #import "TitleStylesheet.h"
 #import "ButtonStylesheet.h"
 #import "TAQWrongClassNameException.h"
+#import "FormTextualElementsStylesheet.h"
+#import "CaptionStylesheet.h"
+#import "BodyStylesheet.h"
 
 #define CLASS_SUFFIX @"Stylesheet"
 
@@ -21,6 +24,9 @@
     [MainStylesheet importStylesheetClass:[BaseStylesheet class] toMainDictionary:mainDictionary];
     [MainStylesheet importStylesheetClass:[TitleStylesheet class] toMainDictionary:mainDictionary];
     [MainStylesheet importStylesheetClass:[ButtonStylesheet class] toMainDictionary:mainDictionary];
+    [MainStylesheet importStylesheetClass:[FormTextualElementsStylesheet class] toMainDictionary:mainDictionary];
+    [MainStylesheet importStylesheetClass:[CaptionStylesheet class] toMainDictionary:mainDictionary];
+    [MainStylesheet importStylesheetClass:[BodyStylesheet class] toMainDictionary:mainDictionary];
     
     return mainDictionary;
 }
