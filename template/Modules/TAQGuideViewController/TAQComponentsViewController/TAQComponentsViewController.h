@@ -5,7 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ComponentsViewController : UIViewController
+@interface TAQComponentsViewController : UIViewController
 -(UIView *)addViewWithClass:(Class)class height:(CGFloat)height;
 -(void)addGuideTitleWithText:(NSString *)title;
 -(void)addGuideSubtitleWithText:(NSString *)subtitle;

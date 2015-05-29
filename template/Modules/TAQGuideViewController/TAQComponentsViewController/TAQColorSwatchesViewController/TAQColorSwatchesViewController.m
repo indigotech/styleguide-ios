@@ -6,10 +6,16 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "ColorSwatchesViewController.h"
+#import "TAQColorSwatchesViewController.h"
 #import "Colors.h"
 
-@implementation ColorSwatchesViewController
+@implementation TAQColorSwatchesViewController
+#pragma mark - VC lifecycle
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    [self setTitle:@"Colors"];
+}
+
 #pragma mark - overriden method
 - (void)addComponents {
     [self addPallete];

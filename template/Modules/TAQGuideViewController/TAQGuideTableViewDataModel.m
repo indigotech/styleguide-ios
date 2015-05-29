@@ -6,16 +6,16 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "GuideTableViewDataModel.h"
+#import "TAQGuideTableViewDataModel.h"
 
-@interface GuideTableViewDataModel()
+@interface TAQGuideTableViewDataModel()
 
 @property (strong, nonatomic) NSString *text;
 @property (strong, nonatomic) Class nextViewController;
 
 @end
 
-@implementation GuideTableViewDataModel
+@implementation TAQGuideTableViewDataModel
 -(instancetype)initWithText:(NSString *)text class:(Class)class {
     self = [super init];
     if (self) {

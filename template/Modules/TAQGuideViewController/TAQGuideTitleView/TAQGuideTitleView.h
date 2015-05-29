@@ -1,5 +1,5 @@
 //
-//  GuideSubtitleView.h
+//  GuideTitleView.h
 //  template
 //
 //  Created by Taqtile on 5/28/15.
@@ -8,8 +8,8 @@
 
 #import "BaseComponentsView.h"
 
-@interface GuideSubtitleView : BaseComponentsView
+@interface TAQGuideTitleView : BaseComponentsView
 
--(void)setSubtitle:(NSString *)title;
+-(void)setTitle:(NSString *)title;
 
 @end

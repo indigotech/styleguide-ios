@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GuideTableViewDataModel : NSObject
+@interface TAQGuideTableViewDataModel : NSObject
 @property (strong, nonatomic, readonly) NSString *text;
 @property (strong, nonatomic, readonly) Class nextViewController;
 

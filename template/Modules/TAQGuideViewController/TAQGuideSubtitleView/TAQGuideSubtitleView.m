@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "GuideSubtitleView.h"
+#import "TAQGuideSubtitleView.h"
 
-@implementation GuideSubtitleView
+@implementation TAQGuideSubtitleView
 {
     __weak IBOutlet UILabel *_subtitleLabel;
     

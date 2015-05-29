@@ -6,17 +6,22 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "TypographyViewController.h"
+#import "TAQTypographyViewController.h"
 #import "Fonts.h"
 #import "UIViewAttributes.h"
-#import "GuideTitleView.h"
-#import "GuideSubtitleView.h"
+#import "TAQGuideTitleView.h"
+#import "TAQGuideSubtitleView.h"
 
-@interface TypographyViewController ()
+@interface TAQTypographyViewController ()
 
 @end
 
-@implementation TypographyViewController
+@implementation TAQTypographyViewController
+#pragma mark - VC lifecycle
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    [self setTitle:@"Typography"];
+}
 
 #pragma mark - overriden method
 - (void)addComponents {

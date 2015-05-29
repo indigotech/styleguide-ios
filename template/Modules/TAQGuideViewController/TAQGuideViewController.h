@@ -1,5 +1,5 @@
 //
-//  TypographyViewController.h
+//  GuideViewController.h
 //  template
 //
 //  Created by Taqtile on 5/28/15.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ComponentsViewController.h"
 
-@interface TypographyViewController : ComponentsViewController
+@interface TAQGuideViewController : UIViewController
 
 @end

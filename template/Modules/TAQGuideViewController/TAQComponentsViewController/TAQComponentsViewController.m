@@ -3,12 +3,12 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "ComponentsViewController.h"
-#import "GuideTitleView.h"
-#import "GuideSubtitleView.h"
+#import "TAQComponentsViewController.h"
+#import "TAQGuideTitleView.h"
+#import "TAQGuideSubtitleView.h"
 #import "Components.h"
 
-@implementation ComponentsViewController
+@implementation TAQComponentsViewController
 {
     __weak IBOutlet UIView *_contentView;
     UIView *_lastAddedView;
@@ -81,12 +81,12 @@
 
 #pragma mark - methods to add title/subtitle
 -(void)addGuideTitleWithText:(NSString *)title {
-    GuideTitleView *guideTitleView = (GuideTitleView *)[self addViewWithClass:[GuideTitleView class] height:0];
+    TAQGuideTitleView *guideTitleView = (TAQGuideTitleView *)[self addViewWithClass:[TAQGuideTitleView class] height:0];
     [guideTitleView setTitle:title];
 }
 
 -(void)addGuideSubtitleWithText:(NSString *)subtitle {
-    GuideSubtitleView *guideSubtitleView = (GuideSubtitleView *)[self addViewWithClass:[GuideSubtitleView class] height:0];
+    TAQGuideSubtitleView *guideSubtitleView = (TAQGuideSubtitleView *)[self addViewWithClass:[TAQGuideSubtitleView class] height:0];
     [guideSubtitleView setSubtitle:subtitle];
 }
 

@@ -6,19 +6,19 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "GuideViewController.h"
-#import "GuideTableViewDataModel.h"
-#import "ComponentsViewController.h"
-#import "TypographyViewController.h"
-#import "ColorSwatchesViewController.h"
+#import "TAQGuideViewController.h"
+#import "TAQGuideTableViewDataModel.h"
+#import "TAQComponentsViewController.h"
+#import "TAQTypographyViewController.h"
+#import "TAQColorSwatchesViewController.h"
 
 #define CELL_IDENTIFIER @"defaultCellIdentifier"
 
-@interface GuideViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface TAQGuideViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) NSArray *tableViewData;
 @end
 
-@implementation GuideViewController
+@implementation TAQGuideViewController
 {
     __weak IBOutlet UITableView *_tableView;
 }
@@ -56,14 +56,14 @@
     UITableViewCell *cell = [_tableView dequeueReusableCellWithIdentifier:CELL_IDENTIFIER];
     
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.textLabel.text = ((GuideTableViewDataModel *)self.tableViewData[indexPath.row]).text;
+    cell.textLabel.text = ((TAQGuideTableViewDataModel *)self.tableViewData[indexPath.row]).text;
     
     return cell;
 }
 
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    UIViewController *vc = [[((GuideTableViewDataModel *)self.tableViewData[indexPath.row]).nextViewController alloc] initWithNibName:@"ComponentsViewController" bundle:nil];
+    UIViewController *vc = [[((TAQGuideTableViewDataModel *)self.tableViewData[indexPath.row]).nextViewController alloc] initWithNibName:@"ComponentsViewController" bundle:nil];
     [self.navigationController pushViewController:vc animated:YES];
     [_tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
@@ -78,13 +78,13 @@
     if (!_tableViewData) {
         
         _tableViewData = @[
-                            [[GuideTableViewDataModel alloc] initWithText:@"Typography" class:[TypographyViewController class]],
-                            [[GuideTableViewDataModel alloc] initWithText:@"Colors" class:[ColorSwatchesViewController class]],
-                            [[GuideTableViewDataModel alloc] initWithText:@"Controls" class:[UIViewController class]],
-                            [[GuideTableViewDataModel alloc] initWithText:@"Forms" class:[UIViewController class]],
-                            [[GuideTableViewDataModel alloc] initWithText:@"Lists" class:[UIViewController class]],
-                            [[GuideTableViewDataModel alloc] initWithText:@"Notifications" class:[UIViewController class]],
-                            [[GuideTableViewDataModel alloc] initWithText:@"Other components" class:[ComponentsViewController class]],
+                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Typography" class:[TAQTypographyViewController class]],
+                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Colors" class:[TAQColorSwatchesViewController class]],
+                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Controls" class:[UIViewController class]],
+                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Forms" class:[UIViewController class]],
+                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Lists" class:[UIViewController class]],
+                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Notifications" class:[UIViewController class]],
+                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Other components" class:[TAQComponentsViewController class]],
                             ];
     }
     return _tableViewData;

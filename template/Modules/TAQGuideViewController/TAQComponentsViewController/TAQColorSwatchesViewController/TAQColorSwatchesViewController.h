@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "ComponentsViewController.h"
+#import "TAQComponentsViewController.h"
 
-@interface ColorSwatchesViewController : ComponentsViewController
+@interface TAQColorSwatchesViewController : TAQComponentsViewController
 
 @end

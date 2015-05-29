@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "GuideTitleView.h"
+#import "TAQGuideTitleView.h"
 
-@implementation GuideTitleView
+@implementation TAQGuideTitleView
 {
     __weak IBOutlet UILabel *_titleLabel;
 }
