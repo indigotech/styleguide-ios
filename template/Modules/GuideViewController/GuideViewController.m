@@ -10,6 +10,7 @@
 #import "GuideTableViewDataModel.h"
 #import "ComponentsViewController.h"
 #import "TypographyViewController.h"
+#import "ColorSwatchesViewController.h"
 
 #define CELL_IDENTIFIER @"defaultCellIdentifier"
 
@@ -78,7 +79,7 @@
         
         _tableViewData = @[
                             [[GuideTableViewDataModel alloc] initWithText:@"Typography" class:[TypographyViewController class]],
-                            [[GuideTableViewDataModel alloc] initWithText:@"Colors" class:[UIViewController class]],
+                            [[GuideTableViewDataModel alloc] initWithText:@"Colors" class:[ColorSwatchesViewController class]],
                             [[GuideTableViewDataModel alloc] initWithText:@"Controls" class:[UIViewController class]],
                             [[GuideTableViewDataModel alloc] initWithText:@"Forms" class:[UIViewController class]],
                             [[GuideTableViewDataModel alloc] initWithText:@"Lists" class:[UIViewController class]],

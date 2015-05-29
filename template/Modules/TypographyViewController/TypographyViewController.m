@@ -62,7 +62,7 @@
     
     [self addLabelWithText:FONT_WEIGHT_BOLD
                       font:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_BOLD) size:FONT_SIZE_MEDIUM]];
-    [self addLabelWithText:FONT_WEIGHT_REGULAR
+    [self addLabelWithText:@"-Regular"
                       font:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_REGULAR) size:FONT_SIZE_MEDIUM]];
     [self addLabelWithText:FONT_WEIGHT_LIGHT
                       font:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_LIGHT) size:FONT_SIZE_MEDIUM]];

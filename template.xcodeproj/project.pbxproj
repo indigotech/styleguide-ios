@@ -39,6 +39,7 @@
 		4DCE3DC31B2774FD002C7995 /* CaptionStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DB91B2774FD002C7995 /* CaptionStylesheet.m */; };
 		4DCE3DC41B2774FD002C7995 /* FormTextualElementsStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DBC1B2774FD002C7995 /* FormTextualElementsStylesheet.m */; };
 		4DCE3DC51B2774FD002C7995 /* TitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DBF1B2774FD002C7995 /* TitleStylesheet.m */; };
+		4DCE3DC91B277535002C7995 /* ColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DC81B277535002C7995 /* ColorSwatchesViewController.m */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -109,6 +110,8 @@
 		4DCE3DBC1B2774FD002C7995 /* FormTextualElementsStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormTextualElementsStylesheet.m; sourceTree = "<group>"; };
 		4DCE3DBE1B2774FD002C7995 /* TitleStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleStylesheet.h; sourceTree = "<group>"; };
 		4DCE3DBF1B2774FD002C7995 /* TitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleStylesheet.m; sourceTree = "<group>"; };
+		4DCE3DC71B277535002C7995 /* ColorSwatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSwatchesViewController.h; sourceTree = "<group>"; };
+		4DCE3DC81B277535002C7995 /* ColorSwatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSwatchesViewController.m; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -375,6 +378,15 @@
 			path = TitleStylesheet;
 			sourceTree = "<group>";
 		};
+		4DCE3DC61B277535002C7995 /* ColorSwatchesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3DC71B277535002C7995 /* ColorSwatchesViewController.h */,
+				4DCE3DC81B277535002C7995 /* ColorSwatchesViewController.m */,
+			);
+			path = ColorSwatchesViewController;
+			sourceTree = "<group>";
+		};
 		4DEB0ECA1A8E4FE60048477D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -439,6 +451,7 @@
 		5BFCA8D11A7928B0001B1BA5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4DCE3DC61B277535002C7995 /* ColorSwatchesViewController */,
 				4DCE3D741B2773AD002C7995 /* TypographyViewController */,
 				4DCE3D6E1B27735E002C7995 /* GuideViewController */,
 				4DCE3D661B2772FE002C7995 /* ComponentsViewController */,
@@ -641,6 +654,7 @@
 				4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */,
 				4DCE3D721B27735E002C7995 /* GuideViewController.m in Sources */,
 				4DCE3DC31B2774FD002C7995 /* CaptionStylesheet.m in Sources */,
+				4DCE3DC91B277535002C7995 /* ColorSwatchesViewController.m in Sources */,
 				4DCE3D7C1B2773E9002C7995 /* GuideTableViewDataModel.m in Sources */,
 				4DCE3DC11B2774FD002C7995 /* BodyStylesheet.m in Sources */,
 				4DCE3D871B277424002C7995 /* GuideTitleView.m in Sources */,
