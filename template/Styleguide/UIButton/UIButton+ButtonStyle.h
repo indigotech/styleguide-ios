@@ -12,8 +12,10 @@
 
 @property (strong, nonatomic) UIColor* normalTitleColor;
 @property (strong, nonatomic) UIColor* highlightedTitleColor;
+@property (strong, nonatomic) UIColor* disabledTitleColor;
 @property (strong, nonatomic) UIImage* normalBackgroundImage;
 @property (strong, nonatomic) UIImage* highlightedBackgroundImage;
+@property (strong, nonatomic) UIImage* disabledBackgroundImage;
 @property (strong, nonatomic) NSValue* buttonContentEdgeInsets;
 
 @end

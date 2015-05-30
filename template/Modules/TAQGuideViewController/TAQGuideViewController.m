@@ -11,6 +11,7 @@
 #import "TAQComponentsViewController.h"
 #import "TAQTypographyViewController.h"
 #import "TAQColorSwatchesViewController.h"
+#import "TAQControlsViewController.h"
 
 #define CELL_IDENTIFIER @"defaultCellIdentifier"
 
@@ -80,7 +81,7 @@
         _tableViewData = @[
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Typography" class:[TAQTypographyViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Colors" class:[TAQColorSwatchesViewController class]],
-                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Controls" class:[UIViewController class]],
+                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Controls" class:[TAQControlsViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Forms" class:[UIViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Lists" class:[UIViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Notifications" class:[UIViewController class]],

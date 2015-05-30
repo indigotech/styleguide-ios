@@ -26,6 +26,14 @@
     [self setTitleColor:highlightedTitleColor forState:UIControlStateHighlighted];
 }
 
+-(UIColor *)disabledTitleColor {
+    return [self titleColorForState:UIControlStateDisabled];
+}
+
+-(void)setDisabledTitleColor:(UIColor *)disabledTitleColor {
+    [self setTitleColor:disabledTitleColor forState:UIControlStateDisabled];
+}
+
 -(UIImage *)normalBackgroundImage {
     return [self backgroundImageForState:UIControlStateNormal];
 }
@@ -41,6 +49,14 @@
 -(void)setHighlightedBackgroundImage:(UIImage *)highlightedBackgroundImage {
     [self setBackgroundImage:highlightedBackgroundImage forState:UIControlStateHighlighted];
     [self setBackgroundImage:highlightedBackgroundImage forState:UIControlStateSelected];
+}
+
+-(UIImage *)disabledBackgroundImage {
+    return [self backgroundImageForState:UIControlStateDisabled];
+}
+
+-(void)setDisabledBackgroundImage:(UIImage *)disabledBackgroundImage {
+    [self setBackgroundImage:disabledBackgroundImage forState:UIControlStateDisabled];
 }
 
 -(NSValue *)buttonContentEdgeInsets {
