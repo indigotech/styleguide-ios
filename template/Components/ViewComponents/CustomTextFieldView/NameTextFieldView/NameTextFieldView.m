@@ -38,4 +38,25 @@
     return [[CustomTextFieldView class] description];
 }
 
+-(void)setState:(CustomTextFieldViewState)state {
+    [super setState:state];
+    switch (state) {
+        case CustomTextFieldViewStateError:
+            self.captionLabel.text = @"Campo inválido";
+            break;
+        case CustomTextFieldViewStateActive:
+            self.captionLabel.text = @"Campo obrigatório";
+            break;
+        case CustomTextFieldViewStateDefault:
+            self.captionLabel.text = @"Campo obrigatório";
+            break;
+        case CustomTextFieldViewStateInactive:
+            self.captionLabel.text = @"Este campo não pode ser editado";
+            break;
+        case CustomTextFieldViewStateHighlight:
+            break;
+        default:
+            break;
+    }
+}
 @end

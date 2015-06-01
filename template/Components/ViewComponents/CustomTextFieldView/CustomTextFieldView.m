@@ -33,6 +33,7 @@
             [self.captionLabel setValue:@"Caption_IsError_Label" forUndefinedKey:@"stylesheet"];
              break;
         case CustomTextFieldViewStateActive:
+            [self.textFieldButton setImage:[UIImage imageNamed:@"ic-delete-password"] forState:UIControlStateNormal];
             [self defaultSetup];
             break;
         case CustomTextFieldViewStateDefault:

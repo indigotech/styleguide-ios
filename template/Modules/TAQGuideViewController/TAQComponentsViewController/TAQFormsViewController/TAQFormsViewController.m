@@ -23,6 +23,36 @@
 
 #pragma mark - overriden method
 - (void)addComponents {
-    [self addViewWithDefaultMarginsAndClass:[NameTextFieldView class] height:0];
+    [self addNameTextfield];
+}
+
+- (void)addNameTextfield {
+    [self addGuideTitleWithText:@"Name textfield"];
+    
+    [self addNameTextFieldWithSetup:^(NameTextFieldView *nameTextFieldView){
+        [nameTextFieldView setState:CustomTextFieldViewStateDefault];
+    }];
+    [self addNameTextFieldWithSetup:^(NameTextFieldView *nameTextFieldView){
+        [nameTextFieldView.textField setText:@"Bob"];
+        [nameTextFieldView setState:CustomTextFieldViewStateHighlight];
+    }];
+    [self addNameTextFieldWithSetup:^(NameTextFieldView *nameTextFieldView){
+        [nameTextFieldView.textField setText:@"Bob"];
+        [nameTextFieldView setState:CustomTextFieldViewStateInactive];
+    }];
+    [self addNameTextFieldWithSetup:^(NameTextFieldView *nameTextFieldView){
+        [nameTextFieldView.textField setText:@"Bob"];
+        [nameTextFieldView setState:CustomTextFieldViewStateActive];
+    }];
+    [self addNameTextFieldWithSetup:^(NameTextFieldView *nameTextFieldView){
+        [nameTextFieldView.textField setText:@"132n"];
+        [nameTextFieldView setState:CustomTextFieldViewStateError];
+    }];
+}
+
+#pragma mark - Aux methods
+- (void)addNameTextFieldWithSetup:(void (^)(NameTextFieldView *nameTextFieldView))setup {
+     NameTextFieldView *nameTextFieldView = (NameTextFieldView *)[self addViewWithDefaultMarginsAndClass:[NameTextFieldView class] height:0];
+    setup(nameTextFieldView);
 }
 @end
