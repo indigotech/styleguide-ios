@@ -41,6 +41,8 @@ All constants in this file use the following pattern (in eBNF):
 #define PK_LABEL_NUMBER_OF_LINES                        @"numberOfLines"
 
 #define PK_TEXTFIELD_BORDER_STYLE                       @"borderStyle"
+#define PK_TEXTFIELD_BORDER_COLOR                       PK_BUTTON_BORDER_COLOR
+#define PK_TEXTFIELD_BORDER_WIDTH                       PK_BUTTON_BORDER_WIDTH
 #define PK_TEXTFIELD_FONT                               @"font"
 #define PK_TEXTFIELD_TEXT_COLOR                         @"textColor"
 #define PK_TEXTFIELD_TINT_COLOR                         @"tintColor"

@@ -14,6 +14,7 @@
 #import "FormTextualElementsStylesheet.h"
 #import "CaptionStylesheet.h"
 #import "BodyStylesheet.h"
+#import "CustomTextFieldViewStylesheet.h"
 
 #define CLASS_SUFFIX @"Stylesheet"
 
@@ -27,6 +28,7 @@
     [MainStylesheet importStylesheetClass:[FormTextualElementsStylesheet class] toMainDictionary:mainDictionary];
     [MainStylesheet importStylesheetClass:[CaptionStylesheet class] toMainDictionary:mainDictionary];
     [MainStylesheet importStylesheetClass:[BodyStylesheet class] toMainDictionary:mainDictionary];
+    [MainStylesheet importStylesheetClass:[CustomTextFieldViewStylesheet class] toMainDictionary:mainDictionary];
     
     return mainDictionary;
 }

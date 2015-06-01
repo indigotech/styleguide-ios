@@ -26,7 +26,13 @@
 
 -(void) addContentViewWithConstraints
 {
-    UIView * contentView = [[[NSBundle mainBundle] loadNibNamed:[[self class] description] owner:self options:nil] firstObject];
+    UIView * contentView;
+    @try {
+        contentView = [[[NSBundle mainBundle] loadNibNamed:[[self class] description] owner:self options:nil] firstObject];
+    }
+    @catch (NSException *exception) {
+        contentView = [[[NSBundle mainBundle] loadNibNamed:[self nibName] owner:self options:nil] firstObject];
+    }
     
     [self addSubview:contentView];
     
@@ -40,4 +46,12 @@
     [self addConstraints:verticalConstraints];
 }
 
+/**
+ * Method to be overriden in case you need to have an specific nib for a class which has a differente name from 
+ * the class name
+ */
+-(NSString *)nibName {
+    @throw [NSException exceptionWithName:NSInternalInconsistencyException
+                                   reason:[NSString stringWithFormat:@"You must override the method %@ in a subclass", NSStringFromSelector(_cmd)]
+                                 userInfo:nil];}
 @end
