@@ -123,13 +123,13 @@
 #pragma mark  Auxiliar private methods
 
 -(void)addLabelWithText:(NSString *)text font:(UIFont *)font {
-    UILabel *label = (UILabel *)[self addViewWithClass:[UILabel class] height:0];
+    UILabel *label = (UILabel *)[self addViewWithDefaultMarginsAndClass:[UILabel class] height:0];
     [label setText:text];
     [label setFont:font];
 }
 
 -(void)addLabelWithText:(NSString *)text style:(NSString *)style {
-    UILabel *label = (UILabel *)[self addViewWithClass:[UILabel class] height:0];
+    UILabel *label = (UILabel *)[self addViewWithDefaultMarginsAndClass:[UILabel class] height:0];
     [label setText:text];
     [label setValue:style forUndefinedKey:@"stylesheet"];
 }

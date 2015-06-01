@@ -16,7 +16,7 @@
 
 #pragma mark - main method
 // Add your component to this method
-// 1. Instantiate your view component using addViewWithClass:height:
+// 1. Instantiate your view component using addViewWithClass:height: or addViewWithDefaultMarginsAndClass:height:
 // 2. Call a method setup<name_of_component> to setup it. This method should be
 //    implemented and the main idea is that it should explain how to configure/
 //    fill it with data
@@ -26,10 +26,18 @@
 #pragma mark - DON'T CHANGE THE FILE BELOW THIS LINE
 #pragma mark - Public
 -(UIView *)addViewWithClass:(Class)class height:(CGFloat)height {
+    return [self addViewWithTopMargin:DEFAULT_MARGIN rightMargin:0 leftMargin:0 class:class height:height];
+}
+
+-(UIView *)addViewWithDefaultMarginsAndClass:(Class)class height:(CGFloat)height {
+    return [self addViewWithTopMargin:DEFAULT_MARGIN rightMargin:DEFAULT_MARGIN leftMargin:DEFAULT_MARGIN class:class height:height];
+}
+
+-(UIView *)addViewWithTopMargin:(CGFloat)topMargin rightMargin:(CGFloat)rightMargin leftMargin:(CGFloat)leftMargin class:(Class)class height:(CGFloat)height {
     UIView *view = [[class alloc] initWithFrame:CGRectMake(0, 0, _contentView.frame.size.width, height)];
     
     [_contentView addSubview:view];
-    [self addConstraintsToView:view withHeight:height];
+    [self addConstraintsToView:view withHeight:height topMargin:topMargin rightMargin:rightMargin leftMargin:leftMargin];
     
     _lastAddedView = view;
     
@@ -57,15 +65,30 @@
  * Add constraints to attach view to the last added view. If it is the first view, it will
  * attach it to the root view
  * @param view view you want to attach
- * @param height height constraint for this view. If you don't want to set a height constraint (in case 
- * your view has instrinsic height) then set this param as 0
+ * @param height height constraint for this view. If you don't want to set a height constraint (in case your view has instrinsic height) then set this param as 0
+ * @param topMargin top margin to the parent view
+ * @param rightMargin right margin to the container
+ * @param leftMargin left margin to the container
  */
-- (void)addConstraintsToView:(UIView *)view withHeight:(CGFloat)height {
+- (void)addConstraintsToView:(UIView *)view
+                  withHeight:(CGFloat)height
+                  topMargin:(CGFloat)topMargin
+                  rightMargin:(CGFloat)rightMargin
+                  leftMargin:(CGFloat)leftMargin {
     view.translatesAutoresizingMaskIntoConstraints = NO;
     
     NSDictionary *viewsMapping = _lastAddedView ? @{@"view": view, @"lastAddedView": _lastAddedView} : @{@"view": view};
-    NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[view]|" options:0 metrics:nil views:viewsMapping];
-    NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat: height ? [NSString stringWithFormat:_lastAddedView ? @"V:[lastAddedView]-[view(==%f)]" : @"V:|[view(==%f)]", height] : _lastAddedView ? @"V:[lastAddedView]-[view]" : @"V:|[view]" options:0 metrics:nil views:viewsMapping];
+    
+    NSString *horizontalConstraintString = [NSString stringWithFormat:@"H:|-%f-[view]-%f-|", leftMargin, rightMargin];
+    NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:horizontalConstraintString options:0 metrics:nil views:viewsMapping];
+    
+    NSString *verticalContraintString;
+    if (height) {
+        verticalContraintString = [NSString stringWithFormat:_lastAddedView ? @"V:[lastAddedView]-%f-[view(==%f)]" : @"V:|-%f-[view(==%f)]", topMargin, height];
+    } else {
+        verticalContraintString = [NSString stringWithFormat:_lastAddedView ? @"V:[lastAddedView]-%f-[view]" : @"V:|-%f-[view]", topMargin];
+    }
+    NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:verticalContraintString  options:0 metrics:nil views:viewsMapping];
     
     [_contentView addConstraints:horizontalConstraints];
     [_contentView addConstraints:verticalConstraints];
