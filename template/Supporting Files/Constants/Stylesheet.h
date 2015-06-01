@@ -26,6 +26,8 @@ All constants in this file use the following pattern (in eBNF):
 #define PK_BUTTON_BACKGROUND_COLOR                      @"backgroundColor"
 #define PK_BUTTON_TYPE                                  @"buttonType"
 // Created properties on UIButton+ButtonStyle
+#define PK_BUTTON_DISABLED_BACKGROUND_IMAGE             @"disabledBackgroundImage"
+#define PK_BUTTON_DISABLED_TITLE_COLOR                  @"disabledTitleColor"
 #define PK_BUTTON_NORMAL_BACKGROUND_IMAGE               @"normalBackgroundImage"
 #define PK_BUTTON_NORMAL_TITLE_COLOR                    @"normalTitleColor"
 #define PK_BUTTON_HIGHLIGHTED_BACKGROUND_IMAGE          @"highlightedBackgroundImage"

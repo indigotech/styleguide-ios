@@ -25,21 +25,40 @@
 
 #pragma mark - overriden method
 - (void)addComponents {
+    [self addActiveButtons];
+    [self addDisabledButtons];
+}
+
+- (void)addActiveButtons {
     [self addGuideTitleWithText:@"Buttons"];
     
-    [self addButtonWithText:@"Primary" style:@"Primary_Button"];
-    [self addButtonWithText:@"Alert" style:@"Alert_Button"];
-    [self addButtonWithText:@"Call to Action" style:@"CallToAction_Button"];
-    [self addButtonWithText:@"Neutral" style:@"Neutral_Button"];
-    [self addButtonWithText:@"Alert outlined" style:@"AlertOutlined_Button"];
-    [self addButtonWithText:@"Link" style:@"Link_Button"];
+    [self addButtonWithText:@"Primary" style:@"Primary_Button" setup:nil];
+    [self addButtonWithText:@"Alert" style:@"Alert_Button" setup:nil];
+    [self addButtonWithText:@"Call to Action" style:@"CallToAction_Button" setup:nil];
+    [self addButtonWithText:@"Neutral" style:@"Neutral_Button" setup:nil];
+    [self addButtonWithText:@"Alert outlined" style:@"AlertOutlined_Button" setup:nil];
+    [self addButtonWithText:@"Link" style:@"Link_Button" setup:nil];
+}
+
+- (void)addDisabledButtons {
+    [self addGuideTitleWithText:@"Disabled Buttons"];
+    
+    [self addButtonWithText:@"Primary" style:@"Primary_Button" setup:^(UIButton *button){ [button setEnabled:NO];}];
+    [self addButtonWithText:@"Alert" style:@"Alert_Button" setup:^(UIButton *button){ [button setEnabled:NO];}];
+    [self addButtonWithText:@"Call to Action" style:@"CallToAction_Button" setup:^(UIButton *button){ [button setEnabled:NO];}];
+    [self addButtonWithText:@"Neutral" style:@"Neutral_Button" setup:^(UIButton *button){ [button setEnabled:NO];}];
+    [self addButtonWithText:@"Alert outlined" style:@"AlertOutlined_Button" setup:^(UIButton *button){ [button setEnabled:NO];}];
+    [self addButtonWithText:@"Link" style:@"Link_Button" setup:^(UIButton *button){ [button setEnabled:NO];}];
 }
 
 #pragma mark - aux methods
--(void)addButtonWithText:(NSString *)text style:(NSString *)style {
+-(void)addButtonWithText:(NSString *)text style:(NSString *)style setup:(void (^)(UIButton *button))setup {
     UIButton *button = (UIButton *)[self addViewWithDefaultMarginsAndClass:[UIButton class] height:34];
     [button setValue:style forUndefinedKey:STYLESHEET_KEYWORD];
     [button setTitle:text forState:UIControlStateNormal];
+    
+    if (setup) {
+        setup(button);
+    }
 }
-
 @end
