@@ -25,4 +25,6 @@ typedef enum : NSUInteger {
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 @property (weak, nonatomic) IBOutlet UIButton *textFieldButton;
 @property (weak, nonatomic) IBOutlet UILabel *captionLabel;
+@property (weak, nonatomic) IBOutlet UIView *textFieldContainerView;
+-(void)setState:(CustomTextFieldViewState)state;
 @end

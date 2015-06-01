@@ -18,6 +18,12 @@
                      PK_LABEL_FONT:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_LIGHT) size:FONT_SIZE_EXTRA_SMALL],
                      PK_LABEL_TEXT_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY),
                      },
+             @"Caption_IsInactive_Label": @{
+                     PK_LABEL_TEXT_COLOR: UICOLOR_DISABLED_FROM_HEX(COLOR_GRAY),
+                     },
+             @"Caption_IsError_Label": @{
+                     PK_LABEL_TEXT_COLOR: UICOLOR_FROM_HEX(COLOR_ALERT),
+                     },
              };
 }
 @end

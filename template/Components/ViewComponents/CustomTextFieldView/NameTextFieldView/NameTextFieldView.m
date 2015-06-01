@@ -7,9 +7,11 @@
 //
 
 #import "NameTextFieldView.h"
+#import "FormTextualElementsStylesheet.h"
 
 @implementation NameTextFieldView
 
+#pragma mark - View lifecycle
 -(void)awakeFromNib {
     [super awakeFromNib];
     [self setup];
@@ -24,9 +26,10 @@
 }
 
 -(void)setup {
-    self.fieldNameLabel.text = @"Name";
-    self.textField.placeholder = @"Alice";
-    self.textFieldButton.titleLabel.text = @"";
+    self.fieldNameLabel.text = @"Nome";
+    NSDictionary *attributes = [FormTextualElementsStylesheet attributedStringAttributes][@"InputPlaceholder"];
+    self.textField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Alice" attributes:attributes];
+    [self.textFieldButton setTitle:@"" forState:UIControlStateNormal];
     self.captionLabel.text = @"Campo obrigatório";
 }
 

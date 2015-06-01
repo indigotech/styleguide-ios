@@ -10,4 +10,5 @@
 
 @interface FormTextualElementsStylesheet : NSObject
 + (NSDictionary *)stylesheet;
++ (NSDictionary *)attributedStringAttributes;
 @end

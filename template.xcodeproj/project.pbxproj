@@ -9,25 +9,14 @@
 /* Begin PBXBuildFile section */
 		0E26027BF014FFBC2D898EBA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA28BDDDDF9C76FD0A855F0E /* libPods.a */; };
 		4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167D01B0BCDAC00C3010B /* Constants.m */; };
-		4D3167F41B0BDC9400C3010B /* MainStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167E61B0BDC9400C3010B /* MainStylesheet.m */; };
-		4D3167F51B0BDC9400C3010B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D3167E71B0BDC9400C3010B /* README.md */; };
 		4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167EA1B0BDC9400C3010B /* UIButton+ButtonStyle.m */; };
 		4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167ED1B0BDC9400C3010B /* UIView+UIViewStyle.m */; };
 		4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167EF1B0BDC9400C3010B /* UIViewAttributes.m */; };
-		4D3168101B0D564500C3010B /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D31680F1B0D564500C3010B /* TitleView.m */; };
-		4D3168141B0D578400C3010B /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3168131B0D578400C3010B /* TitleView.xib */; };
-		4D3168191B0D579100C3010B /* BaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3168171B0D579100C3010B /* BaseComponentsView.m */; };
 		4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */; };
 		4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6C50D81B2711B70058D0A0 /* TAQWrongClassNameException.m */; };
 		4DCE3D5F1B271E99002C7995 /* TAQUnknownKeyException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D5E1B271E99002C7995 /* TAQUnknownKeyException.m */; };
 		4DCE3D621B272128002C7995 /* TAQInvalidStyleRuleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D611B272128002C7995 /* TAQInvalidStyleRuleException.m */; };
 		4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D641B27323C002C7995 /* TAQBaseException.m */; };
-		4DCE3DC01B2774FD002C7995 /* BaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DB01B2774FD002C7995 /* BaseStylesheet.m */; };
-		4DCE3DC11B2774FD002C7995 /* BodyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DB31B2774FD002C7995 /* BodyStylesheet.m */; };
-		4DCE3DC21B2774FD002C7995 /* ButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DB61B2774FD002C7995 /* ButtonStylesheet.m */; };
-		4DCE3DC31B2774FD002C7995 /* CaptionStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DB91B2774FD002C7995 /* CaptionStylesheet.m */; };
-		4DCE3DC41B2774FD002C7995 /* FormTextualElementsStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DBC1B2774FD002C7995 /* FormTextualElementsStylesheet.m */; };
-		4DCE3DC51B2774FD002C7995 /* TitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DBF1B2774FD002C7995 /* TitleStylesheet.m */; };
 		4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCC1B277577002C7995 /* HomeViewController.m */; };
 		4DCE3DE71B277577002C7995 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCD1B277577002C7995 /* HomeViewController.xib */; };
 		4DCE3E381B27761F002C7995 /* TAQColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E1E1B27761F002C7995 /* TAQColorSwatchesViewController.m */; };
@@ -43,10 +32,23 @@
 		4DCE3E421B27761F002C7995 /* TAQGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3E341B27761F002C7995 /* TAQGuideTitleView.xib */; };
 		4DCE3E431B27761F002C7995 /* TAQGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E361B27761F002C7995 /* TAQGuideViewController.m */; };
 		4DCE3E441B27761F002C7995 /* TAQGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3E371B27761F002C7995 /* TAQGuideViewController.xib */; };
-		4DCE3E4D1B27763E002C7995 /* CustomTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E481B27763E002C7995 /* CustomTextFieldView.m */; };
-		4DCE3E4E1B27763E002C7995 /* CustomTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3E491B27763E002C7995 /* CustomTextFieldView.xib */; };
-		4DCE3E4F1B27763E002C7995 /* NameTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E4C1B27763E002C7995 /* NameTextFieldView.m */; };
-		4DCE3E531B277654002C7995 /* CustomTextFieldViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E521B277654002C7995 /* CustomTextFieldViewStylesheet.m */; };
+		4DCE3E711B277685002C7995 /* BaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E581B277685002C7995 /* BaseStylesheet.m */; };
+		4DCE3E721B277685002C7995 /* BodyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E5B1B277685002C7995 /* BodyStylesheet.m */; };
+		4DCE3E731B277685002C7995 /* ButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E5E1B277685002C7995 /* ButtonStylesheet.m */; };
+		4DCE3E741B277685002C7995 /* CaptionStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E611B277685002C7995 /* CaptionStylesheet.m */; };
+		4DCE3E751B277685002C7995 /* CustomTextFieldViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E641B277685002C7995 /* CustomTextFieldViewStylesheet.m */; };
+		4DCE3E761B277685002C7995 /* FormTextualElementsStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E671B277685002C7995 /* FormTextualElementsStylesheet.m */; };
+		4DCE3E771B277685002C7995 /* LabelStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E6A1B277685002C7995 /* LabelStylesheet.m */; };
+		4DCE3E781B277685002C7995 /* TitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E6D1B277685002C7995 /* TitleStylesheet.m */; };
+		4DCE3E791B277685002C7995 /* MainStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E6F1B277685002C7995 /* MainStylesheet.m */; };
+		4DCE3E7A1B277685002C7995 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E701B277685002C7995 /* README.md */; };
+		4DCE3E8C1B27768D002C7995 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3E7C1B27768D002C7995 /* .gitkeep */; };
+		4DCE3E8D1B27768D002C7995 /* BaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E7F1B27768D002C7995 /* BaseComponentsView.m */; };
+		4DCE3E8E1B27768D002C7995 /* CustomTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E831B27768D002C7995 /* CustomTextFieldView.m */; };
+		4DCE3E8F1B27768D002C7995 /* CustomTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3E841B27768D002C7995 /* CustomTextFieldView.xib */; };
+		4DCE3E901B27768D002C7995 /* NameTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E871B27768D002C7995 /* NameTextFieldView.m */; };
+		4DCE3E911B27768D002C7995 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E8A1B27768D002C7995 /* TitleView.m */; };
+		4DCE3E921B27768D002C7995 /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3E8B1B27768D002C7995 /* TitleView.xib */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -62,9 +64,6 @@
 		4D3167D31B0BCE8600C3010B /* Fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fonts.h; sourceTree = "<group>"; };
 		4D3167D41B0BCEFD00C3010B /* Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
 		4D3167D51B0BDB1800C3010B /* UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
-		4D3167E51B0BDC9400C3010B /* MainStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainStylesheet.h; sourceTree = "<group>"; };
-		4D3167E61B0BDC9400C3010B /* MainStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStylesheet.m; sourceTree = "<group>"; };
-		4D3167E71B0BDC9400C3010B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D3167E91B0BDC9400C3010B /* UIButton+ButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ButtonStyle.h"; sourceTree = "<group>"; };
 		4D3167EA1B0BDC9400C3010B /* UIButton+ButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ButtonStyle.m"; sourceTree = "<group>"; };
 		4D3167EC1B0BDC9400C3010B /* UIView+UIViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewStyle.h"; sourceTree = "<group>"; };
@@ -72,11 +71,6 @@
 		4D3167EE1B0BDC9400C3010B /* UIViewAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAttributes.h; sourceTree = "<group>"; };
 		4D3167EF1B0BDC9400C3010B /* UIViewAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAttributes.m; sourceTree = "<group>"; };
 		4D3167F91B0BDEE400C3010B /* Stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stylesheet.h; sourceTree = "<group>"; };
-		4D31680E1B0D564500C3010B /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleView.h; path = TitleView/TitleView.h; sourceTree = "<group>"; };
-		4D31680F1B0D564500C3010B /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleView.m; path = TitleView/TitleView.m; sourceTree = "<group>"; };
-		4D3168131B0D578400C3010B /* TitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TitleView.xib; path = TitleView/TitleView.xib; sourceTree = "<group>"; };
-		4D3168161B0D579100C3010B /* BaseComponentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseComponentsView.h; sourceTree = "<group>"; };
-		4D3168171B0D579100C3010B /* BaseComponentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseComponentsView.m; sourceTree = "<group>"; };
 		4D3168211B0D8E4900C3010B /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
 		4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
 		4D6C50D71B2711B70058D0A0 /* TAQWrongClassNameException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQWrongClassNameException.h; sourceTree = "<group>"; };
@@ -87,18 +81,6 @@
 		4DCE3D611B272128002C7995 /* TAQInvalidStyleRuleException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQInvalidStyleRuleException.m; sourceTree = "<group>"; };
 		4DCE3D631B27323C002C7995 /* TAQBaseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQBaseException.h; sourceTree = "<group>"; };
 		4DCE3D641B27323C002C7995 /* TAQBaseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQBaseException.m; sourceTree = "<group>"; };
-		4DCE3DAF1B2774FD002C7995 /* BaseStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStylesheet.h; sourceTree = "<group>"; };
-		4DCE3DB01B2774FD002C7995 /* BaseStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStylesheet.m; sourceTree = "<group>"; };
-		4DCE3DB21B2774FD002C7995 /* BodyStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyStylesheet.h; sourceTree = "<group>"; };
-		4DCE3DB31B2774FD002C7995 /* BodyStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyStylesheet.m; sourceTree = "<group>"; };
-		4DCE3DB51B2774FD002C7995 /* ButtonStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonStylesheet.h; sourceTree = "<group>"; };
-		4DCE3DB61B2774FD002C7995 /* ButtonStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonStylesheet.m; sourceTree = "<group>"; };
-		4DCE3DB81B2774FD002C7995 /* CaptionStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptionStylesheet.h; sourceTree = "<group>"; };
-		4DCE3DB91B2774FD002C7995 /* CaptionStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptionStylesheet.m; sourceTree = "<group>"; };
-		4DCE3DBB1B2774FD002C7995 /* FormTextualElementsStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormTextualElementsStylesheet.h; sourceTree = "<group>"; };
-		4DCE3DBC1B2774FD002C7995 /* FormTextualElementsStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormTextualElementsStylesheet.m; sourceTree = "<group>"; };
-		4DCE3DBE1B2774FD002C7995 /* TitleStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleStylesheet.h; sourceTree = "<group>"; };
-		4DCE3DBF1B2774FD002C7995 /* TitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleStylesheet.m; sourceTree = "<group>"; };
 		4DCE3DCB1B277577002C7995 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		4DCE3DCC1B277577002C7995 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		4DCE3DCD1B277577002C7995 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -124,13 +106,36 @@
 		4DCE3E351B27761F002C7995 /* TAQGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideViewController.h; sourceTree = "<group>"; };
 		4DCE3E361B27761F002C7995 /* TAQGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideViewController.m; sourceTree = "<group>"; };
 		4DCE3E371B27761F002C7995 /* TAQGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideViewController.xib; sourceTree = "<group>"; };
-		4DCE3E471B27763E002C7995 /* CustomTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldView.h; sourceTree = "<group>"; };
-		4DCE3E481B27763E002C7995 /* CustomTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldView.m; sourceTree = "<group>"; };
-		4DCE3E491B27763E002C7995 /* CustomTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTextFieldView.xib; sourceTree = "<group>"; };
-		4DCE3E4B1B27763E002C7995 /* NameTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameTextFieldView.h; sourceTree = "<group>"; };
-		4DCE3E4C1B27763E002C7995 /* NameTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameTextFieldView.m; sourceTree = "<group>"; };
-		4DCE3E511B277654002C7995 /* CustomTextFieldViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldViewStylesheet.h; sourceTree = "<group>"; };
-		4DCE3E521B277654002C7995 /* CustomTextFieldViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldViewStylesheet.m; sourceTree = "<group>"; };
+		4DCE3E571B277685002C7995 /* BaseStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStylesheet.h; sourceTree = "<group>"; };
+		4DCE3E581B277685002C7995 /* BaseStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStylesheet.m; sourceTree = "<group>"; };
+		4DCE3E5A1B277685002C7995 /* BodyStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyStylesheet.h; sourceTree = "<group>"; };
+		4DCE3E5B1B277685002C7995 /* BodyStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyStylesheet.m; sourceTree = "<group>"; };
+		4DCE3E5D1B277685002C7995 /* ButtonStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonStylesheet.h; sourceTree = "<group>"; };
+		4DCE3E5E1B277685002C7995 /* ButtonStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonStylesheet.m; sourceTree = "<group>"; };
+		4DCE3E601B277685002C7995 /* CaptionStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptionStylesheet.h; sourceTree = "<group>"; };
+		4DCE3E611B277685002C7995 /* CaptionStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptionStylesheet.m; sourceTree = "<group>"; };
+		4DCE3E631B277685002C7995 /* CustomTextFieldViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldViewStylesheet.h; sourceTree = "<group>"; };
+		4DCE3E641B277685002C7995 /* CustomTextFieldViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldViewStylesheet.m; sourceTree = "<group>"; };
+		4DCE3E661B277685002C7995 /* FormTextualElementsStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormTextualElementsStylesheet.h; sourceTree = "<group>"; };
+		4DCE3E671B277685002C7995 /* FormTextualElementsStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormTextualElementsStylesheet.m; sourceTree = "<group>"; };
+		4DCE3E691B277685002C7995 /* LabelStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelStylesheet.h; sourceTree = "<group>"; };
+		4DCE3E6A1B277685002C7995 /* LabelStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelStylesheet.m; sourceTree = "<group>"; };
+		4DCE3E6C1B277685002C7995 /* TitleStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleStylesheet.h; sourceTree = "<group>"; };
+		4DCE3E6D1B277685002C7995 /* TitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleStylesheet.m; sourceTree = "<group>"; };
+		4DCE3E6E1B277685002C7995 /* MainStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainStylesheet.h; sourceTree = "<group>"; };
+		4DCE3E6F1B277685002C7995 /* MainStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStylesheet.m; sourceTree = "<group>"; };
+		4DCE3E701B277685002C7995 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4DCE3E7C1B27768D002C7995 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4DCE3E7E1B27768D002C7995 /* BaseComponentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseComponentsView.h; sourceTree = "<group>"; };
+		4DCE3E7F1B27768D002C7995 /* BaseComponentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseComponentsView.m; sourceTree = "<group>"; };
+		4DCE3E821B27768D002C7995 /* CustomTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldView.h; sourceTree = "<group>"; };
+		4DCE3E831B27768D002C7995 /* CustomTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldView.m; sourceTree = "<group>"; };
+		4DCE3E841B27768D002C7995 /* CustomTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTextFieldView.xib; sourceTree = "<group>"; };
+		4DCE3E861B27768D002C7995 /* NameTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameTextFieldView.h; sourceTree = "<group>"; };
+		4DCE3E871B27768D002C7995 /* NameTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameTextFieldView.m; sourceTree = "<group>"; };
+		4DCE3E891B27768D002C7995 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		4DCE3E8A1B27768D002C7995 /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		4DCE3E8B1B27768D002C7995 /* TitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleView.xib; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -184,24 +189,13 @@
 		4D3167D61B0BDC9400C3010B /* Styleguide */ = {
 			isa = PBXGroup;
 			children = (
-				4D3167D71B0BDC9400C3010B /* Stylesheets */,
+				4DCE3E541B277685002C7995 /* Stylesheets */,
 				4D31681F1B0D8E4900C3010B /* UIImage */,
 				4D3167E81B0BDC9400C3010B /* UIButton */,
 				4D3167EB1B0BDC9400C3010B /* UIView */,
 				4D6C50D61B2711B70058D0A0 /* Exceptions */,
 			);
 			path = Styleguide;
-			sourceTree = "<group>";
-		};
-		4D3167D71B0BDC9400C3010B /* Stylesheets */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3DAD1B2774FD002C7995 /* Components */,
-				4D3167E51B0BDC9400C3010B /* MainStylesheet.h */,
-				4D3167E61B0BDC9400C3010B /* MainStylesheet.m */,
-				4D3167E71B0BDC9400C3010B /* README.md */,
-			);
-			path = Stylesheets;
 			sourceTree = "<group>";
 		};
 		4D3167E81B0BDC9400C3010B /* UIButton */ = {
@@ -222,25 +216,6 @@
 				4D3167EF1B0BDC9400C3010B /* UIViewAttributes.m */,
 			);
 			path = UIView;
-			sourceTree = "<group>";
-		};
-		4D31680D1B0D560B00C3010B /* TitleView */ = {
-			isa = PBXGroup;
-			children = (
-				4D3168131B0D578400C3010B /* TitleView.xib */,
-				4D31680E1B0D564500C3010B /* TitleView.h */,
-				4D31680F1B0D564500C3010B /* TitleView.m */,
-			);
-			name = TitleView;
-			sourceTree = "<group>";
-		};
-		4D3168151B0D579100C3010B /* BaseComponentsView */ = {
-			isa = PBXGroup;
-			children = (
-				4D3168161B0D579100C3010B /* BaseComponentsView.h */,
-				4D3168171B0D579100C3010B /* BaseComponentsView.m */,
-			);
-			path = BaseComponentsView;
 			sourceTree = "<group>";
 		};
 		4D31681F1B0D8E4900C3010B /* UIImage */ = {
@@ -273,74 +248,6 @@
 				4DCE3D641B27323C002C7995 /* TAQBaseException.m */,
 			);
 			path = Exceptions;
-			sourceTree = "<group>";
-		};
-		4DCE3DAD1B2774FD002C7995 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3E501B277654002C7995 /* CustomTextFieldViewStylesheet */,
-				4DCE3DAE1B2774FD002C7995 /* BaseStylesheet */,
-				4DCE3DB11B2774FD002C7995 /* BodyStylesheet */,
-				4DCE3DB41B2774FD002C7995 /* ButtonStylesheet */,
-				4DCE3DB71B2774FD002C7995 /* CaptionStylesheet */,
-				4DCE3DBA1B2774FD002C7995 /* FormTextualElementsStylesheet */,
-				4DCE3DBD1B2774FD002C7995 /* TitleStylesheet */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		4DCE3DAE1B2774FD002C7995 /* BaseStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3DAF1B2774FD002C7995 /* BaseStylesheet.h */,
-				4DCE3DB01B2774FD002C7995 /* BaseStylesheet.m */,
-			);
-			path = BaseStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3DB11B2774FD002C7995 /* BodyStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3DB21B2774FD002C7995 /* BodyStylesheet.h */,
-				4DCE3DB31B2774FD002C7995 /* BodyStylesheet.m */,
-			);
-			path = BodyStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3DB41B2774FD002C7995 /* ButtonStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3DB51B2774FD002C7995 /* ButtonStylesheet.h */,
-				4DCE3DB61B2774FD002C7995 /* ButtonStylesheet.m */,
-			);
-			path = ButtonStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3DB71B2774FD002C7995 /* CaptionStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3DB81B2774FD002C7995 /* CaptionStylesheet.h */,
-				4DCE3DB91B2774FD002C7995 /* CaptionStylesheet.m */,
-			);
-			path = CaptionStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3DBA1B2774FD002C7995 /* FormTextualElementsStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3DBB1B2774FD002C7995 /* FormTextualElementsStylesheet.h */,
-				4DCE3DBC1B2774FD002C7995 /* FormTextualElementsStylesheet.m */,
-			);
-			path = FormTextualElementsStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3DBD1B2774FD002C7995 /* TitleStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3DBE1B2774FD002C7995 /* TitleStylesheet.h */,
-				4DCE3DBF1B2774FD002C7995 /* TitleStylesheet.m */,
-			);
-			path = TitleStylesheet;
 			sourceTree = "<group>";
 		};
 		4DCE3DCA1B277577002C7995 /* Home */ = {
@@ -438,40 +345,160 @@
 			path = TAQGuideTitleView;
 			sourceTree = "<group>";
 		};
-		4DCE3E451B27763E002C7995 /* CustomCheckboxButtonView */ = {
+		4DCE3E541B277685002C7995 /* Stylesheets */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E551B277685002C7995 /* Components */,
+				4DCE3E6E1B277685002C7995 /* MainStylesheet.h */,
+				4DCE3E6F1B277685002C7995 /* MainStylesheet.m */,
+				4DCE3E701B277685002C7995 /* README.md */,
+			);
+			path = Stylesheets;
+			sourceTree = "<group>";
+		};
+		4DCE3E551B277685002C7995 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E561B277685002C7995 /* BaseStylesheet */,
+				4DCE3E591B277685002C7995 /* BodyStylesheet */,
+				4DCE3E5C1B277685002C7995 /* ButtonStylesheet */,
+				4DCE3E5F1B277685002C7995 /* CaptionStylesheet */,
+				4DCE3E621B277685002C7995 /* CustomTextFieldViewStylesheet */,
+				4DCE3E651B277685002C7995 /* FormTextualElementsStylesheet */,
+				4DCE3E681B277685002C7995 /* LabelStylesheet */,
+				4DCE3E6B1B277685002C7995 /* TitleStylesheet */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4DCE3E561B277685002C7995 /* BaseStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E571B277685002C7995 /* BaseStylesheet.h */,
+				4DCE3E581B277685002C7995 /* BaseStylesheet.m */,
+			);
+			path = BaseStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3E591B277685002C7995 /* BodyStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E5A1B277685002C7995 /* BodyStylesheet.h */,
+				4DCE3E5B1B277685002C7995 /* BodyStylesheet.m */,
+			);
+			path = BodyStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3E5C1B277685002C7995 /* ButtonStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E5D1B277685002C7995 /* ButtonStylesheet.h */,
+				4DCE3E5E1B277685002C7995 /* ButtonStylesheet.m */,
+			);
+			path = ButtonStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3E5F1B277685002C7995 /* CaptionStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E601B277685002C7995 /* CaptionStylesheet.h */,
+				4DCE3E611B277685002C7995 /* CaptionStylesheet.m */,
+			);
+			path = CaptionStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3E621B277685002C7995 /* CustomTextFieldViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E631B277685002C7995 /* CustomTextFieldViewStylesheet.h */,
+				4DCE3E641B277685002C7995 /* CustomTextFieldViewStylesheet.m */,
+			);
+			path = CustomTextFieldViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3E651B277685002C7995 /* FormTextualElementsStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E661B277685002C7995 /* FormTextualElementsStylesheet.h */,
+				4DCE3E671B277685002C7995 /* FormTextualElementsStylesheet.m */,
+			);
+			path = FormTextualElementsStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3E681B277685002C7995 /* LabelStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E691B277685002C7995 /* LabelStylesheet.h */,
+				4DCE3E6A1B277685002C7995 /* LabelStylesheet.m */,
+			);
+			path = LabelStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3E6B1B277685002C7995 /* TitleStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E6C1B277685002C7995 /* TitleStylesheet.h */,
+				4DCE3E6D1B277685002C7995 /* TitleStylesheet.m */,
+			);
+			path = TitleStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3E7B1B27768D002C7995 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E7C1B27768D002C7995 /* .gitkeep */,
+				4DCE3E7D1B27768D002C7995 /* BaseComponentsView */,
+				4DCE3E801B27768D002C7995 /* CustomCheckboxButtonView */,
+				4DCE3E811B27768D002C7995 /* CustomTextFieldView */,
+				4DCE3E881B27768D002C7995 /* TitleView */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		4DCE3E7D1B27768D002C7995 /* BaseComponentsView */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3E7E1B27768D002C7995 /* BaseComponentsView.h */,
+				4DCE3E7F1B27768D002C7995 /* BaseComponentsView.m */,
+			);
+			path = BaseComponentsView;
+			sourceTree = "<group>";
+		};
+		4DCE3E801B27768D002C7995 /* CustomCheckboxButtonView */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = CustomCheckboxButtonView;
 			sourceTree = "<group>";
 		};
-		4DCE3E461B27763E002C7995 /* CustomTextFieldView */ = {
+		4DCE3E811B27768D002C7995 /* CustomTextFieldView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E471B27763E002C7995 /* CustomTextFieldView.h */,
-				4DCE3E481B27763E002C7995 /* CustomTextFieldView.m */,
-				4DCE3E491B27763E002C7995 /* CustomTextFieldView.xib */,
-				4DCE3E4A1B27763E002C7995 /* NameTextFieldView */,
+				4DCE3E821B27768D002C7995 /* CustomTextFieldView.h */,
+				4DCE3E831B27768D002C7995 /* CustomTextFieldView.m */,
+				4DCE3E841B27768D002C7995 /* CustomTextFieldView.xib */,
+				4DCE3E851B27768D002C7995 /* NameTextFieldView */,
 			);
 			path = CustomTextFieldView;
 			sourceTree = "<group>";
 		};
-		4DCE3E4A1B27763E002C7995 /* NameTextFieldView */ = {
+		4DCE3E851B27768D002C7995 /* NameTextFieldView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E4B1B27763E002C7995 /* NameTextFieldView.h */,
-				4DCE3E4C1B27763E002C7995 /* NameTextFieldView.m */,
+				4DCE3E861B27768D002C7995 /* NameTextFieldView.h */,
+				4DCE3E871B27768D002C7995 /* NameTextFieldView.m */,
 			);
 			path = NameTextFieldView;
 			sourceTree = "<group>";
 		};
-		4DCE3E501B277654002C7995 /* CustomTextFieldViewStylesheet */ = {
+		4DCE3E881B27768D002C7995 /* TitleView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E511B277654002C7995 /* CustomTextFieldViewStylesheet.h */,
-				4DCE3E521B277654002C7995 /* CustomTextFieldViewStylesheet.m */,
+				4DCE3E891B27768D002C7995 /* TitleView.h */,
+				4DCE3E8A1B27768D002C7995 /* TitleView.m */,
+				4DCE3E8B1B27768D002C7995 /* TitleView.xib */,
 			);
-			path = CustomTextFieldViewStylesheet;
+			path = TitleView;
 			sourceTree = "<group>";
 		};
 		4DEB0ECA1A8E4FE60048477D /* Fonts */ = {
@@ -554,20 +581,9 @@
 		5BFCA8D91A792AE7001B1BA5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				5BFCA8DA1A792AE7001B1BA5 /* ViewComponents */,
+				4DCE3E7B1B27768D002C7995 /* ViewComponents */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		5BFCA8DA1A792AE7001B1BA5 /* ViewComponents */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3E451B27763E002C7995 /* CustomCheckboxButtonView */,
-				4DCE3E461B27763E002C7995 /* CustomTextFieldView */,
-				4D3168151B0D579100C3010B /* BaseComponentsView */,
-				4D31680D1B0D560B00C3010B /* TitleView */,
-			);
-			path = ViewComponents;
 			sourceTree = "<group>";
 		};
 		5BFCA8DB1A792BE1001B1BA5 /* App */ = {
@@ -652,18 +668,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3167F51B0BDC9400C3010B /* README.md in Resources */,
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
 				4DCE3E3F1B27761F002C7995 /* TAQGuideSubtitleView.xib in Resources */,
-				4D3168141B0D578400C3010B /* TitleView.xib in Resources */,
 				4DCE3E3A1B27761F002C7995 /* TAQComponentsViewController.xib in Resources */,
+				4DCE3E8F1B27768D002C7995 /* CustomTextFieldView.xib in Resources */,
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,
 				5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */,
 				4DCE3E441B27761F002C7995 /* TAQGuideViewController.xib in Resources */,
 				4DCE3DE71B277577002C7995 /* HomeViewController.xib in Resources */,
+				4DCE3E8C1B27768D002C7995 /* .gitkeep in Resources */,
 				5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */,
 				4DCE3E421B27761F002C7995 /* TAQGuideTitleView.xib in Resources */,
-				4DCE3E4E1B27763E002C7995 /* CustomTextFieldView.xib in Resources */,
+				4DCE3E921B27768D002C7995 /* TitleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,26 +725,25 @@
 			files = (
 				4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */,
 				4DCE3D5F1B271E99002C7995 /* TAQUnknownKeyException.m in Sources */,
-				4DCE3E4D1B27763E002C7995 /* CustomTextFieldView.m in Sources */,
+				4DCE3E8E1B27768D002C7995 /* CustomTextFieldView.m in Sources */,
 				5BECD2971A6FEF2D00A48259 /* main.m in Sources */,
+				4DCE3E731B277685002C7995 /* ButtonStylesheet.m in Sources */,
+				4DCE3E7A1B277685002C7995 /* README.md in Sources */,
 				4DCE3E411B27761F002C7995 /* TAQGuideTitleView.m in Sources */,
-				4DCE3DC21B2774FD002C7995 /* ButtonStylesheet.m in Sources */,
-				4D3168101B0D564500C3010B /* TitleView.m in Sources */,
+				4DCE3E901B27768D002C7995 /* NameTextFieldView.m in Sources */,
 				4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */,
-				4DCE3DC51B2774FD002C7995 /* TitleStylesheet.m in Sources */,
-				4DCE3DC41B2774FD002C7995 /* FormTextualElementsStylesheet.m in Sources */,
-				4D3168191B0D579100C3010B /* BaseComponentsView.m in Sources */,
 				4DCE3D621B272128002C7995 /* TAQInvalidStyleRuleException.m in Sources */,
 				4DCE3E3C1B27761F002C7995 /* TAQFormsViewController.m in Sources */,
+				4DCE3E781B277685002C7995 /* TitleStylesheet.m in Sources */,
 				4DCE3E431B27761F002C7995 /* TAQGuideViewController.m in Sources */,
-				4D3167F41B0BDC9400C3010B /* MainStylesheet.m in Sources */,
+				4DCE3E8D1B27768D002C7995 /* BaseComponentsView.m in Sources */,
 				4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */,
-				4DCE3E531B277654002C7995 /* CustomTextFieldViewStylesheet.m in Sources */,
 				4DCE3E401B27761F002C7995 /* TAQGuideTableViewDataModel.m in Sources */,
+				4DCE3E761B277685002C7995 /* FormTextualElementsStylesheet.m in Sources */,
 				5BFCA8DE1A792BE1001B1BA5 /* AppDelegate.m in Sources */,
 				4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */,
-				4DCE3E4F1B27763E002C7995 /* NameTextFieldView.m in Sources */,
-				4DCE3DC01B2774FD002C7995 /* BaseStylesheet.m in Sources */,
+				4DCE3E711B277685002C7995 /* BaseStylesheet.m in Sources */,
+				4DCE3E791B277685002C7995 /* MainStylesheet.m in Sources */,
 				4DCE3E3B1B27761F002C7995 /* TAQControlsViewController.m in Sources */,
 				4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */,
 				4DCE3E3D1B27761F002C7995 /* TAQTypographyViewController.m in Sources */,
@@ -736,10 +751,13 @@
 				4DCE3E3E1B27761F002C7995 /* TAQGuideSubtitleView.m in Sources */,
 				4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */,
 				4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */,
+				4DCE3E771B277685002C7995 /* LabelStylesheet.m in Sources */,
+				4DCE3E741B277685002C7995 /* CaptionStylesheet.m in Sources */,
 				4DCE3E381B27761F002C7995 /* TAQColorSwatchesViewController.m in Sources */,
+				4DCE3E721B277685002C7995 /* BodyStylesheet.m in Sources */,
+				4DCE3E911B27768D002C7995 /* TitleView.m in Sources */,
 				4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */,
-				4DCE3DC31B2774FD002C7995 /* CaptionStylesheet.m in Sources */,
-				4DCE3DC11B2774FD002C7995 /* BodyStylesheet.m in Sources */,
+				4DCE3E751B277685002C7995 /* CustomTextFieldViewStylesheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

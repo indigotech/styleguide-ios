@@ -77,8 +77,6 @@
     [self addGuideTitleWithText:@"1.2 TEXTUAL ELEMENTS IN FORMS"];
     
     [self addLabels];
-    [self addInputValues];
-    [self inputPlaceholder];
     [self addTitles];
     [self addCaption];
     [self addBody];
@@ -87,16 +85,6 @@
 - (void)addLabels {
     [self addGuideSubtitleWithText:@"1.2.1 LABELS"];
     [self addLabelWithText:@"Label - This is a label" style:@"Label_Label"];
-}
-
-- (void)addInputValues {
-    [self addGuideSubtitleWithText:@"1.2.2 INPUT VALUES"];
-    [self addLabelWithText:@"Input Value - This is an input value." style:@"InputValue_Label"];
-}
-
-- (void)inputPlaceholder {
-    [self addGuideSubtitleWithText:@"1.2.3 INPUT PLACEHOLDER"];
-    [self addLabelWithText:@"Input Placeholder - This is an input placeholder." style:@"InputPlaceholder_Label"];
 }
 
 - (void)addTitles {
