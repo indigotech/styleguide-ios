@@ -7,12 +7,12 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "radio button select@2x.png"
+      "filename" : "check box select@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "radio button select@3x.png"
+      "filename" : "check box select@3x.png"
     }
   ],
   "info" : {

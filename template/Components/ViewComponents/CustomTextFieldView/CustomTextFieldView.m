@@ -34,7 +34,7 @@
             [self.textFieldButton setValue:@"CustomTextFieldView_IsError_Button" forUndefinedKey:@"stylesheet"];
              break;
         case CustomTextFieldViewStateActive:
-            [self.textFieldButton setImage:[UIImage imageNamed:@"ic-delete-password"] forState:UIControlStateNormal];
+            [self.textFieldButton setImage:[UIImage imageNamed:@"ic-textfield_delete"] forState:UIControlStateNormal];
             [self defaultSetup];
             break;
         case CustomTextFieldViewStateDefault:
@@ -50,7 +50,7 @@
             break;
         case CustomTextFieldViewStateHighlight:
             [self defaultSetup];
-            [self.textFieldButton setImage:[UIImage imageNamed:@"ic-success"] forState:UIControlStateNormal];
+            [self.textFieldButton setImage:[UIImage imageNamed:@"ic-textfield_success"] forState:UIControlStateNormal];
             break;
         default:
             break;

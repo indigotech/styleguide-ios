@@ -17,6 +17,7 @@
 #import "CustomTextFieldViewStylesheet.h"
 #import "LabelStylesheet.h"
 #import "CustomRadioButtonViewStylesheet.h"
+#import "CustomCheckboxButtonViewStylesheet.h"
 
 #define CLASS_SUFFIX @"Stylesheet"
 
@@ -33,6 +34,7 @@
     [MainStylesheet importStylesheetClass:[BodyStylesheet class] toMainDictionary:mainDictionary];
     [MainStylesheet importStylesheetClass:[CustomTextFieldViewStylesheet class] toMainDictionary:mainDictionary];
     [MainStylesheet importStylesheetClass:[CustomRadioButtonViewStylesheet class] toMainDictionary:mainDictionary];
+    [MainStylesheet importStylesheetClass:[CustomCheckboxButtonViewStylesheet class] toMainDictionary:mainDictionary];
     
     return mainDictionary;
 }

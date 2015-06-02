@@ -1,19 +1,18 @@
 //
-//  CustomRadioButtonView.m
+//  CustomCheckboxButton.m
 //  template
 //
 //  Created by Taqtile on 6/2/15.
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "CustomRadioButtonView.h"
+#import "CustomCheckboxButtonView.h"
 
-@implementation CustomRadioButtonView
+@implementation CustomCheckboxButtonView
 {
     __weak IBOutlet UIButton *_button;
 }
 
-#pragma mark - View lifecycle
 -(void)awakeFromNib {
     [super awakeFromNib];
     [self setup];
@@ -28,18 +27,18 @@
 }
 
 -(void)setup {
-    self.state = CustomRadioButtonViewStateActive;
+    self.state = CustomCheckboxButtonViewStateActive;
     self.selected = NO;
 }
 
 #pragma mark - setter
--(void)setState:(CustomRadioButtonViewState)state {
+-(void)setState:(CustomCheckboxButtonViewState)state {
     _state = state;
     switch (state) {
-        case CustomRadioButtonViewStateActive:
+        case CustomCheckboxButtonViewStateActive:
             [_button setEnabled:YES];
             break;
-        case CustomRadioButtonViewStateInactive:
+        case CustomCheckboxButtonViewStateInactive:
             [_button setEnabled:NO];
             break;
         default:
@@ -50,6 +49,7 @@
 -(void)setSelected:(BOOL)selected {
     _selected = selected;
     [_button setTitle:@"Input value" forState:UIControlStateNormal];
-    [_button setImage:[[UIImage imageNamed:selected ? @"ic-radio_is_selected" : @"ic-radio"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
+    [_button setImage:[UIImage imageNamed:selected ? @"ic-checkbox_is_selected" : @"ic-checkbox"] forState:UIControlStateNormal];
 }
 @end
+

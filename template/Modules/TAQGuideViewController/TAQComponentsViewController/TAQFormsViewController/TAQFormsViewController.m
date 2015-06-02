@@ -10,6 +10,7 @@
 #import "NameTextFieldView.h"
 #import "CustomPickerView.h"
 #import "CustomRadioButtonView.h"
+#import "CustomCheckboxButtonView.h"
 
 @interface TAQFormsViewController ()
 
@@ -28,6 +29,7 @@
     [self addNameTextfield];
     [self addPickerView];
     [self addRadioButton];
+    [self addCheckboxButton];
 }
 
 - (void)addNameTextfield {
@@ -112,6 +114,28 @@
         CustomRadioButtonView *customRadioButtonView = (CustomRadioButtonView *)componentView;
         [customRadioButtonView setSelected:YES];
         [customRadioButtonView setState:CustomRadioButtonViewStateInactive];
+    }];
+}
+
+- (void)addCheckboxButton {
+    [self addGuideTitleWithText:@"Checkbox button"];
+    
+    [self addComponentWithClass:[CustomCheckboxButtonView class] setup:nil];
+    
+    [self addComponentWithClass:[CustomCheckboxButtonView class] setup:^(UIView *componentView){
+        [(CustomCheckboxButtonView *)componentView setSelected:YES];
+    }];
+    
+    [self addComponentWithClass:[CustomCheckboxButtonView class] setup:^(UIView *componentView){
+        CustomCheckboxButtonView *customRadioButtonView = (CustomCheckboxButtonView *)componentView;
+        [customRadioButtonView setSelected:NO];
+        [customRadioButtonView setState:CustomCheckboxButtonViewStateInactive];
+    }];
+    
+    [self addComponentWithClass:[CustomCheckboxButtonView class] setup:^(UIView *componentView){
+        CustomCheckboxButtonView *customRadioButtonView = (CustomCheckboxButtonView *)componentView;
+        [customRadioButtonView setSelected:YES];
+        [customRadioButtonView setState:CustomCheckboxButtonViewStateInactive];
     }];
 }
 

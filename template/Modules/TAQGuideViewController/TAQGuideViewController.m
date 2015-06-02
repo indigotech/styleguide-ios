@@ -65,7 +65,7 @@
 
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    UIViewController *vc = [[((TAQGuideTableViewDataModel *)self.tableViewData[indexPath.row]).nextViewController alloc] initWithNibName:@"ComponentsViewController" bundle:nil];
+    UIViewController *vc = [[((TAQGuideTableViewDataModel *)self.tableViewData[indexPath.row]).nextViewController alloc] initWithNibName:@"TAQComponentsViewController" bundle:nil];
     [self.navigationController pushViewController:vc animated:YES];
     [_tableView deselectRowAtIndexPath:indexPath animated:YES];
 }

@@ -39,7 +39,7 @@
     self.textField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Select" attributes:attributes];
     [self.textFieldButton setTitle:@"" forState:UIControlStateNormal];
     self.captionLabel.text = @"";
-    [self.textFieldButton setImage:[[UIImage imageNamed:@"ic-picker"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
+    [self.textFieldButton setImage:[[UIImage imageNamed:@"ic-textfield_picker"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
     [self.textFieldButton addTarget:self action:@selector(didTouchPickerButton) forControlEvents:UIControlEventTouchUpInside];
     
     _pickerView = [[UIPickerView alloc] init];
