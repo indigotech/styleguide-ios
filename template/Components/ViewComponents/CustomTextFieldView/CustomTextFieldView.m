@@ -31,6 +31,7 @@
             [self.textFieldContainerView setValue:@"CustomTextFieldView_TextField_IsError_View" forUndefinedKey:@"stylesheet"];
             [self.textField setValue:@"InputValue_IsError_TextField" forUndefinedKey:@"stylesheet"];
             [self.captionLabel setValue:@"Caption_IsError_Label" forUndefinedKey:@"stylesheet"];
+            [self.textFieldButton setValue:@"CustomTextFieldView_IsError_Button" forUndefinedKey:@"stylesheet"];
              break;
         case CustomTextFieldViewStateActive:
             [self.textFieldButton setImage:[UIImage imageNamed:@"ic-delete-password"] forState:UIControlStateNormal];
@@ -44,6 +45,8 @@
             [self.textFieldContainerView setValue:@"CustomTextFieldView_TextField_IsInactive_View" forUndefinedKey:@"stylesheet"];
             [self.textField setValue:@"InputValue_IsInactive_TextField" forUndefinedKey:@"stylesheet"];
             [self.captionLabel setValue:@"Caption_IsInactive_Label" forUndefinedKey:@"stylesheet"];
+            [self.textFieldButton setValue:@"CustomTextFieldView_IsInactive_Button" forUndefinedKey:@"stylesheet"];
+             break;
             break;
         case CustomTextFieldViewStateHighlight:
             [self defaultSetup];
@@ -58,8 +61,7 @@
     [self.fieldNameLabel setValue:@"Label_Label" forUndefinedKey:@"stylesheet"];
     [self.textFieldContainerView setValue:@"CustomTextFieldView_TextField_View" forUndefinedKey:@"stylesheet"];
     [self.textField setValue:@"InputValue_TextField" forUndefinedKey:@"stylesheet"];
+    [self.textFieldButton setValue:@"CustomTextFieldView_Button" forUndefinedKey:@"stylesheet"];
     [self.captionLabel setValue:@"Caption_Label" forUndefinedKey:@"stylesheet"];
 }
-
-
 @end

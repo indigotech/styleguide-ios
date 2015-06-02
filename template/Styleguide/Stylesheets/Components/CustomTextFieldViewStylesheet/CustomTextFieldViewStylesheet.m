@@ -29,6 +29,12 @@
              @"CustomTextFieldView_Button": @{
                      PK_BUTTON_TINT_COLOR:UICOLOR_FROM_HEX(COLOR_GRAY_DARKEST)
                     },
+             @"CustomTextFieldView_IsInactive_Button": @{
+                     PK_BUTTON_TINT_COLOR:UICOLOR_DISABLED_FROM_HEX(COLOR_GRAY_DARKEST)
+                    },
+             @"CustomTextFieldView_IsError_Button": @{
+                     PK_BUTTON_TINT_COLOR:UICOLOR_FROM_HEX(COLOR_ALERT)
+                    },
              };
 }
 @end

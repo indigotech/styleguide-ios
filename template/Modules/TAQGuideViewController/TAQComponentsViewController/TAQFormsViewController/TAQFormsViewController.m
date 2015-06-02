@@ -8,6 +8,7 @@
 
 #import "TAQFormsViewController.h"
 #import "NameTextFieldView.h"
+#import "CustomPickerView.h"
 
 @interface TAQFormsViewController ()
 
@@ -24,6 +25,7 @@
 #pragma mark - overriden method
 - (void)addComponents {
     [self addNameTextfield];
+    [self addPickerView];
 }
 
 - (void)addNameTextfield {
@@ -50,9 +52,37 @@
     }];
 }
 
+- (void)addPickerView {
+    [self addGuideTitleWithText:@"Picker"];
+    
+    [self addCustomPickerViewWithSetup:^(CustomPickerView *customPickerView){
+        [customPickerView setState:CustomTextFieldViewStateDefault];
+    }];
+    [self addCustomPickerViewWithSetup:^(CustomPickerView *customPickerView){
+        [customPickerView.textField setText:@"Bob"];
+        [customPickerView setState:CustomTextFieldViewStateHighlight];
+    }];
+    [self addCustomPickerViewWithSetup:^(CustomPickerView *customPickerView){
+        [customPickerView.textField setText:@"Bob"];
+        [customPickerView setState:CustomTextFieldViewStateInactive];
+    }];
+    [self addCustomPickerViewWithSetup:^(CustomPickerView *customPickerView){
+        [customPickerView.textField setText:@"Bob"];
+        [customPickerView setState:CustomTextFieldViewStateActive];
+    }];
+    [self addCustomPickerViewWithSetup:^(CustomPickerView *customPickerView){
+        [customPickerView setState:CustomTextFieldViewStateError];
+    }];
+}
+
 #pragma mark - Aux methods
 - (void)addNameTextFieldWithSetup:(void (^)(NameTextFieldView *nameTextFieldView))setup {
      NameTextFieldView *nameTextFieldView = (NameTextFieldView *)[self addViewWithDefaultMarginsAndClass:[NameTextFieldView class] height:0];
     setup(nameTextFieldView);
+}
+
+- (void)addCustomPickerViewWithSetup:(void (^)(CustomPickerView *customPickerView))setup {
+     CustomPickerView *customPickerView = (CustomPickerView *)[self addViewWithDefaultMarginsAndClass:[CustomPickerView class] height:0];
+    setup(customPickerView);
 }
 @end
