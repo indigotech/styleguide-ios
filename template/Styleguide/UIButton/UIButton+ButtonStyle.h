@@ -17,5 +17,6 @@
 @property (strong, nonatomic) UIImage* highlightedBackgroundImage;
 @property (strong, nonatomic) UIImage* disabledBackgroundImage;
 @property (strong, nonatomic) NSValue* buttonContentEdgeInsets;
+@property (strong, nonatomic) NSValue* buttonTitleEdgeInsets;
 
 @end

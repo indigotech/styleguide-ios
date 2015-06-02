@@ -26,6 +26,7 @@ All constants in this file use the following pattern (in eBNF):
 #define PK_BUTTON_BACKGROUND_COLOR                      @"backgroundColor"
 #define PK_BUTTON_TYPE                                  @"buttonType"
 #define PK_BUTTON_TINT_COLOR                            @"tintColor"
+#define PK_BUTTON_CONTENT_HORIZONTAL_ALIGNMENT          @"contentHorizontalAlignment"
 // Created properties on UIButton+ButtonStyle
 #define PK_BUTTON_DISABLED_BACKGROUND_IMAGE             @"disabledBackgroundImage"
 #define PK_BUTTON_DISABLED_TITLE_COLOR                  @"disabledTitleColor"
@@ -34,6 +35,7 @@ All constants in this file use the following pattern (in eBNF):
 #define PK_BUTTON_HIGHLIGHTED_BACKGROUND_IMAGE          @"highlightedBackgroundImage"
 #define PK_BUTTON_HIGHLIGHTED_TITLE_COLOR               @"highlightedTitleColor"
 #define PK_BUTTON_CONTENT_EDGE_INSETS                   @"buttonContentEdgeInsets"
+#define PK_BUTTON_TITLE_EDGE_INSETS                     @"buttonTitleEdgeInsets"
 
 #define PK_LABEL_FONT                                   @"font"
 #define PK_LABEL_TEXT_COLOR                             @"textColor"

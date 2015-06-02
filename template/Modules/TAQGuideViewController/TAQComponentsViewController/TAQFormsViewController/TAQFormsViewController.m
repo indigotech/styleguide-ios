@@ -9,6 +9,7 @@
 #import "TAQFormsViewController.h"
 #import "NameTextFieldView.h"
 #import "CustomPickerView.h"
+#import "CustomRadioButtonView.h"
 
 @interface TAQFormsViewController ()
 
@@ -26,6 +27,22 @@
 - (void)addComponents {
     [self addNameTextfield];
     [self addPickerView];
+    
+    [self addGuideTitleWithText:@"Radio button"];
+    
+    [self addCustomRadioButtonViewWithSetup:nil];
+    [self addCustomRadioButtonViewWithSetup:^(CustomRadioButtonView *customRadioButtonView){
+        [customRadioButtonView setSelected:YES];
+    }];
+    [self addCustomRadioButtonViewWithSetup:^(CustomRadioButtonView *customRadioButtonView){
+        [customRadioButtonView setSelected:NO];
+        [customRadioButtonView setState:CustomRadioButtonViewStateInactive];
+    }];
+    [self addCustomRadioButtonViewWithSetup:^(CustomRadioButtonView *customRadioButtonView){
+        [customRadioButtonView setSelected:YES];
+        [customRadioButtonView setState:CustomRadioButtonViewStateInactive];
+    }];
+    
 }
 
 - (void)addNameTextfield {
@@ -78,11 +95,16 @@
 #pragma mark - Aux methods
 - (void)addNameTextFieldWithSetup:(void (^)(NameTextFieldView *nameTextFieldView))setup {
      NameTextFieldView *nameTextFieldView = (NameTextFieldView *)[self addViewWithDefaultMarginsAndClass:[NameTextFieldView class] height:0];
-    setup(nameTextFieldView);
+    if (setup) setup(nameTextFieldView);
 }
 
 - (void)addCustomPickerViewWithSetup:(void (^)(CustomPickerView *customPickerView))setup {
      CustomPickerView *customPickerView = (CustomPickerView *)[self addViewWithDefaultMarginsAndClass:[CustomPickerView class] height:0];
-    setup(customPickerView);
+    if (setup) setup(customPickerView);
+}
+
+- (void)addCustomRadioButtonViewWithSetup:(void (^)(CustomRadioButtonView *customRadioButtonView))setup {
+     CustomRadioButtonView *customRadioButtonView = (CustomRadioButtonView *)[self addViewWithDefaultMarginsAndClass:[CustomRadioButtonView class] height:0];
+    if (setup) setup(customRadioButtonView);
 }
 @end
