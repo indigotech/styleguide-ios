@@ -27,43 +27,36 @@
 - (void)addComponents {
     [self addNameTextfield];
     [self addPickerView];
-    
-    [self addGuideTitleWithText:@"Radio button"];
-    
-    [self addCustomRadioButtonViewWithSetup:nil];
-    [self addCustomRadioButtonViewWithSetup:^(CustomRadioButtonView *customRadioButtonView){
-        [customRadioButtonView setSelected:YES];
-    }];
-    [self addCustomRadioButtonViewWithSetup:^(CustomRadioButtonView *customRadioButtonView){
-        [customRadioButtonView setSelected:NO];
-        [customRadioButtonView setState:CustomRadioButtonViewStateInactive];
-    }];
-    [self addCustomRadioButtonViewWithSetup:^(CustomRadioButtonView *customRadioButtonView){
-        [customRadioButtonView setSelected:YES];
-        [customRadioButtonView setState:CustomRadioButtonViewStateInactive];
-    }];
-    
+    [self addRadioButton];
 }
 
 - (void)addNameTextfield {
     [self addGuideTitleWithText:@"Name textfield"];
     
-    [self addNameTextFieldWithSetup:^(NameTextFieldView *nameTextFieldView){
-        [nameTextFieldView setState:CustomTextFieldViewStateDefault];
+    [self addComponentWithClass:[NameTextFieldView class] setup:^(UIView *componentView){
+        [(NameTextFieldView *)componentView setState:CustomTextFieldViewStateDefault];
     }];
-    [self addNameTextFieldWithSetup:^(NameTextFieldView *nameTextFieldView){
+    
+    [self addComponentWithClass:[NameTextFieldView class] setup:^(UIView *componentView){
+        NameTextFieldView *nameTextFieldView = (NameTextFieldView *)componentView;
         [nameTextFieldView.textField setText:@"Bob"];
         [nameTextFieldView setState:CustomTextFieldViewStateHighlight];
     }];
-    [self addNameTextFieldWithSetup:^(NameTextFieldView *nameTextFieldView){
+    
+    [self addComponentWithClass:[NameTextFieldView class] setup:^(UIView *componentView){
+        NameTextFieldView *nameTextFieldView = (NameTextFieldView *)componentView;
         [nameTextFieldView.textField setText:@"Bob"];
         [nameTextFieldView setState:CustomTextFieldViewStateInactive];
     }];
-    [self addNameTextFieldWithSetup:^(NameTextFieldView *nameTextFieldView){
+    
+    [self addComponentWithClass:[NameTextFieldView class] setup:^(UIView *componentView){
+        NameTextFieldView *nameTextFieldView = (NameTextFieldView *)componentView;
         [nameTextFieldView.textField setText:@"Bob"];
         [nameTextFieldView setState:CustomTextFieldViewStateActive];
     }];
-    [self addNameTextFieldWithSetup:^(NameTextFieldView *nameTextFieldView){
+    
+    [self addComponentWithClass:[NameTextFieldView class] setup:^(UIView *componentView){
+        NameTextFieldView *nameTextFieldView = (NameTextFieldView *)componentView;
         [nameTextFieldView.textField setText:@"132n"];
         [nameTextFieldView setState:CustomTextFieldViewStateError];
     }];
@@ -72,39 +65,59 @@
 - (void)addPickerView {
     [self addGuideTitleWithText:@"Picker"];
     
-    [self addCustomPickerViewWithSetup:^(CustomPickerView *customPickerView){
-        [customPickerView setState:CustomTextFieldViewStateDefault];
+    [self addComponentWithClass:[CustomPickerView class] setup:^(UIView *componentView){
+        [(CustomPickerView *)componentView setState:CustomTextFieldViewStateDefault];
     }];
-    [self addCustomPickerViewWithSetup:^(CustomPickerView *customPickerView){
+    
+    [self addComponentWithClass:[CustomPickerView class] setup:^(UIView *componentView){
+        CustomPickerView *customPickerView = (CustomPickerView *)componentView;
         [customPickerView.textField setText:@"Bob"];
         [customPickerView setState:CustomTextFieldViewStateHighlight];
     }];
-    [self addCustomPickerViewWithSetup:^(CustomPickerView *customPickerView){
+    
+    [self addComponentWithClass:[CustomPickerView class] setup:^(UIView *componentView){
+        CustomPickerView *customPickerView = (CustomPickerView *)componentView;
         [customPickerView.textField setText:@"Bob"];
         [customPickerView setState:CustomTextFieldViewStateInactive];
     }];
-    [self addCustomPickerViewWithSetup:^(CustomPickerView *customPickerView){
+    
+    [self addComponentWithClass:[CustomPickerView class] setup:^(UIView *componentView){
+        CustomPickerView *customPickerView = (CustomPickerView *)componentView;
         [customPickerView.textField setText:@"Bob"];
         [customPickerView setState:CustomTextFieldViewStateActive];
     }];
-    [self addCustomPickerViewWithSetup:^(CustomPickerView *customPickerView){
+    
+    [self addComponentWithClass:[CustomPickerView class] setup:^(UIView *componentView){
+        CustomPickerView *customPickerView = (CustomPickerView *)componentView;
         [customPickerView setState:CustomTextFieldViewStateError];
     }];
 }
 
+- (void)addRadioButton {
+    [self addGuideTitleWithText:@"Radio button"];
+    
+    [self addComponentWithClass:[CustomRadioButtonView class] setup:nil];
+    
+    [self addComponentWithClass:[CustomRadioButtonView class] setup:^(UIView *componentView){
+        [(CustomRadioButtonView *)componentView setSelected:YES];
+    }];
+    
+    [self addComponentWithClass:[CustomRadioButtonView class] setup:^(UIView *componentView){
+        CustomRadioButtonView *customRadioButtonView = (CustomRadioButtonView *)componentView;
+        [customRadioButtonView setSelected:NO];
+        [customRadioButtonView setState:CustomRadioButtonViewStateInactive];
+    }];
+    
+    [self addComponentWithClass:[CustomRadioButtonView class] setup:^(UIView *componentView){
+        CustomRadioButtonView *customRadioButtonView = (CustomRadioButtonView *)componentView;
+        [customRadioButtonView setSelected:YES];
+        [customRadioButtonView setState:CustomRadioButtonViewStateInactive];
+    }];
+}
+
 #pragma mark - Aux methods
-- (void)addNameTextFieldWithSetup:(void (^)(NameTextFieldView *nameTextFieldView))setup {
-     NameTextFieldView *nameTextFieldView = (NameTextFieldView *)[self addViewWithDefaultMarginsAndClass:[NameTextFieldView class] height:0];
-    if (setup) setup(nameTextFieldView);
-}
-
-- (void)addCustomPickerViewWithSetup:(void (^)(CustomPickerView *customPickerView))setup {
-     CustomPickerView *customPickerView = (CustomPickerView *)[self addViewWithDefaultMarginsAndClass:[CustomPickerView class] height:0];
-    if (setup) setup(customPickerView);
-}
-
-- (void)addCustomRadioButtonViewWithSetup:(void (^)(CustomRadioButtonView *customRadioButtonView))setup {
-     CustomRadioButtonView *customRadioButtonView = (CustomRadioButtonView *)[self addViewWithDefaultMarginsAndClass:[CustomRadioButtonView class] height:0];
-    if (setup) setup(customRadioButtonView);
+- (void)addComponentWithClass:(Class)class setup:(void (^)(UIView *componentView))setup {
+     UIView *componentView = [self addViewWithDefaultMarginsAndClass:class height:0];
+    if (setup) setup(componentView);
 }
 @end
