@@ -1,5 +1,5 @@
 //
-//  TableViewItemCellContentViewStylesheet.h
+//  ViewStylesheet.h
 //  template
 //
 //  Created by Taqtile on 6/3/15.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TableViewItemCellContentViewStylesheet : NSObject
+@interface ViewStylesheet : NSObject
 + (NSDictionary *)stylesheet;
 @end

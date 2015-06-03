@@ -19,47 +19,52 @@
 		4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D641B27323C002C7995 /* TAQBaseException.m */; };
 		4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCC1B277577002C7995 /* HomeViewController.m */; };
 		4DCE3DE71B277577002C7995 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCD1B277577002C7995 /* HomeViewController.xib */; };
-		4DCE3E381B27761F002C7995 /* TAQColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E1E1B27761F002C7995 /* TAQColorSwatchesViewController.m */; };
-		4DCE3E391B27761F002C7995 /* TAQComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E201B27761F002C7995 /* TAQComponentsViewController.m */; };
-		4DCE3E3A1B27761F002C7995 /* TAQComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3E211B27761F002C7995 /* TAQComponentsViewController.xib */; };
-		4DCE3E3B1B27761F002C7995 /* TAQControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E241B27761F002C7995 /* TAQControlsViewController.m */; };
-		4DCE3E3C1B27761F002C7995 /* TAQFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E271B27761F002C7995 /* TAQFormsViewController.m */; };
-		4DCE3E3D1B27761F002C7995 /* TAQTypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E2A1B27761F002C7995 /* TAQTypographyViewController.m */; };
-		4DCE3E3E1B27761F002C7995 /* TAQGuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E2D1B27761F002C7995 /* TAQGuideSubtitleView.m */; };
-		4DCE3E3F1B27761F002C7995 /* TAQGuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3E2E1B27761F002C7995 /* TAQGuideSubtitleView.xib */; };
-		4DCE3E401B27761F002C7995 /* TAQGuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E301B27761F002C7995 /* TAQGuideTableViewDataModel.m */; };
-		4DCE3E411B27761F002C7995 /* TAQGuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E331B27761F002C7995 /* TAQGuideTitleView.m */; };
-		4DCE3E421B27761F002C7995 /* TAQGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3E341B27761F002C7995 /* TAQGuideTitleView.xib */; };
-		4DCE3E431B27761F002C7995 /* TAQGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3E361B27761F002C7995 /* TAQGuideViewController.m */; };
-		4DCE3E441B27761F002C7995 /* TAQGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3E371B27761F002C7995 /* TAQGuideViewController.xib */; };
-		4DCE3F4B1B277725002C7995 /* BaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F2C1B277725002C7995 /* BaseStylesheet.m */; };
-		4DCE3F4C1B277725002C7995 /* BodyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F2F1B277725002C7995 /* BodyStylesheet.m */; };
-		4DCE3F4D1B277725002C7995 /* ButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F321B277725002C7995 /* ButtonStylesheet.m */; };
-		4DCE3F4E1B277725002C7995 /* CaptionStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F351B277725002C7995 /* CaptionStylesheet.m */; };
-		4DCE3F4F1B277725002C7995 /* CustomCheckboxButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F381B277725002C7995 /* CustomCheckboxButtonViewStylesheet.m */; };
-		4DCE3F501B277725002C7995 /* CustomRadioButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F3B1B277725002C7995 /* CustomRadioButtonViewStylesheet.m */; };
-		4DCE3F511B277725002C7995 /* CustomTextFieldViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F3E1B277725002C7995 /* CustomTextFieldViewStylesheet.m */; };
-		4DCE3F521B277725002C7995 /* FormTextualElementsStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F411B277725002C7995 /* FormTextualElementsStylesheet.m */; };
-		4DCE3F531B277725002C7995 /* LabelStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F441B277725002C7995 /* LabelStylesheet.m */; };
-		4DCE3F541B277725002C7995 /* TitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F471B277725002C7995 /* TitleStylesheet.m */; };
-		4DCE3F551B277725002C7995 /* MainStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F491B277725002C7995 /* MainStylesheet.m */; };
-		4DCE3F561B277725002C7995 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F4A1B277725002C7995 /* README.md */; };
-		4DCE3F791B27776E002C7995 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3F581B27776E002C7995 /* .gitkeep */; };
-		4DCE3F7A1B27776E002C7995 /* BaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F5B1B27776E002C7995 /* BaseComponentsView.m */; };
-		4DCE3F7B1B27776E002C7995 /* CustomCheckboxButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F5E1B27776E002C7995 /* CustomCheckboxButtonView.m */; };
-		4DCE3F7C1B27776E002C7995 /* CustomCheckboxButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3F5F1B27776E002C7995 /* CustomCheckboxButtonView.xib */; };
-		4DCE3F7D1B27776E002C7995 /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F621B27776E002C7995 /* CustomPickerView.m */; };
-		4DCE3F7E1B27776E002C7995 /* CustomCheckboxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F651B27776E002C7995 /* CustomCheckboxButton.m */; };
-		4DCE3F7F1B27776E002C7995 /* CustomCheckboxButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3F661B27776E002C7995 /* CustomCheckboxButton.xib */; };
-		4DCE3F801B27776E002C7995 /* CustomRadioButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F681B27776E002C7995 /* CustomRadioButtonView.m */; };
-		4DCE3F811B27776E002C7995 /* CustomRadioButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3F691B27776E002C7995 /* CustomRadioButtonView.xib */; };
-		4DCE3F821B27776E002C7995 /* CustomTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F6C1B27776E002C7995 /* CustomTextFieldView.m */; };
-		4DCE3F831B27776E002C7995 /* CustomTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3F6D1B27776E002C7995 /* CustomTextFieldView.xib */; };
-		4DCE3F841B27776E002C7995 /* NameTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F701B27776E002C7995 /* NameTextFieldView.m */; };
-		4DCE3F851B27776E002C7995 /* TableViewItemCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F731B27776E002C7995 /* TableViewItemCellContentView.m */; };
-		4DCE3F861B27776E002C7995 /* TableViewItemCellContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3F741B27776E002C7995 /* TableViewItemCellContentView.xib */; };
-		4DCE3F871B27776E002C7995 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F771B27776E002C7995 /* TitleView.m */; };
-		4DCE3F881B27776E002C7995 /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3F781B27776E002C7995 /* TitleView.xib */; };
+		4DCE3FAA1B2777B1002C7995 /* TAQColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F8D1B2777B1002C7995 /* TAQColorSwatchesViewController.m */; };
+		4DCE3FAB1B2777B1002C7995 /* TAQComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F8F1B2777B1002C7995 /* TAQComponentsViewController.m */; };
+		4DCE3FAC1B2777B1002C7995 /* TAQComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3F901B2777B1002C7995 /* TAQComponentsViewController.xib */; };
+		4DCE3FAD1B2777B1002C7995 /* TAQControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F931B2777B1002C7995 /* TAQControlsViewController.m */; };
+		4DCE3FAE1B2777B1002C7995 /* TAQFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F961B2777B1002C7995 /* TAQFormsViewController.m */; };
+		4DCE3FAF1B2777B1002C7995 /* TAQListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F991B2777B1002C7995 /* TAQListsViewController.m */; };
+		4DCE3FB01B2777B1002C7995 /* TAQTypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F9C1B2777B1002C7995 /* TAQTypographyViewController.m */; };
+		4DCE3FB11B2777B1002C7995 /* TAQGuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F9F1B2777B1002C7995 /* TAQGuideSubtitleView.m */; };
+		4DCE3FB21B2777B1002C7995 /* TAQGuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA01B2777B1002C7995 /* TAQGuideSubtitleView.xib */; };
+		4DCE3FB31B2777B1002C7995 /* TAQGuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA21B2777B1002C7995 /* TAQGuideTableViewDataModel.m */; };
+		4DCE3FB41B2777B1002C7995 /* TAQGuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA51B2777B1002C7995 /* TAQGuideTitleView.m */; };
+		4DCE3FB51B2777B1002C7995 /* TAQGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA61B2777B1002C7995 /* TAQGuideTitleView.xib */; };
+		4DCE3FB61B2777B1002C7995 /* TAQGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA81B2777B1002C7995 /* TAQGuideViewController.m */; };
+		4DCE3FB71B2777B1002C7995 /* TAQGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA91B2777B1002C7995 /* TAQGuideViewController.xib */; };
+		4DCE3FDE1B2777BE002C7995 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FB91B2777BD002C7995 /* .gitkeep */; };
+		4DCE3FDF1B2777BE002C7995 /* BaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FBC1B2777BD002C7995 /* BaseComponentsView.m */; };
+		4DCE3FE01B2777BE002C7995 /* CustomCheckboxButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FBF1B2777BD002C7995 /* CustomCheckboxButtonView.m */; };
+		4DCE3FE11B2777BE002C7995 /* CustomCheckboxButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FC01B2777BD002C7995 /* CustomCheckboxButtonView.xib */; };
+		4DCE3FE21B2777BE002C7995 /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FC31B2777BD002C7995 /* CustomPickerView.m */; };
+		4DCE3FE31B2777BE002C7995 /* CustomCheckboxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FC61B2777BD002C7995 /* CustomCheckboxButton.m */; };
+		4DCE3FE41B2777BE002C7995 /* CustomCheckboxButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FC71B2777BD002C7995 /* CustomCheckboxButton.xib */; };
+		4DCE3FE51B2777BE002C7995 /* CustomRadioButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FC91B2777BD002C7995 /* CustomRadioButtonView.m */; };
+		4DCE3FE61B2777BE002C7995 /* CustomRadioButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FCA1B2777BD002C7995 /* CustomRadioButtonView.xib */; };
+		4DCE3FE71B2777BE002C7995 /* CustomTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FCD1B2777BD002C7995 /* CustomTextFieldView.m */; };
+		4DCE3FE81B2777BE002C7995 /* CustomTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FCE1B2777BD002C7995 /* CustomTextFieldView.xib */; };
+		4DCE3FE91B2777BE002C7995 /* NameTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FD11B2777BD002C7995 /* NameTextFieldView.m */; };
+		4DCE3FEA1B2777BE002C7995 /* TableViewItemCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FD41B2777BD002C7995 /* TableViewItemCellContentView.m */; };
+		4DCE3FEB1B2777BE002C7995 /* TableViewItemCellContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FD51B2777BD002C7995 /* TableViewItemCellContentView.xib */; };
+		4DCE3FEC1B2777BE002C7995 /* TableViewPrimaryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FD81B2777BD002C7995 /* TableViewPrimaryHeaderView.m */; };
+		4DCE3FED1B2777BE002C7995 /* TableViewPrimaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FD91B2777BE002C7995 /* TableViewPrimaryHeaderView.xib */; };
+		4DCE3FEE1B2777BE002C7995 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FDC1B2777BE002C7995 /* TitleView.m */; };
+		4DCE3FEF1B2777BE002C7995 /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FDD1B2777BE002C7995 /* TitleView.xib */; };
+		4DCE40191B2777D1002C7995 /* BaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FF41B2777D1002C7995 /* BaseStylesheet.m */; };
+		4DCE401A1B2777D1002C7995 /* BodyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FF71B2777D1002C7995 /* BodyStylesheet.m */; };
+		4DCE401B1B2777D1002C7995 /* ButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FFA1B2777D1002C7995 /* ButtonStylesheet.m */; };
+		4DCE401C1B2777D1002C7995 /* CaptionStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FFD1B2777D1002C7995 /* CaptionStylesheet.m */; };
+		4DCE401D1B2777D1002C7995 /* CustomCheckboxButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40001B2777D1002C7995 /* CustomCheckboxButtonViewStylesheet.m */; };
+		4DCE401E1B2777D1002C7995 /* CustomRadioButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40031B2777D1002C7995 /* CustomRadioButtonViewStylesheet.m */; };
+		4DCE401F1B2777D1002C7995 /* CustomTextFieldViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40061B2777D1002C7995 /* CustomTextFieldViewStylesheet.m */; };
+		4DCE40201B2777D1002C7995 /* FormTextualElementsStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40091B2777D1002C7995 /* FormTextualElementsStylesheet.m */; };
+		4DCE40211B2777D1002C7995 /* LabelStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE400C1B2777D1002C7995 /* LabelStylesheet.m */; };
+		4DCE40221B2777D1002C7995 /* TableViewItemCellContentViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE400F1B2777D1002C7995 /* TableViewItemCellContentViewStylesheet.m */; };
+		4DCE40231B2777D1002C7995 /* TitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40121B2777D1002C7995 /* TitleStylesheet.m */; };
+		4DCE40241B2777D1002C7995 /* ViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40151B2777D1002C7995 /* ViewStylesheet.m */; };
+		4DCE40251B2777D1002C7995 /* MainStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40171B2777D1002C7995 /* MainStylesheet.m */; };
+		4DCE40261B2777D1002C7995 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40181B2777D1002C7995 /* README.md */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -95,76 +100,85 @@
 		4DCE3DCB1B277577002C7995 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		4DCE3DCC1B277577002C7995 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		4DCE3DCD1B277577002C7995 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		4DCE3E1D1B27761F002C7995 /* TAQColorSwatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQColorSwatchesViewController.h; sourceTree = "<group>"; };
-		4DCE3E1E1B27761F002C7995 /* TAQColorSwatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQColorSwatchesViewController.m; sourceTree = "<group>"; };
-		4DCE3E1F1B27761F002C7995 /* TAQComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQComponentsViewController.h; sourceTree = "<group>"; };
-		4DCE3E201B27761F002C7995 /* TAQComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQComponentsViewController.m; sourceTree = "<group>"; };
-		4DCE3E211B27761F002C7995 /* TAQComponentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQComponentsViewController.xib; sourceTree = "<group>"; };
-		4DCE3E231B27761F002C7995 /* TAQControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQControlsViewController.h; sourceTree = "<group>"; };
-		4DCE3E241B27761F002C7995 /* TAQControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQControlsViewController.m; sourceTree = "<group>"; };
-		4DCE3E261B27761F002C7995 /* TAQFormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQFormsViewController.h; sourceTree = "<group>"; };
-		4DCE3E271B27761F002C7995 /* TAQFormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQFormsViewController.m; sourceTree = "<group>"; };
-		4DCE3E291B27761F002C7995 /* TAQTypographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQTypographyViewController.h; sourceTree = "<group>"; };
-		4DCE3E2A1B27761F002C7995 /* TAQTypographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQTypographyViewController.m; sourceTree = "<group>"; };
-		4DCE3E2C1B27761F002C7995 /* TAQGuideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideSubtitleView.h; sourceTree = "<group>"; };
-		4DCE3E2D1B27761F002C7995 /* TAQGuideSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideSubtitleView.m; sourceTree = "<group>"; };
-		4DCE3E2E1B27761F002C7995 /* TAQGuideSubtitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideSubtitleView.xib; sourceTree = "<group>"; };
-		4DCE3E2F1B27761F002C7995 /* TAQGuideTableViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideTableViewDataModel.h; sourceTree = "<group>"; };
-		4DCE3E301B27761F002C7995 /* TAQGuideTableViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideTableViewDataModel.m; sourceTree = "<group>"; };
-		4DCE3E321B27761F002C7995 /* TAQGuideTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideTitleView.h; sourceTree = "<group>"; };
-		4DCE3E331B27761F002C7995 /* TAQGuideTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideTitleView.m; sourceTree = "<group>"; };
-		4DCE3E341B27761F002C7995 /* TAQGuideTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideTitleView.xib; sourceTree = "<group>"; };
-		4DCE3E351B27761F002C7995 /* TAQGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideViewController.h; sourceTree = "<group>"; };
-		4DCE3E361B27761F002C7995 /* TAQGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideViewController.m; sourceTree = "<group>"; };
-		4DCE3E371B27761F002C7995 /* TAQGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideViewController.xib; sourceTree = "<group>"; };
-		4DCE3F2B1B277725002C7995 /* BaseStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F2C1B277725002C7995 /* BaseStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F2E1B277725002C7995 /* BodyStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F2F1B277725002C7995 /* BodyStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F311B277725002C7995 /* ButtonStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F321B277725002C7995 /* ButtonStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F341B277725002C7995 /* CaptionStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptionStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F351B277725002C7995 /* CaptionStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptionStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F371B277725002C7995 /* CustomCheckboxButtonViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCheckboxButtonViewStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F381B277725002C7995 /* CustomCheckboxButtonViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCheckboxButtonViewStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F3A1B277725002C7995 /* CustomRadioButtonViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRadioButtonViewStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F3B1B277725002C7995 /* CustomRadioButtonViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRadioButtonViewStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F3D1B277725002C7995 /* CustomTextFieldViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldViewStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F3E1B277725002C7995 /* CustomTextFieldViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldViewStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F401B277725002C7995 /* FormTextualElementsStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormTextualElementsStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F411B277725002C7995 /* FormTextualElementsStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormTextualElementsStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F431B277725002C7995 /* LabelStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F441B277725002C7995 /* LabelStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F461B277725002C7995 /* TitleStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F471B277725002C7995 /* TitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F481B277725002C7995 /* MainStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainStylesheet.h; sourceTree = "<group>"; };
-		4DCE3F491B277725002C7995 /* MainStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStylesheet.m; sourceTree = "<group>"; };
-		4DCE3F4A1B277725002C7995 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4DCE3F581B27776E002C7995 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		4DCE3F5A1B27776E002C7995 /* BaseComponentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseComponentsView.h; sourceTree = "<group>"; };
-		4DCE3F5B1B27776E002C7995 /* BaseComponentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseComponentsView.m; sourceTree = "<group>"; };
-		4DCE3F5D1B27776E002C7995 /* CustomCheckboxButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCheckboxButtonView.h; sourceTree = "<group>"; };
-		4DCE3F5E1B27776E002C7995 /* CustomCheckboxButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCheckboxButtonView.m; sourceTree = "<group>"; };
-		4DCE3F5F1B27776E002C7995 /* CustomCheckboxButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCheckboxButtonView.xib; sourceTree = "<group>"; };
-		4DCE3F611B27776E002C7995 /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerView.h; sourceTree = "<group>"; };
-		4DCE3F621B27776E002C7995 /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerView.m; sourceTree = "<group>"; };
-		4DCE3F641B27776E002C7995 /* CustomCheckboxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCheckboxButton.h; sourceTree = "<group>"; };
-		4DCE3F651B27776E002C7995 /* CustomCheckboxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCheckboxButton.m; sourceTree = "<group>"; };
-		4DCE3F661B27776E002C7995 /* CustomCheckboxButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCheckboxButton.xib; sourceTree = "<group>"; };
-		4DCE3F671B27776E002C7995 /* CustomRadioButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRadioButtonView.h; sourceTree = "<group>"; };
-		4DCE3F681B27776E002C7995 /* CustomRadioButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRadioButtonView.m; sourceTree = "<group>"; };
-		4DCE3F691B27776E002C7995 /* CustomRadioButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomRadioButtonView.xib; sourceTree = "<group>"; };
-		4DCE3F6B1B27776E002C7995 /* CustomTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldView.h; sourceTree = "<group>"; };
-		4DCE3F6C1B27776E002C7995 /* CustomTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldView.m; sourceTree = "<group>"; };
-		4DCE3F6D1B27776E002C7995 /* CustomTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTextFieldView.xib; sourceTree = "<group>"; };
-		4DCE3F6F1B27776E002C7995 /* NameTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameTextFieldView.h; sourceTree = "<group>"; };
-		4DCE3F701B27776E002C7995 /* NameTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameTextFieldView.m; sourceTree = "<group>"; };
-		4DCE3F721B27776E002C7995 /* TableViewItemCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewItemCellContentView.h; sourceTree = "<group>"; };
-		4DCE3F731B27776E002C7995 /* TableViewItemCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewItemCellContentView.m; sourceTree = "<group>"; };
-		4DCE3F741B27776E002C7995 /* TableViewItemCellContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewItemCellContentView.xib; sourceTree = "<group>"; };
-		4DCE3F761B27776E002C7995 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
-		4DCE3F771B27776E002C7995 /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
-		4DCE3F781B27776E002C7995 /* TitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleView.xib; sourceTree = "<group>"; };
+		4DCE3F8C1B2777B1002C7995 /* TAQColorSwatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQColorSwatchesViewController.h; sourceTree = "<group>"; };
+		4DCE3F8D1B2777B1002C7995 /* TAQColorSwatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQColorSwatchesViewController.m; sourceTree = "<group>"; };
+		4DCE3F8E1B2777B1002C7995 /* TAQComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQComponentsViewController.h; sourceTree = "<group>"; };
+		4DCE3F8F1B2777B1002C7995 /* TAQComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQComponentsViewController.m; sourceTree = "<group>"; };
+		4DCE3F901B2777B1002C7995 /* TAQComponentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQComponentsViewController.xib; sourceTree = "<group>"; };
+		4DCE3F921B2777B1002C7995 /* TAQControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQControlsViewController.h; sourceTree = "<group>"; };
+		4DCE3F931B2777B1002C7995 /* TAQControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQControlsViewController.m; sourceTree = "<group>"; };
+		4DCE3F951B2777B1002C7995 /* TAQFormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQFormsViewController.h; sourceTree = "<group>"; };
+		4DCE3F961B2777B1002C7995 /* TAQFormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQFormsViewController.m; sourceTree = "<group>"; };
+		4DCE3F981B2777B1002C7995 /* TAQListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQListsViewController.h; sourceTree = "<group>"; };
+		4DCE3F991B2777B1002C7995 /* TAQListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQListsViewController.m; sourceTree = "<group>"; };
+		4DCE3F9B1B2777B1002C7995 /* TAQTypographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQTypographyViewController.h; sourceTree = "<group>"; };
+		4DCE3F9C1B2777B1002C7995 /* TAQTypographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQTypographyViewController.m; sourceTree = "<group>"; };
+		4DCE3F9E1B2777B1002C7995 /* TAQGuideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideSubtitleView.h; sourceTree = "<group>"; };
+		4DCE3F9F1B2777B1002C7995 /* TAQGuideSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideSubtitleView.m; sourceTree = "<group>"; };
+		4DCE3FA01B2777B1002C7995 /* TAQGuideSubtitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideSubtitleView.xib; sourceTree = "<group>"; };
+		4DCE3FA11B2777B1002C7995 /* TAQGuideTableViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideTableViewDataModel.h; sourceTree = "<group>"; };
+		4DCE3FA21B2777B1002C7995 /* TAQGuideTableViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideTableViewDataModel.m; sourceTree = "<group>"; };
+		4DCE3FA41B2777B1002C7995 /* TAQGuideTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideTitleView.h; sourceTree = "<group>"; };
+		4DCE3FA51B2777B1002C7995 /* TAQGuideTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideTitleView.m; sourceTree = "<group>"; };
+		4DCE3FA61B2777B1002C7995 /* TAQGuideTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideTitleView.xib; sourceTree = "<group>"; };
+		4DCE3FA71B2777B1002C7995 /* TAQGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideViewController.h; sourceTree = "<group>"; };
+		4DCE3FA81B2777B1002C7995 /* TAQGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideViewController.m; sourceTree = "<group>"; };
+		4DCE3FA91B2777B1002C7995 /* TAQGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideViewController.xib; sourceTree = "<group>"; };
+		4DCE3FB91B2777BD002C7995 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4DCE3FBB1B2777BD002C7995 /* BaseComponentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseComponentsView.h; sourceTree = "<group>"; };
+		4DCE3FBC1B2777BD002C7995 /* BaseComponentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseComponentsView.m; sourceTree = "<group>"; };
+		4DCE3FBE1B2777BD002C7995 /* CustomCheckboxButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCheckboxButtonView.h; sourceTree = "<group>"; };
+		4DCE3FBF1B2777BD002C7995 /* CustomCheckboxButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCheckboxButtonView.m; sourceTree = "<group>"; };
+		4DCE3FC01B2777BD002C7995 /* CustomCheckboxButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCheckboxButtonView.xib; sourceTree = "<group>"; };
+		4DCE3FC21B2777BD002C7995 /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerView.h; sourceTree = "<group>"; };
+		4DCE3FC31B2777BD002C7995 /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerView.m; sourceTree = "<group>"; };
+		4DCE3FC51B2777BD002C7995 /* CustomCheckboxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCheckboxButton.h; sourceTree = "<group>"; };
+		4DCE3FC61B2777BD002C7995 /* CustomCheckboxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCheckboxButton.m; sourceTree = "<group>"; };
+		4DCE3FC71B2777BD002C7995 /* CustomCheckboxButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCheckboxButton.xib; sourceTree = "<group>"; };
+		4DCE3FC81B2777BD002C7995 /* CustomRadioButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRadioButtonView.h; sourceTree = "<group>"; };
+		4DCE3FC91B2777BD002C7995 /* CustomRadioButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRadioButtonView.m; sourceTree = "<group>"; };
+		4DCE3FCA1B2777BD002C7995 /* CustomRadioButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomRadioButtonView.xib; sourceTree = "<group>"; };
+		4DCE3FCC1B2777BD002C7995 /* CustomTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldView.h; sourceTree = "<group>"; };
+		4DCE3FCD1B2777BD002C7995 /* CustomTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldView.m; sourceTree = "<group>"; };
+		4DCE3FCE1B2777BD002C7995 /* CustomTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTextFieldView.xib; sourceTree = "<group>"; };
+		4DCE3FD01B2777BD002C7995 /* NameTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameTextFieldView.h; sourceTree = "<group>"; };
+		4DCE3FD11B2777BD002C7995 /* NameTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameTextFieldView.m; sourceTree = "<group>"; };
+		4DCE3FD31B2777BD002C7995 /* TableViewItemCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewItemCellContentView.h; sourceTree = "<group>"; };
+		4DCE3FD41B2777BD002C7995 /* TableViewItemCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewItemCellContentView.m; sourceTree = "<group>"; };
+		4DCE3FD51B2777BD002C7995 /* TableViewItemCellContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewItemCellContentView.xib; sourceTree = "<group>"; };
+		4DCE3FD71B2777BD002C7995 /* TableViewPrimaryHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewPrimaryHeaderView.h; sourceTree = "<group>"; };
+		4DCE3FD81B2777BD002C7995 /* TableViewPrimaryHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewPrimaryHeaderView.m; sourceTree = "<group>"; };
+		4DCE3FD91B2777BE002C7995 /* TableViewPrimaryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewPrimaryHeaderView.xib; sourceTree = "<group>"; };
+		4DCE3FDB1B2777BE002C7995 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		4DCE3FDC1B2777BE002C7995 /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		4DCE3FDD1B2777BE002C7995 /* TitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleView.xib; sourceTree = "<group>"; };
+		4DCE3FF31B2777D1002C7995 /* BaseStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStylesheet.h; sourceTree = "<group>"; };
+		4DCE3FF41B2777D1002C7995 /* BaseStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStylesheet.m; sourceTree = "<group>"; };
+		4DCE3FF61B2777D1002C7995 /* BodyStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyStylesheet.h; sourceTree = "<group>"; };
+		4DCE3FF71B2777D1002C7995 /* BodyStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyStylesheet.m; sourceTree = "<group>"; };
+		4DCE3FF91B2777D1002C7995 /* ButtonStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonStylesheet.h; sourceTree = "<group>"; };
+		4DCE3FFA1B2777D1002C7995 /* ButtonStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonStylesheet.m; sourceTree = "<group>"; };
+		4DCE3FFC1B2777D1002C7995 /* CaptionStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptionStylesheet.h; sourceTree = "<group>"; };
+		4DCE3FFD1B2777D1002C7995 /* CaptionStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptionStylesheet.m; sourceTree = "<group>"; };
+		4DCE3FFF1B2777D1002C7995 /* CustomCheckboxButtonViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCheckboxButtonViewStylesheet.h; sourceTree = "<group>"; };
+		4DCE40001B2777D1002C7995 /* CustomCheckboxButtonViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCheckboxButtonViewStylesheet.m; sourceTree = "<group>"; };
+		4DCE40021B2777D1002C7995 /* CustomRadioButtonViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRadioButtonViewStylesheet.h; sourceTree = "<group>"; };
+		4DCE40031B2777D1002C7995 /* CustomRadioButtonViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRadioButtonViewStylesheet.m; sourceTree = "<group>"; };
+		4DCE40051B2777D1002C7995 /* CustomTextFieldViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldViewStylesheet.h; sourceTree = "<group>"; };
+		4DCE40061B2777D1002C7995 /* CustomTextFieldViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldViewStylesheet.m; sourceTree = "<group>"; };
+		4DCE40081B2777D1002C7995 /* FormTextualElementsStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormTextualElementsStylesheet.h; sourceTree = "<group>"; };
+		4DCE40091B2777D1002C7995 /* FormTextualElementsStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormTextualElementsStylesheet.m; sourceTree = "<group>"; };
+		4DCE400B1B2777D1002C7995 /* LabelStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelStylesheet.h; sourceTree = "<group>"; };
+		4DCE400C1B2777D1002C7995 /* LabelStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelStylesheet.m; sourceTree = "<group>"; };
+		4DCE400E1B2777D1002C7995 /* TableViewItemCellContentViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewItemCellContentViewStylesheet.h; sourceTree = "<group>"; };
+		4DCE400F1B2777D1002C7995 /* TableViewItemCellContentViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewItemCellContentViewStylesheet.m; sourceTree = "<group>"; };
+		4DCE40111B2777D1002C7995 /* TitleStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleStylesheet.h; sourceTree = "<group>"; };
+		4DCE40121B2777D1002C7995 /* TitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleStylesheet.m; sourceTree = "<group>"; };
+		4DCE40141B2777D1002C7995 /* ViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewStylesheet.h; sourceTree = "<group>"; };
+		4DCE40151B2777D1002C7995 /* ViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewStylesheet.m; sourceTree = "<group>"; };
+		4DCE40161B2777D1002C7995 /* MainStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainStylesheet.h; sourceTree = "<group>"; };
+		4DCE40171B2777D1002C7995 /* MainStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStylesheet.m; sourceTree = "<group>"; };
+		4DCE40181B2777D1002C7995 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -218,7 +232,7 @@
 		4D3167D61B0BDC9400C3010B /* Styleguide */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F281B277725002C7995 /* Stylesheets */,
+				4DCE3FF01B2777D1002C7995 /* Stylesheets */,
 				4D31681F1B0D8E4900C3010B /* UIImage */,
 				4D3167E81B0BDC9400C3010B /* UIButton */,
 				4D3167EB1B0BDC9400C3010B /* UIView */,
@@ -289,303 +303,344 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		4DCE3E1A1B27761F002C7995 /* TAQGuideViewController */ = {
+		4DCE3F891B2777B1002C7995 /* TAQGuideViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E1B1B27761F002C7995 /* TAQComponentsViewController */,
-				4DCE3E2B1B27761F002C7995 /* TAQGuideSubtitleView */,
-				4DCE3E2F1B27761F002C7995 /* TAQGuideTableViewDataModel.h */,
-				4DCE3E301B27761F002C7995 /* TAQGuideTableViewDataModel.m */,
-				4DCE3E311B27761F002C7995 /* TAQGuideTitleView */,
-				4DCE3E351B27761F002C7995 /* TAQGuideViewController.h */,
-				4DCE3E361B27761F002C7995 /* TAQGuideViewController.m */,
-				4DCE3E371B27761F002C7995 /* TAQGuideViewController.xib */,
+				4DCE3F8A1B2777B1002C7995 /* TAQComponentsViewController */,
+				4DCE3F9D1B2777B1002C7995 /* TAQGuideSubtitleView */,
+				4DCE3FA11B2777B1002C7995 /* TAQGuideTableViewDataModel.h */,
+				4DCE3FA21B2777B1002C7995 /* TAQGuideTableViewDataModel.m */,
+				4DCE3FA31B2777B1002C7995 /* TAQGuideTitleView */,
+				4DCE3FA71B2777B1002C7995 /* TAQGuideViewController.h */,
+				4DCE3FA81B2777B1002C7995 /* TAQGuideViewController.m */,
+				4DCE3FA91B2777B1002C7995 /* TAQGuideViewController.xib */,
 			);
 			path = TAQGuideViewController;
 			sourceTree = "<group>";
 		};
-		4DCE3E1B1B27761F002C7995 /* TAQComponentsViewController */ = {
+		4DCE3F8A1B2777B1002C7995 /* TAQComponentsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E1C1B27761F002C7995 /* TAQColorSwatchesViewController */,
-				4DCE3E1F1B27761F002C7995 /* TAQComponentsViewController.h */,
-				4DCE3E201B27761F002C7995 /* TAQComponentsViewController.m */,
-				4DCE3E211B27761F002C7995 /* TAQComponentsViewController.xib */,
-				4DCE3E221B27761F002C7995 /* TAQControlsViewController */,
-				4DCE3E251B27761F002C7995 /* TAQFormsViewController */,
-				4DCE3E281B27761F002C7995 /* TAQTypographyViewController */,
+				4DCE3F8B1B2777B1002C7995 /* TAQColorSwatchesViewController */,
+				4DCE3F8E1B2777B1002C7995 /* TAQComponentsViewController.h */,
+				4DCE3F8F1B2777B1002C7995 /* TAQComponentsViewController.m */,
+				4DCE3F901B2777B1002C7995 /* TAQComponentsViewController.xib */,
+				4DCE3F911B2777B1002C7995 /* TAQControlsViewController */,
+				4DCE3F941B2777B1002C7995 /* TAQFormsViewController */,
+				4DCE3F971B2777B1002C7995 /* TAQListsViewController */,
+				4DCE3F9A1B2777B1002C7995 /* TAQTypographyViewController */,
 			);
 			path = TAQComponentsViewController;
 			sourceTree = "<group>";
 		};
-		4DCE3E1C1B27761F002C7995 /* TAQColorSwatchesViewController */ = {
+		4DCE3F8B1B2777B1002C7995 /* TAQColorSwatchesViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E1D1B27761F002C7995 /* TAQColorSwatchesViewController.h */,
-				4DCE3E1E1B27761F002C7995 /* TAQColorSwatchesViewController.m */,
+				4DCE3F8C1B2777B1002C7995 /* TAQColorSwatchesViewController.h */,
+				4DCE3F8D1B2777B1002C7995 /* TAQColorSwatchesViewController.m */,
 			);
 			path = TAQColorSwatchesViewController;
 			sourceTree = "<group>";
 		};
-		4DCE3E221B27761F002C7995 /* TAQControlsViewController */ = {
+		4DCE3F911B2777B1002C7995 /* TAQControlsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E231B27761F002C7995 /* TAQControlsViewController.h */,
-				4DCE3E241B27761F002C7995 /* TAQControlsViewController.m */,
+				4DCE3F921B2777B1002C7995 /* TAQControlsViewController.h */,
+				4DCE3F931B2777B1002C7995 /* TAQControlsViewController.m */,
 			);
 			path = TAQControlsViewController;
 			sourceTree = "<group>";
 		};
-		4DCE3E251B27761F002C7995 /* TAQFormsViewController */ = {
+		4DCE3F941B2777B1002C7995 /* TAQFormsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E261B27761F002C7995 /* TAQFormsViewController.h */,
-				4DCE3E271B27761F002C7995 /* TAQFormsViewController.m */,
+				4DCE3F951B2777B1002C7995 /* TAQFormsViewController.h */,
+				4DCE3F961B2777B1002C7995 /* TAQFormsViewController.m */,
 			);
 			path = TAQFormsViewController;
 			sourceTree = "<group>";
 		};
-		4DCE3E281B27761F002C7995 /* TAQTypographyViewController */ = {
+		4DCE3F971B2777B1002C7995 /* TAQListsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E291B27761F002C7995 /* TAQTypographyViewController.h */,
-				4DCE3E2A1B27761F002C7995 /* TAQTypographyViewController.m */,
+				4DCE3F981B2777B1002C7995 /* TAQListsViewController.h */,
+				4DCE3F991B2777B1002C7995 /* TAQListsViewController.m */,
+			);
+			path = TAQListsViewController;
+			sourceTree = "<group>";
+		};
+		4DCE3F9A1B2777B1002C7995 /* TAQTypographyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3F9B1B2777B1002C7995 /* TAQTypographyViewController.h */,
+				4DCE3F9C1B2777B1002C7995 /* TAQTypographyViewController.m */,
 			);
 			path = TAQTypographyViewController;
 			sourceTree = "<group>";
 		};
-		4DCE3E2B1B27761F002C7995 /* TAQGuideSubtitleView */ = {
+		4DCE3F9D1B2777B1002C7995 /* TAQGuideSubtitleView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E2C1B27761F002C7995 /* TAQGuideSubtitleView.h */,
-				4DCE3E2D1B27761F002C7995 /* TAQGuideSubtitleView.m */,
-				4DCE3E2E1B27761F002C7995 /* TAQGuideSubtitleView.xib */,
+				4DCE3F9E1B2777B1002C7995 /* TAQGuideSubtitleView.h */,
+				4DCE3F9F1B2777B1002C7995 /* TAQGuideSubtitleView.m */,
+				4DCE3FA01B2777B1002C7995 /* TAQGuideSubtitleView.xib */,
 			);
 			path = TAQGuideSubtitleView;
 			sourceTree = "<group>";
 		};
-		4DCE3E311B27761F002C7995 /* TAQGuideTitleView */ = {
+		4DCE3FA31B2777B1002C7995 /* TAQGuideTitleView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E321B27761F002C7995 /* TAQGuideTitleView.h */,
-				4DCE3E331B27761F002C7995 /* TAQGuideTitleView.m */,
-				4DCE3E341B27761F002C7995 /* TAQGuideTitleView.xib */,
+				4DCE3FA41B2777B1002C7995 /* TAQGuideTitleView.h */,
+				4DCE3FA51B2777B1002C7995 /* TAQGuideTitleView.m */,
+				4DCE3FA61B2777B1002C7995 /* TAQGuideTitleView.xib */,
 			);
 			path = TAQGuideTitleView;
 			sourceTree = "<group>";
 		};
-		4DCE3F281B277725002C7995 /* Stylesheets */ = {
+		4DCE3FB81B2777BD002C7995 /* ViewComponents */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F291B277725002C7995 /* Components */,
-				4DCE3F481B277725002C7995 /* MainStylesheet.h */,
-				4DCE3F491B277725002C7995 /* MainStylesheet.m */,
-				4DCE3F4A1B277725002C7995 /* README.md */,
-			);
-			path = Stylesheets;
-			sourceTree = "<group>";
-		};
-		4DCE3F291B277725002C7995 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F2A1B277725002C7995 /* BaseStylesheet */,
-				4DCE3F2D1B277725002C7995 /* BodyStylesheet */,
-				4DCE3F301B277725002C7995 /* ButtonStylesheet */,
-				4DCE3F331B277725002C7995 /* CaptionStylesheet */,
-				4DCE3F361B277725002C7995 /* CustomCheckboxButtonViewStylesheet */,
-				4DCE3F391B277725002C7995 /* CustomRadioButtonStylesheet */,
-				4DCE3F3C1B277725002C7995 /* CustomTextFieldViewStylesheet */,
-				4DCE3F3F1B277725002C7995 /* FormTextualElementsStylesheet */,
-				4DCE3F421B277725002C7995 /* LabelStylesheet */,
-				4DCE3F451B277725002C7995 /* TitleStylesheet */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		4DCE3F2A1B277725002C7995 /* BaseStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F2B1B277725002C7995 /* BaseStylesheet.h */,
-				4DCE3F2C1B277725002C7995 /* BaseStylesheet.m */,
-			);
-			path = BaseStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3F2D1B277725002C7995 /* BodyStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F2E1B277725002C7995 /* BodyStylesheet.h */,
-				4DCE3F2F1B277725002C7995 /* BodyStylesheet.m */,
-			);
-			path = BodyStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3F301B277725002C7995 /* ButtonStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F311B277725002C7995 /* ButtonStylesheet.h */,
-				4DCE3F321B277725002C7995 /* ButtonStylesheet.m */,
-			);
-			path = ButtonStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3F331B277725002C7995 /* CaptionStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F341B277725002C7995 /* CaptionStylesheet.h */,
-				4DCE3F351B277725002C7995 /* CaptionStylesheet.m */,
-			);
-			path = CaptionStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3F361B277725002C7995 /* CustomCheckboxButtonViewStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F371B277725002C7995 /* CustomCheckboxButtonViewStylesheet.h */,
-				4DCE3F381B277725002C7995 /* CustomCheckboxButtonViewStylesheet.m */,
-			);
-			path = CustomCheckboxButtonViewStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3F391B277725002C7995 /* CustomRadioButtonStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F3A1B277725002C7995 /* CustomRadioButtonViewStylesheet.h */,
-				4DCE3F3B1B277725002C7995 /* CustomRadioButtonViewStylesheet.m */,
-			);
-			path = CustomRadioButtonStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3F3C1B277725002C7995 /* CustomTextFieldViewStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F3D1B277725002C7995 /* CustomTextFieldViewStylesheet.h */,
-				4DCE3F3E1B277725002C7995 /* CustomTextFieldViewStylesheet.m */,
-			);
-			path = CustomTextFieldViewStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3F3F1B277725002C7995 /* FormTextualElementsStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F401B277725002C7995 /* FormTextualElementsStylesheet.h */,
-				4DCE3F411B277725002C7995 /* FormTextualElementsStylesheet.m */,
-			);
-			path = FormTextualElementsStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3F421B277725002C7995 /* LabelStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F431B277725002C7995 /* LabelStylesheet.h */,
-				4DCE3F441B277725002C7995 /* LabelStylesheet.m */,
-			);
-			path = LabelStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3F451B277725002C7995 /* TitleStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F461B277725002C7995 /* TitleStylesheet.h */,
-				4DCE3F471B277725002C7995 /* TitleStylesheet.m */,
-			);
-			path = TitleStylesheet;
-			sourceTree = "<group>";
-		};
-		4DCE3F571B27776E002C7995 /* ViewComponents */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F581B27776E002C7995 /* .gitkeep */,
-				4DCE3F591B27776E002C7995 /* BaseComponentsView */,
-				4DCE3F5C1B27776E002C7995 /* CustomCheckboxButtonView */,
-				4DCE3F601B27776E002C7995 /* CustomPickerView */,
-				4DCE3F631B27776E002C7995 /* CustomRadioButtonView */,
-				4DCE3F6A1B27776E002C7995 /* CustomTextFieldView */,
-				4DCE3F711B27776E002C7995 /* TableViewItemCellContentView */,
-				4DCE3F751B27776E002C7995 /* TitleView */,
+				4DCE3FB91B2777BD002C7995 /* .gitkeep */,
+				4DCE3FBA1B2777BD002C7995 /* BaseComponentsView */,
+				4DCE3FBD1B2777BD002C7995 /* CustomCheckboxButtonView */,
+				4DCE3FC11B2777BD002C7995 /* CustomPickerView */,
+				4DCE3FC41B2777BD002C7995 /* CustomRadioButtonView */,
+				4DCE3FCB1B2777BD002C7995 /* CustomTextFieldView */,
+				4DCE3FD21B2777BD002C7995 /* TableViewItemCellContentView */,
+				4DCE3FD61B2777BD002C7995 /* TableViewPrimaryHeaderView */,
+				4DCE3FDA1B2777BE002C7995 /* TitleView */,
 			);
 			path = ViewComponents;
 			sourceTree = "<group>";
 		};
-		4DCE3F591B27776E002C7995 /* BaseComponentsView */ = {
+		4DCE3FBA1B2777BD002C7995 /* BaseComponentsView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F5A1B27776E002C7995 /* BaseComponentsView.h */,
-				4DCE3F5B1B27776E002C7995 /* BaseComponentsView.m */,
+				4DCE3FBB1B2777BD002C7995 /* BaseComponentsView.h */,
+				4DCE3FBC1B2777BD002C7995 /* BaseComponentsView.m */,
 			);
 			path = BaseComponentsView;
 			sourceTree = "<group>";
 		};
-		4DCE3F5C1B27776E002C7995 /* CustomCheckboxButtonView */ = {
+		4DCE3FBD1B2777BD002C7995 /* CustomCheckboxButtonView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F5D1B27776E002C7995 /* CustomCheckboxButtonView.h */,
-				4DCE3F5E1B27776E002C7995 /* CustomCheckboxButtonView.m */,
-				4DCE3F5F1B27776E002C7995 /* CustomCheckboxButtonView.xib */,
+				4DCE3FBE1B2777BD002C7995 /* CustomCheckboxButtonView.h */,
+				4DCE3FBF1B2777BD002C7995 /* CustomCheckboxButtonView.m */,
+				4DCE3FC01B2777BD002C7995 /* CustomCheckboxButtonView.xib */,
 			);
 			path = CustomCheckboxButtonView;
 			sourceTree = "<group>";
 		};
-		4DCE3F601B27776E002C7995 /* CustomPickerView */ = {
+		4DCE3FC11B2777BD002C7995 /* CustomPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F611B27776E002C7995 /* CustomPickerView.h */,
-				4DCE3F621B27776E002C7995 /* CustomPickerView.m */,
+				4DCE3FC21B2777BD002C7995 /* CustomPickerView.h */,
+				4DCE3FC31B2777BD002C7995 /* CustomPickerView.m */,
 			);
 			path = CustomPickerView;
 			sourceTree = "<group>";
 		};
-		4DCE3F631B27776E002C7995 /* CustomRadioButtonView */ = {
+		4DCE3FC41B2777BD002C7995 /* CustomRadioButtonView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F641B27776E002C7995 /* CustomCheckboxButton.h */,
-				4DCE3F651B27776E002C7995 /* CustomCheckboxButton.m */,
-				4DCE3F661B27776E002C7995 /* CustomCheckboxButton.xib */,
-				4DCE3F671B27776E002C7995 /* CustomRadioButtonView.h */,
-				4DCE3F681B27776E002C7995 /* CustomRadioButtonView.m */,
-				4DCE3F691B27776E002C7995 /* CustomRadioButtonView.xib */,
+				4DCE3FC51B2777BD002C7995 /* CustomCheckboxButton.h */,
+				4DCE3FC61B2777BD002C7995 /* CustomCheckboxButton.m */,
+				4DCE3FC71B2777BD002C7995 /* CustomCheckboxButton.xib */,
+				4DCE3FC81B2777BD002C7995 /* CustomRadioButtonView.h */,
+				4DCE3FC91B2777BD002C7995 /* CustomRadioButtonView.m */,
+				4DCE3FCA1B2777BD002C7995 /* CustomRadioButtonView.xib */,
 			);
 			path = CustomRadioButtonView;
 			sourceTree = "<group>";
 		};
-		4DCE3F6A1B27776E002C7995 /* CustomTextFieldView */ = {
+		4DCE3FCB1B2777BD002C7995 /* CustomTextFieldView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F6B1B27776E002C7995 /* CustomTextFieldView.h */,
-				4DCE3F6C1B27776E002C7995 /* CustomTextFieldView.m */,
-				4DCE3F6D1B27776E002C7995 /* CustomTextFieldView.xib */,
-				4DCE3F6E1B27776E002C7995 /* NameTextFieldView */,
+				4DCE3FCC1B2777BD002C7995 /* CustomTextFieldView.h */,
+				4DCE3FCD1B2777BD002C7995 /* CustomTextFieldView.m */,
+				4DCE3FCE1B2777BD002C7995 /* CustomTextFieldView.xib */,
+				4DCE3FCF1B2777BD002C7995 /* NameTextFieldView */,
 			);
 			path = CustomTextFieldView;
 			sourceTree = "<group>";
 		};
-		4DCE3F6E1B27776E002C7995 /* NameTextFieldView */ = {
+		4DCE3FCF1B2777BD002C7995 /* NameTextFieldView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F6F1B27776E002C7995 /* NameTextFieldView.h */,
-				4DCE3F701B27776E002C7995 /* NameTextFieldView.m */,
+				4DCE3FD01B2777BD002C7995 /* NameTextFieldView.h */,
+				4DCE3FD11B2777BD002C7995 /* NameTextFieldView.m */,
 			);
 			path = NameTextFieldView;
 			sourceTree = "<group>";
 		};
-		4DCE3F711B27776E002C7995 /* TableViewItemCellContentView */ = {
+		4DCE3FD21B2777BD002C7995 /* TableViewItemCellContentView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F721B27776E002C7995 /* TableViewItemCellContentView.h */,
-				4DCE3F731B27776E002C7995 /* TableViewItemCellContentView.m */,
-				4DCE3F741B27776E002C7995 /* TableViewItemCellContentView.xib */,
+				4DCE3FD31B2777BD002C7995 /* TableViewItemCellContentView.h */,
+				4DCE3FD41B2777BD002C7995 /* TableViewItemCellContentView.m */,
+				4DCE3FD51B2777BD002C7995 /* TableViewItemCellContentView.xib */,
 			);
 			path = TableViewItemCellContentView;
 			sourceTree = "<group>";
 		};
-		4DCE3F751B27776E002C7995 /* TitleView */ = {
+		4DCE3FD61B2777BD002C7995 /* TableViewPrimaryHeaderView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F761B27776E002C7995 /* TitleView.h */,
-				4DCE3F771B27776E002C7995 /* TitleView.m */,
-				4DCE3F781B27776E002C7995 /* TitleView.xib */,
+				4DCE3FD71B2777BD002C7995 /* TableViewPrimaryHeaderView.h */,
+				4DCE3FD81B2777BD002C7995 /* TableViewPrimaryHeaderView.m */,
+				4DCE3FD91B2777BE002C7995 /* TableViewPrimaryHeaderView.xib */,
+			);
+			path = TableViewPrimaryHeaderView;
+			sourceTree = "<group>";
+		};
+		4DCE3FDA1B2777BE002C7995 /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3FDB1B2777BE002C7995 /* TitleView.h */,
+				4DCE3FDC1B2777BE002C7995 /* TitleView.m */,
+				4DCE3FDD1B2777BE002C7995 /* TitleView.xib */,
 			);
 			path = TitleView;
+			sourceTree = "<group>";
+		};
+		4DCE3FF01B2777D1002C7995 /* Stylesheets */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3FF11B2777D1002C7995 /* Components */,
+				4DCE40161B2777D1002C7995 /* MainStylesheet.h */,
+				4DCE40171B2777D1002C7995 /* MainStylesheet.m */,
+				4DCE40181B2777D1002C7995 /* README.md */,
+			);
+			path = Stylesheets;
+			sourceTree = "<group>";
+		};
+		4DCE3FF11B2777D1002C7995 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3FF21B2777D1002C7995 /* BaseStylesheet */,
+				4DCE3FF51B2777D1002C7995 /* BodyStylesheet */,
+				4DCE3FF81B2777D1002C7995 /* ButtonStylesheet */,
+				4DCE3FFB1B2777D1002C7995 /* CaptionStylesheet */,
+				4DCE3FFE1B2777D1002C7995 /* CustomCheckboxButtonViewStylesheet */,
+				4DCE40011B2777D1002C7995 /* CustomRadioButtonStylesheet */,
+				4DCE40041B2777D1002C7995 /* CustomTextFieldViewStylesheet */,
+				4DCE40071B2777D1002C7995 /* FormTextualElementsStylesheet */,
+				4DCE400A1B2777D1002C7995 /* LabelStylesheet */,
+				4DCE400D1B2777D1002C7995 /* TableViewItemCellContentViewStylesheet */,
+				4DCE40101B2777D1002C7995 /* TitleStylesheet */,
+				4DCE40131B2777D1002C7995 /* ViewStylesheet */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4DCE3FF21B2777D1002C7995 /* BaseStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3FF31B2777D1002C7995 /* BaseStylesheet.h */,
+				4DCE3FF41B2777D1002C7995 /* BaseStylesheet.m */,
+			);
+			path = BaseStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3FF51B2777D1002C7995 /* BodyStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3FF61B2777D1002C7995 /* BodyStylesheet.h */,
+				4DCE3FF71B2777D1002C7995 /* BodyStylesheet.m */,
+			);
+			path = BodyStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3FF81B2777D1002C7995 /* ButtonStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3FF91B2777D1002C7995 /* ButtonStylesheet.h */,
+				4DCE3FFA1B2777D1002C7995 /* ButtonStylesheet.m */,
+			);
+			path = ButtonStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3FFB1B2777D1002C7995 /* CaptionStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3FFC1B2777D1002C7995 /* CaptionStylesheet.h */,
+				4DCE3FFD1B2777D1002C7995 /* CaptionStylesheet.m */,
+			);
+			path = CaptionStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE3FFE1B2777D1002C7995 /* CustomCheckboxButtonViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE3FFF1B2777D1002C7995 /* CustomCheckboxButtonViewStylesheet.h */,
+				4DCE40001B2777D1002C7995 /* CustomCheckboxButtonViewStylesheet.m */,
+			);
+			path = CustomCheckboxButtonViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE40011B2777D1002C7995 /* CustomRadioButtonStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40021B2777D1002C7995 /* CustomRadioButtonViewStylesheet.h */,
+				4DCE40031B2777D1002C7995 /* CustomRadioButtonViewStylesheet.m */,
+			);
+			path = CustomRadioButtonStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE40041B2777D1002C7995 /* CustomTextFieldViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40051B2777D1002C7995 /* CustomTextFieldViewStylesheet.h */,
+				4DCE40061B2777D1002C7995 /* CustomTextFieldViewStylesheet.m */,
+			);
+			path = CustomTextFieldViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE40071B2777D1002C7995 /* FormTextualElementsStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40081B2777D1002C7995 /* FormTextualElementsStylesheet.h */,
+				4DCE40091B2777D1002C7995 /* FormTextualElementsStylesheet.m */,
+			);
+			path = FormTextualElementsStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE400A1B2777D1002C7995 /* LabelStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE400B1B2777D1002C7995 /* LabelStylesheet.h */,
+				4DCE400C1B2777D1002C7995 /* LabelStylesheet.m */,
+			);
+			path = LabelStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE400D1B2777D1002C7995 /* TableViewItemCellContentViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE400E1B2777D1002C7995 /* TableViewItemCellContentViewStylesheet.h */,
+				4DCE400F1B2777D1002C7995 /* TableViewItemCellContentViewStylesheet.m */,
+			);
+			path = TableViewItemCellContentViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE40101B2777D1002C7995 /* TitleStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40111B2777D1002C7995 /* TitleStylesheet.h */,
+				4DCE40121B2777D1002C7995 /* TitleStylesheet.m */,
+			);
+			path = TitleStylesheet;
+			sourceTree = "<group>";
+		};
+		4DCE40131B2777D1002C7995 /* ViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40141B2777D1002C7995 /* ViewStylesheet.h */,
+				4DCE40151B2777D1002C7995 /* ViewStylesheet.m */,
+			);
+			path = ViewStylesheet;
 			sourceTree = "<group>";
 		};
 		4DEB0ECA1A8E4FE60048477D /* Fonts */ = {
@@ -652,7 +707,7 @@
 		5BFCA8D11A7928B0001B1BA5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3E1A1B27761F002C7995 /* TAQGuideViewController */,
+				4DCE3F891B2777B1002C7995 /* TAQGuideViewController */,
 				4DCE3DCA1B277577002C7995 /* Home */,
 			);
 			path = Modules;
@@ -668,7 +723,7 @@
 		5BFCA8D91A792AE7001B1BA5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F571B27776E002C7995 /* ViewComponents */,
+				4DCE3FB81B2777BD002C7995 /* ViewComponents */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -755,22 +810,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCE3F861B27776E002C7995 /* TableViewItemCellContentView.xib in Resources */,
-				4DCE3F811B27776E002C7995 /* CustomRadioButtonView.xib in Resources */,
-				4DCE3F7C1B27776E002C7995 /* CustomCheckboxButtonView.xib in Resources */,
+				4DCE3FEB1B2777BE002C7995 /* TableViewItemCellContentView.xib in Resources */,
+				4DCE3FE61B2777BE002C7995 /* CustomRadioButtonView.xib in Resources */,
+				4DCE3FEF1B2777BE002C7995 /* TitleView.xib in Resources */,
+				4DCE3FE11B2777BE002C7995 /* CustomCheckboxButtonView.xib in Resources */,
+				4DCE3FB21B2777B1002C7995 /* TAQGuideSubtitleView.xib in Resources */,
+				4DCE3FB51B2777B1002C7995 /* TAQGuideTitleView.xib in Resources */,
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
-				4DCE3E3F1B27761F002C7995 /* TAQGuideSubtitleView.xib in Resources */,
-				4DCE3E3A1B27761F002C7995 /* TAQComponentsViewController.xib in Resources */,
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,
 				5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */,
-				4DCE3E441B27761F002C7995 /* TAQGuideViewController.xib in Resources */,
 				4DCE3DE71B277577002C7995 /* HomeViewController.xib in Resources */,
-				4DCE3F791B27776E002C7995 /* .gitkeep in Resources */,
-				4DCE3F881B27776E002C7995 /* TitleView.xib in Resources */,
+				4DCE3FAC1B2777B1002C7995 /* TAQComponentsViewController.xib in Resources */,
+				4DCE3FED1B2777BE002C7995 /* TableViewPrimaryHeaderView.xib in Resources */,
+				4DCE3FDE1B2777BE002C7995 /* .gitkeep in Resources */,
 				5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */,
-				4DCE3E421B27761F002C7995 /* TAQGuideTitleView.xib in Resources */,
-				4DCE3F7F1B27776E002C7995 /* CustomCheckboxButton.xib in Resources */,
-				4DCE3F831B27776E002C7995 /* CustomTextFieldView.xib in Resources */,
+				4DCE3FB71B2777B1002C7995 /* TAQGuideViewController.xib in Resources */,
+				4DCE3FE41B2777BE002C7995 /* CustomCheckboxButton.xib in Resources */,
+				4DCE3FE81B2777BE002C7995 /* CustomTextFieldView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,46 +871,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */,
+				4DCE40191B2777D1002C7995 /* BaseStylesheet.m in Sources */,
+				4DCE3FEC1B2777BE002C7995 /* TableViewPrimaryHeaderView.m in Sources */,
+				4DCE3FAB1B2777B1002C7995 /* TAQComponentsViewController.m in Sources */,
 				4DCE3D5F1B271E99002C7995 /* TAQUnknownKeyException.m in Sources */,
-				4DCE3F501B277725002C7995 /* CustomRadioButtonViewStylesheet.m in Sources */,
+				4DCE3FAD1B2777B1002C7995 /* TAQControlsViewController.m in Sources */,
+				4DCE401D1B2777D1002C7995 /* CustomCheckboxButtonViewStylesheet.m in Sources */,
+				4DCE3FB01B2777B1002C7995 /* TAQTypographyViewController.m in Sources */,
+				4DCE40261B2777D1002C7995 /* README.md in Sources */,
+				4DCE401A1B2777D1002C7995 /* BodyStylesheet.m in Sources */,
 				5BECD2971A6FEF2D00A48259 /* main.m in Sources */,
-				4DCE3F4B1B277725002C7995 /* BaseStylesheet.m in Sources */,
-				4DCE3F7B1B27776E002C7995 /* CustomCheckboxButtonView.m in Sources */,
-				4DCE3E411B27761F002C7995 /* TAQGuideTitleView.m in Sources */,
-				4DCE3F4E1B277725002C7995 /* CaptionStylesheet.m in Sources */,
+				4DCE40231B2777D1002C7995 /* TitleStylesheet.m in Sources */,
+				4DCE3FAA1B2777B1002C7995 /* TAQColorSwatchesViewController.m in Sources */,
+				4DCE40241B2777D1002C7995 /* ViewStylesheet.m in Sources */,
+				4DCE401C1B2777D1002C7995 /* CaptionStylesheet.m in Sources */,
 				4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */,
 				4DCE3D621B272128002C7995 /* TAQInvalidStyleRuleException.m in Sources */,
-				4DCE3F4F1B277725002C7995 /* CustomCheckboxButtonViewStylesheet.m in Sources */,
-				4DCE3E3C1B27761F002C7995 /* TAQFormsViewController.m in Sources */,
-				4DCE3E431B27761F002C7995 /* TAQGuideViewController.m in Sources */,
+				4DCE401B1B2777D1002C7995 /* ButtonStylesheet.m in Sources */,
+				4DCE3FE91B2777BE002C7995 /* NameTextFieldView.m in Sources */,
 				4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */,
-				4DCE3E401B27761F002C7995 /* TAQGuideTableViewDataModel.m in Sources */,
+				4DCE401E1B2777D1002C7995 /* CustomRadioButtonViewStylesheet.m in Sources */,
+				4DCE3FE01B2777BE002C7995 /* CustomCheckboxButtonView.m in Sources */,
+				4DCE40221B2777D1002C7995 /* TableViewItemCellContentViewStylesheet.m in Sources */,
+				4DCE3FE51B2777BE002C7995 /* CustomRadioButtonView.m in Sources */,
+				4DCE40201B2777D1002C7995 /* FormTextualElementsStylesheet.m in Sources */,
+				4DCE3FB41B2777B1002C7995 /* TAQGuideTitleView.m in Sources */,
 				5BFCA8DE1A792BE1001B1BA5 /* AppDelegate.m in Sources */,
-				4DCE3F521B277725002C7995 /* FormTextualElementsStylesheet.m in Sources */,
-				4DCE3F541B277725002C7995 /* TitleStylesheet.m in Sources */,
-				4DCE3F851B27776E002C7995 /* TableViewItemCellContentView.m in Sources */,
-				4DCE3F7E1B27776E002C7995 /* CustomCheckboxButton.m in Sources */,
-				4DCE3F841B27776E002C7995 /* NameTextFieldView.m in Sources */,
-				4DCE3F7A1B27776E002C7995 /* BaseComponentsView.m in Sources */,
+				4DCE3FB31B2777B1002C7995 /* TAQGuideTableViewDataModel.m in Sources */,
+				4DCE3FE21B2777BE002C7995 /* CustomPickerView.m in Sources */,
+				4DCE3FE31B2777BE002C7995 /* CustomCheckboxButton.m in Sources */,
+				4DCE401F1B2777D1002C7995 /* CustomTextFieldViewStylesheet.m in Sources */,
+				4DCE3FE71B2777BE002C7995 /* CustomTextFieldView.m in Sources */,
+				4DCE40251B2777D1002C7995 /* MainStylesheet.m in Sources */,
+				4DCE3FEA1B2777BE002C7995 /* TableViewItemCellContentView.m in Sources */,
 				4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */,
-				4DCE3F801B27776E002C7995 /* CustomRadioButtonView.m in Sources */,
-				4DCE3E3B1B27761F002C7995 /* TAQControlsViewController.m in Sources */,
-				4DCE3F871B27776E002C7995 /* TitleView.m in Sources */,
-				4DCE3F4D1B277725002C7995 /* ButtonStylesheet.m in Sources */,
-				4DCE3F551B277725002C7995 /* MainStylesheet.m in Sources */,
+				4DCE3FAF1B2777B1002C7995 /* TAQListsViewController.m in Sources */,
+				4DCE40211B2777D1002C7995 /* LabelStylesheet.m in Sources */,
+				4DCE3FEE1B2777BE002C7995 /* TitleView.m in Sources */,
 				4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */,
-				4DCE3E3D1B27761F002C7995 /* TAQTypographyViewController.m in Sources */,
-				4DCE3F7D1B27776E002C7995 /* CustomPickerView.m in Sources */,
-				4DCE3E391B27761F002C7995 /* TAQComponentsViewController.m in Sources */,
-				4DCE3F821B27776E002C7995 /* CustomTextFieldView.m in Sources */,
-				4DCE3E3E1B27761F002C7995 /* TAQGuideSubtitleView.m in Sources */,
+				4DCE3FB61B2777B1002C7995 /* TAQGuideViewController.m in Sources */,
 				4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */,
 				4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */,
-				4DCE3F531B277725002C7995 /* LabelStylesheet.m in Sources */,
-				4DCE3F511B277725002C7995 /* CustomTextFieldViewStylesheet.m in Sources */,
-				4DCE3E381B27761F002C7995 /* TAQColorSwatchesViewController.m in Sources */,
-				4DCE3F4C1B277725002C7995 /* BodyStylesheet.m in Sources */,
-				4DCE3F561B277725002C7995 /* README.md in Sources */,
+				4DCE3FB11B2777B1002C7995 /* TAQGuideSubtitleView.m in Sources */,
+				4DCE3FAE1B2777B1002C7995 /* TAQFormsViewController.m in Sources */,
+				4DCE3FDF1B2777BE002C7995 /* BaseComponentsView.m in Sources */,
 				4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

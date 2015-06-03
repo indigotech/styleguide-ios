@@ -7,6 +7,8 @@
 //
 
 #import "TAQListsViewController.h"
+#import "TableViewPrimaryHeaderView.h"
+#import "TableViewItemCellContentView.h"
 
 @interface TAQListsViewController ()
 
@@ -14,24 +16,39 @@
 
 @implementation TAQListsViewController
 
+#pragma mark - VC lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setTitle:@"Lists"];
+    
+    UIBarButtonItem *anotherButton = [[UIBarButtonItem alloc] initWithTitle:@"TableView" style:UIBarButtonItemStylePlain target:self action:@selector(showTableView)];
+    self.navigationItem.rightBarButtonItem = anotherButton;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - overriden method
+- (void)addComponents {
+    [self addGuideTitleWithText:@"1. TableVIew"];
+    
+    [self addGuideSubtitleWithText:@"1.1 Header (TableViewPrimaryHeaderView)"];
+    
+    TableViewPrimaryHeaderView *tableViewPrimaryHeaderView = (TableViewPrimaryHeaderView *)[self addViewWithClass:[TableViewPrimaryHeaderView class] height:0];
+    tableViewPrimaryHeaderView.titleLabel.text = @"H3 SECTION HEADER";
+    
+    [self addGuideSubtitleWithText:@"1.2 Cell content view (TableViewItemCellContentView)"];
+    
+    TableViewItemCellContentView *cellWithoutDetail = (TableViewItemCellContentView *)[self addViewWithClass:[TableViewItemCellContentView class] height:43];
+    cellWithoutDetail.titleLabel.text = @"H4 - WITHOUT DETAIL";
+    cellWithoutDetail.accessoryLabel.text = @"Custom Label";
+    
+    TableViewItemCellContentView *cellWithDetail = (TableViewItemCellContentView *)[self addViewWithClass:[TableViewItemCellContentView class] height:70];
+    cellWithDetail.titleLabel.text = @"H4 - LIST ITEM WITH";
+    cellWithDetail.detailLabel.text = @"H4Sub - DETAIL";
+    cellWithDetail.accessoryLabel.text = @"Custom Label";
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - Action
+-(void)showTableView {
+    [self.navigationController pushViewController:[[UITableViewController alloc] init] animated:YES];
 }
-*/
 
 @end

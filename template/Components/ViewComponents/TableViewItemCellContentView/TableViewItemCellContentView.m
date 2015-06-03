@@ -36,6 +36,7 @@
 -(void)setup {
     [self registerAsObserver];
     self.detailLabel.text = @"";
+    self.accessoryLabel.text = @"";
 }
 
 #pragma mark - Key value observing
