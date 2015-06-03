@@ -13,6 +13,7 @@
 #import "TAQColorSwatchesViewController.h"
 #import "TAQControlsViewController.h"
 #import "TAQFormsViewController.h"
+#import "TableViewItemCellContentView.h"
 
 #define CELL_IDENTIFIER @"defaultCellIdentifier"
 
@@ -57,8 +58,24 @@
 {
     UITableViewCell *cell = [_tableView dequeueReusableCellWithIdentifier:CELL_IDENTIFIER];
     
+    if (indexPath.row == 7) {
+        TableViewItemCellContentView *l = [[TableViewItemCellContentView alloc] initWithFrame:CGRectZero];
+        [cell.contentView addSubview:l];
+        l.translatesAutoresizingMaskIntoConstraints = NO;
+        
+        NSDictionary *viewsMapping = @{@"view": l};
+        NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[view]|" options:0 metrics:nil views:viewsMapping];
+        NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|[view]|" options:0 metrics:nil views:viewsMapping];
+        
+        [l.superview addConstraints:horizontalConstraints];
+        [l.superview addConstraints:verticalConstraints];
+    }
+    else {
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.textLabel.text = ((TAQGuideTableViewDataModel *)self.tableViewData[indexPath.row]).text;
+        
+    }
+    
     
     return cell;
 }
@@ -87,6 +104,7 @@
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Lists" class:[UIViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Notifications" class:[UIViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Other components" class:[TAQComponentsViewController class]],
+                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Other " class:[TAQComponentsViewController class]],
                             ];
     }
     return _tableViewData;
