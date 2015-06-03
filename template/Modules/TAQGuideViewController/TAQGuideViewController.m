@@ -60,6 +60,7 @@
     
     if (indexPath.row == 7) {
         TableViewItemCellContentView *l = [[TableViewItemCellContentView alloc] initWithFrame:CGRectZero];
+        l.detailLabel.text = @"fdafds";
         [cell.contentView addSubview:l];
         l.translatesAutoresizingMaskIntoConstraints = NO;
         

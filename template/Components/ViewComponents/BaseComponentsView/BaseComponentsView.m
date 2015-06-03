@@ -31,7 +31,12 @@
         contentView = [[[NSBundle mainBundle] loadNibNamed:[[self class] description] owner:self options:nil] firstObject];
     }
     @catch (NSException *exception) {
-        contentView = [[[NSBundle mainBundle] loadNibNamed:[self nibName] owner:self options:nil] firstObject];
+        NSString * const cantLoadNibExceptionName = @"NSInternalInconsistencyException:";
+        if ([exception.name isEqualToString:cantLoadNibExceptionName]) {
+            contentView = [[[NSBundle mainBundle] loadNibNamed:[self nibName] owner:self options:nil] firstObject];
+        } else {
+            @throw exception;
+        }
     }
     
     [self addSubview:contentView];

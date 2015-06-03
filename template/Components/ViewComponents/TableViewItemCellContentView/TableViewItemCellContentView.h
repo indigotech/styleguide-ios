@@ -10,7 +10,7 @@
 
 @interface TableViewItemCellContentView : BaseComponentsView
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *detailLabel;
 @property (weak, nonatomic) IBOutlet UILabel *accessoryLabel;
 @property(nonatomic, getter=isHighlighted) BOOL highlighted;
-
 @end
