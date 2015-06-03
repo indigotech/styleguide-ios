@@ -15,6 +15,9 @@
 @implementation ViewStylesheet
 + (NSDictionary *)stylesheet {
     return @{
+             @"Separator_TypeDarker_View": @{
+                     PK_VIEW_BACKGROUND_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY)
+                    },
              @"Separator_View": @{
                      PK_VIEW_BACKGROUND_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY_LIGHTEST)
                     },

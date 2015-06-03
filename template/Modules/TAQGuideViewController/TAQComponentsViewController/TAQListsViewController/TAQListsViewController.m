@@ -7,6 +7,7 @@
 //
 
 #import "TAQListsViewController.h"
+#import "TAQExamplesTableViewController.h"
 #import "TableViewPrimaryHeaderView.h"
 #import "TableViewItemCellContentView.h"
 
@@ -48,7 +49,7 @@
 
 #pragma mark - Action
 -(void)showTableView {
-    [self.navigationController pushViewController:[[UITableViewController alloc] init] animated:YES];
+    [self.navigationController pushViewController:[[TAQExamplesTableViewController alloc] init] animated:YES];
 }
 
 @end

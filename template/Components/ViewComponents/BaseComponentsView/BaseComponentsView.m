@@ -7,6 +7,7 @@
 //
 
 #import "BaseComponentsView.h"
+#import "UIView+AttachToSuperview.h"
 
 @implementation BaseComponentsView
 
@@ -31,7 +32,7 @@
         contentView = [[[NSBundle mainBundle] loadNibNamed:[[self class] description] owner:self options:nil] firstObject];
     }
     @catch (NSException *exception) {
-        NSString * const cantLoadNibExceptionName = @"NSInternalInconsistencyException:";
+        NSString * const cantLoadNibExceptionName = @"NSInternalInconsistencyException";
         if ([exception.name isEqualToString:cantLoadNibExceptionName]) {
             contentView = [[[NSBundle mainBundle] loadNibNamed:[self nibName] owner:self options:nil] firstObject];
         } else {
@@ -40,15 +41,7 @@
     }
     
     [self addSubview:contentView];
-    
-    contentView.translatesAutoresizingMaskIntoConstraints = NO;
-    
-    NSDictionary *viewsMapping = @{@"view": contentView};
-    NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[view]|" options:0 metrics:nil views:viewsMapping];
-    NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|[view]|" options:0 metrics:nil views:viewsMapping];
-    
-    [self addConstraints:horizontalConstraints];
-    [self addConstraints:verticalConstraints];
+    [contentView attachToSuperviewUsingConstraints];
 }
 
 /**

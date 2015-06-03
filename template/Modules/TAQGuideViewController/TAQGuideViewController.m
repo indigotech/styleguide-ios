@@ -86,7 +86,6 @@
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Controls" class:[TAQControlsViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Forms" class:[TAQFormsViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Lists" class:[TAQListsViewController class]],
-                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Notifications" class:[UIViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Other components" class:[TAQComponentsViewController class]],
                             ];
     }

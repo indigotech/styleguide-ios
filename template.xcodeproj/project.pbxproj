@@ -19,20 +19,6 @@
 		4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D641B27323C002C7995 /* TAQBaseException.m */; };
 		4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCC1B277577002C7995 /* HomeViewController.m */; };
 		4DCE3DE71B277577002C7995 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCD1B277577002C7995 /* HomeViewController.xib */; };
-		4DCE3FAA1B2777B1002C7995 /* TAQColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F8D1B2777B1002C7995 /* TAQColorSwatchesViewController.m */; };
-		4DCE3FAB1B2777B1002C7995 /* TAQComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F8F1B2777B1002C7995 /* TAQComponentsViewController.m */; };
-		4DCE3FAC1B2777B1002C7995 /* TAQComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3F901B2777B1002C7995 /* TAQComponentsViewController.xib */; };
-		4DCE3FAD1B2777B1002C7995 /* TAQControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F931B2777B1002C7995 /* TAQControlsViewController.m */; };
-		4DCE3FAE1B2777B1002C7995 /* TAQFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F961B2777B1002C7995 /* TAQFormsViewController.m */; };
-		4DCE3FAF1B2777B1002C7995 /* TAQListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F991B2777B1002C7995 /* TAQListsViewController.m */; };
-		4DCE3FB01B2777B1002C7995 /* TAQTypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F9C1B2777B1002C7995 /* TAQTypographyViewController.m */; };
-		4DCE3FB11B2777B1002C7995 /* TAQGuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3F9F1B2777B1002C7995 /* TAQGuideSubtitleView.m */; };
-		4DCE3FB21B2777B1002C7995 /* TAQGuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA01B2777B1002C7995 /* TAQGuideSubtitleView.xib */; };
-		4DCE3FB31B2777B1002C7995 /* TAQGuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA21B2777B1002C7995 /* TAQGuideTableViewDataModel.m */; };
-		4DCE3FB41B2777B1002C7995 /* TAQGuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA51B2777B1002C7995 /* TAQGuideTitleView.m */; };
-		4DCE3FB51B2777B1002C7995 /* TAQGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA61B2777B1002C7995 /* TAQGuideTitleView.xib */; };
-		4DCE3FB61B2777B1002C7995 /* TAQGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA81B2777B1002C7995 /* TAQGuideViewController.m */; };
-		4DCE3FB71B2777B1002C7995 /* TAQGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FA91B2777B1002C7995 /* TAQGuideViewController.xib */; };
 		4DCE3FDE1B2777BE002C7995 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3FB91B2777BD002C7995 /* .gitkeep */; };
 		4DCE3FDF1B2777BE002C7995 /* BaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FBC1B2777BD002C7995 /* BaseComponentsView.m */; };
 		4DCE3FE01B2777BE002C7995 /* CustomCheckboxButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3FBF1B2777BD002C7995 /* CustomCheckboxButtonView.m */; };
@@ -65,6 +51,22 @@
 		4DCE40241B2777D1002C7995 /* ViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40151B2777D1002C7995 /* ViewStylesheet.m */; };
 		4DCE40251B2777D1002C7995 /* MainStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40171B2777D1002C7995 /* MainStylesheet.m */; };
 		4DCE40261B2777D1002C7995 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40181B2777D1002C7995 /* README.md */; };
+		4DCE404B1B277803002C7995 /* TAQColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE402B1B277803002C7995 /* TAQColorSwatchesViewController.m */; };
+		4DCE404C1B277803002C7995 /* TAQComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE402D1B277803002C7995 /* TAQComponentsViewController.m */; };
+		4DCE404D1B277803002C7995 /* TAQComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE402E1B277803002C7995 /* TAQComponentsViewController.xib */; };
+		4DCE404E1B277803002C7995 /* TAQControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40311B277803002C7995 /* TAQControlsViewController.m */; };
+		4DCE404F1B277803002C7995 /* TAQFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40341B277803002C7995 /* TAQFormsViewController.m */; };
+		4DCE40501B277803002C7995 /* TAQExamplesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40381B277803002C7995 /* TAQExamplesTableViewController.m */; };
+		4DCE40511B277803002C7995 /* TAQListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE403A1B277803002C7995 /* TAQListsViewController.m */; };
+		4DCE40521B277803002C7995 /* TAQTypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE403D1B277803002C7995 /* TAQTypographyViewController.m */; };
+		4DCE40531B277803002C7995 /* TAQGuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40401B277803002C7995 /* TAQGuideSubtitleView.m */; };
+		4DCE40541B277803002C7995 /* TAQGuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE40411B277803002C7995 /* TAQGuideSubtitleView.xib */; };
+		4DCE40551B277803002C7995 /* TAQGuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40431B277803002C7995 /* TAQGuideTableViewDataModel.m */; };
+		4DCE40561B277803002C7995 /* TAQGuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40461B277803002C7995 /* TAQGuideTitleView.m */; };
+		4DCE40571B277803002C7995 /* TAQGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE40471B277803002C7995 /* TAQGuideTitleView.xib */; };
+		4DCE40581B277803002C7995 /* TAQGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40491B277803002C7995 /* TAQGuideViewController.m */; };
+		4DCE40591B277803002C7995 /* TAQGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE404A1B277803002C7995 /* TAQGuideViewController.xib */; };
+		4DCE405F1B27782A002C7995 /* UIView+AttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE405D1B27782A002C7995 /* UIView+AttachToSuperview.m */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -100,30 +102,6 @@
 		4DCE3DCB1B277577002C7995 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		4DCE3DCC1B277577002C7995 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		4DCE3DCD1B277577002C7995 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		4DCE3F8C1B2777B1002C7995 /* TAQColorSwatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQColorSwatchesViewController.h; sourceTree = "<group>"; };
-		4DCE3F8D1B2777B1002C7995 /* TAQColorSwatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQColorSwatchesViewController.m; sourceTree = "<group>"; };
-		4DCE3F8E1B2777B1002C7995 /* TAQComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQComponentsViewController.h; sourceTree = "<group>"; };
-		4DCE3F8F1B2777B1002C7995 /* TAQComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQComponentsViewController.m; sourceTree = "<group>"; };
-		4DCE3F901B2777B1002C7995 /* TAQComponentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQComponentsViewController.xib; sourceTree = "<group>"; };
-		4DCE3F921B2777B1002C7995 /* TAQControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQControlsViewController.h; sourceTree = "<group>"; };
-		4DCE3F931B2777B1002C7995 /* TAQControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQControlsViewController.m; sourceTree = "<group>"; };
-		4DCE3F951B2777B1002C7995 /* TAQFormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQFormsViewController.h; sourceTree = "<group>"; };
-		4DCE3F961B2777B1002C7995 /* TAQFormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQFormsViewController.m; sourceTree = "<group>"; };
-		4DCE3F981B2777B1002C7995 /* TAQListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQListsViewController.h; sourceTree = "<group>"; };
-		4DCE3F991B2777B1002C7995 /* TAQListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQListsViewController.m; sourceTree = "<group>"; };
-		4DCE3F9B1B2777B1002C7995 /* TAQTypographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQTypographyViewController.h; sourceTree = "<group>"; };
-		4DCE3F9C1B2777B1002C7995 /* TAQTypographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQTypographyViewController.m; sourceTree = "<group>"; };
-		4DCE3F9E1B2777B1002C7995 /* TAQGuideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideSubtitleView.h; sourceTree = "<group>"; };
-		4DCE3F9F1B2777B1002C7995 /* TAQGuideSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideSubtitleView.m; sourceTree = "<group>"; };
-		4DCE3FA01B2777B1002C7995 /* TAQGuideSubtitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideSubtitleView.xib; sourceTree = "<group>"; };
-		4DCE3FA11B2777B1002C7995 /* TAQGuideTableViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideTableViewDataModel.h; sourceTree = "<group>"; };
-		4DCE3FA21B2777B1002C7995 /* TAQGuideTableViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideTableViewDataModel.m; sourceTree = "<group>"; };
-		4DCE3FA41B2777B1002C7995 /* TAQGuideTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideTitleView.h; sourceTree = "<group>"; };
-		4DCE3FA51B2777B1002C7995 /* TAQGuideTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideTitleView.m; sourceTree = "<group>"; };
-		4DCE3FA61B2777B1002C7995 /* TAQGuideTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideTitleView.xib; sourceTree = "<group>"; };
-		4DCE3FA71B2777B1002C7995 /* TAQGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideViewController.h; sourceTree = "<group>"; };
-		4DCE3FA81B2777B1002C7995 /* TAQGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideViewController.m; sourceTree = "<group>"; };
-		4DCE3FA91B2777B1002C7995 /* TAQGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideViewController.xib; sourceTree = "<group>"; };
 		4DCE3FB91B2777BD002C7995 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		4DCE3FBB1B2777BD002C7995 /* BaseComponentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseComponentsView.h; sourceTree = "<group>"; };
 		4DCE3FBC1B2777BD002C7995 /* BaseComponentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseComponentsView.m; sourceTree = "<group>"; };
@@ -179,6 +157,34 @@
 		4DCE40161B2777D1002C7995 /* MainStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainStylesheet.h; sourceTree = "<group>"; };
 		4DCE40171B2777D1002C7995 /* MainStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStylesheet.m; sourceTree = "<group>"; };
 		4DCE40181B2777D1002C7995 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4DCE402A1B277803002C7995 /* TAQColorSwatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQColorSwatchesViewController.h; sourceTree = "<group>"; };
+		4DCE402B1B277803002C7995 /* TAQColorSwatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQColorSwatchesViewController.m; sourceTree = "<group>"; };
+		4DCE402C1B277803002C7995 /* TAQComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQComponentsViewController.h; sourceTree = "<group>"; };
+		4DCE402D1B277803002C7995 /* TAQComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQComponentsViewController.m; sourceTree = "<group>"; };
+		4DCE402E1B277803002C7995 /* TAQComponentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQComponentsViewController.xib; sourceTree = "<group>"; };
+		4DCE40301B277803002C7995 /* TAQControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQControlsViewController.h; sourceTree = "<group>"; };
+		4DCE40311B277803002C7995 /* TAQControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQControlsViewController.m; sourceTree = "<group>"; };
+		4DCE40331B277803002C7995 /* TAQFormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQFormsViewController.h; sourceTree = "<group>"; };
+		4DCE40341B277803002C7995 /* TAQFormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQFormsViewController.m; sourceTree = "<group>"; };
+		4DCE40371B277803002C7995 /* TAQExamplesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQExamplesTableViewController.h; sourceTree = "<group>"; };
+		4DCE40381B277803002C7995 /* TAQExamplesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQExamplesTableViewController.m; sourceTree = "<group>"; };
+		4DCE40391B277803002C7995 /* TAQListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQListsViewController.h; sourceTree = "<group>"; };
+		4DCE403A1B277803002C7995 /* TAQListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQListsViewController.m; sourceTree = "<group>"; };
+		4DCE403C1B277803002C7995 /* TAQTypographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQTypographyViewController.h; sourceTree = "<group>"; };
+		4DCE403D1B277803002C7995 /* TAQTypographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQTypographyViewController.m; sourceTree = "<group>"; };
+		4DCE403F1B277803002C7995 /* TAQGuideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideSubtitleView.h; sourceTree = "<group>"; };
+		4DCE40401B277803002C7995 /* TAQGuideSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideSubtitleView.m; sourceTree = "<group>"; };
+		4DCE40411B277803002C7995 /* TAQGuideSubtitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideSubtitleView.xib; sourceTree = "<group>"; };
+		4DCE40421B277803002C7995 /* TAQGuideTableViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideTableViewDataModel.h; sourceTree = "<group>"; };
+		4DCE40431B277803002C7995 /* TAQGuideTableViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideTableViewDataModel.m; sourceTree = "<group>"; };
+		4DCE40451B277803002C7995 /* TAQGuideTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideTitleView.h; sourceTree = "<group>"; };
+		4DCE40461B277803002C7995 /* TAQGuideTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideTitleView.m; sourceTree = "<group>"; };
+		4DCE40471B277803002C7995 /* TAQGuideTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideTitleView.xib; sourceTree = "<group>"; };
+		4DCE40481B277803002C7995 /* TAQGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQGuideViewController.h; sourceTree = "<group>"; };
+		4DCE40491B277803002C7995 /* TAQGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQGuideViewController.m; sourceTree = "<group>"; };
+		4DCE404A1B277803002C7995 /* TAQGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideViewController.xib; sourceTree = "<group>"; };
+		4DCE405C1B27782A002C7995 /* UIView+AttachToSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AttachToSuperview.h"; sourceTree = "<group>"; };
+		4DCE405D1B27782A002C7995 /* UIView+AttachToSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AttachToSuperview.m"; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -301,101 +307,6 @@
 				4DCE3DCD1B277577002C7995 /* HomeViewController.xib */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		4DCE3F891B2777B1002C7995 /* TAQGuideViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F8A1B2777B1002C7995 /* TAQComponentsViewController */,
-				4DCE3F9D1B2777B1002C7995 /* TAQGuideSubtitleView */,
-				4DCE3FA11B2777B1002C7995 /* TAQGuideTableViewDataModel.h */,
-				4DCE3FA21B2777B1002C7995 /* TAQGuideTableViewDataModel.m */,
-				4DCE3FA31B2777B1002C7995 /* TAQGuideTitleView */,
-				4DCE3FA71B2777B1002C7995 /* TAQGuideViewController.h */,
-				4DCE3FA81B2777B1002C7995 /* TAQGuideViewController.m */,
-				4DCE3FA91B2777B1002C7995 /* TAQGuideViewController.xib */,
-			);
-			path = TAQGuideViewController;
-			sourceTree = "<group>";
-		};
-		4DCE3F8A1B2777B1002C7995 /* TAQComponentsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F8B1B2777B1002C7995 /* TAQColorSwatchesViewController */,
-				4DCE3F8E1B2777B1002C7995 /* TAQComponentsViewController.h */,
-				4DCE3F8F1B2777B1002C7995 /* TAQComponentsViewController.m */,
-				4DCE3F901B2777B1002C7995 /* TAQComponentsViewController.xib */,
-				4DCE3F911B2777B1002C7995 /* TAQControlsViewController */,
-				4DCE3F941B2777B1002C7995 /* TAQFormsViewController */,
-				4DCE3F971B2777B1002C7995 /* TAQListsViewController */,
-				4DCE3F9A1B2777B1002C7995 /* TAQTypographyViewController */,
-			);
-			path = TAQComponentsViewController;
-			sourceTree = "<group>";
-		};
-		4DCE3F8B1B2777B1002C7995 /* TAQColorSwatchesViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F8C1B2777B1002C7995 /* TAQColorSwatchesViewController.h */,
-				4DCE3F8D1B2777B1002C7995 /* TAQColorSwatchesViewController.m */,
-			);
-			path = TAQColorSwatchesViewController;
-			sourceTree = "<group>";
-		};
-		4DCE3F911B2777B1002C7995 /* TAQControlsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F921B2777B1002C7995 /* TAQControlsViewController.h */,
-				4DCE3F931B2777B1002C7995 /* TAQControlsViewController.m */,
-			);
-			path = TAQControlsViewController;
-			sourceTree = "<group>";
-		};
-		4DCE3F941B2777B1002C7995 /* TAQFormsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F951B2777B1002C7995 /* TAQFormsViewController.h */,
-				4DCE3F961B2777B1002C7995 /* TAQFormsViewController.m */,
-			);
-			path = TAQFormsViewController;
-			sourceTree = "<group>";
-		};
-		4DCE3F971B2777B1002C7995 /* TAQListsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F981B2777B1002C7995 /* TAQListsViewController.h */,
-				4DCE3F991B2777B1002C7995 /* TAQListsViewController.m */,
-			);
-			path = TAQListsViewController;
-			sourceTree = "<group>";
-		};
-		4DCE3F9A1B2777B1002C7995 /* TAQTypographyViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F9B1B2777B1002C7995 /* TAQTypographyViewController.h */,
-				4DCE3F9C1B2777B1002C7995 /* TAQTypographyViewController.m */,
-			);
-			path = TAQTypographyViewController;
-			sourceTree = "<group>";
-		};
-		4DCE3F9D1B2777B1002C7995 /* TAQGuideSubtitleView */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3F9E1B2777B1002C7995 /* TAQGuideSubtitleView.h */,
-				4DCE3F9F1B2777B1002C7995 /* TAQGuideSubtitleView.m */,
-				4DCE3FA01B2777B1002C7995 /* TAQGuideSubtitleView.xib */,
-			);
-			path = TAQGuideSubtitleView;
-			sourceTree = "<group>";
-		};
-		4DCE3FA31B2777B1002C7995 /* TAQGuideTitleView */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE3FA41B2777B1002C7995 /* TAQGuideTitleView.h */,
-				4DCE3FA51B2777B1002C7995 /* TAQGuideTitleView.m */,
-				4DCE3FA61B2777B1002C7995 /* TAQGuideTitleView.xib */,
-			);
-			path = TAQGuideTitleView;
 			sourceTree = "<group>";
 		};
 		4DCE3FB81B2777BD002C7995 /* ViewComponents */ = {
@@ -643,6 +554,120 @@
 			path = ViewStylesheet;
 			sourceTree = "<group>";
 		};
+		4DCE40271B277803002C7995 /* TAQGuideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40281B277803002C7995 /* TAQComponentsViewController */,
+				4DCE403E1B277803002C7995 /* TAQGuideSubtitleView */,
+				4DCE40421B277803002C7995 /* TAQGuideTableViewDataModel.h */,
+				4DCE40431B277803002C7995 /* TAQGuideTableViewDataModel.m */,
+				4DCE40441B277803002C7995 /* TAQGuideTitleView */,
+				4DCE40481B277803002C7995 /* TAQGuideViewController.h */,
+				4DCE40491B277803002C7995 /* TAQGuideViewController.m */,
+				4DCE404A1B277803002C7995 /* TAQGuideViewController.xib */,
+			);
+			path = TAQGuideViewController;
+			sourceTree = "<group>";
+		};
+		4DCE40281B277803002C7995 /* TAQComponentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40291B277803002C7995 /* TAQColorSwatchesViewController */,
+				4DCE402C1B277803002C7995 /* TAQComponentsViewController.h */,
+				4DCE402D1B277803002C7995 /* TAQComponentsViewController.m */,
+				4DCE402E1B277803002C7995 /* TAQComponentsViewController.xib */,
+				4DCE402F1B277803002C7995 /* TAQControlsViewController */,
+				4DCE40321B277803002C7995 /* TAQFormsViewController */,
+				4DCE40351B277803002C7995 /* TAQListsViewController */,
+				4DCE403B1B277803002C7995 /* TAQTypographyViewController */,
+			);
+			path = TAQComponentsViewController;
+			sourceTree = "<group>";
+		};
+		4DCE40291B277803002C7995 /* TAQColorSwatchesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE402A1B277803002C7995 /* TAQColorSwatchesViewController.h */,
+				4DCE402B1B277803002C7995 /* TAQColorSwatchesViewController.m */,
+			);
+			path = TAQColorSwatchesViewController;
+			sourceTree = "<group>";
+		};
+		4DCE402F1B277803002C7995 /* TAQControlsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40301B277803002C7995 /* TAQControlsViewController.h */,
+				4DCE40311B277803002C7995 /* TAQControlsViewController.m */,
+			);
+			path = TAQControlsViewController;
+			sourceTree = "<group>";
+		};
+		4DCE40321B277803002C7995 /* TAQFormsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40331B277803002C7995 /* TAQFormsViewController.h */,
+				4DCE40341B277803002C7995 /* TAQFormsViewController.m */,
+			);
+			path = TAQFormsViewController;
+			sourceTree = "<group>";
+		};
+		4DCE40351B277803002C7995 /* TAQListsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40361B277803002C7995 /* TAQExamplesTableViewController */,
+				4DCE40391B277803002C7995 /* TAQListsViewController.h */,
+				4DCE403A1B277803002C7995 /* TAQListsViewController.m */,
+			);
+			path = TAQListsViewController;
+			sourceTree = "<group>";
+		};
+		4DCE40361B277803002C7995 /* TAQExamplesTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40371B277803002C7995 /* TAQExamplesTableViewController.h */,
+				4DCE40381B277803002C7995 /* TAQExamplesTableViewController.m */,
+			);
+			path = TAQExamplesTableViewController;
+			sourceTree = "<group>";
+		};
+		4DCE403B1B277803002C7995 /* TAQTypographyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE403C1B277803002C7995 /* TAQTypographyViewController.h */,
+				4DCE403D1B277803002C7995 /* TAQTypographyViewController.m */,
+			);
+			path = TAQTypographyViewController;
+			sourceTree = "<group>";
+		};
+		4DCE403E1B277803002C7995 /* TAQGuideSubtitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE403F1B277803002C7995 /* TAQGuideSubtitleView.h */,
+				4DCE40401B277803002C7995 /* TAQGuideSubtitleView.m */,
+				4DCE40411B277803002C7995 /* TAQGuideSubtitleView.xib */,
+			);
+			path = TAQGuideSubtitleView;
+			sourceTree = "<group>";
+		};
+		4DCE40441B277803002C7995 /* TAQGuideTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE40451B277803002C7995 /* TAQGuideTitleView.h */,
+				4DCE40461B277803002C7995 /* TAQGuideTitleView.m */,
+				4DCE40471B277803002C7995 /* TAQGuideTitleView.xib */,
+			);
+			path = TAQGuideTitleView;
+			sourceTree = "<group>";
+		};
+		4DCE405A1B27782A002C7995 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE405C1B27782A002C7995 /* UIView+AttachToSuperview.h */,
+				4DCE405D1B27782A002C7995 /* UIView+AttachToSuperview.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		4DEB0ECA1A8E4FE60048477D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -672,7 +697,7 @@
 			isa = PBXGroup;
 			children = (
 				5BFCA8DB1A792BE1001B1BA5 /* App */,
-				5BFCA8D81A792AE7001B1BA5 /* Categories */,
+				4DCE405A1B27782A002C7995 /* Categories */,
 				5BFCA8D91A792AE7001B1BA5 /* Components */,
 				5BFCA8DF1A792BEE001B1BA5 /* Models */,
 				5BFCA8D11A7928B0001B1BA5 /* Modules */,
@@ -707,17 +732,10 @@
 		5BFCA8D11A7928B0001B1BA5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE3F891B2777B1002C7995 /* TAQGuideViewController */,
+				4DCE40271B277803002C7995 /* TAQGuideViewController */,
 				4DCE3DCA1B277577002C7995 /* Home */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		5BFCA8D81A792AE7001B1BA5 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Categories;
 			sourceTree = "<group>";
 		};
 		5BFCA8D91A792AE7001B1BA5 /* Components */ = {
@@ -811,22 +829,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DCE3FEB1B2777BE002C7995 /* TableViewItemCellContentView.xib in Resources */,
+				4DCE40591B277803002C7995 /* TAQGuideViewController.xib in Resources */,
 				4DCE3FE61B2777BE002C7995 /* CustomRadioButtonView.xib in Resources */,
 				4DCE3FEF1B2777BE002C7995 /* TitleView.xib in Resources */,
 				4DCE3FE11B2777BE002C7995 /* CustomCheckboxButtonView.xib in Resources */,
-				4DCE3FB21B2777B1002C7995 /* TAQGuideSubtitleView.xib in Resources */,
-				4DCE3FB51B2777B1002C7995 /* TAQGuideTitleView.xib in Resources */,
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,
 				5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */,
+				4DCE40571B277803002C7995 /* TAQGuideTitleView.xib in Resources */,
 				4DCE3DE71B277577002C7995 /* HomeViewController.xib in Resources */,
-				4DCE3FAC1B2777B1002C7995 /* TAQComponentsViewController.xib in Resources */,
 				4DCE3FED1B2777BE002C7995 /* TableViewPrimaryHeaderView.xib in Resources */,
 				4DCE3FDE1B2777BE002C7995 /* .gitkeep in Resources */,
 				5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */,
-				4DCE3FB71B2777B1002C7995 /* TAQGuideViewController.xib in Resources */,
 				4DCE3FE41B2777BE002C7995 /* CustomCheckboxButton.xib in Resources */,
 				4DCE3FE81B2777BE002C7995 /* CustomTextFieldView.xib in Resources */,
+				4DCE404D1B277803002C7995 /* TAQComponentsViewController.xib in Resources */,
+				4DCE40541B277803002C7995 /* TAQGuideSubtitleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -870,22 +888,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCE40581B277803002C7995 /* TAQGuideViewController.m in Sources */,
 				4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */,
 				4DCE40191B2777D1002C7995 /* BaseStylesheet.m in Sources */,
 				4DCE3FEC1B2777BE002C7995 /* TableViewPrimaryHeaderView.m in Sources */,
-				4DCE3FAB1B2777B1002C7995 /* TAQComponentsViewController.m in Sources */,
+				4DCE404E1B277803002C7995 /* TAQControlsViewController.m in Sources */,
+				4DCE404C1B277803002C7995 /* TAQComponentsViewController.m in Sources */,
 				4DCE3D5F1B271E99002C7995 /* TAQUnknownKeyException.m in Sources */,
-				4DCE3FAD1B2777B1002C7995 /* TAQControlsViewController.m in Sources */,
 				4DCE401D1B2777D1002C7995 /* CustomCheckboxButtonViewStylesheet.m in Sources */,
-				4DCE3FB01B2777B1002C7995 /* TAQTypographyViewController.m in Sources */,
 				4DCE40261B2777D1002C7995 /* README.md in Sources */,
 				4DCE401A1B2777D1002C7995 /* BodyStylesheet.m in Sources */,
+				4DCE404B1B277803002C7995 /* TAQColorSwatchesViewController.m in Sources */,
+				4DCE405F1B27782A002C7995 /* UIView+AttachToSuperview.m in Sources */,
 				5BECD2971A6FEF2D00A48259 /* main.m in Sources */,
 				4DCE40231B2777D1002C7995 /* TitleStylesheet.m in Sources */,
-				4DCE3FAA1B2777B1002C7995 /* TAQColorSwatchesViewController.m in Sources */,
 				4DCE40241B2777D1002C7995 /* ViewStylesheet.m in Sources */,
+				4DCE40501B277803002C7995 /* TAQExamplesTableViewController.m in Sources */,
 				4DCE401C1B2777D1002C7995 /* CaptionStylesheet.m in Sources */,
 				4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */,
+				4DCE404F1B277803002C7995 /* TAQFormsViewController.m in Sources */,
 				4DCE3D621B272128002C7995 /* TAQInvalidStyleRuleException.m in Sources */,
 				4DCE401B1B2777D1002C7995 /* ButtonStylesheet.m in Sources */,
 				4DCE3FE91B2777BE002C7995 /* NameTextFieldView.m in Sources */,
@@ -893,29 +914,28 @@
 				4DCE401E1B2777D1002C7995 /* CustomRadioButtonViewStylesheet.m in Sources */,
 				4DCE3FE01B2777BE002C7995 /* CustomCheckboxButtonView.m in Sources */,
 				4DCE40221B2777D1002C7995 /* TableViewItemCellContentViewStylesheet.m in Sources */,
+				4DCE40531B277803002C7995 /* TAQGuideSubtitleView.m in Sources */,
 				4DCE3FE51B2777BE002C7995 /* CustomRadioButtonView.m in Sources */,
 				4DCE40201B2777D1002C7995 /* FormTextualElementsStylesheet.m in Sources */,
-				4DCE3FB41B2777B1002C7995 /* TAQGuideTitleView.m in Sources */,
 				5BFCA8DE1A792BE1001B1BA5 /* AppDelegate.m in Sources */,
-				4DCE3FB31B2777B1002C7995 /* TAQGuideTableViewDataModel.m in Sources */,
 				4DCE3FE21B2777BE002C7995 /* CustomPickerView.m in Sources */,
 				4DCE3FE31B2777BE002C7995 /* CustomCheckboxButton.m in Sources */,
 				4DCE401F1B2777D1002C7995 /* CustomTextFieldViewStylesheet.m in Sources */,
 				4DCE3FE71B2777BE002C7995 /* CustomTextFieldView.m in Sources */,
 				4DCE40251B2777D1002C7995 /* MainStylesheet.m in Sources */,
+				4DCE40561B277803002C7995 /* TAQGuideTitleView.m in Sources */,
 				4DCE3FEA1B2777BE002C7995 /* TableViewItemCellContentView.m in Sources */,
+				4DCE40551B277803002C7995 /* TAQGuideTableViewDataModel.m in Sources */,
 				4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */,
-				4DCE3FAF1B2777B1002C7995 /* TAQListsViewController.m in Sources */,
 				4DCE40211B2777D1002C7995 /* LabelStylesheet.m in Sources */,
+				4DCE40511B277803002C7995 /* TAQListsViewController.m in Sources */,
 				4DCE3FEE1B2777BE002C7995 /* TitleView.m in Sources */,
 				4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */,
-				4DCE3FB61B2777B1002C7995 /* TAQGuideViewController.m in Sources */,
 				4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */,
 				4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */,
-				4DCE3FB11B2777B1002C7995 /* TAQGuideSubtitleView.m in Sources */,
-				4DCE3FAE1B2777B1002C7995 /* TAQFormsViewController.m in Sources */,
 				4DCE3FDF1B2777BE002C7995 /* BaseComponentsView.m in Sources */,
 				4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */,
+				4DCE40521B277803002C7995 /* TAQTypographyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
