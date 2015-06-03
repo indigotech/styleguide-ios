@@ -9,7 +9,8 @@
 #import "TAQExamplesTableViewController.h"
 #import "UIView+AttachToSuperview.h"
 #import "TableViewPrimaryHeaderView.h"
-#import "TableViewItemCellContentView.h"
+#import "ListItemCellView.h"
+#import "BaseTableViewCell.h"
 
 @interface TAQExamplesTableViewController ()
 
@@ -25,7 +26,7 @@
     self.clearsSelectionOnViewWillAppear = NO;
     
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CELL_ID];
+    [self.tableView registerClass:[BaseTableViewCell class] forCellReuseIdentifier:CELL_ID];
 }
 
 #pragma mark - Table view data source
@@ -63,30 +64,22 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CELL_ID forIndexPath:indexPath];
+    BaseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CELL_ID forIndexPath:indexPath];
     
     switch (indexPath.section) {
         case 0:
             switch (indexPath.row) {
                 case 0: {
-                    TableViewItemCellContentView *contentView = cell.contentView.subviews.firstObject;
-                    if (!contentView) {
-                        contentView = [[TableViewItemCellContentView alloc] initWithFrame:CGRectZero];
-                        [cell.contentView addSubview:contentView];
-                        [contentView attachToSuperviewUsingConstraints];
-                    }
+                    [cell setCellViewClass:[ListItemCellView class]];
+                    ListItemCellView *contentView = (ListItemCellView *)cell.cellView;
                     
                     contentView.titleLabel.text = @"WITH";
                     contentView.detailLabel.text = @"DETAIL";
                 }
                     break;
                 case 1: {
-                    TableViewItemCellContentView *contentView = cell.contentView.subviews.firstObject;
-                    if (!contentView) {
-                        contentView = [[TableViewItemCellContentView alloc] initWithFrame:CGRectZero];
-                        [cell.contentView addSubview:contentView];
-                        [contentView attachToSuperviewUsingConstraints];
-                    }
+                    [cell setCellViewClass:[ListItemCellView class]];
+                    ListItemCellView *contentView = (ListItemCellView *)cell.cellView;
                     
                     contentView.titleLabel.text = @"WITHOUT DETAIL";
                     contentView.accessoryLabel.text = @"accessory";

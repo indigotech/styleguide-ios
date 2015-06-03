@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "TableViewItemCellContentView.h"
+#import "ListItemCellView.h"
 
-@implementation TableViewItemCellContentView
+@implementation ListItemCellView
 {
     __weak IBOutlet NSLayoutConstraint *_titleLabelCenterYConstraint;
     __weak IBOutlet NSLayoutConstraint *_titleLabeAlginBottomConstraint;
