@@ -22,6 +22,10 @@
 		4D3168141B0D578400C3010B /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3168131B0D578400C3010B /* TitleView.xib */; };
 		4D3168191B0D579100C3010B /* BaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3168171B0D579100C3010B /* BaseComponentsView.m */; };
 		4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */; };
+		4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6C50D81B2711B70058D0A0 /* TAQWrongClassNameException.m */; };
+		4DCE3D5F1B271E99002C7995 /* TAQUnknownKeyException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D5E1B271E99002C7995 /* TAQUnknownKeyException.m */; };
+		4DCE3D621B272128002C7995 /* TAQInvalidStyleRuleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D611B272128002C7995 /* TAQInvalidStyleRuleException.m */; };
+		4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D641B27323C002C7995 /* TAQBaseException.m */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
@@ -62,6 +66,14 @@
 		4D3168171B0D579100C3010B /* BaseComponentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseComponentsView.m; sourceTree = "<group>"; };
 		4D3168211B0D8E4900C3010B /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
 		4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		4D6C50D71B2711B70058D0A0 /* TAQWrongClassNameException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQWrongClassNameException.h; sourceTree = "<group>"; };
+		4D6C50D81B2711B70058D0A0 /* TAQWrongClassNameException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQWrongClassNameException.m; sourceTree = "<group>"; };
+		4DCE3D5D1B271E99002C7995 /* TAQUnknownKeyException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQUnknownKeyException.h; sourceTree = "<group>"; };
+		4DCE3D5E1B271E99002C7995 /* TAQUnknownKeyException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQUnknownKeyException.m; sourceTree = "<group>"; };
+		4DCE3D601B272128002C7995 /* TAQInvalidStyleRuleException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQInvalidStyleRuleException.h; sourceTree = "<group>"; };
+		4DCE3D611B272128002C7995 /* TAQInvalidStyleRuleException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQInvalidStyleRuleException.m; sourceTree = "<group>"; };
+		4DCE3D631B27323C002C7995 /* TAQBaseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQBaseException.h; sourceTree = "<group>"; };
+		4DCE3D641B27323C002C7995 /* TAQBaseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQBaseException.m; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -121,6 +133,7 @@
 				4D31681F1B0D8E4900C3010B /* UIImage */,
 				4D3167E81B0BDC9400C3010B /* UIButton */,
 				4D3167EB1B0BDC9400C3010B /* UIView */,
+				4D6C50D61B2711B70058D0A0 /* Exceptions */,
 			);
 			path = Styleguide;
 			sourceTree = "<group>";
@@ -227,6 +240,21 @@
 				4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */,
 			);
 			path = "UIImage+ImageWithColor";
+			sourceTree = "<group>";
+		};
+		4D6C50D61B2711B70058D0A0 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				4D6C50D71B2711B70058D0A0 /* TAQWrongClassNameException.h */,
+				4D6C50D81B2711B70058D0A0 /* TAQWrongClassNameException.m */,
+				4DCE3D5D1B271E99002C7995 /* TAQUnknownKeyException.h */,
+				4DCE3D5E1B271E99002C7995 /* TAQUnknownKeyException.m */,
+				4DCE3D601B272128002C7995 /* TAQInvalidStyleRuleException.h */,
+				4DCE3D611B272128002C7995 /* TAQInvalidStyleRuleException.m */,
+				4DCE3D631B27323C002C7995 /* TAQBaseException.h */,
+				4DCE3D641B27323C002C7995 /* TAQBaseException.m */,
+			);
+			path = Exceptions;
 			sourceTree = "<group>";
 		};
 		4DEB0ECA1A8E4FE60048477D /* Fonts */ = {
@@ -465,17 +493,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */,
+				4DCE3D5F1B271E99002C7995 /* TAQUnknownKeyException.m in Sources */,
 				5BECD2971A6FEF2D00A48259 /* main.m in Sources */,
 				4D3168101B0D564500C3010B /* TitleView.m in Sources */,
 				5BFCA8D51A7928C5001B1BA5 /* HomeViewController.m in Sources */,
 				4D3168191B0D579100C3010B /* BaseComponentsView.m in Sources */,
+				4DCE3D621B272128002C7995 /* TAQInvalidStyleRuleException.m in Sources */,
 				4D3167F41B0BDC9400C3010B /* MainStylesheet.m in Sources */,
 				4D3167F11B0BDC9400C3010B /* ButtonStylesheet.m in Sources */,
 				4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */,
 				5BFCA8DE1A792BE1001B1BA5 /* AppDelegate.m in Sources */,
 				4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */,
 				4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */,
+				4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */,
 				4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */,
+				4DCE3D651B27323C002C7995 /* TAQBaseException.m in Sources */,
 				4D3167F01B0BDC9400C3010B /* BaseStylesheet.m in Sources */,
 				4D3167F21B0BDC9400C3010B /* TitleStylesheet.m in Sources */,
 			);

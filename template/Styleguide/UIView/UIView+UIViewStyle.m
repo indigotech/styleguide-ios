@@ -8,6 +8,7 @@
 
 #import "UIView+UIViewStyle.h"
 #import "UIViewAttributes.h"
+#import "TAQUnknownKeyException.h"
 
 @implementation UIView (UIViewStyle)
 
@@ -23,12 +24,11 @@
  */
 -(void)setValue:(id)value forUndefinedKey:(NSString *)key
 {
-    if([key isEqualToString:@"stylesheet"])
+    if([key isEqualToString:@"stylesheet"]) {
         [UIViewAttributes setStyle:value forView:self];
-    else
-        @throw [NSException exceptionWithName:@"InvalidKeyOnSetValue:"
-                                       reason:[NSString stringWithFormat:@"\n\nEXCEPTION - invalid key on setValue:forUndefinedKey:\nkey: %@\n%@\n", key, [NSThread callStackSymbols]]
-                                     userInfo:nil];
+    } else {
+        @throw [[TAQUnknownKeyException alloc] initWithKeyName:key];
+    }
 }
 
 #pragma mark - Properties

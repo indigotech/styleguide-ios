@@ -8,6 +8,7 @@
 
 #import "UIViewAttributes.h"
 #import "MainStylesheet.h"
+#import "TAQInvalidStyleRuleException.h"
 
 @implementation UIViewAttributes
 
@@ -45,9 +46,7 @@
     if ([object respondsToSelector:NSSelectorFromString([properties lastObject])]) {
         [object setValue:[stylesheet objectForKey:style] forKey:[properties lastObject]];
     } else {
-        @throw [NSException exceptionWithName:[NSString stringWithFormat:@"Invalid style for %@", NSStringFromClass([view class])]
-                                       reason:[NSString stringWithFormat:@"\n\nEXCEPTION - INVALID STYLE RULE: \nClass: %@\nproperty:%@\nvalue: %@\n\n", NSStringFromClass([view class]), style, [stylesheet objectForKey:style]]
-                                     userInfo:nil];
+        @throw [[TAQInvalidStyleRuleException alloc] initWithView:view style:style];
     }
 }
 
@@ -60,9 +59,7 @@
         if ([object respondsToSelector:NSSelectorFromString(properties[i])]) {
             object = [object valueForKey:properties[i]];
         } else {
-            @throw [NSException exceptionWithName:[NSString stringWithFormat: @"Invalid style for %@", NSStringFromClass([view class])]
-                                           reason:[NSString stringWithFormat:@"\n\nEXCEPTION - INVALID PROPERTY: \nClass: %@\nproperties:%@\nPlease, check if there is a typo on properties\n\n", NSStringFromClass([view class]), styleKey]
-                                         userInfo:nil];
+            @throw [[TAQInvalidStyleRuleException alloc] initWithView:view style:styleKey];
         }
     }
     return  object;
