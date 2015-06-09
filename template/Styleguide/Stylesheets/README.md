@@ -3,7 +3,7 @@ This is the folder for the component style rules.
 # How to create a component stylesheet
 
 To add your component:
-1. Create a file .h and .m for your class. The file name has the following format (in eBNF):
+1. Create a file .h and .m for your class. The file name has the following format (in eBNF - [Extended Backus Naur Form](http://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_Form)):
 ```
     component_name "Stylesheet"
 ```

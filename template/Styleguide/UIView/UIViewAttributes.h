@@ -11,6 +11,6 @@
 
 @interface UIViewAttributes : NSObject
 
-+(void) setStyle:(NSString*) style forView:(UIView*) textField;
++(void) setStyle:(NSString*) style forView:(UIView*) view;
 
 @end

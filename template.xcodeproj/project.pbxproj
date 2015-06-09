@@ -13,7 +13,7 @@
 		4D3167F11B0BDC9400C3010B /* ButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167DE1B0BDC9400C3010B /* ButtonStylesheet.m */; };
 		4D3167F21B0BDC9400C3010B /* TitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167E11B0BDC9400C3010B /* TitleStylesheet.m */; };
 		4D3167F41B0BDC9400C3010B /* MainStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167E61B0BDC9400C3010B /* MainStylesheet.m */; };
-		4D3167F51B0BDC9400C3010B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 4D3167E71B0BDC9400C3010B /* README */; };
+		4D3167F51B0BDC9400C3010B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D3167E71B0BDC9400C3010B /* README.md */; };
 		4D3167F61B0BDC9400C3010B /* UIButton+ButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167EA1B0BDC9400C3010B /* UIButton+ButtonStyle.m */; };
 		4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167ED1B0BDC9400C3010B /* UIView+UIViewStyle.m */; };
 		4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167EF1B0BDC9400C3010B /* UIViewAttributes.m */; };
@@ -50,7 +50,7 @@
 		4D3167E11B0BDC9400C3010B /* TitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleStylesheet.m; sourceTree = "<group>"; };
 		4D3167E51B0BDC9400C3010B /* MainStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainStylesheet.h; sourceTree = "<group>"; };
 		4D3167E61B0BDC9400C3010B /* MainStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStylesheet.m; sourceTree = "<group>"; };
-		4D3167E71B0BDC9400C3010B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		4D3167E71B0BDC9400C3010B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D3167E91B0BDC9400C3010B /* UIButton+ButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ButtonStyle.h"; sourceTree = "<group>"; };
 		4D3167EA1B0BDC9400C3010B /* UIButton+ButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ButtonStyle.m"; sourceTree = "<group>"; };
 		4D3167EC1B0BDC9400C3010B /* UIView+UIViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewStyle.h"; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 				4D3167D81B0BDC9400C3010B /* Components */,
 				4D3167E51B0BDC9400C3010B /* MainStylesheet.h */,
 				4D3167E61B0BDC9400C3010B /* MainStylesheet.m */,
-				4D3167E71B0BDC9400C3010B /* README */,
+				4D3167E71B0BDC9400C3010B /* README.md */,
 			);
 			path = Stylesheets;
 			sourceTree = "<group>";
@@ -442,7 +442,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3167F51B0BDC9400C3010B /* README in Resources */,
+				4D3167F51B0BDC9400C3010B /* README.md in Resources */,
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
 				4D3168141B0D578400C3010B /* TitleView.xib in Resources */,
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,

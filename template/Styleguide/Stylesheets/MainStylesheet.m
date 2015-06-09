@@ -26,7 +26,8 @@
 }
 
 + (void)importStylesheetClass:(Class)stylesheetClass toMainDictionary:(NSMutableDictionary *)mainDictionary {
-    if ([NSStringFromClass(stylesheetClass) rangeOfString:CLASS_SUFFIX].location == NSNotFound) {
+    BOOL const isStylesheetClass = [NSStringFromClass(stylesheetClass) rangeOfString:CLASS_SUFFIX].location == NSNotFound;
+    if (isStylesheetClass) {
         @throw [[TAQWrongClassNameException alloc] initWithClass:stylesheetClass];
     } else {
         [mainDictionary addEntriesFromDictionary:[stylesheetClass stylesheet]];
