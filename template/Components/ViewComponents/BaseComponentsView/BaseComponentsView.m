@@ -8,6 +8,7 @@
 
 #import "BaseComponentsView.h"
 #import "UIView+AttachToSuperview.h"
+#import "TAQMissingMethodImplementationException.h"
 
 @implementation BaseComponentsView
 
@@ -49,8 +50,6 @@
  * the class name
  */
 -(NSString *)nibName {
-    @throw [NSException exceptionWithName:NSInternalInconsistencyException
-                                   reason:[NSString stringWithFormat:@"You must override the method %@ in a subclass", NSStringFromSelector(_cmd)]
-                                 userInfo:nil];
+    @throw [[TAQMissingMethodImplementationException alloc] initWithSelector:_cmd];
 }
 @end

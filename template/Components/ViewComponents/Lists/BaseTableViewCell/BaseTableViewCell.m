@@ -7,6 +7,7 @@
 //
 
 #import "BaseTableViewCell.h"
+#import "TAQNullCellViewClass.h"
 #import "UIView+AttachToSuperview.h"
 
 @interface BaseTableViewCell()
@@ -20,7 +21,7 @@
     UIView *cellView = self.contentView.subviews.firstObject;
     if (!cellView) {
         if (!_cellViewClass) {
-            @throw [NSException exceptionWithName:@"TAQNullCellViewClass" reason:[NSString stringWithFormat:@"You should set the cellViewClass before calling this method. \n%@", [NSThread callStackSymbols]] userInfo:nil];
+            @throw [[TAQNullCellViewClass alloc] init];
         }
         cellView = [[_cellViewClass alloc] initWithFrame:CGRectZero];
         [self.contentView addSubview:cellView];

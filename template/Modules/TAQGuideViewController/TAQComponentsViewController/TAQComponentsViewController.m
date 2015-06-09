@@ -6,6 +6,7 @@
 #import "TAQComponentsViewController.h"
 #import "TAQGuideTitleView.h"
 #import "TAQGuideSubtitleView.h"
+#import "TAQMissingMethodImplementationException.h"
 #import "Components.h"
 
 @implementation TAQComponentsViewController
@@ -21,9 +22,7 @@
 //    implemented and the main idea is that it should explain how to configure/
 //    fill it with data
 -(void)addComponents {
-    @throw [NSException exceptionWithName:NSInternalInconsistencyException
-                                   reason:[NSString stringWithFormat:@"You must override the method %@ in a subclass", NSStringFromSelector(_cmd)]
-                                 userInfo:nil];
+    @throw [[TAQMissingMethodImplementationException alloc] initWithSelector:_cmd];
 }
 
 #pragma mark - DON'T CHANGE THE FILE BELOW THIS LINE
