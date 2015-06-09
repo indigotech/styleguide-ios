@@ -15,9 +15,12 @@
 @implementation TableViewItemCellContentViewStylesheet
 + (NSDictionary *)stylesheet {
     return @{
-             @"TableViewItemCellContentView_DetailLabel_Label": @{
+             @"TableViewItemCellContentView_AccessoryLabel_Label": @{
                      PK_LABEL_FONT:[UIFont fontWithName:FONT_NAME(FONT_FAMILY_PRIMARY, FONT_WEIGHT_LIGHT) size:FONT_SIZE_EXTRA_SMALL],
                      PK_LABEL_TEXT_COLOR: UICOLOR_FROM_HEX(COLOR_GRAY),
+                    },
+             @"TableViewItemCellContentView_AccessoryLabel_IsHighlighted_Label": @{
+                     PK_LABEL_TEXT_COLOR: UICOLOR_HIGHLIGHTED_FROM_HEX(COLOR_GRAY),
                     },
              };
 }

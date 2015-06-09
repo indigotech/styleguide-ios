@@ -7,6 +7,7 @@
 //
 
 #import "ListItemCellView.h"
+#import "UIViewAttributes.h"
 
 @implementation ListItemCellView
 {
@@ -76,8 +77,10 @@
  * This method gets called when the cell is highlighted
  */
 -(void)setHighlighted:(BOOL)highlighted {
-    self.titleLabel.textColor = [UIColor redColor];
-    self.accessoryLabel.tintColor = [UIColor redColor];
     _highlighted = highlighted;
+    
+    [UIViewAttributes setStyle:_highlighted ? @"H4_IsHighlighted_Label" : @"H4_Label" forView:self.titleLabel];
+    [UIViewAttributes setStyle:_highlighted ? @"H4Sub_IsHighlighted_Label" : @"H4Sub_Label" forView:self.detailLabel];
+    [UIViewAttributes setStyle:_highlighted ? @"TableViewItemCellContentView_AccessoryLabel_IsHighlighted_Label" : @"TableViewItemCellContentView_AccessoryLabel_Label" forView:self.accessoryLabel];
 }
 @end

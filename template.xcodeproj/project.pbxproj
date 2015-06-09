@@ -68,7 +68,7 @@
 		4DCE41451B278F6B002C7995 /* TAQGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE41361B278F6B002C7995 /* TAQGuideViewController.m */; };
 		4DCE41461B278F6B002C7995 /* TAQGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE41371B278F6B002C7995 /* TAQGuideViewController.xib */; };
 		4DCE414A1B278FCE002C7995 /* UIView+AttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE41491B278FCE002C7995 /* UIView+AttachToSuperview.m */; };
-		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
+		4DCE414C1B279533002C7995 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE414B1B279533002C7995 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
 		5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD2911A6FEF2D00A48259 /* Info.plist */; };
@@ -188,8 +188,8 @@
 		4DCE41371B278F6B002C7995 /* TAQGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAQGuideViewController.xib; sourceTree = "<group>"; };
 		4DCE41481B278FCE002C7995 /* UIView+AttachToSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AttachToSuperview.h"; sourceTree = "<group>"; };
 		4DCE41491B278FCE002C7995 /* UIView+AttachToSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AttachToSuperview.m"; sourceTree = "<group>"; };
+		4DCE414B1B279533002C7995 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BECD28D1A6FEF2D00A48259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		5BECD28F1A6FEF2D00A48259 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5BECD2911A6FEF2D00A48259 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -820,8 +820,8 @@
 		5BECD28C1A6FEF2D00A48259 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4DCE414B1B279533002C7995 /* Images.xcassets */,
 				4DEB0ECA1A8E4FE60048477D /* Fonts */,
-				5BECD28D1A6FEF2D00A48259 /* Images.xcassets */,
 				5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */,
 				5BECD28F1A6FEF2D00A48259 /* Main.storyboard */,
 			);
@@ -948,9 +948,9 @@
 				4DCE41441B278F6B002C7995 /* TAQGuideTitleView.xib in Resources */,
 				4DCE3DE71B277577002C7995 /* HomeViewController.xib in Resources */,
 				4DCE40DC1B278F58002C7995 /* TitleView.xib in Resources */,
+				4DCE414C1B279533002C7995 /* Images.xcassets in Resources */,
 				4DCE40D21B278F58002C7995 /* CustomRadioButtonView.xib in Resources */,
 				4DCE40D41B278F58002C7995 /* CustomTextFieldView.xib in Resources */,
-				5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */,
 				4DCE40D01B278F58002C7995 /* CustomCheckboxButton.xib in Resources */,
 				4DCE413A1B278F6B002C7995 /* TAQComponentsViewController.xib in Resources */,
 				4DCE41421B278F6B002C7995 /* TAQGuideSubtitleView.xib in Resources */,
