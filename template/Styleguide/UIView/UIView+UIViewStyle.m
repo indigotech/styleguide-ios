@@ -8,6 +8,7 @@
 
 #import "UIView+UIViewStyle.h"
 #import "UIViewAttributes.h"
+#import "Components.h"
 #import "TAQUnknownKeyException.h"
 
 @implementation UIView (UIViewStyle)
@@ -24,7 +25,7 @@
  */
 -(void)setValue:(id)value forUndefinedKey:(NSString *)key
 {
-    if([key isEqualToString:@"stylesheet"]) {
+    if([key isEqualToString:STYLESHEET_KEYWORD]) {
         [UIViewAttributes setStyle:value forView:self];
     } else {
         @throw [[TAQUnknownKeyException alloc] initWithKeyName:key];

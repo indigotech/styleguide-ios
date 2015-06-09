@@ -8,6 +8,7 @@
 
 #import "TAQColorSwatchesViewController.h"
 #import "Colors.h"
+#import "UIViewAttributes.h"
 
 @implementation TAQColorSwatchesViewController
 #pragma mark - VC lifecycle
@@ -72,6 +73,6 @@
 -(void)addLabelWithText:(NSString *)text {
     UILabel *label = (UILabel *)[self addViewWithDefaultMarginsAndClass:[UILabel class] height:0];
     [label setText:text];
-    [label setValue:@"Label_Label" forUndefinedKey:@"stylesheet"];
+    [UIViewAttributes setStyle:@"Label_Label" forView:label];
 }
 @end

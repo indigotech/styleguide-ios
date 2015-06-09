@@ -54,7 +54,7 @@
 #pragma mark - aux methods
 -(void)addButtonWithText:(NSString *)text style:(NSString *)style setup:(void (^)(UIButton *button))setup {
     UIButton *button = (UIButton *)[self addViewWithDefaultMarginsAndClass:[UIButton class] height:34];
-    [button setValue:style forUndefinedKey:STYLESHEET_KEYWORD];
+    [UIViewAttributes setStyle:style forView:button];
     [button setTitle:text forState:UIControlStateNormal];
     
     if (setup) {

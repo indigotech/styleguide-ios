@@ -119,6 +119,6 @@
 -(void)addLabelWithText:(NSString *)text style:(NSString *)style {
     UILabel *label = (UILabel *)[self addViewWithDefaultMarginsAndClass:[UILabel class] height:0];
     [label setText:text];
-    [label setValue:style forUndefinedKey:@"stylesheet"];
+    [UIViewAttributes setStyle:style forView:label];
 }
 @end
