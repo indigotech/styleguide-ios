@@ -7,31 +7,34 @@
 //
 
 #import "HomeViewController.h"
+#import "TitleView.h"
+#import "Components.h"
 
 @interface HomeViewController ()
 
 @end
 
 @implementation HomeViewController
+{
+    __weak IBOutlet TitleView *_titleLabel;
+}
 
+#pragma mark - ViewController lifecyle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setup];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - setup
+-(void)setup {
+    [self setTitle:@"Template"];
+    
+    self.navigationController.navigationBar.translucent = NO;
+    [self.navigationController.navigationBar setBarTintColor:NAVIGATION_BAR_TINT_COLOR];
+    
+    NSDictionary * const titleAttributes = @{NSForegroundColorAttributeName:UICOLOR_FROM_HEX(COLOR_WHITE), NSFontAttributeName:[UIFont fontWithName:NAVIGATION_BAR_FONT size:FONT_SIZE_EXTRA_LARGE]};
+    [self.navigationController.navigationBar setTitleTextAttributes:titleAttributes];
+    
+    [_titleLabel setTitle:@"H2 - Heading 2"];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end
