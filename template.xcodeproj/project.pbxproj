@@ -69,6 +69,7 @@
 		4DCE41461B278F6B002C7995 /* TAQGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE41371B278F6B002C7995 /* TAQGuideViewController.xib */; };
 		4DCE414A1B278FCE002C7995 /* UIView+AttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE41491B278FCE002C7995 /* UIView+AttachToSuperview.m */; };
 		4DCE414C1B279533002C7995 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE414B1B279533002C7995 /* Images.xcassets */; };
+		4DCE41531B2798DF002C7995 /* TAQOtherComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE41521B2798DF002C7995 /* TAQOtherComponentsViewController.m */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
 		5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD2911A6FEF2D00A48259 /* Info.plist */; };
@@ -189,6 +190,8 @@
 		4DCE41481B278FCE002C7995 /* UIView+AttachToSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AttachToSuperview.h"; sourceTree = "<group>"; };
 		4DCE41491B278FCE002C7995 /* UIView+AttachToSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AttachToSuperview.m"; sourceTree = "<group>"; };
 		4DCE414B1B279533002C7995 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4DCE41511B2798DF002C7995 /* TAQOtherComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQOtherComponentsViewController.h; sourceTree = "<group>"; };
+		4DCE41521B2798DF002C7995 /* TAQOtherComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQOtherComponentsViewController.m; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		5BECD28F1A6FEF2D00A48259 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -659,12 +662,12 @@
 			isa = PBXGroup;
 			children = (
 				4DCE41141B278F6B002C7995 /* TAQComponentsViewController */,
-				4DCE412A1B278F6B002C7995 /* TAQGuideTableViewDataModel.h */,
-				4DCE412B1B278F6B002C7995 /* TAQGuideTableViewDataModel.m */,
 				4DCE412C1B278F6B002C7995 /* TAQGuideViewComponents */,
 				4DCE41351B278F6B002C7995 /* TAQGuideViewController.h */,
 				4DCE41361B278F6B002C7995 /* TAQGuideViewController.m */,
 				4DCE41371B278F6B002C7995 /* TAQGuideViewController.xib */,
+				4DCE412A1B278F6B002C7995 /* TAQGuideTableViewDataModel.h */,
+				4DCE412B1B278F6B002C7995 /* TAQGuideTableViewDataModel.m */,
 			);
 			path = TAQGuideViewController;
 			sourceTree = "<group>";
@@ -680,6 +683,7 @@
 				4DCE411B1B278F6B002C7995 /* TAQControlsViewController */,
 				4DCE411E1B278F6B002C7995 /* TAQFormsViewController */,
 				4DCE41211B278F6B002C7995 /* TAQListsViewController */,
+				4DCE41501B2798DF002C7995 /* TAQOtherComponentsViewController */,
 			);
 			path = TAQComponentsViewController;
 			sourceTree = "<group>";
@@ -775,6 +779,15 @@
 				4DCE41491B278FCE002C7995 /* UIView+AttachToSuperview.m */,
 			);
 			path = "UIView+AttachToSuperview";
+			sourceTree = "<group>";
+		};
+		4DCE41501B2798DF002C7995 /* TAQOtherComponentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE41511B2798DF002C7995 /* TAQOtherComponentsViewController.h */,
+				4DCE41521B2798DF002C7995 /* TAQOtherComponentsViewController.m */,
+			);
+			path = TAQOtherComponentsViewController;
 			sourceTree = "<group>";
 		};
 		4DEB0ECA1A8E4FE60048477D /* Fonts */ = {
@@ -1025,6 +1038,7 @@
 				4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */,
 				4DCE41391B278F6B002C7995 /* TAQComponentsViewController.m in Sources */,
 				4DCE410A1B278F63002C7995 /* CustomRadioButtonViewStylesheet.m in Sources */,
+				4DCE41531B2798DF002C7995 /* TAQOtherComponentsViewController.m in Sources */,
 				4DCE41111B278F63002C7995 /* FormTextualElementsStylesheet.m in Sources */,
 				4DCE410C1B278F63002C7995 /* LabelStylesheet.m in Sources */,
 				4DCE41071B278F63002C7995 /* BaseStylesheet.m in Sources */,

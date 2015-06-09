@@ -51,5 +51,6 @@
 -(NSString *)nibName {
     @throw [NSException exceptionWithName:NSInternalInconsistencyException
                                    reason:[NSString stringWithFormat:@"You must override the method %@ in a subclass", NSStringFromSelector(_cmd)]
-                                 userInfo:nil];}
+                                 userInfo:nil];
+}
 @end

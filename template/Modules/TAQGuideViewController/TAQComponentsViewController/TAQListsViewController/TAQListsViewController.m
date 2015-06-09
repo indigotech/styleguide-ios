@@ -30,12 +30,12 @@
 - (void)addComponents {
     [self addGuideTitleWithText:@"1. TableVIew"];
     
-    [self addGuideSubtitleWithText:@"1.1 Header (TableViewPrimaryHeaderView)"];
+    [self addGuideSubtitleWithText:[NSString stringWithFormat:@"1.1 Header (%@)", NSStringFromClass([TableViewPrimaryHeaderView class])]];
     
     TableViewPrimaryHeaderView *tableViewPrimaryHeaderView = (TableViewPrimaryHeaderView *)[self addViewWithClass:[TableViewPrimaryHeaderView class] height:0];
     tableViewPrimaryHeaderView.titleLabel.text = @"H3 SECTION HEADER";
     
-    [self addGuideSubtitleWithText:@"1.2 Cell content view (TableViewItemCellContentView)"];
+    [self addGuideSubtitleWithText:[NSString stringWithFormat:@"1.2 Cell content view (%@)", NSStringFromClass([ListItemCellView class])]];
     
     ListItemCellView *cellWithoutDetail = (ListItemCellView *)[self addViewWithClass:[ListItemCellView class] height:43];
     cellWithoutDetail.titleLabel.text = @"H4 - WITHOUT DETAIL";

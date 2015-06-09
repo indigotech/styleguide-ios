@@ -8,12 +8,12 @@
 
 #import "TAQGuideViewController.h"
 #import "TAQGuideTableViewDataModel.h"
-#import "TAQComponentsViewController.h"
 #import "TAQTypographyViewController.h"
 #import "TAQColorSwatchesViewController.h"
 #import "TAQControlsViewController.h"
 #import "TAQFormsViewController.h"
 #import "TAQListsViewController.h"
+#import "TAQOtherComponentsViewController.h"
 
 #define CELL_IDENTIFIER @"defaultCellIdentifier"
 
@@ -86,7 +86,7 @@
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Controls" class:[TAQControlsViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Forms" class:[TAQFormsViewController class]],
                             [[TAQGuideTableViewDataModel alloc] initWithText:@"Lists" class:[TAQListsViewController class]],
-                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Other components" class:[TAQComponentsViewController class]],
+                            [[TAQGuideTableViewDataModel alloc] initWithText:@"Other components" class:[TAQOtherComponentsViewController class]],
                             ];
     }
     return _tableViewData;
