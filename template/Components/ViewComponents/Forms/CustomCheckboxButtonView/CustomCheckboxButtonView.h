@@ -13,6 +13,9 @@ typedef enum : NSUInteger {
     CustomCheckboxButtonViewStateInactive,
 } CustomCheckboxButtonViewState;
 
+/**
+ * Implementation of a checkbox using UIButton
+ */
 @interface CustomCheckboxButtonView : BaseComponentsView
 @property (nonatomic) BOOL selected;
 @property (nonatomic) CustomCheckboxButtonViewState state;

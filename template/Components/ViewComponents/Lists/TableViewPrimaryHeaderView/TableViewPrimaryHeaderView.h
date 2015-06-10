@@ -9,6 +9,7 @@
 #import "BaseComponentsView.h"
 
 @interface TableViewPrimaryHeaderView : BaseComponentsView
+
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @end

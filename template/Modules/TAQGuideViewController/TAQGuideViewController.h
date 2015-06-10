@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ * This view controller shows a list of all component sections (typography, colors etc)
+ */
 @interface TAQGuideViewController : UIViewController
 
 @end

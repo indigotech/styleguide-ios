@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ * Base class of all view components. It basically loads the nib using the 
+ * class name or using the method `nibName` (which can be implemented in case
+ * your component doesn't have a xib). Then it adds the loaded nib as a subview
+ * (using constraints) of the view
+ * Pay attention to this: the component class (which inherits from BaseComponentsView)
+ * is actually the superview of its nib.
+ */
 @interface BaseComponentsView : UIView
 
 -(void) addContentViewWithConstraints;

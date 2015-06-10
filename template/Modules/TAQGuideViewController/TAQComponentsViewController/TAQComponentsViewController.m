@@ -15,12 +15,16 @@
     UIView *_lastAddedView;
 }
 
-#pragma mark - main method
-// Add your component to this method
-// 1. Instantiate your view component using addViewWithClass:height: or addViewWithDefaultMarginsAndClass:height:
-// 2. Call a method setup<name_of_component> to setup it. This method should be
-//    implemented and the main idea is that it should explain how to configure/
-//    fill it with data
+#pragma mark - abstract methods
+
+/**
+ * How to use it:
+ * Add your component to this method
+ * 1. Instantiate your view component using addViewWithClass:height: or addViewWithDefaultMarginsAndClass:height:
+ * 2. Setup the just created view. This setup could be on a separate method and the
+ *    the main idea is that it should explain how to configure/fill it with data
+ * obs: if you want to add section/subsection titles in this list, call the methods addGuideTitleWithText:/addGuideSubtitleWithText:
+ */
 -(void)addComponents {
     @throw [[TAQMissingMethodImplementationException alloc] initWithSelector:_cmd];
 }
@@ -86,9 +90,11 @@
     
     NSString *verticalContraintString;
     if (height) {
-        verticalContraintString = [NSString stringWithFormat:_lastAddedView ? @"V:[lastAddedView]-%f-[view(==%f)]" : @"V:|-%f-[view(==%f)]", topMargin, height];
+        NSString * const formatString = _lastAddedView ? @"V:[lastAddedView]-%f-[view(==%f)]" : @"V:|-%f-[view(==%f)]";
+        verticalContraintString = [NSString stringWithFormat:formatString, topMargin, height];
     } else {
-        verticalContraintString = [NSString stringWithFormat:_lastAddedView ? @"V:[lastAddedView]-%f-[view]" : @"V:|-%f-[view]", topMargin];
+        NSString * const formatString = _lastAddedView ? @"V:[lastAddedView]-%f-[view]" : @"V:|-%f-[view]";
+        verticalContraintString = [NSString stringWithFormat:formatString, topMargin];
     }
     NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:verticalContraintString  options:0 metrics:nil views:viewsMapping];
     

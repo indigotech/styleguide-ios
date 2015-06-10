@@ -20,6 +20,10 @@
 typedef UIView * (^HeaderSetupBlock)();
 typedef UITableViewCell * (^CellSetupBlock)(BaseTableViewCell *);
 
+/**
+ * This class creates an Array which has the tableView data used in the TAQExampleViewController.
+ * Add more kinds of Headers/Cell on the method `setupTableViewData`.
+ */
 @interface TAQExampleVCTableViewData : NSObject
 @property (nonatomic) NSMutableArray *tableViewData;
 @end

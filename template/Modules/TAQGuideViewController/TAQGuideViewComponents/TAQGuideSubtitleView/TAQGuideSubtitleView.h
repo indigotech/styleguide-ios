@@ -8,6 +8,9 @@
 
 #import "BaseComponentsView.h"
 
+/**
+ * Subtitle component to be used in the component listing views
+ */
 @interface TAQGuideSubtitleView : BaseComponentsView
 
 -(void)setSubtitle:(NSString *)title;

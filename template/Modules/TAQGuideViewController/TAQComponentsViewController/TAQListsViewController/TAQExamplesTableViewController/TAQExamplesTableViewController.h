@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ * This View Controller lists all kinds of header/cells of the app in a TableView
+ */
 @interface TAQExamplesTableViewController : UITableViewController
 
 @end

@@ -8,6 +8,10 @@
 
 #import "TAQComponentsViewController.h"
 
+/**
+ * This View Controller lists all kinds of header/cells of the app
+ * To list these components on a tableView, there is TAQExampleViewController
+ */
 @interface TAQListsViewController : TAQComponentsViewController
 
 @end

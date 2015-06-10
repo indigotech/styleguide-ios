@@ -13,6 +13,9 @@ typedef enum : NSUInteger {
     CustomRadioButtonViewStateInactive,
 } CustomRadioButtonViewState;
 
+/**
+ * Implementation of a radio button using UIButton
+ */
 @interface CustomRadioButtonView : BaseComponentsView
 @property (nonatomic) BOOL selected;
 @property (nonatomic) CustomRadioButtonViewState state;

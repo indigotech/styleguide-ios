@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "TAQComponentsViewController.h"
 
+/**
+ * This View Controller lists all typographical styles that should be used on the app:
+ * - Font families
+ * - Font sizes
+ * - Titles, caption, body etc.
+ */
 @interface TAQTypographyViewController : TAQComponentsViewController
-
 @end

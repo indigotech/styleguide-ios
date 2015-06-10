@@ -8,6 +8,9 @@
 
 #import "CustomTextFieldView.h"
 
+/**
+ * Implementation of a picker using textfield
+ */
 @interface CustomPickerView : CustomTextFieldView
 
 @end

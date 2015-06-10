@@ -8,6 +8,10 @@
 
 #import "TAQComponentsViewController.h"
 
+/**
+ * This View Controller lists all forms of the app
+ * - Textfield, checkbox etc
+ */
 @interface TAQFormsViewController : TAQComponentsViewController
 
 @end

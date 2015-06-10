@@ -8,6 +8,9 @@
 
 #import "CustomTextFieldView.h"
 
+/**
+ * Implementation of a name textfield
+ */
 @interface NameTextFieldView : CustomTextFieldView
 
 @end

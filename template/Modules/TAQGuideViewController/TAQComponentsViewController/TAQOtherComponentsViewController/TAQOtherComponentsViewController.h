@@ -8,6 +8,9 @@
 
 #import "TAQComponentsViewController.h"
 
+/**
+ * This class lists all specific components of an app
+ */
 @interface TAQOtherComponentsViewController : TAQComponentsViewController
 
 @end

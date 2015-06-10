@@ -8,6 +8,9 @@
 
 #import "BaseComponentsView.h"
 
+/**
+ * Title component to be used in the component listing views
+ */
 @interface TAQGuideTitleView : BaseComponentsView
 
 -(void)setTitle:(NSString *)title;

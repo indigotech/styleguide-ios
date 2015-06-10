@@ -19,9 +19,10 @@
 }
 
 #pragma mark - private methods
-
 /**
  * Use this method to setup the table view sections/rows of TAQExampleTableViewController tableView.
+ * To add a new section, use addSectionWithHeight:headerSetupBlock:
+ * To add a new row, use addRowWithHeight:cellSetupBlock:
  */
 - (void)setupTableViewData {
     [self addSectionWithHeight:@40

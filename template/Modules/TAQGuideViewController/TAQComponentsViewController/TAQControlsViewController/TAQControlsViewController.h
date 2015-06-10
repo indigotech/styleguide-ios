@@ -8,6 +8,10 @@
 
 #import "TAQComponentsViewController.h"
 
+/**
+ * This View Controller lists all controls in the app
+ * - Primary, secondary etc buttons
+ */
 @interface TAQControlsViewController : TAQComponentsViewController
 
 @end

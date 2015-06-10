@@ -8,6 +8,9 @@
 
 #import "BaseComponentsView.h"
 
+/**
+ Component of a list item. It has a title, detail(optional) and accessory(optional) label
+ **/
 @interface ListItemCellView : BaseComponentsView
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *detailLabel;

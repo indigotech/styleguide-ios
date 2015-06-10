@@ -20,6 +20,12 @@ typedef enum : NSUInteger {
 
 @end
 
+/**
+ * Implementation of a textfield
+ * New kinds of textfield should inherit from this class. 
+ * This is useful to set new label, placeholder, error messages or
+ * other behaviour
+ */
 @interface CustomTextFieldView()
 @property (weak, nonatomic) IBOutlet UILabel *fieldNameLabel;
 @property (weak, nonatomic) IBOutlet UITextField *textField;

@@ -8,6 +8,11 @@
 
 #import "TAQComponentsViewController.h"
 
+/**
+ * This View Controller lists all colors used in the app
+ * - Primary, secondary, accessory
+ * - Grayscales etc
+ */
 @interface TAQColorSwatchesViewController : TAQComponentsViewController
 
 @end

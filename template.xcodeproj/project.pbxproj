@@ -26,8 +26,6 @@
 		4DCE40CC1B278F58002C7995 /* CustomCheckboxButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40A51B278F58002C7995 /* CustomCheckboxButtonView.m */; };
 		4DCE40CD1B278F58002C7995 /* CustomCheckboxButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE40A61B278F58002C7995 /* CustomCheckboxButtonView.xib */; };
 		4DCE40CE1B278F58002C7995 /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40A91B278F58002C7995 /* CustomPickerView.m */; };
-		4DCE40CF1B278F58002C7995 /* CustomCheckboxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40AC1B278F58002C7995 /* CustomCheckboxButton.m */; };
-		4DCE40D01B278F58002C7995 /* CustomCheckboxButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE40AD1B278F58002C7995 /* CustomCheckboxButton.xib */; };
 		4DCE40D11B278F58002C7995 /* CustomRadioButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40AF1B278F58002C7995 /* CustomRadioButtonView.m */; };
 		4DCE40D21B278F58002C7995 /* CustomRadioButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE40B01B278F58002C7995 /* CustomRadioButtonView.xib */; };
 		4DCE40D31B278F58002C7995 /* CustomTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40B31B278F58002C7995 /* CustomTextFieldView.m */; };
@@ -118,9 +116,6 @@
 		4DCE40A61B278F58002C7995 /* CustomCheckboxButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCheckboxButtonView.xib; sourceTree = "<group>"; };
 		4DCE40A81B278F58002C7995 /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerView.h; sourceTree = "<group>"; };
 		4DCE40A91B278F58002C7995 /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerView.m; sourceTree = "<group>"; };
-		4DCE40AB1B278F58002C7995 /* CustomCheckboxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCheckboxButton.h; sourceTree = "<group>"; };
-		4DCE40AC1B278F58002C7995 /* CustomCheckboxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCheckboxButton.m; sourceTree = "<group>"; };
-		4DCE40AD1B278F58002C7995 /* CustomCheckboxButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCheckboxButton.xib; sourceTree = "<group>"; };
 		4DCE40AE1B278F58002C7995 /* CustomRadioButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRadioButtonView.h; sourceTree = "<group>"; };
 		4DCE40AF1B278F58002C7995 /* CustomRadioButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRadioButtonView.m; sourceTree = "<group>"; };
 		4DCE40B01B278F58002C7995 /* CustomRadioButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomRadioButtonView.xib; sourceTree = "<group>"; };
@@ -346,11 +341,11 @@
 			children = (
 				4DCE409D1B278F58002C7995 /* .gitkeep */,
 				4DCE409E1B278F58002C7995 /* BaseComponentsView */,
+				4DCE40C51B278F58002C7995 /* Typography */,
 				4DCE40A11B278F58002C7995 /* Controls */,
 				4DCE40A21B278F58002C7995 /* Forms */,
 				4DCE40B81B278F58002C7995 /* Lists */,
 				4DCE40C41B278F58002C7995 /* OtherComponents */,
-				4DCE40C51B278F58002C7995 /* Typography */,
 			);
 			path = ViewComponents;
 			sourceTree = "<group>";
@@ -404,9 +399,6 @@
 		4DCE40AA1B278F58002C7995 /* CustomRadioButtonView */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE40AB1B278F58002C7995 /* CustomCheckboxButton.h */,
-				4DCE40AC1B278F58002C7995 /* CustomCheckboxButton.m */,
-				4DCE40AD1B278F58002C7995 /* CustomCheckboxButton.xib */,
 				4DCE40AE1B278F58002C7995 /* CustomRadioButtonView.h */,
 				4DCE40AF1B278F58002C7995 /* CustomRadioButtonView.m */,
 				4DCE40B01B278F58002C7995 /* CustomRadioButtonView.xib */,
@@ -995,7 +987,6 @@
 				4DCE414C1B279533002C7995 /* Images.xcassets in Resources */,
 				4DCE40D21B278F58002C7995 /* CustomRadioButtonView.xib in Resources */,
 				4DCE40D41B278F58002C7995 /* CustomTextFieldView.xib in Resources */,
-				4DCE40D01B278F58002C7995 /* CustomCheckboxButton.xib in Resources */,
 				4DCE413A1B278F6B002C7995 /* TAQComponentsViewController.xib in Resources */,
 				4DCE41421B278F6B002C7995 /* TAQGuideSubtitleView.xib in Resources */,
 			);
@@ -1083,7 +1074,6 @@
 				4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */,
 				4DCE41641B2879BF002C7995 /* TAQNullCellViewClassException.m in Sources */,
 				4DCE40D61B278F58002C7995 /* BaseTableViewCell.m in Sources */,
-				4DCE40CF1B278F58002C7995 /* CustomCheckboxButton.m in Sources */,
 				4DCE41401B278F6B002C7995 /* TAQGuideTableViewDataModel.m in Sources */,
 				4DCE413B1B278F6B002C7995 /* TAQControlsViewController.m in Sources */,
 				4DCE40CE1B278F58002C7995 /* CustomPickerView.m in Sources */,
