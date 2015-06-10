@@ -56,17 +56,17 @@
 #pragma mark Aux private methods
 -(void)addScalesOfColorHex:(int)colorHex name:(NSString *)name {
     [self addLabelWithText:[NSString stringWithFormat:@"%@ - %X", name, colorHex]];
-    UIView *rawColor = (UIView *)[self addViewWithDefaultMarginsAndClass:[UIView class] height:40];
+    UIView *rawColor = [self addViewWithDefaultMarginsAndClass:[UIView class] height:40];
     [rawColor setBackgroundColor:UICOLOR_FROM_HEX(colorHex)];
-    UIView *highlightColor = (UIView *)[self addViewWithDefaultMarginsAndClass:[UIView class] height:40];
+    UIView *highlightColor = [self addViewWithDefaultMarginsAndClass:[UIView class] height:40];
     [highlightColor setBackgroundColor:UICOLOR_HIGHLIGHTED_FROM_HEX(colorHex)];
-    UIView *disabledColor = (UIView *)[self addViewWithDefaultMarginsAndClass:[UIView class] height:40];
+    UIView *disabledColor = [self addViewWithDefaultMarginsAndClass:[UIView class] height:40];
     [disabledColor setBackgroundColor:UICOLOR_DISABLED_FROM_HEX(colorHex)];
 }
 
 -(void)addViewOfColorHex:(int)colorHex name:(NSString *)name {
     [self addLabelWithText:[NSString stringWithFormat:@"%@ - %X", name, colorHex]];
-    UIView *rawColor = (UIView *)[self addViewWithDefaultMarginsAndClass:[UIView class] height:40];
+    UIView *rawColor = [self addViewWithDefaultMarginsAndClass:[UIView class] height:40];
     [rawColor setBackgroundColor:UICOLOR_FROM_HEX(colorHex)];
 }
 
