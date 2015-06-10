@@ -7,26 +7,26 @@
 //
 
 #import "BaseTableViewCell.h"
-#import "TAQNullCellViewClass.h"
+#import "TAQNullCellViewClassException.h"
 #import "UIView+AttachToSuperview.h"
 
 @interface BaseTableViewCell()
 
-@property (nonatomic, strong, readwrite) UIView *cellView;
+@property (nonatomic, strong, readwrite) UIView *contentChildView; 
 
 @end
 
 @implementation BaseTableViewCell
--(UIView *)cellView {
-    UIView *cellView = self.contentView.subviews.firstObject;
-    if (!cellView) {
-        if (!_cellViewClass) {
-            @throw [[TAQNullCellViewClass alloc] init];
+-(UIView *)contentChildView {
+    _contentChildView = self.contentView.subviews.firstObject;
+    if (!_contentChildView) {
+        if (!self.contentChildViewClass) {
+            @throw [[TAQNullCellViewClassException alloc] init];
         }
-        cellView = [[_cellViewClass alloc] initWithFrame:CGRectZero];
-        [self.contentView addSubview:cellView];
-        [cellView attachToSuperviewUsingConstraints];
+        _contentChildView = [[self.contentChildViewClass alloc] initWithFrame:CGRectZero];
+        [self.contentView addSubview:_contentChildView];
+        [_contentChildView attachToSuperviewUsingConstraints];
     }
-    return cellView;
+    return _contentChildView;
 }
 @end

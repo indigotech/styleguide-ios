@@ -8,6 +8,6 @@
 
 #import "TAQBaseException.h"
 
-@interface TAQNullCellViewClass : TAQBaseException
+@interface TAQNullCellViewClassException : TAQBaseException
 -(instancetype) init NS_DESIGNATED_INITIALIZER;
 @end

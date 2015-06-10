@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "TAQNullCellViewClass.h"
+#import "TAQNullCellViewClassException.h"
 
-@implementation TAQNullCellViewClass
+@implementation TAQNullCellViewClassException
 -(instancetype) init {
-    self = [super initWithName: @"TAQNullCellViewClass"
+    self = [super initWithName: @"TAQNullCellViewClassException"
                         reason:@"You should set the cellViewClass before calling this method. \n"
                       userInfo:nil];
     return self;

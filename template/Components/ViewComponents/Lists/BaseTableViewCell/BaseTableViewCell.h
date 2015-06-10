@@ -16,7 +16,7 @@ its delegate, datasource methods.
 
 In order to use a component (UIView) as a TableViewCell, this commit
 creates BaseTableViewCell.
- BaseTableViewCell adds a new property called cellView, which is
+ BaseTableViewCell adds a new property called contentChildView, which is
  the subview of the cell.contentView. This idea comes from the apple
  docs: https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/TableView_iPhone/TableViewCells/TableViewCells.html#//apple_ref/doc/uid/TP40007451-CH7-SW15
 
@@ -24,13 +24,13 @@ creates BaseTableViewCell.
  1. Create a component view which inherits from BaseComponentsView (as
  usual)
  2. After calling dequeueReusableCellWithIdentifier:forIndexPath: call
- setCellViewClass: passing the class of the component you've just created
- 3. Then, call cell.cellView to get the component view to set/get your
+ setContentChildViewClass: passing the class of the component you've just created
+ 3. Then, call cell.contentChildView to get the component view to set/get your
  data
  **/
 @interface BaseTableViewCell : UITableViewCell
 
-@property (nonatomic) Class cellViewClass;
-@property (nonatomic, strong, readonly) UIView *cellView;
+@property (nonatomic) Class contentChildViewClass;
+@property (nonatomic, strong, readonly) UIView *contentChildView;
 
 @end
