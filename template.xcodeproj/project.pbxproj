@@ -14,6 +14,7 @@
 		4D3167F81B0BDC9400C3010B /* UIViewAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167EF1B0BDC9400C3010B /* UIViewAttributes.m */; };
 		4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */; };
 		4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6C50D81B2711B70058D0A0 /* TAQWrongClassNameException.m */; };
+		4D6D41161B28C6F600F0B06B /* TAQExampleVCTableViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D41151B28C6F600F0B06B /* TAQExampleVCTableViewData.m */; };
 		4DCE3D5F1B271E99002C7995 /* TAQUnknownKeyException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D5E1B271E99002C7995 /* TAQUnknownKeyException.m */; };
 		4DCE3D621B272128002C7995 /* TAQInvalidStyleRuleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D611B272128002C7995 /* TAQInvalidStyleRuleException.m */; };
 		4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCC1B277577002C7995 /* HomeViewController.m */; };
@@ -97,6 +98,8 @@
 		4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
 		4D6C50D71B2711B70058D0A0 /* TAQWrongClassNameException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQWrongClassNameException.h; sourceTree = "<group>"; };
 		4D6C50D81B2711B70058D0A0 /* TAQWrongClassNameException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQWrongClassNameException.m; sourceTree = "<group>"; };
+		4D6D41141B28C6F600F0B06B /* TAQExampleVCTableViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQExampleVCTableViewData.h; sourceTree = "<group>"; };
+		4D6D41151B28C6F600F0B06B /* TAQExampleVCTableViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQExampleVCTableViewData.m; sourceTree = "<group>"; };
 		4DCE3D5D1B271E99002C7995 /* TAQUnknownKeyException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQUnknownKeyException.h; sourceTree = "<group>"; };
 		4DCE3D5E1B271E99002C7995 /* TAQUnknownKeyException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQUnknownKeyException.m; sourceTree = "<group>"; };
 		4DCE3D601B272128002C7995 /* TAQInvalidStyleRuleException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQInvalidStyleRuleException.h; sourceTree = "<group>"; };
@@ -735,6 +738,8 @@
 			children = (
 				4DCE41231B278F6B002C7995 /* TAQExamplesTableViewController.h */,
 				4DCE41241B278F6B002C7995 /* TAQExamplesTableViewController.m */,
+				4D6D41141B28C6F600F0B06B /* TAQExampleVCTableViewData.h */,
+				4D6D41151B28C6F600F0B06B /* TAQExampleVCTableViewData.m */,
 			);
 			path = TAQExamplesTableViewController;
 			sourceTree = "<group>";
@@ -1065,6 +1070,7 @@
 				4D3167F71B0BDC9400C3010B /* UIView+UIViewStyle.m in Sources */,
 				4DCE41391B278F6B002C7995 /* TAQComponentsViewController.m in Sources */,
 				4DCE410A1B278F63002C7995 /* CustomRadioButtonViewStylesheet.m in Sources */,
+				4D6D41161B28C6F600F0B06B /* TAQExampleVCTableViewData.m in Sources */,
 				4DCE41531B2798DF002C7995 /* TAQOtherComponentsViewController.m in Sources */,
 				4DCE41111B278F63002C7995 /* FormTextualElementsStylesheet.m in Sources */,
 				4DCE410C1B278F63002C7995 /* LabelStylesheet.m in Sources */,
