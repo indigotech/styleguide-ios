@@ -19,5 +19,8 @@
 @interface BaseComponentsView : UIView
 
 -(void) addContentViewWithConstraints;
+-(void)setupOnInitWithFrame;
+-(void)setupOnAwakeFromNib;
+-(NSString *)nibName;
 
 @end

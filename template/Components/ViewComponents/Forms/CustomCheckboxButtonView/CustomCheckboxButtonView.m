@@ -13,20 +13,15 @@
     __weak IBOutlet UIButton *_button;
 }
 
--(void)awakeFromNib {
-    [super awakeFromNib];
-    [self setup];
+-(void)setupOnAwakeFromNib {
+    [self initialSetup];
 }
 
--(instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
-    if (self) {
-        [self setup];
-    }
-    return self;
+-(void)setupOnInitWithFrame {
+    [self initialSetup];
 }
 
--(void)setup {
+-(void)initialSetup {
     self.state = CustomCheckboxButtonViewStateActive;
     self.selected = NO;
 }

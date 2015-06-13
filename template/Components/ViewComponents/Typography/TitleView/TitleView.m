@@ -13,6 +13,9 @@
     __weak IBOutlet UILabel *_titleLabel;
 }
 
+-(void)setupOnInitWithFrame{}
+-(void)setupOnAwakeFromNib{}
+
 -(void)setTitle: (NSString *)title {
     _titleLabel.text = title;
 }

@@ -16,12 +16,14 @@
 {
     [super awakeFromNib];
     [self addContentViewWithConstraints];
+    [self setupOnAwakeFromNib];
 }
 
 -(instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         [self addContentViewWithConstraints];
+        [self setupOnInitWithFrame];
     }
     return self;
 }
@@ -43,6 +45,15 @@
     
     [self addSubview:contentView];
     [contentView attachToSuperviewUsingConstraints];
+}
+
+#pragma mark - Abstract methods
+- (void)setupOnInitWithFrame {
+    @throw [[TAQMissingMethodImplementationException alloc] initWithSelector:_cmd];
+}
+
+- (void)setupOnAwakeFromNib {
+    @throw [[TAQMissingMethodImplementationException alloc] initWithSelector:_cmd];
 }
 
 /**

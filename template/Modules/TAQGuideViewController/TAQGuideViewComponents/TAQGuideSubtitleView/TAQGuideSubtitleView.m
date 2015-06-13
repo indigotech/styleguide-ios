@@ -14,6 +14,8 @@
     
 }
 
+-(void)setupOnInitWithFrame{}
+
 -(void)setSubtitle:(NSString *)title {
     _subtitleLabel.text = title;
 }

@@ -9,4 +9,8 @@
 #import "TableViewPrimaryHeaderView.h"
 
 @implementation TableViewPrimaryHeaderView
+
+-(void)setupOnInitWithFrame{}
+-(void)setupOnAwakeFromNib{}
+
 @end

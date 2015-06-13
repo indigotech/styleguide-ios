@@ -13,6 +13,7 @@
 
 -(void)awakeFromNib {
     [self setState:CustomTextFieldViewStateDefault];
+    [self setupOnAwakeFromNib];
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -20,9 +21,11 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setState:CustomTextFieldViewStateDefault];
+        [self setupOnInitWithFrame];
     }
     return self;
 }
+
 -(void)setState:(CustomTextFieldViewState)state {
     switch (state) {
         case CustomTextFieldViewStateError:

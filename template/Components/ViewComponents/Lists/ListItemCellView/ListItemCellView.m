@@ -16,17 +16,12 @@
 }
 
 #pragma mark - View Lifecycle
-- (instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
-    if (self) {
-        [self setup];
-    }
-    return self;
+-(void)setupOnAwakeFromNib {
+    [self initialSetup];
 }
 
--(void)awakeFromNib {
-    [super awakeFromNib];
-    [self setup];
+-(void)setupOnInitWithFrame {
+    [self initialSetup];
 }
 
 - (void)dealloc
@@ -34,7 +29,7 @@
     [self unregisterForChangeNotification];
 }
 
--(void)setup {
+-(void)initialSetup {
     [self registerAsObserver];
     self.detailLabel.text = @"";
     self.accessoryLabel.text = @"";

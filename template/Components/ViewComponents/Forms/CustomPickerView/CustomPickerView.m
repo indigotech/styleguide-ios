@@ -15,9 +15,12 @@
 }
 
 #pragma mark - View lifecycle
--(void)awakeFromNib {
-    [super awakeFromNib];
-    [self setup];
+-(void)setupOnAwakeFromNib {
+    [self initialSetup];
+}
+
+-(void)setupOnInitWithFrame {
+    [self initialSetup];
 }
 
 -(void)dealloc {
@@ -25,15 +28,7 @@
     _pickerView = nil;
 }
 
--(instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
-    if (self) {
-        [self setup];
-    }
-    return self;
-}
-
--(void)setup {
+-(void)initialSetup {
     self.fieldNameLabel.text = @"Picker";
     NSDictionary *attributes = [FormTextualElementsStylesheet attributedStringAttributes][@"InputPlaceholder"];
     self.textField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Select" attributes:attributes];
