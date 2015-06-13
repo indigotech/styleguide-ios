@@ -74,4 +74,12 @@
 -(void)setButtonTitleEdgeInsets:(NSValue *)buttonTitleEdgeInsets {
     self.titleEdgeInsets = [buttonTitleEdgeInsets UIEdgeInsetsValue];
 }
+
+-(NSValue *)buttonImageEdgeInsets {
+    return [NSValue valueWithUIEdgeInsets:self.imageEdgeInsets];
+}
+
+-(void)setButtonImageEdgeInsets:(NSValue *)buttonImageEdgeInsets {
+    self.imageEdgeInsets = [buttonImageEdgeInsets UIEdgeInsetsValue];
+}
 @end

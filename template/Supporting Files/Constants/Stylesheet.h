@@ -36,6 +36,7 @@ All constants in this file use the following pattern (in eBNF):
 #define PK_BUTTON_HIGHLIGHTED_TITLE_COLOR               @"highlightedTitleColor"
 #define PK_BUTTON_CONTENT_EDGE_INSETS                   @"buttonContentEdgeInsets"
 #define PK_BUTTON_TITLE_EDGE_INSETS                     @"buttonTitleEdgeInsets"
+#define PK_BUTTON_IMAGE_EDGE_INSETS                     @"buttonImageEdgeInsets"
 
 #define PK_LABEL_FONT                                   @"font"
 #define PK_LABEL_TEXT_COLOR                             @"textColor"
