@@ -37,6 +37,7 @@
             [_button setEnabled:NO];
             break;
         default:
+            [self setState:CustomCheckboxButtonViewStateActive];
             break;
     }
 }
