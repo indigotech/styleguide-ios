@@ -25,12 +25,18 @@ All constants in this file use the following pattern (in eBNF):
 #define PK_BUTTON_LABEL_FONT                            @"titleLabel.font"
 #define PK_BUTTON_BACKGROUND_COLOR                      @"backgroundColor"
 #define PK_BUTTON_TYPE                                  @"buttonType"
+#define PK_BUTTON_TINT_COLOR                            @"tintColor"
+#define PK_BUTTON_CONTENT_HORIZONTAL_ALIGNMENT          @"contentHorizontalAlignment"
 // Created properties on UIButton+ButtonStyle
+#define PK_BUTTON_DISABLED_BACKGROUND_IMAGE             @"disabledBackgroundImage"
+#define PK_BUTTON_DISABLED_TITLE_COLOR                  @"disabledTitleColor"
 #define PK_BUTTON_NORMAL_BACKGROUND_IMAGE               @"normalBackgroundImage"
 #define PK_BUTTON_NORMAL_TITLE_COLOR                    @"normalTitleColor"
 #define PK_BUTTON_HIGHLIGHTED_BACKGROUND_IMAGE          @"highlightedBackgroundImage"
 #define PK_BUTTON_HIGHLIGHTED_TITLE_COLOR               @"highlightedTitleColor"
 #define PK_BUTTON_CONTENT_EDGE_INSETS                   @"buttonContentEdgeInsets"
+#define PK_BUTTON_TITLE_EDGE_INSETS                     @"buttonTitleEdgeInsets"
+#define PK_BUTTON_IMAGE_EDGE_INSETS                     @"buttonImageEdgeInsets"
 
 #define PK_LABEL_FONT                                   @"font"
 #define PK_LABEL_TEXT_COLOR                             @"textColor"
@@ -39,6 +45,8 @@ All constants in this file use the following pattern (in eBNF):
 #define PK_LABEL_NUMBER_OF_LINES                        @"numberOfLines"
 
 #define PK_TEXTFIELD_BORDER_STYLE                       @"borderStyle"
+#define PK_TEXTFIELD_BORDER_COLOR                       PK_BUTTON_BORDER_COLOR
+#define PK_TEXTFIELD_BORDER_WIDTH                       PK_BUTTON_BORDER_WIDTH
 #define PK_TEXTFIELD_FONT                               @"font"
 #define PK_TEXTFIELD_TEXT_COLOR                         @"textColor"
 #define PK_TEXTFIELD_TINT_COLOR                         @"tintColor"
