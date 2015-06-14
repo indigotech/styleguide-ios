@@ -52,19 +52,30 @@
                        context:(void *)context {
     
     if ([keyPath isEqual:@"text"]) {
-        [self fixConstraintsPriority];
+        [self layoutLabelsConstraintsPriority];
     }
 }
 
-- (void)fixConstraintsPriority
+- (void)layoutLabelsConstraintsPriority
 {
-    if ([self.detailLabel.text isEqualToString:@""]) {
-        _titleLabelCenterYConstraint.priority = UILayoutPriorityDefaultHigh;
-        _titleLabeAlginBottomConstraint.priority = UILayoutPriorityDefaultLow;
+    BOOL const isDetailEmpty = [self.detailLabel.text isEqualToString:@""];
+    if (isDetailEmpty) {
+        [self verticallyCentralizeTitle];
     } else {
-        _titleLabelCenterYConstraint.priority = UILayoutPriorityDefaultLow;
-        _titleLabeAlginBottomConstraint.priority = UILayoutPriorityDefaultHigh;
+        [self displayDetailUnderTitle];
     }
+}
+
+- (void)verticallyCentralizeTitle
+{
+    _titleLabelCenterYConstraint.priority = UILayoutPriorityDefaultHigh;
+    _titleLabeAlginBottomConstraint.priority = UILayoutPriorityDefaultLow;
+}
+
+- (void)displayDetailUnderTitle
+{
+    _titleLabelCenterYConstraint.priority = UILayoutPriorityDefaultLow;
+    _titleLabeAlginBottomConstraint.priority = UILayoutPriorityDefaultHigh;
 }
 
 #pragma mark - setter
