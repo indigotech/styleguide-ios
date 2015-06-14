@@ -7,11 +7,11 @@
 //
 
 #import "HomeViewController.h"
-#import "TitleView.h"
+#import "TQTTitleView.h"
 #import "Components.h"
 
 #ifdef ENV_DEVELOPMENT
-#import "TAQGuideViewController.h"
+#import "TQTGuideViewController.h"
 #endif
 
 @interface HomeViewController ()
@@ -20,7 +20,7 @@
 
 @implementation HomeViewController
 {
-    __weak IBOutlet TitleView *_titleLabel;
+    __weak IBOutlet TQTTitleView *_titleLabel;
 }
 
 #pragma mark - ViewController lifecyle
@@ -66,7 +66,7 @@
 }
 
 - (void)didTouchUpComponentsButton:(UIButton *)sender {
-    TAQGuideViewController *vc = [[TAQGuideViewController alloc] initWithNibName:nil bundle:nil];
+    TQTGuideViewController *vc = [[TQTGuideViewController alloc] initWithNibName:nil bundle:nil];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:nav animated:YES completion:nil];
 }
