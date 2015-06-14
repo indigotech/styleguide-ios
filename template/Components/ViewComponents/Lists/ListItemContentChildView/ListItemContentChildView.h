@@ -11,7 +11,7 @@
 /**
  Component of a list item. It has a title, detail(optional) and accessory(optional) label
  **/
-@interface ListItemCellView : BaseComponentsView
+@interface ListItemContentChildView : BaseComponentsView
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *detailLabel;
 @property (weak, nonatomic) IBOutlet UILabel *accessoryLabel;

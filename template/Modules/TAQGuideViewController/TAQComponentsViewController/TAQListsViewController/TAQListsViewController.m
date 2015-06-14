@@ -9,7 +9,7 @@
 #import "TAQListsViewController.h"
 #import "TAQExamplesTableViewController.h"
 #import "TableViewPrimaryHeaderView.h"
-#import "ListItemCellView.h"
+#import "ListItemContentChildView.h"
 
 @interface TAQListsViewController ()
 
@@ -42,13 +42,13 @@
 }
 
 - (void)addCells {
-    [self addGuideSubtitleWithText:[NSString stringWithFormat:@"1.2 Cell content view (%@)", NSStringFromClass([ListItemCellView class])]];
+    [self addGuideSubtitleWithText:[NSString stringWithFormat:@"1.2 Cell content view (%@)", NSStringFromClass([ListItemContentChildView class])]];
     
-    ListItemCellView *cellWithoutDetail = (ListItemCellView *)[self addViewWithClass:[ListItemCellView class] height:43];
+    ListItemContentChildView *cellWithoutDetail = (ListItemContentChildView *)[self addViewWithClass:[ListItemContentChildView class] height:43];
     cellWithoutDetail.titleLabel.text = @"H4 - WITHOUT DETAIL";
     cellWithoutDetail.accessoryLabel.text = @"Custom Label";
     
-    ListItemCellView *cellWithDetail = (ListItemCellView *)[self addViewWithClass:[ListItemCellView class] height:70];
+    ListItemContentChildView *cellWithDetail = (ListItemContentChildView *)[self addViewWithClass:[ListItemContentChildView class] height:70];
     cellWithDetail.titleLabel.text = @"H4 - LIST ITEM WITH";
     cellWithDetail.detailLabel.text = @"H4Sub - DETAIL";
     cellWithDetail.accessoryLabel.text = @"Custom Label";

@@ -34,8 +34,8 @@
      ];
     [self addRowWithHeight:@70
             cellSetupBlock:^UITableViewCell *(BaseTableViewCell *cell){
-                [cell setContentChildViewClass:[ListItemCellView class]];
-                ListItemCellView *contentChildView = (ListItemCellView *)cell.contentChildView;
+                [cell setContentChildViewClass:[ListItemContentChildView class]];
+                ListItemContentChildView *contentChildView = (ListItemContentChildView *)cell.contentChildView;
                 
                 contentChildView.titleLabel.text = @"WITH";
                 contentChildView.detailLabel.text = @"DETAIL";
@@ -44,8 +44,8 @@
      ];
     [self addRowWithHeight:@40
             cellSetupBlock:^UITableViewCell *(BaseTableViewCell *cell){
-                [cell setContentChildViewClass:[ListItemCellView class]];
-                ListItemCellView *contentView = (ListItemCellView *)cell.contentChildView;
+                [cell setContentChildViewClass:[ListItemContentChildView class]];
+                ListItemContentChildView *contentView = (ListItemContentChildView *)cell.contentChildView;
                 
                 contentView.titleLabel.text = @"WITHOUT DETAIL";
                 contentView.accessoryLabel.text = @"accessory";
@@ -76,7 +76,7 @@
 - (void) addRowWithHeight:(NSNumber *)height cellSetupBlock:(CellSetupBlock)setupBlock  {
     NSMutableDictionary *row = [[NSMutableDictionary alloc] init];
     [row setObject:height forKey:KEY_CELL_HEIGHT];
-    [row setObject:setupBlock forKey:KEY_CELL_VIEW_SETUP];
+    [row setObject:setupBlock forKey:KEY_CONTENT_CHILD_VIEW_SETUP];
     
     int const lastSectionIndex = (int)[self.tableViewData count] - 1;
     NSMutableArray * const sectionRowsArray = self.tableViewData[lastSectionIndex][KEY_SECTION_ROWS];

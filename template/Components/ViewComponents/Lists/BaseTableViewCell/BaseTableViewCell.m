@@ -7,7 +7,7 @@
 //
 
 #import "BaseTableViewCell.h"
-#import "TAQNullCellViewClassException.h"
+#import "TAQNullContentChildViewClassException.h"
 #import "UIView+AttachToSuperview.h"
 
 @interface BaseTableViewCell()
@@ -21,7 +21,7 @@
     _contentChildView = self.contentView.subviews.firstObject;
     if (!_contentChildView) {
         if (!self.contentChildViewClass) {
-            @throw [[TAQNullCellViewClassException alloc] init];
+            @throw [[TAQNullContentChildViewClassException alloc] init];
         }
         _contentChildView = [[self.contentChildViewClass alloc] initWithFrame:CGRectZero];
         [self.contentView addSubview:_contentChildView];

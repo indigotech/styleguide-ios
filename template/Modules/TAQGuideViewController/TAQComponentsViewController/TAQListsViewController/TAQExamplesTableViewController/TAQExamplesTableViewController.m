@@ -55,7 +55,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    CellSetupBlock rowViewBlock = self.tableViewData[indexPath.section][KEY_SECTION_ROWS][indexPath.row][KEY_CELL_VIEW_SETUP];
+    CellSetupBlock rowViewBlock = self.tableViewData[indexPath.section][KEY_SECTION_ROWS][indexPath.row][KEY_CONTENT_CHILD_VIEW_SETUP];
     BaseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CELL_ID forIndexPath:indexPath];
     return rowViewBlock(cell);
 }

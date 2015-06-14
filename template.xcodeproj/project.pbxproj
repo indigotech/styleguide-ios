@@ -15,6 +15,8 @@
 		4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3168221B0D8E4900C3010B /* UIImage+ImageWithColor.m */; };
 		4D6C50D91B2711B70058D0A0 /* TAQWrongClassNameException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6C50D81B2711B70058D0A0 /* TAQWrongClassNameException.m */; };
 		4D6D41161B28C6F600F0B06B /* TAQExampleVCTableViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D41151B28C6F600F0B06B /* TAQExampleVCTableViewData.m */; };
+		4DBF29691B2DD68A00B5710D /* ListItemContentChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29671B2DD68A00B5710D /* ListItemContentChildView.m */; };
+		4DBF296A1B2DD68A00B5710D /* ListItemContentChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29681B2DD68A00B5710D /* ListItemContentChildView.xib */; };
 		4DCE3D5F1B271E99002C7995 /* TAQUnknownKeyException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D5E1B271E99002C7995 /* TAQUnknownKeyException.m */; };
 		4DCE3D621B272128002C7995 /* TAQInvalidStyleRuleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3D611B272128002C7995 /* TAQInvalidStyleRuleException.m */; };
 		4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCC1B277577002C7995 /* HomeViewController.m */; };
@@ -32,8 +34,6 @@
 		4DCE40D41B278F58002C7995 /* CustomTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE40B41B278F58002C7995 /* CustomTextFieldView.xib */; };
 		4DCE40D51B278F58002C7995 /* NameTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40B71B278F58002C7995 /* NameTextFieldView.m */; };
 		4DCE40D61B278F58002C7995 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40BB1B278F58002C7995 /* BaseTableViewCell.m */; };
-		4DCE40D71B278F58002C7995 /* ListItemCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40BE1B278F58002C7995 /* ListItemCellView.m */; };
-		4DCE40D81B278F58002C7995 /* ListItemCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE40BF1B278F58002C7995 /* ListItemCellView.xib */; };
 		4DCE40D91B278F58002C7995 /* TableViewPrimaryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40C21B278F58002C7995 /* TableViewPrimaryHeaderView.m */; };
 		4DCE40DA1B278F58002C7995 /* TableViewPrimaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE40C31B278F58002C7995 /* TableViewPrimaryHeaderView.xib */; };
 		4DCE40DB1B278F58002C7995 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE40C81B278F58002C7995 /* TitleView.m */; };
@@ -70,7 +70,7 @@
 		4DCE41531B2798DF002C7995 /* TAQOtherComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE41521B2798DF002C7995 /* TAQOtherComponentsViewController.m */; };
 		4DCE415D1B27A74E002C7995 /* TAQMissingMethodImplementationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE415C1B27A74E002C7995 /* TAQMissingMethodImplementationException.m */; };
 		4DCE41601B27A782002C7995 /* TAQBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE415F1B27A782002C7995 /* TAQBaseException.m */; };
-		4DCE41641B2879BF002C7995 /* TAQNullCellViewClassException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE41631B2879BF002C7995 /* TAQNullCellViewClassException.m */; };
+		4DCE41641B2879BF002C7995 /* TAQNullContentChildViewClassException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE41631B2879BF002C7995 /* TAQNullContentChildViewClassException.m */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
 		5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD2911A6FEF2D00A48259 /* Info.plist */; };
@@ -98,6 +98,9 @@
 		4D6C50D81B2711B70058D0A0 /* TAQWrongClassNameException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQWrongClassNameException.m; sourceTree = "<group>"; };
 		4D6D41141B28C6F600F0B06B /* TAQExampleVCTableViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQExampleVCTableViewData.h; sourceTree = "<group>"; };
 		4D6D41151B28C6F600F0B06B /* TAQExampleVCTableViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQExampleVCTableViewData.m; sourceTree = "<group>"; };
+		4DBF29661B2DD68A00B5710D /* ListItemContentChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemContentChildView.h; sourceTree = "<group>"; };
+		4DBF29671B2DD68A00B5710D /* ListItemContentChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemContentChildView.m; sourceTree = "<group>"; };
+		4DBF29681B2DD68A00B5710D /* ListItemContentChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListItemContentChildView.xib; sourceTree = "<group>"; };
 		4DCE3D5D1B271E99002C7995 /* TAQUnknownKeyException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQUnknownKeyException.h; sourceTree = "<group>"; };
 		4DCE3D5E1B271E99002C7995 /* TAQUnknownKeyException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQUnknownKeyException.m; sourceTree = "<group>"; };
 		4DCE3D601B272128002C7995 /* TAQInvalidStyleRuleException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQInvalidStyleRuleException.h; sourceTree = "<group>"; };
@@ -126,9 +129,6 @@
 		4DCE40B71B278F58002C7995 /* NameTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameTextFieldView.m; sourceTree = "<group>"; };
 		4DCE40BA1B278F58002C7995 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
 		4DCE40BB1B278F58002C7995 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
-		4DCE40BD1B278F58002C7995 /* ListItemCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemCellView.h; sourceTree = "<group>"; };
-		4DCE40BE1B278F58002C7995 /* ListItemCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemCellView.m; sourceTree = "<group>"; };
-		4DCE40BF1B278F58002C7995 /* ListItemCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListItemCellView.xib; sourceTree = "<group>"; };
 		4DCE40C11B278F58002C7995 /* TableViewPrimaryHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewPrimaryHeaderView.h; sourceTree = "<group>"; };
 		4DCE40C21B278F58002C7995 /* TableViewPrimaryHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewPrimaryHeaderView.m; sourceTree = "<group>"; };
 		4DCE40C31B278F58002C7995 /* TableViewPrimaryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewPrimaryHeaderView.xib; sourceTree = "<group>"; };
@@ -194,8 +194,8 @@
 		4DCE415C1B27A74E002C7995 /* TAQMissingMethodImplementationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQMissingMethodImplementationException.m; sourceTree = "<group>"; };
 		4DCE415E1B27A782002C7995 /* TAQBaseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQBaseException.h; sourceTree = "<group>"; };
 		4DCE415F1B27A782002C7995 /* TAQBaseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQBaseException.m; sourceTree = "<group>"; };
-		4DCE41621B2879BF002C7995 /* TAQNullCellViewClassException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQNullCellViewClassException.h; sourceTree = "<group>"; };
-		4DCE41631B2879BF002C7995 /* TAQNullCellViewClassException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQNullCellViewClassException.m; sourceTree = "<group>"; };
+		4DCE41621B2879BF002C7995 /* TAQNullContentChildViewClassException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAQNullContentChildViewClassException.h; sourceTree = "<group>"; };
+		4DCE41631B2879BF002C7995 /* TAQNullContentChildViewClassException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAQNullContentChildViewClassException.m; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		5BECD28F1A6FEF2D00A48259 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -305,6 +305,16 @@
 				4DCE3D611B272128002C7995 /* TAQInvalidStyleRuleException.m */,
 			);
 			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		4DBF29651B2DD68A00B5710D /* ListItemContentChildView */ = {
+			isa = PBXGroup;
+			children = (
+				4DBF29661B2DD68A00B5710D /* ListItemContentChildView.h */,
+				4DBF29671B2DD68A00B5710D /* ListItemContentChildView.m */,
+				4DBF29681B2DD68A00B5710D /* ListItemContentChildView.xib */,
+			);
+			path = ListItemContentChildView;
 			sourceTree = "<group>";
 		};
 		4DCE3DCA1B277577002C7995 /* Home */ = {
@@ -429,8 +439,8 @@
 		4DCE40B81B278F58002C7995 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
+				4DBF29651B2DD68A00B5710D /* ListItemContentChildView */,
 				4DCE40B91B278F58002C7995 /* BaseTableViewCell */,
-				4DCE40BC1B278F58002C7995 /* ListItemCellView */,
 				4DCE40C01B278F58002C7995 /* TableViewPrimaryHeaderView */,
 			);
 			path = Lists;
@@ -444,16 +454,6 @@
 				4DCE40BB1B278F58002C7995 /* BaseTableViewCell.m */,
 			);
 			path = BaseTableViewCell;
-			sourceTree = "<group>";
-		};
-		4DCE40BC1B278F58002C7995 /* ListItemCellView */ = {
-			isa = PBXGroup;
-			children = (
-				4DCE40BD1B278F58002C7995 /* ListItemCellView.h */,
-				4DCE40BE1B278F58002C7995 /* ListItemCellView.m */,
-				4DCE40BF1B278F58002C7995 /* ListItemCellView.xib */,
-			);
-			path = ListItemCellView;
 			sourceTree = "<group>";
 		};
 		4DCE40C01B278F58002C7995 /* TableViewPrimaryHeaderView */ = {
@@ -806,8 +806,8 @@
 		4DCE41611B2879BF002C7995 /* Exceptions */ = {
 			isa = PBXGroup;
 			children = (
-				4DCE41621B2879BF002C7995 /* TAQNullCellViewClassException.h */,
-				4DCE41631B2879BF002C7995 /* TAQNullCellViewClassException.m */,
+				4DCE41621B2879BF002C7995 /* TAQNullContentChildViewClassException.h */,
+				4DCE41631B2879BF002C7995 /* TAQNullContentChildViewClassException.m */,
 			);
 			path = Exceptions;
 			sourceTree = "<group>";
@@ -975,10 +975,10 @@
 			files = (
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
 				4DCE41461B278F6B002C7995 /* TAQGuideViewController.xib in Resources */,
+				4DBF296A1B2DD68A00B5710D /* ListItemContentChildView.xib in Resources */,
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,
 				5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */,
 				4DCE40CA1B278F58002C7995 /* .gitkeep in Resources */,
-				4DCE40D81B278F58002C7995 /* ListItemCellView.xib in Resources */,
 				4DCE40CD1B278F58002C7995 /* CustomCheckboxButtonView.xib in Resources */,
 				4DCE40DA1B278F58002C7995 /* TableViewPrimaryHeaderView.xib in Resources */,
 				4DCE41441B278F6B002C7995 /* TAQGuideTitleView.xib in Resources */,
@@ -1045,7 +1045,6 @@
 				4DCE410F1B278F63002C7995 /* BodyStylesheet.m in Sources */,
 				4DCE410B1B278F63002C7995 /* CustomTextFieldViewStylesheet.m in Sources */,
 				4DCE41411B278F6B002C7995 /* TAQGuideSubtitleView.m in Sources */,
-				4DCE40D71B278F58002C7995 /* ListItemCellView.m in Sources */,
 				4DCE40DB1B278F58002C7995 /* TitleView.m in Sources */,
 				4DCE40D51B278F58002C7995 /* NameTextFieldView.m in Sources */,
 				4DCE40CB1B278F58002C7995 /* BaseComponentsView.m in Sources */,
@@ -1072,9 +1071,10 @@
 				4DCE40251B2777D1002C7995 /* MainStylesheet.m in Sources */,
 				4DCE410D1B278F63002C7995 /* TableViewItemCellContentViewStylesheet.m in Sources */,
 				4D3168231B0D8E4900C3010B /* UIImage+ImageWithColor.m in Sources */,
-				4DCE41641B2879BF002C7995 /* TAQNullCellViewClassException.m in Sources */,
+				4DCE41641B2879BF002C7995 /* TAQNullContentChildViewClassException.m in Sources */,
 				4DCE40D61B278F58002C7995 /* BaseTableViewCell.m in Sources */,
 				4DCE41401B278F6B002C7995 /* TAQGuideTableViewDataModel.m in Sources */,
+				4DBF29691B2DD68A00B5710D /* ListItemContentChildView.m in Sources */,
 				4DCE413B1B278F6B002C7995 /* TAQControlsViewController.m in Sources */,
 				4DCE40CE1B278F58002C7995 /* CustomPickerView.m in Sources */,
 				4DCE41081B278F63002C7995 /* ButtonStylesheet.m in Sources */,

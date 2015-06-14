@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "TableViewPrimaryHeaderView.h"
-#import "ListItemCellView.h"
+#import "ListItemContentChildView.h"
 #import "BaseTableViewCell.h"
 
 #define KEY_HEADER_VIEW_SETUP @"headerViewSetup"
 #define KEY_HEADER_HEIGHT @"headerHeight"
 #define KEY_SECTION_ROWS @"sectionRows"
-#define KEY_CELL_VIEW_SETUP @"cellViewSetup"
+#define KEY_CONTENT_CHILD_VIEW_SETUP @"contentChildViewSetup"
 #define KEY_CELL_HEIGHT @"cellHeight"
 
 typedef UIView * (^HeaderSetupBlock)();
