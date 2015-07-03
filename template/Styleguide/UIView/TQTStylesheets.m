@@ -6,9 +6,24 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "TQTViewAttributes.h"
-#import "TQTMainStylesheet.h"
+#import "TQTStylesheets.h"
+#import "TQTStylesheetImporter.h"
 #import "TQTInvalidStyleRuleException.h"
+#import "TQTWrongClassNameException.h"
+
+#define CLASS_SUFFIX @"Stylesheet"
+
+@protocol TQTBaseStylesheet <NSObject>
+
++(NSDictionary *)stylesheet;
+
+@end
+
+@interface TQTStylesheets()
+
+@property (strong, nonatomic) NSMutableDictionary *stylesheet;
+
+@end
 
 /**
  Name convention:
@@ -19,26 +34,53 @@
     styleValue == css style value
     styleRule == styleKey + styleValue
  **/
-@implementation TQTViewAttributes
+@implementation TQTStylesheets
+
+static TQTStylesheets *_instance;
+
++ (instancetype)sharedInstance {
+    if (_instance == nil) {
+        [self init];
+    }
+
+    return _instance;
+}
+
+#pragma mark - Init
++ (void)init {
+    static dispatch_once_t onceToken;
+
+    dispatch_once(&onceToken, ^{
+        _instance = [[self alloc] init];
+    });
+}
+
+#pragma mark - Public API
+/**
+ * import a stylesheet(dictionary) to the main stylesheet
+ * @param stylesheetClass class which implemments the has a dictionary with the styles
+ **/
+-(void)import:(Class<TQTBaseStylesheet>)stylesheetClass {
+    BOOL const isStylesheetClass = [NSStringFromClass(stylesheetClass) rangeOfString:CLASS_SUFFIX].location == NSNotFound;
+    if (isStylesheetClass) {
+        @throw [[TQTWrongClassNameException alloc] initWithClass:stylesheetClass];
+    } else {
+        [self.stylesheet addEntriesFromDictionary:[stylesheetClass stylesheet]];
+    }
+}
 
 /**
  * It gets the styleContainerNames from style and then apply each style rule on view
  * @param style user input
  * @param view view to which the style will be applied
  */
-+(void) setStyle:(NSString*) style forView:(UIView*) view {
-    static NSDictionary *mainStylesheet = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        mainStylesheet = [TQTMainStylesheet stylesheet];
-    });
-    
-    [self applyBaseRulesOnView:view usingStylesheet:mainStylesheet];
-    [self applyComponentSpecificRulesOnView:view usingStylesheet:mainStylesheet andStyle:style];
+-(void)setStyle:(NSString*) style forView:(UIView*) view {
+    [self applyBaseRulesOnView:view usingStylesheet:self.stylesheet];
+    [self applyComponentSpecificRulesOnView:view usingStylesheet:self.stylesheet andStyle:style];
 }
 
 #pragma mark - private
-+ (void)applyBaseRulesOnView:(UIView *)view usingStylesheet:(NSDictionary *)mainStylesheet {
+- (void)applyBaseRulesOnView:(UIView *)view usingStylesheet:(NSDictionary *)mainStylesheet {
     // Apply base rules
     NSDictionary *styleContainer = mainStylesheet[NSStringFromClass([view class])];
     for(NSString *styleKey in styleContainer) {
@@ -46,7 +88,7 @@
     }
 }
 
-+ (void)applyComponentSpecificRulesOnView:(UIView *)view usingStylesheet:(NSDictionary *)mainStylesheet andStyle:(NSString *)style {
+- (void)applyComponentSpecificRulesOnView:(UIView *)view usingStylesheet:(NSDictionary *)mainStylesheet andStyle:(NSString *)style {
     [self applyEachStyleContainerFromStyle:style usingStylesheet:mainStylesheet onView:view];
 }
 
@@ -56,7 +98,7 @@
  * @param mainStylesheet dictionary with all styleContainer, styleKeys and styleValue
  * @param view view to which the style will be applied
  */
-+ (void)applyEachStyleContainerFromStyle:(NSString *)style usingStylesheet:(NSDictionary *)mainStylesheet onView:(UIView *)view {
+- (void)applyEachStyleContainerFromStyle:(NSString *)style usingStylesheet:(NSDictionary *)mainStylesheet onView:(UIView *)view {
     NSMutableArray *styleContainerNameArray = [[style componentsSeparatedByString:@" "] mutableCopy];
     [styleContainerNameArray removeObject:@""];
     
@@ -74,9 +116,9 @@
  * @param stylesheet
  * @param view
  */
-+ (void)applyStyleRuleWithStyleKey:(NSString *)styleKey fromStylesheet:(NSDictionary *)stylesheet onView:(UIView *)view {
+- (void)applyStyleRuleWithStyleKey:(NSString *)styleKey fromStylesheet:(NSDictionary *)stylesheet onView:(UIView *)view {
     NSArray * const properties = [styleKey componentsSeparatedByString:@"."];
-    id visualElement = [TQTViewAttributes elementToApplyStyleKey:styleKey fromView:view];
+    id visualElement = [self elementToApplyStyleKey:styleKey fromView:view];
     
     if ([visualElement respondsToSelector:NSSelectorFromString([properties lastObject])]) {
         [visualElement setValue:[stylesheet objectForKey:styleKey] forKey:[properties lastObject]];
@@ -91,7 +133,7 @@
  * @param view view from which the element will be get
  * @return id the element to which the style will be applied
  */
-+ (id)elementToApplyStyleKey:(NSString *)styleKey fromView:(UIView *)view {
+- (id)elementToApplyStyleKey:(NSString *)styleKey fromView:(UIView *)view {
     NSArray * const properties = [styleKey componentsSeparatedByString:@"."];
     id visualElement = view;
     
@@ -103,6 +145,14 @@
         }
     }
     return  visualElement;
+}
+
+#pragma mark - getter
+-(NSMutableDictionary *)stylesheet {
+    if (!_stylesheet) {
+        _stylesheet = [[NSMutableDictionary alloc] init];
+    }
+    return _stylesheet;
 }
 
 @end

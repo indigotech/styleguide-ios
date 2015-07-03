@@ -1,5 +1,5 @@
 //
-//  UIViewAttributes.h
+//  MainStylesheet.h
 //  Netshoes
 //
 //  Created by Taqtile on 4/23/15.
@@ -7,10 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 
-@interface TQTViewAttributes : NSObject
-
-+(void) setStyle:(NSString*) style forView:(UIView*) view;
-
+@interface TQTStylesheetImporter : NSObject
++ (void)setupTQTStylesheet;
 @end

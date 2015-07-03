@@ -7,7 +7,7 @@
 //
 
 #import "UIView+TQTViewStyle.h"
-#import "TQTViewAttributes.h"
+#import "TQTStylesheets.h"
 #import "Components.h"
 #import "TQTUnknownKeyException.h"
 
@@ -26,7 +26,7 @@
 -(void)setValue:(id)value forUndefinedKey:(NSString *)key
 {
     if([key isEqualToString:STYLESHEET_KEYWORD]) {
-        [TQTViewAttributes setStyle:value forView:self];
+        [[TQTStylesheets sharedInstance] setStyle:value forView:self];
     } else {
         @throw [[TQTUnknownKeyException alloc] initWithKeyName:key];
     }
