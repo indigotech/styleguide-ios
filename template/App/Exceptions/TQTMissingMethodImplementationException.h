@@ -8,6 +8,6 @@
 
 #import "TQTBaseException.h"
 
-@interface TQTMissingMethodImplementationException : TQTBaseException
+@interface TQTMissingMethodImplementationException : NSException
 -(instancetype) initWithSelector:(SEL)selector NS_DESIGNATED_INITIALIZER;
 @end
