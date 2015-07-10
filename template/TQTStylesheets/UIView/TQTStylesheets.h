@@ -15,7 +15,7 @@
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)sharedInstance;
 
--(void)import:(Class)stylesheetClass;
+-(void)import:(NSDictionary *)stylesheetClass;
 -(void) setStyle:(NSString*) style forView:(UIView*) view;
 
 @end

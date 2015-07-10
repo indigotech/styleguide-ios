@@ -11,7 +11,6 @@
 #import "TQTBaseStylesheet.h"
 #import "TQTTitleStylesheet.h"
 #import "TQTButtonStylesheet.h"
-#import "TQTWrongClassNameException.h"
 #import "TQTFormTextualElementsStylesheet.h"
 #import "TQTCaptionStylesheet.h"
 #import "TQTBodyStylesheet.h"
@@ -25,16 +24,16 @@
 @implementation TQTStylesheetImporter
 + (void)setupTQTStylesheet {
     TQTStylesheets *sharedInstance = [TQTStylesheets sharedInstance];
-    [sharedInstance import:[TQTBaseStylesheet class]];
-    [sharedInstance import:[TQTTitleStylesheet class]];
-    [sharedInstance import:[TQTButtonStylesheet class]];
-    [sharedInstance import:[TQTLabelStylesheet class]];
-    [sharedInstance import:[TQTFormTextualElementsStylesheet class]];
-    [sharedInstance import:[TQTCaptionStylesheet class]];
-    [sharedInstance import:[TQTBodyStylesheet class]];
-    [sharedInstance import:[TQTCustomTextFieldViewStylesheet class]];
-    [sharedInstance import:[TQTCustomRadioButtonViewStylesheet class]];
-    [sharedInstance import:[TQTCustomCheckboxButtonViewStylesheet class]];
-    [sharedInstance import:[TQTViewStylesheet class]];
+    [sharedInstance import:[TQTBaseStylesheet stylesheet]];
+    [sharedInstance import:[TQTTitleStylesheet stylesheet]];
+    [sharedInstance import:[TQTButtonStylesheet stylesheet]];
+    [sharedInstance import:[TQTLabelStylesheet stylesheet]];
+    [sharedInstance import:[TQTFormTextualElementsStylesheet stylesheet]];
+    [sharedInstance import:[TQTCaptionStylesheet stylesheet]];
+    [sharedInstance import:[TQTBodyStylesheet stylesheet]];
+    [sharedInstance import:[TQTCustomTextFieldViewStylesheet stylesheet]];
+    [sharedInstance import:[TQTCustomRadioButtonViewStylesheet stylesheet]];
+    [sharedInstance import:[TQTCustomCheckboxButtonViewStylesheet stylesheet]];
+    [sharedInstance import:[TQTViewStylesheet stylesheet]];
 }
 @end

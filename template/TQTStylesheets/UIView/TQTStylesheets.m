@@ -8,15 +8,8 @@
 
 #import "TQTStylesheets.h"
 #import "TQTInvalidStyleRuleException.h"
-#import "TQTWrongClassNameException.h"
 
 #define CLASS_SUFFIX @"Stylesheet"
-
-@protocol TQTBaseStylesheet <NSObject>
-
-+(NSDictionary *)stylesheet;
-
-@end
 
 @interface TQTStylesheets()
 
@@ -57,15 +50,10 @@ static TQTStylesheets *_instance;
 #pragma mark - Public API
 /**
  * import a stylesheet(dictionary) to the main stylesheet
- * @param stylesheetClass class which implemments the has a dictionary with the styles
+ * @param stylesheet a dictionary with styles
  **/
--(void)import:(Class<TQTBaseStylesheet>)stylesheetClass {
-    BOOL const isStylesheetClass = [NSStringFromClass(stylesheetClass) rangeOfString:CLASS_SUFFIX].location == NSNotFound;
-    if (isStylesheetClass) {
-        @throw [[TQTWrongClassNameException alloc] initWithClass:stylesheetClass];
-    } else {
-        [self.stylesheet addEntriesFromDictionary:[stylesheetClass stylesheet]];
-    }
+-(void)import:(NSDictionary *)stylesheet {
+    [self.stylesheet addEntriesFromDictionary:stylesheet];
 }
 
 /**

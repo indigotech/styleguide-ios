@@ -24,7 +24,6 @@
 		4D27CA841B472BEF00F20EEE /* TQTStylesheetImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA761B472BEF00F20EEE /* TQTStylesheetImporter.m */; };
 		4D27CACD1B47358900F20EEE /* TQTInvalidStyleRuleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CABB1B47358900F20EEE /* TQTInvalidStyleRuleException.m */; };
 		4D27CACE1B47358900F20EEE /* TQTUnknownKeyException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CABD1B47358900F20EEE /* TQTUnknownKeyException.m */; };
-		4D27CACF1B47358900F20EEE /* TQTWrongClassNameException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CABF1B47358900F20EEE /* TQTWrongClassNameException.m */; };
 		4D27CAD01B47358900F20EEE /* UIButton+TQTButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CAC31B47358900F20EEE /* UIButton+TQTButtonStyle.m */; };
 		4D27CAD11B47358900F20EEE /* UIImage+TQTImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CAC71B47358900F20EEE /* UIImage+TQTImageWithColor.m */; };
 		4D27CAD21B47358900F20EEE /* TQTStylesheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CACA1B47358900F20EEE /* TQTStylesheets.m */; };
@@ -110,8 +109,6 @@
 		4D27CABB1B47358900F20EEE /* TQTInvalidStyleRuleException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTInvalidStyleRuleException.m; sourceTree = "<group>"; };
 		4D27CABC1B47358900F20EEE /* TQTUnknownKeyException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTUnknownKeyException.h; sourceTree = "<group>"; };
 		4D27CABD1B47358900F20EEE /* TQTUnknownKeyException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTUnknownKeyException.m; sourceTree = "<group>"; };
-		4D27CABE1B47358900F20EEE /* TQTWrongClassNameException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTWrongClassNameException.h; sourceTree = "<group>"; };
-		4D27CABF1B47358900F20EEE /* TQTWrongClassNameException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTWrongClassNameException.m; sourceTree = "<group>"; };
 		4D27CAC01B47358900F20EEE /* TQTStylesheetsProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTStylesheetsProperties.h; sourceTree = "<group>"; };
 		4D27CAC21B47358900F20EEE /* UIButton+TQTButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TQTButtonStyle.h"; sourceTree = "<group>"; };
 		4D27CAC31B47358900F20EEE /* UIButton+TQTButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TQTButtonStyle.m"; sourceTree = "<group>"; };
@@ -432,8 +429,6 @@
 				4D27CABB1B47358900F20EEE /* TQTInvalidStyleRuleException.m */,
 				4D27CABC1B47358900F20EEE /* TQTUnknownKeyException.h */,
 				4D27CABD1B47358900F20EEE /* TQTUnknownKeyException.m */,
-				4D27CABE1B47358900F20EEE /* TQTWrongClassNameException.h */,
-				4D27CABF1B47358900F20EEE /* TQTWrongClassNameException.m */,
 			);
 			path = Exceptions;
 			sourceTree = "<group>";
@@ -1053,7 +1048,6 @@
 				4D27CA811B472BEF00F20EEE /* TQTLabelStylesheet.m in Sources */,
 				4DBF29A81B2DDF4200B5710D /* TQTCustomRadioButtonView.m in Sources */,
 				4D27CA841B472BEF00F20EEE /* TQTStylesheetImporter.m in Sources */,
-				4D27CACF1B47358900F20EEE /* TQTWrongClassNameException.m in Sources */,
 				4D27CAD21B47358900F20EEE /* TQTStylesheets.m in Sources */,
 				4D27CA791B472BEF00F20EEE /* TQTCustomRadioButtonViewStylesheet.m in Sources */,
 				4DBF29A71B2DDF4200B5710D /* TQTCustomPickerView.m in Sources */,

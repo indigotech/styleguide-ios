@@ -10,5 +10,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TQTCaptionStylesheet : NSObject
-
++ (NSDictionary *)stylesheet;
 @end
