@@ -20,7 +20,6 @@
 		4D27CA801B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA6D1B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.m */; };
 		4D27CA811B472BEF00F20EEE /* TQTLabelStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA701B472BEF00F20EEE /* TQTLabelStylesheet.m */; };
 		4D27CA821B472BEF00F20EEE /* TQTTitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA731B472BEF00F20EEE /* TQTTitleStylesheet.m */; };
-		4D27CA831B472BEF00F20EEE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA741B472BEF00F20EEE /* README.md */; };
 		4D27CA841B472BEF00F20EEE /* TQTStylesheetImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA761B472BEF00F20EEE /* TQTStylesheetImporter.m */; };
 		4D27CACD1B47358900F20EEE /* TQTInvalidStyleRuleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CABB1B47358900F20EEE /* TQTInvalidStyleRuleException.m */; };
 		4D27CACE1B47358900F20EEE /* TQTUnknownKeyException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CABD1B47358900F20EEE /* TQTUnknownKeyException.m */; };
@@ -29,6 +28,7 @@
 		4D27CAD21B47358900F20EEE /* TQTStylesheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CACA1B47358900F20EEE /* TQTStylesheets.m */; };
 		4D27CAD31B47358900F20EEE /* UIView+TQTViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CACC1B47358900F20EEE /* UIView+TQTViewStyle.m */; };
 		4D27CAD61B473E9B00F20EEE /* TQTBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CAD51B473E9B00F20EEE /* TQTBaseException.m */; };
+		4D27CADD1B5004BA00F20EEE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CADC1B5004BA00F20EEE /* README.md */; };
 		4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167D01B0BCDAC00C3010B /* Constants.m */; };
 		4DBF29711B2DDF3200B5710D /* TQTMissingMethodImplementationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF296F1B2DDF3200B5710D /* TQTMissingMethodImplementationException.m */; };
 		4DBF29751B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29741B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m */; };
@@ -102,7 +102,6 @@
 		4D27CA701B472BEF00F20EEE /* TQTLabelStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTLabelStylesheet.m; sourceTree = "<group>"; };
 		4D27CA721B472BEF00F20EEE /* TQTTitleStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTTitleStylesheet.h; sourceTree = "<group>"; };
 		4D27CA731B472BEF00F20EEE /* TQTTitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTTitleStylesheet.m; sourceTree = "<group>"; };
-		4D27CA741B472BEF00F20EEE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D27CA751B472BEF00F20EEE /* TQTStylesheetImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTStylesheetImporter.h; sourceTree = "<group>"; };
 		4D27CA761B472BEF00F20EEE /* TQTStylesheetImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTStylesheetImporter.m; sourceTree = "<group>"; };
 		4D27CABA1B47358900F20EEE /* TQTInvalidStyleRuleException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTInvalidStyleRuleException.h; sourceTree = "<group>"; };
@@ -120,6 +119,7 @@
 		4D27CACC1B47358900F20EEE /* UIView+TQTViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TQTViewStyle.m"; sourceTree = "<group>"; };
 		4D27CAD41B473E9B00F20EEE /* TQTBaseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTBaseException.h; sourceTree = "<group>"; };
 		4D27CAD51B473E9B00F20EEE /* TQTBaseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTBaseException.m; sourceTree = "<group>"; };
+		4D27CADC1B5004BA00F20EEE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D3167CF1B0BCDAC00C3010B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4D3167D01B0BCDAC00C3010B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		4D3167D21B0BCDEB00C3010B /* Components.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Components.h; sourceTree = "<group>"; };
@@ -232,7 +232,6 @@
 			isa = PBXGroup;
 			children = (
 				4D27CA4A1B472BEF00F20EEE /* Components */,
-				4D27CA741B472BEF00F20EEE /* README.md */,
 				4D27CA751B472BEF00F20EEE /* TQTStylesheetImporter.h */,
 				4D27CA761B472BEF00F20EEE /* TQTStylesheetImporter.m */,
 			);
@@ -409,6 +408,7 @@
 		4D27CAB81B47358900F20EEE /* TQTStylesheets */ = {
 			isa = PBXGroup;
 			children = (
+				4D27CADC1B5004BA00F20EEE /* README.md */,
 				4D27CAC91B47358900F20EEE /* TQTStylesheets.h */,
 				4D27CACA1B47358900F20EEE /* TQTStylesheets.m */,
 				4D27CAC01B47358900F20EEE /* TQTStylesheetsProperties.h */,
@@ -1072,7 +1072,7 @@
 				4DBF29751B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m in Sources */,
 				4DBF29711B2DDF3200B5710D /* TQTMissingMethodImplementationException.m in Sources */,
 				4DBF29B31B2DDF4200B5710D /* TQTBaseComponentsView.m in Sources */,
-				4D27CA831B472BEF00F20EEE /* README.md in Sources */,
+				4D27CADD1B5004BA00F20EEE /* README.md in Sources */,
 				4DBF29EA1B2DDF4900B5710D /* TQTGuideTableViewDataModel.m in Sources */,
 				4DBF29ED1B2DDF4900B5710D /* TQTGuideTitleView.m in Sources */,
 				4DBF29E41B2DDF4900B5710D /* TQTFormsViewController.m in Sources */,

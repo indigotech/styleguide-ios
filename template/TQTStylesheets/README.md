@@ -8,7 +8,7 @@ To add your component:
     component_name "Stylesheet"
 ```
 2. Declare a class method 'stylesheet' in you .h:
-```
+``` objective-c
     + (NSDictionary *)stylesheet;
 ```
 3. To add styles to your component,add to the dictionary in the `stylesheet` method:
@@ -16,17 +16,19 @@ To add your component:
  - a dictionary containing the properties and theirs values as the value of the dictionary.
 
  ex of a implementation of `stylesheet`:
-```
+``` objective-c
     return @{
              @"YourComponentAttributeName": @{
                      @"propertyNameOfYourComponent": VALUE_OF_PROPERTY,
                      },
              };
 ```
-4. Finally, import your just created stylesheet on MainStylesheet.m. To do it, call the import method on the method `stylesheet`
+4. Finally, import your just created stylesheet using TQTStylesheets. To do it, call the import method 
 Ex:
-    [MainStylesheet importStylesheetClass:[YOUR_CLASS_NAME class] toMainDictionary:mainDictionary];
-
+``` objective-c
+TQTStylesheets *sharedInstance = [TQTStylesheets sharedInstance];
+[sharedInstance import:[TQTBaseStylesheet stylesheet]];
+```
 
 # YourComponentAttributeName name convention
 
@@ -36,7 +38,7 @@ The YourComponentAttributeName has the following convention (in eBNF):
 ```
 obs:component_name, subcomponent_name, type_name, state_name, class_name_without_UI are all CamelCase
 
-# BaseStylesheet.m
+# BaseStylesheet
 
-In this folder there is a special file called BaseStylesheet. This file contain rules for the
+You can create BaseStylesheet which is a stylesheet that contains rules for the
 basic UI classes, for instance, UILabel, UITextField etc.

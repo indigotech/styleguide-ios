@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Taqtile. All rights reserved.
 //
 
-#import "TQTBaseException.h"
+#import <Foundation/Foundation.h>
 
 @interface TQTMissingMethodImplementationException : NSException
 -(instancetype) initWithSelector:(SEL)selector NS_DESIGNATED_INITIALIZER;
