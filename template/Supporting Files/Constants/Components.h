@@ -21,7 +21,6 @@
 #define BORDER_SMALL_WIDTH 1
 #define CORNER_RADIUS      4
 #define DEFAULT_MARGIN     8
-#define STYLESHEET_KEYWORD @"stylesheet"
 
 // Auxiliary animation constants
 #define ANIMATION_IMAGE_FADE_IN_DURATION 0.3

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
             <connections>
-                <outlet property="_titleLabel" destination="Y9j-xd-dho" id="uSZ-XW-Nyr"/>
                 <outlet property="view" destination="iN0-l3-epB" id="ZH2-be-0Ip"/>
             </connections>
         </placeholder>
@@ -14,108 +14,7 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y9j-xd-dho" customClass="TQTTitleView">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" placeholder="YES" id="xXS-BG-EkW"/>
-                    </constraints>
-                </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H4 - Heading 4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lg-vA-2m0">
-                    <rect key="frame" x="15" y="90.5" width="345" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="H4_Label"/>
-                    </userDefinedRuntimeAttributes>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H4 SUB - Subheading 4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jm5-Ct-mh3">
-                    <rect key="frame" x="15" y="126" width="345" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="H4Sub_Label"/>
-                    </userDefinedRuntimeAttributes>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H5 - Heading 5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQB-9n-hOp">
-                    <rect key="frame" x="15" y="161.5" width="345" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="H5_Label"/>
-                    </userDefinedRuntimeAttributes>
-                </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MF3-6D-y7W">
-                    <rect key="frame" x="15" y="197" width="345" height="48"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="48" id="oJt-BX-6xg"/>
-                    </constraints>
-                    <state key="normal" title="Alert outlined"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="AlertOutlined_Button"/>
-                    </userDefinedRuntimeAttributes>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqW-YZ-Ba9">
-                    <rect key="frame" x="15" y="260" width="345" height="48"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="48" id="QTV-fb-p2m"/>
-                    </constraints>
-                    <state key="normal" title="Primary"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="Primary_Button"/>
-                    </userDefinedRuntimeAttributes>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuY-mc-LMY">
-                    <rect key="frame" x="15" y="323" width="345" height="48"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="48" id="NL1-yV-M9p"/>
-                    </constraints>
-                    <state key="normal" title="Call to action"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="CallToAction_Button"/>
-                    </userDefinedRuntimeAttributes>
-                </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H3 - Heading 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u84-ZV-nY5">
-                    <rect key="frame" x="15" y="55" width="345" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="H3_Label"/>
-                    </userDefinedRuntimeAttributes>
-                </label>
-            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="vuY-mc-LMY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="7LF-TF-eia"/>
-                <constraint firstItem="Y9j-xd-dho" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8lf-gf-7zD"/>
-                <constraint firstItem="vuY-mc-LMY" firstAttribute="top" secondItem="iqW-YZ-Ba9" secondAttribute="bottom" constant="15" id="HNm-BL-8pV"/>
-                <constraint firstAttribute="trailing" secondItem="qQB-9n-hOp" secondAttribute="trailing" constant="15" id="JQi-kv-M7Q"/>
-                <constraint firstItem="3Lg-vA-2m0" firstAttribute="top" secondItem="u84-ZV-nY5" secondAttribute="bottom" constant="15" id="Kqh-Mq-97V"/>
-                <constraint firstItem="MF3-6D-y7W" firstAttribute="top" secondItem="qQB-9n-hOp" secondAttribute="bottom" constant="15" id="Nyu-9s-UCt"/>
-                <constraint firstItem="u84-ZV-nY5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="PZP-2m-cLX"/>
-                <constraint firstItem="qQB-9n-hOp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="S8P-Mh-6j6"/>
-                <constraint firstItem="iqW-YZ-Ba9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="TJu-iZ-185"/>
-                <constraint firstAttribute="trailing" secondItem="MF3-6D-y7W" secondAttribute="trailing" constant="15" id="ULl-u9-p8w"/>
-                <constraint firstItem="jm5-Ct-mh3" firstAttribute="top" secondItem="3Lg-vA-2m0" secondAttribute="bottom" constant="15" id="WS8-ah-CIN"/>
-                <constraint firstItem="jm5-Ct-mh3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="ZLL-yH-GGL"/>
-                <constraint firstAttribute="trailing" secondItem="3Lg-vA-2m0" secondAttribute="trailing" constant="15" id="bMx-ac-Km1"/>
-                <constraint firstItem="u84-ZV-nY5" firstAttribute="top" secondItem="Y9j-xd-dho" secondAttribute="bottom" constant="15" id="dCj-3D-DO4"/>
-                <constraint firstAttribute="trailing" secondItem="jm5-Ct-mh3" secondAttribute="trailing" constant="15" id="gvK-2z-Xye"/>
-                <constraint firstAttribute="trailing" secondItem="vuY-mc-LMY" secondAttribute="trailing" constant="15" id="gxz-TT-p4I"/>
-                <constraint firstAttribute="trailing" secondItem="iqW-YZ-Ba9" secondAttribute="trailing" constant="15" id="iRY-Yp-0l2"/>
-                <constraint firstItem="Y9j-xd-dho" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="j6Z-vk-4rD"/>
-                <constraint firstAttribute="trailing" secondItem="Y9j-xd-dho" secondAttribute="trailing" id="kvr-4U-iiU"/>
-                <constraint firstAttribute="trailing" secondItem="u84-ZV-nY5" secondAttribute="trailing" constant="15" id="mNq-Nl-dvC"/>
-                <constraint firstItem="3Lg-vA-2m0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="pkN-BA-uTS"/>
-                <constraint firstItem="MF3-6D-y7W" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="pvJ-7Z-sIx"/>
-                <constraint firstItem="iqW-YZ-Ba9" firstAttribute="top" secondItem="MF3-6D-y7W" secondAttribute="bottom" constant="15" id="rFi-m1-iQd"/>
-                <constraint firstItem="qQB-9n-hOp" firstAttribute="top" secondItem="jm5-Ct-mh3" secondAttribute="bottom" constant="15" id="thz-Xc-qic"/>
-            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
         </view>
     </objects>

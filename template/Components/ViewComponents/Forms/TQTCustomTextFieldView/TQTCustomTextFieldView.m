@@ -7,7 +7,7 @@
 //
 
 #import "TQTCustomTextFieldView.h"
-#import "TQTViewAttributes.h"
+#import "TQTStylesheets.h"
 
 @implementation TQTCustomTextFieldView
 
@@ -51,19 +51,21 @@
 
 #pragma mark - state setup methods
 - (void)defaultSetup {
-    [TQTViewAttributes setStyle:@"Label_Label" forView:self.fieldNameLabel];
-    [TQTViewAttributes setStyle:@"CustomTextFieldView_TextField_View" forView:self.textFieldContainerView];
-    [TQTViewAttributes setStyle:@"InputValue_TextField" forView:self.textField];
-    [TQTViewAttributes setStyle:@"CustomTextFieldView_Button" forView:self.textFieldButton];
-    [TQTViewAttributes setStyle:@"Caption_Label" forView:self.captionLabel];
+    TQTStylesheets *shared = [TQTStylesheets sharedInstance];
+    [shared setStyle:@"Label_Label" forView:self.fieldNameLabel];
+    [shared setStyle:@"CustomTextFieldView_TextField_View" forView:self.textFieldContainerView];
+    [shared setStyle:@"InputValue_TextField" forView:self.textField];
+    [shared setStyle:@"CustomTextFieldView_Button" forView:self.textFieldButton];
+    [shared setStyle:@"Caption_Label" forView:self.captionLabel];
 }
 
 - (void)errorStateSetup {
-    [TQTViewAttributes setStyle:@"Label_IsError_Label" forView:self.fieldNameLabel];
-    [TQTViewAttributes setStyle:@"CustomTextFieldView_TextField_IsError_View" forView:self.textFieldContainerView];
-    [TQTViewAttributes setStyle:@"InputValue_IsError_TextField" forView:self.textField];
-    [TQTViewAttributes setStyle:@"Caption_IsError_Label" forView:self.captionLabel];
-    [TQTViewAttributes setStyle:@"CustomTextFieldView_IsError_Button" forView:self.textFieldButton];
+    TQTStylesheets *shared = [TQTStylesheets sharedInstance];
+    [shared setStyle:@"Label_IsError_Label" forView:self.fieldNameLabel];
+    [shared setStyle:@"CustomTextFieldView_TextField_IsError_View" forView:self.textFieldContainerView];
+    [shared setStyle:@"InputValue_IsError_TextField" forView:self.textField];
+    [shared setStyle:@"Caption_IsError_Label" forView:self.captionLabel];
+    [shared setStyle:@"CustomTextFieldView_IsError_Button" forView:self.textFieldButton];
 }
 
 - (void)activeStateSetup {
@@ -72,11 +74,12 @@
 }
 
 - (void)inactiveStateSetup {
-    [TQTViewAttributes setStyle:@"Label_IsInactive_Label" forView:self.fieldNameLabel];
-    [TQTViewAttributes setStyle:@"CustomTextFieldView_TextField_IsInactive_View" forView:self.textFieldContainerView];
-    [TQTViewAttributes setStyle:@"InputValue_IsInactive_TextField" forView:self.textField];
-    [TQTViewAttributes setStyle:@"Caption_IsInactive_Label" forView:self.captionLabel];
-    [TQTViewAttributes setStyle:@"CustomTextFieldView_IsInactive_Button" forView:self.textFieldButton];
+    TQTStylesheets *shared = [TQTStylesheets sharedInstance];
+    [shared setStyle:@"Label_IsInactive_Label" forView:self.fieldNameLabel];
+    [shared setStyle:@"CustomTextFieldView_TextField_IsInactive_View" forView:self.textFieldContainerView];
+    [shared setStyle:@"InputValue_IsInactive_TextField" forView:self.textField];
+    [shared setStyle:@"Caption_IsInactive_Label" forView:self.captionLabel];
+    [shared setStyle:@"CustomTextFieldView_IsInactive_Button" forView:self.textFieldButton];
 }
 
 - (void)highlightStateSetup {
