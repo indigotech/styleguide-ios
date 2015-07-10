@@ -1,6 +1,6 @@
 {
   "name": "TQTStylesheets",
-  "version": "0.1.0",
+  "version": "0.1.0 ",
   "summary": "iOS css-like engine",
   "homepage": "https://github.com/indigotech/styleguide-ios",
   "license": {
@@ -15,5 +15,5 @@
     "ios": "7.0"
   },
   "source_files": "template/TQTStylesheets/**/*.{h,m}",
-  "header_mappings_dir": "TQTStylesheets"
+  "header_mappings_dir": "template/TQTStylesheets"
 }
