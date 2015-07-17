@@ -30,6 +30,23 @@
 		4D27CAD61B473E9B00F20EEE /* TQTBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CAD51B473E9B00F20EEE /* TQTBaseException.m */; };
 		4D27CADD1B5004BA00F20EEE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CADC1B5004BA00F20EEE /* README.md */; };
 		4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167D01B0BCDAC00C3010B /* Constants.m */; };
+		4D8EFBCB1B598E65009F2F51 /* TQTColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBA51B598E65009F2F51 /* TQTColorSwatchesViewController.m */; };
+		4D8EFBCC1B598E65009F2F51 /* TQTComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBA71B598E65009F2F51 /* TQTComponentsViewController.m */; };
+		4D8EFBCD1B598E65009F2F51 /* TQTComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EFBA81B598E65009F2F51 /* TQTComponentsViewController.xib */; };
+		4D8EFBCE1B598E65009F2F51 /* TQTControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBAB1B598E65009F2F51 /* TQTControlsViewController.m */; };
+		4D8EFBCF1B598E65009F2F51 /* TQTFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBAE1B598E65009F2F51 /* TQTFormsViewController.m */; };
+		4D8EFBD01B598E65009F2F51 /* TQTExamplesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBB21B598E65009F2F51 /* TQTExamplesTableViewController.m */; };
+		4D8EFBD11B598E65009F2F51 /* TQTExampleVCTableViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBB41B598E65009F2F51 /* TQTExampleVCTableViewData.m */; };
+		4D8EFBD21B598E65009F2F51 /* TQTListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBB61B598E65009F2F51 /* TQTListsViewController.m */; };
+		4D8EFBD31B598E65009F2F51 /* TQTOtherComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBB91B598E65009F2F51 /* TQTOtherComponentsViewController.m */; };
+		4D8EFBD41B598E65009F2F51 /* TQTTypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBBC1B598E65009F2F51 /* TQTTypographyViewController.m */; };
+		4D8EFBD51B598E65009F2F51 /* TQTGuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBBE1B598E65009F2F51 /* TQTGuideTableViewDataModel.m */; };
+		4D8EFBD61B598E65009F2F51 /* TQTGuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC21B598E65009F2F51 /* TQTGuideSubtitleView.m */; };
+		4D8EFBD71B598E65009F2F51 /* TQTGuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC31B598E65009F2F51 /* TQTGuideSubtitleView.xib */; };
+		4D8EFBD81B598E65009F2F51 /* TQTGuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC61B598E65009F2F51 /* TQTGuideTitleView.m */; };
+		4D8EFBD91B598E65009F2F51 /* TQTGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC71B598E65009F2F51 /* TQTGuideTitleView.xib */; };
+		4D8EFBDA1B598E65009F2F51 /* TQTGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC91B598E65009F2F51 /* TQTGuideViewController.m */; };
+		4D8EFBDB1B598E65009F2F51 /* TQTGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EFBCA1B598E65009F2F51 /* TQTGuideViewController.xib */; };
 		4DBF29711B2DDF3200B5710D /* TQTMissingMethodImplementationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF296F1B2DDF3200B5710D /* TQTMissingMethodImplementationException.m */; };
 		4DBF29751B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29741B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m */; };
 		4DBF29A41B2DDF4200B5710D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29771B2DDF4200B5710D /* .gitkeep */; };
@@ -50,23 +67,6 @@
 		4DBF29B31B2DDF4200B5710D /* TQTBaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF299E1B2DDF4200B5710D /* TQTBaseComponentsView.m */; };
 		4DBF29B41B2DDF4200B5710D /* TQTTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29A21B2DDF4200B5710D /* TQTTitleView.m */; };
 		4DBF29B51B2DDF4200B5710D /* TQTTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29A31B2DDF4200B5710D /* TQTTitleView.xib */; };
-		4DBF29E01B2DDF4900B5710D /* TQTColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29BA1B2DDF4900B5710D /* TQTColorSwatchesViewController.m */; };
-		4DBF29E11B2DDF4900B5710D /* TQTComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29BC1B2DDF4900B5710D /* TQTComponentsViewController.m */; };
-		4DBF29E21B2DDF4900B5710D /* TQTComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29BD1B2DDF4900B5710D /* TQTComponentsViewController.xib */; };
-		4DBF29E31B2DDF4900B5710D /* TQTControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29C01B2DDF4900B5710D /* TQTControlsViewController.m */; };
-		4DBF29E41B2DDF4900B5710D /* TQTFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29C31B2DDF4900B5710D /* TQTFormsViewController.m */; };
-		4DBF29E51B2DDF4900B5710D /* TQTExamplesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29C71B2DDF4900B5710D /* TQTExamplesTableViewController.m */; };
-		4DBF29E61B2DDF4900B5710D /* TQTExampleVCTableViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29C91B2DDF4900B5710D /* TQTExampleVCTableViewData.m */; };
-		4DBF29E71B2DDF4900B5710D /* TQTListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29CB1B2DDF4900B5710D /* TQTListsViewController.m */; };
-		4DBF29E81B2DDF4900B5710D /* TQTOtherComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29CE1B2DDF4900B5710D /* TQTOtherComponentsViewController.m */; };
-		4DBF29E91B2DDF4900B5710D /* TQTTypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29D11B2DDF4900B5710D /* TQTTypographyViewController.m */; };
-		4DBF29EA1B2DDF4900B5710D /* TQTGuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29D31B2DDF4900B5710D /* TQTGuideTableViewDataModel.m */; };
-		4DBF29EB1B2DDF4900B5710D /* TQTGuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29D71B2DDF4900B5710D /* TQTGuideSubtitleView.m */; };
-		4DBF29EC1B2DDF4900B5710D /* TQTGuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29D81B2DDF4900B5710D /* TQTGuideSubtitleView.xib */; };
-		4DBF29ED1B2DDF4900B5710D /* TQTGuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29DB1B2DDF4900B5710D /* TQTGuideTitleView.m */; };
-		4DBF29EE1B2DDF4900B5710D /* TQTGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29DC1B2DDF4900B5710D /* TQTGuideTitleView.xib */; };
-		4DBF29EF1B2DDF4900B5710D /* TQTGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29DE1B2DDF4900B5710D /* TQTGuideViewController.m */; };
-		4DBF29F01B2DDF4900B5710D /* TQTGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29DF1B2DDF4900B5710D /* TQTGuideViewController.xib */; };
 		4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCC1B277577002C7995 /* HomeViewController.m */; };
 		4DCE3DE71B277577002C7995 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCD1B277577002C7995 /* HomeViewController.xib */; };
 		4DCE414C1B279533002C7995 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE414B1B279533002C7995 /* Images.xcassets */; };
@@ -126,6 +126,36 @@
 		4D3167D31B0BCE8600C3010B /* Fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fonts.h; sourceTree = "<group>"; };
 		4D3167D41B0BCEFD00C3010B /* Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
 		4D3167D51B0BDB1800C3010B /* UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		4D8EFBA41B598E65009F2F51 /* TQTColorSwatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTColorSwatchesViewController.h; sourceTree = "<group>"; };
+		4D8EFBA51B598E65009F2F51 /* TQTColorSwatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTColorSwatchesViewController.m; sourceTree = "<group>"; };
+		4D8EFBA61B598E65009F2F51 /* TQTComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTComponentsViewController.h; sourceTree = "<group>"; };
+		4D8EFBA71B598E65009F2F51 /* TQTComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTComponentsViewController.m; sourceTree = "<group>"; };
+		4D8EFBA81B598E65009F2F51 /* TQTComponentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTComponentsViewController.xib; sourceTree = "<group>"; };
+		4D8EFBAA1B598E65009F2F51 /* TQTControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTControlsViewController.h; sourceTree = "<group>"; };
+		4D8EFBAB1B598E65009F2F51 /* TQTControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTControlsViewController.m; sourceTree = "<group>"; };
+		4D8EFBAD1B598E65009F2F51 /* TQTFormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTFormsViewController.h; sourceTree = "<group>"; };
+		4D8EFBAE1B598E65009F2F51 /* TQTFormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTFormsViewController.m; sourceTree = "<group>"; };
+		4D8EFBB11B598E65009F2F51 /* TQTExamplesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTExamplesTableViewController.h; sourceTree = "<group>"; };
+		4D8EFBB21B598E65009F2F51 /* TQTExamplesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTExamplesTableViewController.m; sourceTree = "<group>"; };
+		4D8EFBB31B598E65009F2F51 /* TQTExampleVCTableViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTExampleVCTableViewData.h; sourceTree = "<group>"; };
+		4D8EFBB41B598E65009F2F51 /* TQTExampleVCTableViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTExampleVCTableViewData.m; sourceTree = "<group>"; };
+		4D8EFBB51B598E65009F2F51 /* TQTListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTListsViewController.h; sourceTree = "<group>"; };
+		4D8EFBB61B598E65009F2F51 /* TQTListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTListsViewController.m; sourceTree = "<group>"; };
+		4D8EFBB81B598E65009F2F51 /* TQTOtherComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTOtherComponentsViewController.h; sourceTree = "<group>"; };
+		4D8EFBB91B598E65009F2F51 /* TQTOtherComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTOtherComponentsViewController.m; sourceTree = "<group>"; };
+		4D8EFBBB1B598E65009F2F51 /* TQTTypographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTTypographyViewController.h; sourceTree = "<group>"; };
+		4D8EFBBC1B598E65009F2F51 /* TQTTypographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTTypographyViewController.m; sourceTree = "<group>"; };
+		4D8EFBBD1B598E65009F2F51 /* TQTGuideTableViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideTableViewDataModel.h; sourceTree = "<group>"; };
+		4D8EFBBE1B598E65009F2F51 /* TQTGuideTableViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideTableViewDataModel.m; sourceTree = "<group>"; };
+		4D8EFBC11B598E65009F2F51 /* TQTGuideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideSubtitleView.h; sourceTree = "<group>"; };
+		4D8EFBC21B598E65009F2F51 /* TQTGuideSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideSubtitleView.m; sourceTree = "<group>"; };
+		4D8EFBC31B598E65009F2F51 /* TQTGuideSubtitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideSubtitleView.xib; sourceTree = "<group>"; };
+		4D8EFBC51B598E65009F2F51 /* TQTGuideTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideTitleView.h; sourceTree = "<group>"; };
+		4D8EFBC61B598E65009F2F51 /* TQTGuideTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideTitleView.m; sourceTree = "<group>"; };
+		4D8EFBC71B598E65009F2F51 /* TQTGuideTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideTitleView.xib; sourceTree = "<group>"; };
+		4D8EFBC81B598E65009F2F51 /* TQTGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideViewController.h; sourceTree = "<group>"; };
+		4D8EFBC91B598E65009F2F51 /* TQTGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideViewController.m; sourceTree = "<group>"; };
+		4D8EFBCA1B598E65009F2F51 /* TQTGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideViewController.xib; sourceTree = "<group>"; };
 		4DBF296E1B2DDF3200B5710D /* TQTMissingMethodImplementationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTMissingMethodImplementationException.h; sourceTree = "<group>"; };
 		4DBF296F1B2DDF3200B5710D /* TQTMissingMethodImplementationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTMissingMethodImplementationException.m; sourceTree = "<group>"; };
 		4DBF29731B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TQTAttachToSuperview.h"; sourceTree = "<group>"; };
@@ -159,36 +189,6 @@
 		4DBF29A11B2DDF4200B5710D /* TQTTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTTitleView.h; sourceTree = "<group>"; };
 		4DBF29A21B2DDF4200B5710D /* TQTTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTTitleView.m; sourceTree = "<group>"; };
 		4DBF29A31B2DDF4200B5710D /* TQTTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTTitleView.xib; sourceTree = "<group>"; };
-		4DBF29B91B2DDF4900B5710D /* TQTColorSwatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTColorSwatchesViewController.h; sourceTree = "<group>"; };
-		4DBF29BA1B2DDF4900B5710D /* TQTColorSwatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTColorSwatchesViewController.m; sourceTree = "<group>"; };
-		4DBF29BB1B2DDF4900B5710D /* TQTComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTComponentsViewController.h; sourceTree = "<group>"; };
-		4DBF29BC1B2DDF4900B5710D /* TQTComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTComponentsViewController.m; sourceTree = "<group>"; };
-		4DBF29BD1B2DDF4900B5710D /* TQTComponentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTComponentsViewController.xib; sourceTree = "<group>"; };
-		4DBF29BF1B2DDF4900B5710D /* TQTControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTControlsViewController.h; sourceTree = "<group>"; };
-		4DBF29C01B2DDF4900B5710D /* TQTControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTControlsViewController.m; sourceTree = "<group>"; };
-		4DBF29C21B2DDF4900B5710D /* TQTFormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTFormsViewController.h; sourceTree = "<group>"; };
-		4DBF29C31B2DDF4900B5710D /* TQTFormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTFormsViewController.m; sourceTree = "<group>"; };
-		4DBF29C61B2DDF4900B5710D /* TQTExamplesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTExamplesTableViewController.h; sourceTree = "<group>"; };
-		4DBF29C71B2DDF4900B5710D /* TQTExamplesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTExamplesTableViewController.m; sourceTree = "<group>"; };
-		4DBF29C81B2DDF4900B5710D /* TQTExampleVCTableViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTExampleVCTableViewData.h; sourceTree = "<group>"; };
-		4DBF29C91B2DDF4900B5710D /* TQTExampleVCTableViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTExampleVCTableViewData.m; sourceTree = "<group>"; };
-		4DBF29CA1B2DDF4900B5710D /* TQTListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTListsViewController.h; sourceTree = "<group>"; };
-		4DBF29CB1B2DDF4900B5710D /* TQTListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTListsViewController.m; sourceTree = "<group>"; };
-		4DBF29CD1B2DDF4900B5710D /* TQTOtherComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTOtherComponentsViewController.h; sourceTree = "<group>"; };
-		4DBF29CE1B2DDF4900B5710D /* TQTOtherComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTOtherComponentsViewController.m; sourceTree = "<group>"; };
-		4DBF29D01B2DDF4900B5710D /* TQTTypographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTTypographyViewController.h; sourceTree = "<group>"; };
-		4DBF29D11B2DDF4900B5710D /* TQTTypographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTTypographyViewController.m; sourceTree = "<group>"; };
-		4DBF29D21B2DDF4900B5710D /* TQTGuideTableViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideTableViewDataModel.h; sourceTree = "<group>"; };
-		4DBF29D31B2DDF4900B5710D /* TQTGuideTableViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideTableViewDataModel.m; sourceTree = "<group>"; };
-		4DBF29D61B2DDF4900B5710D /* TQTGuideSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideSubtitleView.h; sourceTree = "<group>"; };
-		4DBF29D71B2DDF4900B5710D /* TQTGuideSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideSubtitleView.m; sourceTree = "<group>"; };
-		4DBF29D81B2DDF4900B5710D /* TQTGuideSubtitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideSubtitleView.xib; sourceTree = "<group>"; };
-		4DBF29DA1B2DDF4900B5710D /* TQTGuideTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideTitleView.h; sourceTree = "<group>"; };
-		4DBF29DB1B2DDF4900B5710D /* TQTGuideTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideTitleView.m; sourceTree = "<group>"; };
-		4DBF29DC1B2DDF4900B5710D /* TQTGuideTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideTitleView.xib; sourceTree = "<group>"; };
-		4DBF29DD1B2DDF4900B5710D /* TQTGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideViewController.h; sourceTree = "<group>"; };
-		4DBF29DE1B2DDF4900B5710D /* TQTGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideViewController.m; sourceTree = "<group>"; };
-		4DBF29DF1B2DDF4900B5710D /* TQTGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideViewController.xib; sourceTree = "<group>"; };
 		4DCE3DCB1B277577002C7995 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		4DCE3DCC1B277577002C7995 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		4DCE3DCD1B277577002C7995 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -481,6 +481,139 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		4D8EFBA01B598E65009F2F51 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBA11B598E65009F2F51 /* TQTGuideViewController */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		4D8EFBA11B598E65009F2F51 /* TQTGuideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBA21B598E65009F2F51 /* TQTComponentsViewController */,
+				4D8EFBBD1B598E65009F2F51 /* TQTGuideTableViewDataModel.h */,
+				4D8EFBBE1B598E65009F2F51 /* TQTGuideTableViewDataModel.m */,
+				4D8EFBBF1B598E65009F2F51 /* TQTGuideViewComponents */,
+				4D8EFBC81B598E65009F2F51 /* TQTGuideViewController.h */,
+				4D8EFBC91B598E65009F2F51 /* TQTGuideViewController.m */,
+				4D8EFBCA1B598E65009F2F51 /* TQTGuideViewController.xib */,
+			);
+			path = TQTGuideViewController;
+			sourceTree = "<group>";
+		};
+		4D8EFBA21B598E65009F2F51 /* TQTComponentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBA31B598E65009F2F51 /* TQTColorSwatchesViewController */,
+				4D8EFBA61B598E65009F2F51 /* TQTComponentsViewController.h */,
+				4D8EFBA71B598E65009F2F51 /* TQTComponentsViewController.m */,
+				4D8EFBA81B598E65009F2F51 /* TQTComponentsViewController.xib */,
+				4D8EFBA91B598E65009F2F51 /* TQTControlsViewController */,
+				4D8EFBAC1B598E65009F2F51 /* TQTFormsViewController */,
+				4D8EFBAF1B598E65009F2F51 /* TQTListsViewController */,
+				4D8EFBB71B598E65009F2F51 /* TQTOtherComponentsViewController */,
+				4D8EFBBA1B598E65009F2F51 /* TQTTypographyViewController */,
+			);
+			path = TQTComponentsViewController;
+			sourceTree = "<group>";
+		};
+		4D8EFBA31B598E65009F2F51 /* TQTColorSwatchesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBA41B598E65009F2F51 /* TQTColorSwatchesViewController.h */,
+				4D8EFBA51B598E65009F2F51 /* TQTColorSwatchesViewController.m */,
+			);
+			path = TQTColorSwatchesViewController;
+			sourceTree = "<group>";
+		};
+		4D8EFBA91B598E65009F2F51 /* TQTControlsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBAA1B598E65009F2F51 /* TQTControlsViewController.h */,
+				4D8EFBAB1B598E65009F2F51 /* TQTControlsViewController.m */,
+			);
+			path = TQTControlsViewController;
+			sourceTree = "<group>";
+		};
+		4D8EFBAC1B598E65009F2F51 /* TQTFormsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBAD1B598E65009F2F51 /* TQTFormsViewController.h */,
+				4D8EFBAE1B598E65009F2F51 /* TQTFormsViewController.m */,
+			);
+			path = TQTFormsViewController;
+			sourceTree = "<group>";
+		};
+		4D8EFBAF1B598E65009F2F51 /* TQTListsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBB01B598E65009F2F51 /* TAQExamplesTableViewController */,
+				4D8EFBB51B598E65009F2F51 /* TQTListsViewController.h */,
+				4D8EFBB61B598E65009F2F51 /* TQTListsViewController.m */,
+			);
+			path = TQTListsViewController;
+			sourceTree = "<group>";
+		};
+		4D8EFBB01B598E65009F2F51 /* TAQExamplesTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBB11B598E65009F2F51 /* TQTExamplesTableViewController.h */,
+				4D8EFBB21B598E65009F2F51 /* TQTExamplesTableViewController.m */,
+				4D8EFBB31B598E65009F2F51 /* TQTExampleVCTableViewData.h */,
+				4D8EFBB41B598E65009F2F51 /* TQTExampleVCTableViewData.m */,
+			);
+			path = TAQExamplesTableViewController;
+			sourceTree = "<group>";
+		};
+		4D8EFBB71B598E65009F2F51 /* TQTOtherComponentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBB81B598E65009F2F51 /* TQTOtherComponentsViewController.h */,
+				4D8EFBB91B598E65009F2F51 /* TQTOtherComponentsViewController.m */,
+			);
+			path = TQTOtherComponentsViewController;
+			sourceTree = "<group>";
+		};
+		4D8EFBBA1B598E65009F2F51 /* TQTTypographyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBBB1B598E65009F2F51 /* TQTTypographyViewController.h */,
+				4D8EFBBC1B598E65009F2F51 /* TQTTypographyViewController.m */,
+			);
+			path = TQTTypographyViewController;
+			sourceTree = "<group>";
+		};
+		4D8EFBBF1B598E65009F2F51 /* TQTGuideViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBC01B598E65009F2F51 /* TQTGuideSubtitleView */,
+				4D8EFBC41B598E65009F2F51 /* TQTGuideTitleView */,
+			);
+			path = TQTGuideViewComponents;
+			sourceTree = "<group>";
+		};
+		4D8EFBC01B598E65009F2F51 /* TQTGuideSubtitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBC11B598E65009F2F51 /* TQTGuideSubtitleView.h */,
+				4D8EFBC21B598E65009F2F51 /* TQTGuideSubtitleView.m */,
+				4D8EFBC31B598E65009F2F51 /* TQTGuideSubtitleView.xib */,
+			);
+			path = TQTGuideSubtitleView;
+			sourceTree = "<group>";
+		};
+		4D8EFBC41B598E65009F2F51 /* TQTGuideTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EFBC51B598E65009F2F51 /* TQTGuideTitleView.h */,
+				4D8EFBC61B598E65009F2F51 /* TQTGuideTitleView.m */,
+				4D8EFBC71B598E65009F2F51 /* TQTGuideTitleView.xib */,
+			);
+			path = TQTGuideTitleView;
+			sourceTree = "<group>";
+		};
 		4DBF296B1B2DDF3200B5710D /* Exceptions */ = {
 			isa = PBXGroup;
 			children = (
@@ -663,131 +796,6 @@
 			path = TQTTitleView;
 			sourceTree = "<group>";
 		};
-		4DBF29B61B2DDF4900B5710D /* TQTGuideViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29B71B2DDF4900B5710D /* TQTComponentsViewController */,
-				4DBF29D21B2DDF4900B5710D /* TQTGuideTableViewDataModel.h */,
-				4DBF29D31B2DDF4900B5710D /* TQTGuideTableViewDataModel.m */,
-				4DBF29D41B2DDF4900B5710D /* TQTGuideViewComponents */,
-				4DBF29DD1B2DDF4900B5710D /* TQTGuideViewController.h */,
-				4DBF29DE1B2DDF4900B5710D /* TQTGuideViewController.m */,
-				4DBF29DF1B2DDF4900B5710D /* TQTGuideViewController.xib */,
-			);
-			path = TQTGuideViewController;
-			sourceTree = "<group>";
-		};
-		4DBF29B71B2DDF4900B5710D /* TQTComponentsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29B81B2DDF4900B5710D /* TQTColorSwatchesViewController */,
-				4DBF29BB1B2DDF4900B5710D /* TQTComponentsViewController.h */,
-				4DBF29BC1B2DDF4900B5710D /* TQTComponentsViewController.m */,
-				4DBF29BD1B2DDF4900B5710D /* TQTComponentsViewController.xib */,
-				4DBF29BE1B2DDF4900B5710D /* TQTControlsViewController */,
-				4DBF29C11B2DDF4900B5710D /* TQTFormsViewController */,
-				4DBF29C41B2DDF4900B5710D /* TQTListsViewController */,
-				4DBF29CC1B2DDF4900B5710D /* TQTOtherComponentsViewController */,
-				4DBF29CF1B2DDF4900B5710D /* TQTTypographyViewController */,
-			);
-			path = TQTComponentsViewController;
-			sourceTree = "<group>";
-		};
-		4DBF29B81B2DDF4900B5710D /* TQTColorSwatchesViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29B91B2DDF4900B5710D /* TQTColorSwatchesViewController.h */,
-				4DBF29BA1B2DDF4900B5710D /* TQTColorSwatchesViewController.m */,
-			);
-			path = TQTColorSwatchesViewController;
-			sourceTree = "<group>";
-		};
-		4DBF29BE1B2DDF4900B5710D /* TQTControlsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29BF1B2DDF4900B5710D /* TQTControlsViewController.h */,
-				4DBF29C01B2DDF4900B5710D /* TQTControlsViewController.m */,
-			);
-			path = TQTControlsViewController;
-			sourceTree = "<group>";
-		};
-		4DBF29C11B2DDF4900B5710D /* TQTFormsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29C21B2DDF4900B5710D /* TQTFormsViewController.h */,
-				4DBF29C31B2DDF4900B5710D /* TQTFormsViewController.m */,
-			);
-			path = TQTFormsViewController;
-			sourceTree = "<group>";
-		};
-		4DBF29C41B2DDF4900B5710D /* TQTListsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29C51B2DDF4900B5710D /* TAQExamplesTableViewController */,
-				4DBF29CA1B2DDF4900B5710D /* TQTListsViewController.h */,
-				4DBF29CB1B2DDF4900B5710D /* TQTListsViewController.m */,
-			);
-			path = TQTListsViewController;
-			sourceTree = "<group>";
-		};
-		4DBF29C51B2DDF4900B5710D /* TAQExamplesTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29C61B2DDF4900B5710D /* TQTExamplesTableViewController.h */,
-				4DBF29C71B2DDF4900B5710D /* TQTExamplesTableViewController.m */,
-				4DBF29C81B2DDF4900B5710D /* TQTExampleVCTableViewData.h */,
-				4DBF29C91B2DDF4900B5710D /* TQTExampleVCTableViewData.m */,
-			);
-			path = TAQExamplesTableViewController;
-			sourceTree = "<group>";
-		};
-		4DBF29CC1B2DDF4900B5710D /* TQTOtherComponentsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29CD1B2DDF4900B5710D /* TQTOtherComponentsViewController.h */,
-				4DBF29CE1B2DDF4900B5710D /* TQTOtherComponentsViewController.m */,
-			);
-			path = TQTOtherComponentsViewController;
-			sourceTree = "<group>";
-		};
-		4DBF29CF1B2DDF4900B5710D /* TQTTypographyViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29D01B2DDF4900B5710D /* TQTTypographyViewController.h */,
-				4DBF29D11B2DDF4900B5710D /* TQTTypographyViewController.m */,
-			);
-			path = TQTTypographyViewController;
-			sourceTree = "<group>";
-		};
-		4DBF29D41B2DDF4900B5710D /* TQTGuideViewComponents */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29D51B2DDF4900B5710D /* TQTGuideSubtitleView */,
-				4DBF29D91B2DDF4900B5710D /* TQTGuideTitleView */,
-			);
-			path = TQTGuideViewComponents;
-			sourceTree = "<group>";
-		};
-		4DBF29D51B2DDF4900B5710D /* TQTGuideSubtitleView */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29D61B2DDF4900B5710D /* TQTGuideSubtitleView.h */,
-				4DBF29D71B2DDF4900B5710D /* TQTGuideSubtitleView.m */,
-				4DBF29D81B2DDF4900B5710D /* TQTGuideSubtitleView.xib */,
-			);
-			path = TQTGuideSubtitleView;
-			sourceTree = "<group>";
-		};
-		4DBF29D91B2DDF4900B5710D /* TQTGuideTitleView */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29DA1B2DDF4900B5710D /* TQTGuideTitleView.h */,
-				4DBF29DB1B2DDF4900B5710D /* TQTGuideTitleView.m */,
-				4DBF29DC1B2DDF4900B5710D /* TQTGuideTitleView.xib */,
-			);
-			path = TQTGuideTitleView;
-			sourceTree = "<group>";
-		};
 		4DCE3DCA1B277577002C7995 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -843,6 +851,7 @@
 				4D27CA491B472BEF00F20EEE /* Stylesheets */,
 				5BECD28C1A6FEF2D00A48259 /* Resources */,
 				5BECD2901A6FEF2D00A48259 /* Supporting Files */,
+				4D8EFBA01B598E65009F2F51 /* Guide */,
 			);
 			path = template;
 			sourceTree = "<group>";
@@ -871,7 +880,6 @@
 		5BFCA8D11A7928B0001B1BA5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4DBF29B61B2DDF4900B5710D /* TQTGuideViewController */,
 				4DCE3DCA1B277577002C7995 /* Home */,
 			);
 			path = Modules;
@@ -968,12 +976,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DBF29EE1B2DDF4900B5710D /* TQTGuideTitleView.xib in Resources */,
-				4DBF29F01B2DDF4900B5710D /* TQTGuideViewController.xib in Resources */,
+				4D8EFBCD1B598E65009F2F51 /* TQTComponentsViewController.xib in Resources */,
+				4D8EFBD91B598E65009F2F51 /* TQTGuideTitleView.xib in Resources */,
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
+				4D8EFBDB1B598E65009F2F51 /* TQTGuideViewController.xib in Resources */,
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,
 				4DBF29AC1B2DDF4200B5710D /* TQTCustomTextFieldView.xib in Resources */,
 				5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */,
+				4D8EFBD71B598E65009F2F51 /* TQTGuideSubtitleView.xib in Resources */,
 				4DBF29AE1B2DDF4200B5710D /* SampleListItemContentChildView.xib in Resources */,
 				4DBF29A61B2DDF4200B5710D /* TQTCustomCheckboxButtonView.xib in Resources */,
 				4DBF29A41B2DDF4200B5710D /* .gitkeep in Resources */,
@@ -981,9 +991,7 @@
 				4DCE414C1B279533002C7995 /* Images.xcassets in Resources */,
 				4DBF29B01B2DDF4200B5710D /* SampleTableViewPrimaryHeaderView.xib in Resources */,
 				4DBF29A91B2DDF4200B5710D /* TQTCustomRadioButtonView.xib in Resources */,
-				4DBF29E21B2DDF4900B5710D /* TQTComponentsViewController.xib in Resources */,
 				4DBF29B51B2DDF4200B5710D /* TQTTitleView.xib in Resources */,
-				4DBF29EC1B2DDF4900B5710D /* TQTGuideSubtitleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1029,43 +1037,47 @@
 			files = (
 				4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */,
 				4D27CA7E1B472BEF00F20EEE /* TQTBodyStylesheet.m in Sources */,
+				4D8EFBCE1B598E65009F2F51 /* TQTControlsViewController.m in Sources */,
 				5BECD2971A6FEF2D00A48259 /* main.m in Sources */,
+				4D8EFBD01B598E65009F2F51 /* TQTExamplesTableViewController.m in Sources */,
 				4D27CA7D1B472BEF00F20EEE /* TQTBaseStylesheet.m in Sources */,
 				4D27CAD61B473E9B00F20EEE /* TQTBaseException.m in Sources */,
-				4DBF29E31B2DDF4900B5710D /* TQTControlsViewController.m in Sources */,
 				4DBF29A51B2DDF4200B5710D /* TQTCustomCheckboxButtonView.m in Sources */,
 				4D27CACE1B47358900F20EEE /* TQTUnknownKeyException.m in Sources */,
-				4DBF29EF1B2DDF4900B5710D /* TQTGuideViewController.m in Sources */,
 				4D27CACD1B47358900F20EEE /* TQTInvalidStyleRuleException.m in Sources */,
 				4D27CA801B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.m in Sources */,
 				4D27CA7B1B472BEF00F20EEE /* SampleListItemContentChildViewStylesheet.m in Sources */,
 				4D27CA781B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */,
 				4D27CA7F1B472BEF00F20EEE /* TQTCaptionStylesheet.m in Sources */,
 				4DBF29AA1B2DDF4200B5710D /* SampeNameTextFieldView.m in Sources */,
+				4D8EFBD51B598E65009F2F51 /* TQTGuideTableViewDataModel.m in Sources */,
 				4DBF29B11B2DDF4200B5710D /* TQTNullContentChildViewClassException.m in Sources */,
+				4D8EFBCB1B598E65009F2F51 /* TQTColorSwatchesViewController.m in Sources */,
+				4D8EFBCC1B598E65009F2F51 /* TQTComponentsViewController.m in Sources */,
 				4D27CAD11B47358900F20EEE /* UIImage+TQTImageWithColor.m in Sources */,
-				4DBF29E71B2DDF4900B5710D /* TQTListsViewController.m in Sources */,
+				4D8EFBCF1B598E65009F2F51 /* TQTFormsViewController.m in Sources */,
+				4D8EFBD21B598E65009F2F51 /* TQTListsViewController.m in Sources */,
+				4D8EFBDA1B598E65009F2F51 /* TQTGuideViewController.m in Sources */,
 				4D27CA811B472BEF00F20EEE /* TQTLabelStylesheet.m in Sources */,
 				4DBF29A81B2DDF4200B5710D /* TQTCustomRadioButtonView.m in Sources */,
 				4D27CA841B472BEF00F20EEE /* TQTStylesheetImporter.m in Sources */,
 				4D27CAD21B47358900F20EEE /* TQTStylesheets.m in Sources */,
+				4D8EFBD61B598E65009F2F51 /* TQTGuideSubtitleView.m in Sources */,
 				4D27CA791B472BEF00F20EEE /* TQTCustomRadioButtonViewStylesheet.m in Sources */,
 				4DBF29A71B2DDF4200B5710D /* TQTCustomPickerView.m in Sources */,
 				4D27CA7C1B472BEF00F20EEE /* TQTViewStylesheet.m in Sources */,
 				4D27CAD31B47358900F20EEE /* UIView+TQTViewStyle.m in Sources */,
 				4DBF29AF1B2DDF4200B5710D /* SampleTableViewPrimaryHeaderView.m in Sources */,
-				4DBF29E61B2DDF4900B5710D /* TQTExampleVCTableViewData.m in Sources */,
 				4D27CAD01B47358900F20EEE /* UIButton+TQTButtonStyle.m in Sources */,
+				4D8EFBD41B598E65009F2F51 /* TQTTypographyViewController.m in Sources */,
+				4D8EFBD81B598E65009F2F51 /* TQTGuideTitleView.m in Sources */,
 				4DBF29B21B2DDF4200B5710D /* TQTBaseTableViewCell.m in Sources */,
-				4DBF29E51B2DDF4900B5710D /* TQTExamplesTableViewController.m in Sources */,
+				4D8EFBD31B598E65009F2F51 /* TQTOtherComponentsViewController.m in Sources */,
+				4D8EFBD11B598E65009F2F51 /* TQTExampleVCTableViewData.m in Sources */,
 				4D27CA771B472BEF00F20EEE /* TQTButtonStylesheet.m in Sources */,
 				4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */,
-				4DBF29E91B2DDF4900B5710D /* TQTTypographyViewController.m in Sources */,
 				4DBF29AB1B2DDF4200B5710D /* TQTCustomTextFieldView.m in Sources */,
-				4DBF29EB1B2DDF4900B5710D /* TQTGuideSubtitleView.m in Sources */,
 				4DBF29B41B2DDF4200B5710D /* TQTTitleView.m in Sources */,
-				4DBF29E01B2DDF4900B5710D /* TQTColorSwatchesViewController.m in Sources */,
-				4DBF29E11B2DDF4900B5710D /* TQTComponentsViewController.m in Sources */,
 				4D27CA821B472BEF00F20EEE /* TQTTitleStylesheet.m in Sources */,
 				4D27CA7A1B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet.m in Sources */,
 				5BFCA8DE1A792BE1001B1BA5 /* AppDelegate.m in Sources */,
@@ -1073,11 +1085,7 @@
 				4DBF29711B2DDF3200B5710D /* TQTMissingMethodImplementationException.m in Sources */,
 				4DBF29B31B2DDF4200B5710D /* TQTBaseComponentsView.m in Sources */,
 				4D27CADD1B5004BA00F20EEE /* README.md in Sources */,
-				4DBF29EA1B2DDF4900B5710D /* TQTGuideTableViewDataModel.m in Sources */,
-				4DBF29ED1B2DDF4900B5710D /* TQTGuideTitleView.m in Sources */,
-				4DBF29E41B2DDF4900B5710D /* TQTFormsViewController.m in Sources */,
 				4DBF29AD1B2DDF4200B5710D /* SampleListItemContentChildView.m in Sources */,
-				4DBF29E81B2DDF4900B5710D /* TQTOtherComponentsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
