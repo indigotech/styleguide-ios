@@ -7,7 +7,7 @@
 //
 
 #import "SampleListItemContentChildView.h"
-#import "TQTViewAttributes.h"
+#import "TQTStylesheets.h"
 
 @implementation SampleListItemContentChildView
 {
@@ -85,8 +85,9 @@
 -(void)setHighlighted:(BOOL)highlighted {
     _highlighted = highlighted;
     
-    [TQTViewAttributes setStyle:_highlighted ? @"H4_IsHighlighted_Label" : @"H4_Label" forView:self.titleLabel];
-    [TQTViewAttributes setStyle:_highlighted ? @"H4Sub_IsHighlighted_Label" : @"H4Sub_Label" forView:self.detailLabel];
-    [TQTViewAttributes setStyle:_highlighted ? @"TableViewItemCellContentView_AccessoryLabel_IsHighlighted_Label" : @"TableViewItemCellContentView_AccessoryLabel_Label" forView:self.accessoryLabel];
+    TQTStylesheets *shared = [TQTStylesheets sharedInstance];
+    [shared setStyle:_highlighted ? @"H4_IsHighlighted_Label" : @"H4_Label" forView:self.titleLabel];
+    [shared setStyle:_highlighted ? @"H4Sub_IsHighlighted_Label" : @"H4Sub_Label" forView:self.detailLabel];
+    [shared setStyle:_highlighted ? @"TableViewItemCellContentView_AccessoryLabel_IsHighlighted_Label" : @"TableViewItemCellContentView_AccessoryLabel_Label" forView:self.accessoryLabel];
 }
 @end
