@@ -64,7 +64,6 @@
 - (void)setup {
     [self setTitle:@"Styleguide"];
     self.navigationController.navigationBar.translucent = NO;
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop target:self action:@selector(didTouchCloseButton:)];
 }
 
 /**
@@ -119,11 +118,6 @@
 -(void)addGuideSubtitleWithText:(NSString *)subtitle {
     TQTGuideSubtitleView *guideSubtitleView = (TQTGuideSubtitleView *)[self addViewWithClass:[TQTGuideSubtitleView class] height:0];
     [guideSubtitleView setSubtitle:subtitle];
-}
-
-#pragma mark - Action
-- (void)didTouchCloseButton:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
