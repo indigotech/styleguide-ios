@@ -47,6 +47,74 @@
 		4D8EFBD91B598E65009F2F51 /* TQTGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC71B598E65009F2F51 /* TQTGuideTitleView.xib */; };
 		4D8EFBDA1B598E65009F2F51 /* TQTGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC91B598E65009F2F51 /* TQTGuideViewController.m */; };
 		4D8EFBDB1B598E65009F2F51 /* TQTGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EFBCA1B598E65009F2F51 /* TQTGuideViewController.xib */; };
+		4D8EFC2F1B598EF5009F2F51 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167D01B0BCDAC00C3010B /* Constants.m */; };
+		4D8EFC301B598EF5009F2F51 /* TQTBodyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA671B472BEF00F20EEE /* TQTBodyStylesheet.m */; };
+		4D8EFC311B598EF5009F2F51 /* TQTControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBAB1B598E65009F2F51 /* TQTControlsViewController.m */; };
+		4D8EFC321B598EF5009F2F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECD2921A6FEF2D00A48259 /* main.m */; };
+		4D8EFC331B598EF5009F2F51 /* TQTExamplesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBB21B598E65009F2F51 /* TQTExamplesTableViewController.m */; };
+		4D8EFC341B598EF5009F2F51 /* TQTBaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA631B472BEF00F20EEE /* TQTBaseStylesheet.m */; };
+		4D8EFC351B598EF5009F2F51 /* TQTBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CAD51B473E9B00F20EEE /* TQTBaseException.m */; };
+		4D8EFC361B598EF5009F2F51 /* TQTCustomCheckboxButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF297C1B2DDF4200B5710D /* TQTCustomCheckboxButtonView.m */; };
+		4D8EFC371B598EF5009F2F51 /* TQTUnknownKeyException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CABD1B47358900F20EEE /* TQTUnknownKeyException.m */; };
+		4D8EFC381B598EF5009F2F51 /* TQTInvalidStyleRuleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CABB1B47358900F20EEE /* TQTInvalidStyleRuleException.m */; };
+		4D8EFC391B598EF5009F2F51 /* TQTFormTextualElementsStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA6D1B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.m */; };
+		4D8EFC3A1B598EF5009F2F51 /* SampleListItemContentChildViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA5C1B472BEF00F20EEE /* SampleListItemContentChildViewStylesheet.m */; };
+		4D8EFC3B1B598EF5009F2F51 /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA521B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet.m */; };
+		4D8EFC3C1B598EF5009F2F51 /* TQTCaptionStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA6A1B472BEF00F20EEE /* TQTCaptionStylesheet.m */; };
+		4D8EFC3D1B598EF5009F2F51 /* SampeNameTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29881B2DDF4200B5710D /* SampeNameTextFieldView.m */; };
+		4D8EFC3E1B598EF5009F2F51 /* TQTGuideTableViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBBE1B598E65009F2F51 /* TQTGuideTableViewDataModel.m */; };
+		4D8EFC3F1B598EF5009F2F51 /* TQTNullContentChildViewClassException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29981B2DDF4200B5710D /* TQTNullContentChildViewClassException.m */; };
+		4D8EFC401B598EF5009F2F51 /* TQTColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBA51B598E65009F2F51 /* TQTColorSwatchesViewController.m */; };
+		4D8EFC411B598EF5009F2F51 /* TQTComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBA71B598E65009F2F51 /* TQTComponentsViewController.m */; };
+		4D8EFC421B598EF5009F2F51 /* UIImage+TQTImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CAC71B47358900F20EEE /* UIImage+TQTImageWithColor.m */; };
+		4D8EFC431B598EF5009F2F51 /* TQTFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBAE1B598E65009F2F51 /* TQTFormsViewController.m */; };
+		4D8EFC441B598EF5009F2F51 /* TQTListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBB61B598E65009F2F51 /* TQTListsViewController.m */; };
+		4D8EFC451B598EF5009F2F51 /* TQTGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC91B598E65009F2F51 /* TQTGuideViewController.m */; };
+		4D8EFC461B598EF5009F2F51 /* TQTLabelStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA701B472BEF00F20EEE /* TQTLabelStylesheet.m */; };
+		4D8EFC471B598EF5009F2F51 /* TQTCustomRadioButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29831B2DDF4200B5710D /* TQTCustomRadioButtonView.m */; };
+		4D8EFC481B598EF5009F2F51 /* TQTStylesheetImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA761B472BEF00F20EEE /* TQTStylesheetImporter.m */; };
+		4D8EFC491B598EF5009F2F51 /* TQTStylesheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CACA1B47358900F20EEE /* TQTStylesheets.m */; };
+		4D8EFC4A1B598EF5009F2F51 /* TQTGuideSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC21B598E65009F2F51 /* TQTGuideSubtitleView.m */; };
+		4D8EFC4B1B598EF5009F2F51 /* TQTCustomRadioButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA551B472BEF00F20EEE /* TQTCustomRadioButtonViewStylesheet.m */; };
+		4D8EFC4C1B598EF5009F2F51 /* TQTCustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29801B2DDF4200B5710D /* TQTCustomPickerView.m */; };
+		4D8EFC4D1B598EF5009F2F51 /* TQTViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA601B472BEF00F20EEE /* TQTViewStylesheet.m */; };
+		4D8EFC4E1B598EF5009F2F51 /* UIView+TQTViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CACC1B47358900F20EEE /* UIView+TQTViewStyle.m */; };
+		4D8EFC4F1B598EF5009F2F51 /* SampleTableViewPrimaryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29931B2DDF4200B5710D /* SampleTableViewPrimaryHeaderView.m */; };
+		4D8EFC501B598EF5009F2F51 /* UIButton+TQTButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CAC31B47358900F20EEE /* UIButton+TQTButtonStyle.m */; };
+		4D8EFC511B598EF5009F2F51 /* TQTTypographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBBC1B598E65009F2F51 /* TQTTypographyViewController.m */; };
+		4D8EFC521B598EF5009F2F51 /* TQTGuideTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC61B598E65009F2F51 /* TQTGuideTitleView.m */; };
+		4D8EFC531B598EF5009F2F51 /* TQTBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF299A1B2DDF4200B5710D /* TQTBaseTableViewCell.m */; };
+		4D8EFC541B598EF5009F2F51 /* TQTOtherComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBB91B598E65009F2F51 /* TQTOtherComponentsViewController.m */; };
+		4D8EFC551B598EF5009F2F51 /* TQTExampleVCTableViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EFBB41B598E65009F2F51 /* TQTExampleVCTableViewData.m */; };
+		4D8EFC561B598EF5009F2F51 /* TQTButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA4E1B472BEF00F20EEE /* TQTButtonStylesheet.m */; };
+		4D8EFC571B598EF5009F2F51 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCC1B277577002C7995 /* HomeViewController.m */; };
+		4D8EFC581B598EF5009F2F51 /* TQTCustomTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF298A1B2DDF4200B5710D /* TQTCustomTextFieldView.m */; };
+		4D8EFC591B598EF5009F2F51 /* TQTTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29A21B2DDF4200B5710D /* TQTTitleView.m */; };
+		4D8EFC5A1B598EF5009F2F51 /* TQTTitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA731B472BEF00F20EEE /* TQTTitleStylesheet.m */; };
+		4D8EFC5B1B598EF5009F2F51 /* TQTCustomTextFieldViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA581B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet.m */; };
+		4D8EFC5C1B598EF5009F2F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCA8DD1A792BE1001B1BA5 /* AppDelegate.m */; };
+		4D8EFC5D1B598EF5009F2F51 /* UIView+TQTAttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29741B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m */; };
+		4D8EFC5E1B598EF5009F2F51 /* TQTMissingMethodImplementationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF296F1B2DDF3200B5710D /* TQTMissingMethodImplementationException.m */; };
+		4D8EFC5F1B598EF5009F2F51 /* TQTBaseComponentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF299E1B2DDF4200B5710D /* TQTBaseComponentsView.m */; };
+		4D8EFC601B598EF5009F2F51 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CADC1B5004BA00F20EEE /* README.md */; };
+		4D8EFC611B598EF5009F2F51 /* SampleListItemContentChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF298F1B2DDF4200B5710D /* SampleListItemContentChildView.m */; };
+		4D8EFC631B598EF5009F2F51 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA28BDDDDF9C76FD0A855F0E /* libPods.a */; };
+		4D8EFC651B598EF5009F2F51 /* TQTComponentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EFBA81B598E65009F2F51 /* TQTComponentsViewController.xib */; };
+		4D8EFC661B598EF5009F2F51 /* TQTGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC71B598E65009F2F51 /* TQTGuideTitleView.xib */; };
+		4D8EFC671B598EF5009F2F51 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD2911A6FEF2D00A48259 /* Info.plist */; };
+		4D8EFC681B598EF5009F2F51 /* TQTGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EFBCA1B598E65009F2F51 /* TQTGuideViewController.xib */; };
+		4D8EFC691B598EF5009F2F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
+		4D8EFC6A1B598EF5009F2F51 /* TQTCustomTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF298B1B2DDF4200B5710D /* TQTCustomTextFieldView.xib */; };
+		4D8EFC6B1B598EF5009F2F51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
+		4D8EFC6C1B598EF5009F2F51 /* TQTGuideSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EFBC31B598E65009F2F51 /* TQTGuideSubtitleView.xib */; };
+		4D8EFC6D1B598EF5009F2F51 /* SampleListItemContentChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29901B2DDF4200B5710D /* SampleListItemContentChildView.xib */; };
+		4D8EFC6E1B598EF5009F2F51 /* TQTCustomCheckboxButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF297D1B2DDF4200B5710D /* TQTCustomCheckboxButtonView.xib */; };
+		4D8EFC6F1B598EF5009F2F51 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29771B2DDF4200B5710D /* .gitkeep */; };
+		4D8EFC701B598EF5009F2F51 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCD1B277577002C7995 /* HomeViewController.xib */; };
+		4D8EFC711B598EF5009F2F51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE414B1B279533002C7995 /* Images.xcassets */; };
+		4D8EFC721B598EF5009F2F51 /* SampleTableViewPrimaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29941B2DDF4200B5710D /* SampleTableViewPrimaryHeaderView.xib */; };
+		4D8EFC731B598EF5009F2F51 /* TQTCustomRadioButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29841B2DDF4200B5710D /* TQTCustomRadioButtonView.xib */; };
+		4D8EFC741B598EF5009F2F51 /* TQTTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29A31B2DDF4200B5710D /* TQTTitleView.xib */; };
 		4DBF29711B2DDF3200B5710D /* TQTMissingMethodImplementationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF296F1B2DDF3200B5710D /* TQTMissingMethodImplementationException.m */; };
 		4DBF29751B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29741B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m */; };
 		4DBF29A41B2DDF4200B5710D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29771B2DDF4200B5710D /* .gitkeep */; };
@@ -156,6 +224,7 @@
 		4D8EFBC81B598E65009F2F51 /* TQTGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideViewController.h; sourceTree = "<group>"; };
 		4D8EFBC91B598E65009F2F51 /* TQTGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideViewController.m; sourceTree = "<group>"; };
 		4D8EFBCA1B598E65009F2F51 /* TQTGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideViewController.xib; sourceTree = "<group>"; };
+		4D8EFC7A1B598EF5009F2F51 /* template copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "template copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBF296E1B2DDF3200B5710D /* TQTMissingMethodImplementationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTMissingMethodImplementationException.h; sourceTree = "<group>"; };
 		4DBF296F1B2DDF3200B5710D /* TQTMissingMethodImplementationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTMissingMethodImplementationException.m; sourceTree = "<group>"; };
 		4DBF29731B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TQTAttachToSuperview.h"; sourceTree = "<group>"; };
@@ -207,6 +276,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4D8EFC621B598EF5009F2F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8EFC631B598EF5009F2F51 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BAC04931A695923004805CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -835,6 +912,7 @@
 			isa = PBXGroup;
 			children = (
 				5BAC04961A695923004805CC /* template.app */,
+				4D8EFC7A1B598EF5009F2F51 /* template copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -921,6 +999,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4D8EFC2C1B598EF5009F2F51 /* guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8EFC761B598EF5009F2F51 /* Build configuration list for PBXNativeTarget "guide" */;
+			buildPhases = (
+				4D8EFC2D1B598EF5009F2F51 /* Check Pods Manifest.lock */,
+				4D8EFC2E1B598EF5009F2F51 /* Sources */,
+				4D8EFC621B598EF5009F2F51 /* Frameworks */,
+				4D8EFC641B598EF5009F2F51 /* Resources */,
+				4D8EFC751B598EF5009F2F51 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guide;
+			productName = template;
+			productReference = 4D8EFC7A1B598EF5009F2F51 /* template copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		5BAC04951A695923004805CC /* template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BAC04B91A695923004805CC /* Build configuration list for PBXNativeTarget "template" */;
@@ -967,11 +1064,35 @@
 			projectRoot = "";
 			targets = (
 				5BAC04951A695923004805CC /* template */,
+				4D8EFC2C1B598EF5009F2F51 /* guide */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4D8EFC641B598EF5009F2F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8EFC651B598EF5009F2F51 /* TQTComponentsViewController.xib in Resources */,
+				4D8EFC661B598EF5009F2F51 /* TQTGuideTitleView.xib in Resources */,
+				4D8EFC671B598EF5009F2F51 /* Info.plist in Resources */,
+				4D8EFC681B598EF5009F2F51 /* TQTGuideViewController.xib in Resources */,
+				4D8EFC691B598EF5009F2F51 /* Main.storyboard in Resources */,
+				4D8EFC6A1B598EF5009F2F51 /* TQTCustomTextFieldView.xib in Resources */,
+				4D8EFC6B1B598EF5009F2F51 /* LaunchScreen.xib in Resources */,
+				4D8EFC6C1B598EF5009F2F51 /* TQTGuideSubtitleView.xib in Resources */,
+				4D8EFC6D1B598EF5009F2F51 /* SampleListItemContentChildView.xib in Resources */,
+				4D8EFC6E1B598EF5009F2F51 /* TQTCustomCheckboxButtonView.xib in Resources */,
+				4D8EFC6F1B598EF5009F2F51 /* .gitkeep in Resources */,
+				4D8EFC701B598EF5009F2F51 /* HomeViewController.xib in Resources */,
+				4D8EFC711B598EF5009F2F51 /* Images.xcassets in Resources */,
+				4D8EFC721B598EF5009F2F51 /* SampleTableViewPrimaryHeaderView.xib in Resources */,
+				4D8EFC731B598EF5009F2F51 /* TQTCustomRadioButtonView.xib in Resources */,
+				4D8EFC741B598EF5009F2F51 /* TQTTitleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BAC04941A695923004805CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1028,9 +1149,97 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		4D8EFC2D1B598EF5009F2F51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8EFC751B598EF5009F2F51 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4D8EFC2E1B598EF5009F2F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8EFC2F1B598EF5009F2F51 /* Constants.m in Sources */,
+				4D8EFC301B598EF5009F2F51 /* TQTBodyStylesheet.m in Sources */,
+				4D8EFC311B598EF5009F2F51 /* TQTControlsViewController.m in Sources */,
+				4D8EFC321B598EF5009F2F51 /* main.m in Sources */,
+				4D8EFC331B598EF5009F2F51 /* TQTExamplesTableViewController.m in Sources */,
+				4D8EFC341B598EF5009F2F51 /* TQTBaseStylesheet.m in Sources */,
+				4D8EFC351B598EF5009F2F51 /* TQTBaseException.m in Sources */,
+				4D8EFC361B598EF5009F2F51 /* TQTCustomCheckboxButtonView.m in Sources */,
+				4D8EFC371B598EF5009F2F51 /* TQTUnknownKeyException.m in Sources */,
+				4D8EFC381B598EF5009F2F51 /* TQTInvalidStyleRuleException.m in Sources */,
+				4D8EFC391B598EF5009F2F51 /* TQTFormTextualElementsStylesheet.m in Sources */,
+				4D8EFC3A1B598EF5009F2F51 /* SampleListItemContentChildViewStylesheet.m in Sources */,
+				4D8EFC3B1B598EF5009F2F51 /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */,
+				4D8EFC3C1B598EF5009F2F51 /* TQTCaptionStylesheet.m in Sources */,
+				4D8EFC3D1B598EF5009F2F51 /* SampeNameTextFieldView.m in Sources */,
+				4D8EFC3E1B598EF5009F2F51 /* TQTGuideTableViewDataModel.m in Sources */,
+				4D8EFC3F1B598EF5009F2F51 /* TQTNullContentChildViewClassException.m in Sources */,
+				4D8EFC401B598EF5009F2F51 /* TQTColorSwatchesViewController.m in Sources */,
+				4D8EFC411B598EF5009F2F51 /* TQTComponentsViewController.m in Sources */,
+				4D8EFC421B598EF5009F2F51 /* UIImage+TQTImageWithColor.m in Sources */,
+				4D8EFC431B598EF5009F2F51 /* TQTFormsViewController.m in Sources */,
+				4D8EFC441B598EF5009F2F51 /* TQTListsViewController.m in Sources */,
+				4D8EFC451B598EF5009F2F51 /* TQTGuideViewController.m in Sources */,
+				4D8EFC461B598EF5009F2F51 /* TQTLabelStylesheet.m in Sources */,
+				4D8EFC471B598EF5009F2F51 /* TQTCustomRadioButtonView.m in Sources */,
+				4D8EFC481B598EF5009F2F51 /* TQTStylesheetImporter.m in Sources */,
+				4D8EFC491B598EF5009F2F51 /* TQTStylesheets.m in Sources */,
+				4D8EFC4A1B598EF5009F2F51 /* TQTGuideSubtitleView.m in Sources */,
+				4D8EFC4B1B598EF5009F2F51 /* TQTCustomRadioButtonViewStylesheet.m in Sources */,
+				4D8EFC4C1B598EF5009F2F51 /* TQTCustomPickerView.m in Sources */,
+				4D8EFC4D1B598EF5009F2F51 /* TQTViewStylesheet.m in Sources */,
+				4D8EFC4E1B598EF5009F2F51 /* UIView+TQTViewStyle.m in Sources */,
+				4D8EFC4F1B598EF5009F2F51 /* SampleTableViewPrimaryHeaderView.m in Sources */,
+				4D8EFC501B598EF5009F2F51 /* UIButton+TQTButtonStyle.m in Sources */,
+				4D8EFC511B598EF5009F2F51 /* TQTTypographyViewController.m in Sources */,
+				4D8EFC521B598EF5009F2F51 /* TQTGuideTitleView.m in Sources */,
+				4D8EFC531B598EF5009F2F51 /* TQTBaseTableViewCell.m in Sources */,
+				4D8EFC541B598EF5009F2F51 /* TQTOtherComponentsViewController.m in Sources */,
+				4D8EFC551B598EF5009F2F51 /* TQTExampleVCTableViewData.m in Sources */,
+				4D8EFC561B598EF5009F2F51 /* TQTButtonStylesheet.m in Sources */,
+				4D8EFC571B598EF5009F2F51 /* HomeViewController.m in Sources */,
+				4D8EFC581B598EF5009F2F51 /* TQTCustomTextFieldView.m in Sources */,
+				4D8EFC591B598EF5009F2F51 /* TQTTitleView.m in Sources */,
+				4D8EFC5A1B598EF5009F2F51 /* TQTTitleStylesheet.m in Sources */,
+				4D8EFC5B1B598EF5009F2F51 /* TQTCustomTextFieldViewStylesheet.m in Sources */,
+				4D8EFC5C1B598EF5009F2F51 /* AppDelegate.m in Sources */,
+				4D8EFC5D1B598EF5009F2F51 /* UIView+TQTAttachToSuperview.m in Sources */,
+				4D8EFC5E1B598EF5009F2F51 /* TQTMissingMethodImplementationException.m in Sources */,
+				4D8EFC5F1B598EF5009F2F51 /* TQTBaseComponentsView.m in Sources */,
+				4D8EFC601B598EF5009F2F51 /* README.md in Sources */,
+				4D8EFC611B598EF5009F2F51 /* SampleListItemContentChildView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BAC04921A695923004805CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1092,6 +1301,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		4D8EFC771B598EF5009F2F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5B1A8C0E770CF849E5C189 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID = br.com.template;
+				INFOPLIST_FILE = "$(SRCROOT)/template/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "template copy";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D8EFC781B598EF5009F2F51 /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E59EDD8BE0B46BA071CE395 /* Pods.release-staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID = br.com.template;
+				INFOPLIST_FILE = "$(SRCROOT)/template/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "template copy";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Staging";
+		};
+		4D8EFC791B598EF5009F2F51 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD02A87E81E73284C83F576 /* Pods.release-production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID = br.com.template;
+				INFOPLIST_FILE = "$(SRCROOT)/template/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "template copy";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Production";
+		};
 		5BAC04B71A695923004805CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1257,6 +1508,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4D8EFC761B598EF5009F2F51 /* Build configuration list for PBXNativeTarget "guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8EFC771B598EF5009F2F51 /* Debug */,
+				4D8EFC781B598EF5009F2F51 /* Release-Staging */,
+				4D8EFC791B598EF5009F2F51 /* Release-Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Production";
+		};
 		5BAC04911A695923004805CC /* Build configuration list for PBXProject "template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
