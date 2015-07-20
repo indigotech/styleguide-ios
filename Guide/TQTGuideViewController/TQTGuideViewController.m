@@ -36,17 +36,11 @@
 - (void)setup {
     [self setTitle:@"Styleguide"];
     self.navigationController.navigationBar.translucent = NO;
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop target:self action:@selector(didTouchCloseButton:)];
     
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CELL_IDENTIFIER];
     _tableView.delegate = self;
     _tableView.dataSource = self;
     [self removeExtraSeparatorsFromTableView:_tableView];
-}
-
-#pragma mark - Action
-- (void)didTouchCloseButton:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - UITableViewDataSource

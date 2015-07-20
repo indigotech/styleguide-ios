@@ -20,12 +20,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [TQTStylesheetImporter setupTQTStylesheet];
     
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    HomeViewController *viewController = [[HomeViewController alloc] initWithNibName:nil bundle:nil];
-    UINavigationController *navVc = [[UINavigationController alloc] initWithRootViewController:viewController];
-    self.window.rootViewController = navVc;
-    [self.window makeKeyAndVisible];
     return YES;
 }
 
