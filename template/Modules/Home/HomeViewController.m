@@ -7,69 +7,31 @@
 //
 
 #import "HomeViewController.h"
-#import "TQTTitleView.h"
-#import "Components.h"
-
-#ifdef ENV_DEVELOPMENT
-#import "TQTGuideViewController.h"
-#endif
 
 @interface HomeViewController ()
 
 @end
 
 @implementation HomeViewController
-{
-    __weak IBOutlet TQTTitleView *_titleLabel;
-}
 
-#pragma mark - ViewController lifecyle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setup];
+    // Do any additional setup after loading the view.
 }
 
-#pragma mark - setup
--(void)setup {
-    [self setTitle:@"Template"];
-    
-    self.navigationController.navigationBar.translucent = NO;
-    [self.navigationController.navigationBar setBarTintColor:NAVIGATION_BAR_TINT_COLOR];
-    
-    NSDictionary * const titleAttributes = @{NSForegroundColorAttributeName:UICOLOR_FROM_HEX(COLOR_WHITE), NSFontAttributeName:[UIFont fontWithName:NAVIGATION_BAR_FONT size:FONT_SIZE_EXTRA_LARGE]};
-    [self.navigationController.navigationBar setTitleTextAttributes:titleAttributes];
-    
-    #ifdef ENV_DEVELOPMENT
-        [self setupComponentsButton];
-    #endif
-    
-    [_titleLabel setTitle:@"H2 - Heading 2"];
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Components button
+/*
+#pragma mark - Navigation
 
-#ifdef ENV_DEVELOPMENT
-- (void)setupComponentsButton {
-    UIButton *componentsVCButton = [[UIButton alloc] init];
-    [componentsVCButton addTarget:self
-                           action:@selector(didTouchUpComponentsButton:)
-                 forControlEvents:UIControlEventTouchUpInside];
-    [componentsVCButton setTitle:@"C" forState:UIControlStateNormal];
-    [componentsVCButton setTitleColor:[UIColor purpleColor] forState:UIControlStateNormal];
-    [self.view addSubview:componentsVCButton];
-    componentsVCButton.translatesAutoresizingMaskIntoConstraints = NO;
-    NSDictionary *viewMapping = @{@"view": componentsVCButton};
-    NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:[view(==48)]|" options:0 metrics:nil views:viewMapping];
-    NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:[view(==48)]|" options:0 metrics:nil views:viewMapping];
-    [self.view addConstraints:horizontalConstraints];
-    [self.view addConstraints:verticalConstraints];
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
-
-- (void)didTouchUpComponentsButton:(UIButton *)sender {
-    TQTGuideViewController *vc = [[TQTGuideViewController alloc] initWithNibName:nil bundle:nil];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    [self presentViewController:nav animated:YES completion:nil];
-}
-#endif
+*/
 
 @end
