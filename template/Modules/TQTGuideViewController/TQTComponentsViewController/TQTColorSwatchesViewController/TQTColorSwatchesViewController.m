@@ -8,7 +8,7 @@
 
 #import "TQTColorSwatchesViewController.h"
 #import "Colors.h"
-#import "TQTViewAttributes.h"
+#import "TQTStylesheets.h"
 
 @implementation TQTColorSwatchesViewController
 #pragma mark - VC lifecycle
@@ -73,6 +73,6 @@
 -(void)addLabelWithText:(NSString *)text {
     UILabel *label = (UILabel *)[self addViewWithDefaultMarginsAndClass:[UILabel class] height:0];
     [label setText:text];
-    [TQTViewAttributes setStyle:@"Label_Label" forView:label];
+    [[TQTStylesheets sharedInstance] setStyle:@"Label_Label" forView:label];
 }
 @end

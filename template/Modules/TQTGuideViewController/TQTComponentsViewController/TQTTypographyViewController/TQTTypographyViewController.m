@@ -8,7 +8,7 @@
 
 #import "TQTTypographyViewController.h"
 #import "Fonts.h"
-#import "TQTViewAttributes.h"
+#import "TQTStylesheets.h"
 #import "TQTGuideTitleView.h"
 #import "TQTGuideSubtitleView.h"
 
@@ -119,6 +119,6 @@
 -(void)addLabelWithText:(NSString *)text style:(NSString *)style {
     UILabel *label = (UILabel *)[self addViewWithDefaultMarginsAndClass:[UILabel class] height:0];
     [label setText:text];
-    [TQTViewAttributes setStyle:style forView:label];
+    [[TQTStylesheets sharedInstance] setStyle:style forView:label];
 }
 @end

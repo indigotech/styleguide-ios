@@ -9,7 +9,7 @@
 #import "TQTControlsViewController.h"
 #import "Fonts.h"
 #import "Components.h"
-#import "TQTViewAttributes.h"
+#import "TQTStylesheets.h"
 
 @interface TQTControlsViewController ()
 
@@ -54,7 +54,7 @@
 #pragma mark - aux methods
 -(void)addButtonWithText:(NSString *)text style:(NSString *)style setup:(void (^)(UIButton *button))setup {
     UIButton *button = (UIButton *)[self addViewWithDefaultMarginsAndClass:[UIButton class] height:34];
-    [TQTViewAttributes setStyle:style forView:button];
+    [[TQTStylesheets sharedInstance] setStyle:style forView:button];
     [button setTitle:text forState:UIControlStateNormal];
     
     if (setup) {

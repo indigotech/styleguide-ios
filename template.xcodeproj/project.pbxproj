@@ -8,8 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0E26027BF014FFBC2D898EBA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA28BDDDDF9C76FD0A855F0E /* libPods.a */; };
+		4D27CA771B472BEF00F20EEE /* TQTButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA4E1B472BEF00F20EEE /* TQTButtonStylesheet.m */; };
+		4D27CA781B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA521B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet.m */; };
+		4D27CA791B472BEF00F20EEE /* TQTCustomRadioButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA551B472BEF00F20EEE /* TQTCustomRadioButtonViewStylesheet.m */; };
+		4D27CA7A1B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA581B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet.m */; };
+		4D27CA7B1B472BEF00F20EEE /* SampleListItemContentChildViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA5C1B472BEF00F20EEE /* SampleListItemContentChildViewStylesheet.m */; };
+		4D27CA7C1B472BEF00F20EEE /* TQTViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA601B472BEF00F20EEE /* TQTViewStylesheet.m */; };
+		4D27CA7D1B472BEF00F20EEE /* TQTBaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA631B472BEF00F20EEE /* TQTBaseStylesheet.m */; };
+		4D27CA7E1B472BEF00F20EEE /* TQTBodyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA671B472BEF00F20EEE /* TQTBodyStylesheet.m */; };
+		4D27CA7F1B472BEF00F20EEE /* TQTCaptionStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA6A1B472BEF00F20EEE /* TQTCaptionStylesheet.m */; };
+		4D27CA801B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA6D1B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.m */; };
+		4D27CA811B472BEF00F20EEE /* TQTLabelStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA701B472BEF00F20EEE /* TQTLabelStylesheet.m */; };
+		4D27CA821B472BEF00F20EEE /* TQTTitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA731B472BEF00F20EEE /* TQTTitleStylesheet.m */; };
+		4D27CA841B472BEF00F20EEE /* TQTStylesheetImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CA761B472BEF00F20EEE /* TQTStylesheetImporter.m */; };
+		4D27CACD1B47358900F20EEE /* TQTInvalidStyleRuleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CABB1B47358900F20EEE /* TQTInvalidStyleRuleException.m */; };
+		4D27CACE1B47358900F20EEE /* TQTUnknownKeyException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CABD1B47358900F20EEE /* TQTUnknownKeyException.m */; };
+		4D27CAD01B47358900F20EEE /* UIButton+TQTButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CAC31B47358900F20EEE /* UIButton+TQTButtonStyle.m */; };
+		4D27CAD11B47358900F20EEE /* UIImage+TQTImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CAC71B47358900F20EEE /* UIImage+TQTImageWithColor.m */; };
+		4D27CAD31B47358900F20EEE /* UIView+TQTViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CACC1B47358900F20EEE /* UIView+TQTViewStyle.m */; };
+		4D27CAD61B473E9B00F20EEE /* TQTBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CAD51B473E9B00F20EEE /* TQTBaseException.m */; };
+		4D27CADD1B5004BA00F20EEE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CADC1B5004BA00F20EEE /* README.md */; };
 		4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3167D01B0BCDAC00C3010B /* Constants.m */; };
-		4DBF29701B2DDF3200B5710D /* TQTBaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF296D1B2DDF3200B5710D /* TQTBaseException.m */; };
 		4DBF29711B2DDF3200B5710D /* TQTMissingMethodImplementationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF296F1B2DDF3200B5710D /* TQTMissingMethodImplementationException.m */; };
 		4DBF29751B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29741B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m */; };
 		4DBF29A41B2DDF4200B5710D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29771B2DDF4200B5710D /* .gitkeep */; };
@@ -47,30 +66,10 @@
 		4DBF29EE1B2DDF4900B5710D /* TQTGuideTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29DC1B2DDF4900B5710D /* TQTGuideTitleView.xib */; };
 		4DBF29EF1B2DDF4900B5710D /* TQTGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29DE1B2DDF4900B5710D /* TQTGuideViewController.m */; };
 		4DBF29F01B2DDF4900B5710D /* TQTGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF29DF1B2DDF4900B5710D /* TQTGuideViewController.xib */; };
-		4DBF2A331B2DDF5200B5710D /* TQTInvalidStyleRuleException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29F41B2DDF5200B5710D /* TQTInvalidStyleRuleException.m */; };
-		4DBF2A341B2DDF5200B5710D /* TQTUnknownKeyException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29F61B2DDF5200B5710D /* TQTUnknownKeyException.m */; };
-		4DBF2A351B2DDF5200B5710D /* TQTWrongClassNameException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29F81B2DDF5200B5710D /* TQTWrongClassNameException.m */; };
-		4DBF2A361B2DDF5200B5710D /* TQTButtonStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF29FE1B2DDF5200B5710D /* TQTButtonStylesheet.m */; };
-		4DBF2A371B2DDF5200B5710D /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A021B2DDF5200B5710D /* TQTCustomCheckboxButtonViewStylesheet.m */; };
-		4DBF2A381B2DDF5200B5710D /* TQTCustomRadioButtonViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A051B2DDF5200B5710D /* TQTCustomRadioButtonViewStylesheet.m */; };
-		4DBF2A391B2DDF5200B5710D /* TQTCustomTextFieldViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A081B2DDF5200B5710D /* TQTCustomTextFieldViewStylesheet.m */; };
-		4DBF2A3A1B2DDF5200B5710D /* SampleListItemContentChildViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A0C1B2DDF5200B5710D /* SampleListItemContentChildViewStylesheet.m */; };
-		4DBF2A3B1B2DDF5200B5710D /* TQTViewStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A101B2DDF5200B5710D /* TQTViewStylesheet.m */; };
-		4DBF2A3C1B2DDF5200B5710D /* TQTBaseStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A131B2DDF5200B5710D /* TQTBaseStylesheet.m */; };
-		4DBF2A3D1B2DDF5200B5710D /* TQTBodyStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A171B2DDF5200B5710D /* TQTBodyStylesheet.m */; };
-		4DBF2A3E1B2DDF5200B5710D /* TQTCaptionStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A1A1B2DDF5200B5710D /* TQTCaptionStylesheet.m */; };
-		4DBF2A3F1B2DDF5200B5710D /* TQTFormTextualElementsStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A1D1B2DDF5200B5710D /* TQTFormTextualElementsStylesheet.m */; };
-		4DBF2A401B2DDF5200B5710D /* TQTLabelStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A201B2DDF5200B5710D /* TQTLabelStylesheet.m */; };
-		4DBF2A411B2DDF5200B5710D /* TQTTitleStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A231B2DDF5200B5710D /* TQTTitleStylesheet.m */; };
-		4DBF2A421B2DDF5200B5710D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A241B2DDF5200B5710D /* README.md */; };
-		4DBF2A431B2DDF5200B5710D /* TQTMainStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A261B2DDF5200B5710D /* TQTMainStylesheet.m */; };
-		4DBF2A441B2DDF5200B5710D /* UIButton+TQTButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A291B2DDF5200B5710D /* UIButton+TQTButtonStyle.m */; };
-		4DBF2A451B2DDF5200B5710D /* UIImage+TQTImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A2D1B2DDF5200B5710D /* UIImage+TQTImageWithColor.m */; };
-		4DBF2A461B2DDF5200B5710D /* TQTViewAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A301B2DDF5200B5710D /* TQTViewAttributes.m */; };
-		4DBF2A471B2DDF5200B5710D /* UIView+TQTViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF2A321B2DDF5200B5710D /* UIView+TQTViewStyle.m */; };
 		4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCC1B277577002C7995 /* HomeViewController.m */; };
 		4DCE3DE71B277577002C7995 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCD1B277577002C7995 /* HomeViewController.xib */; };
 		4DCE414C1B279533002C7995 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE414B1B279533002C7995 /* Images.xcassets */; };
+		4DD4D1ED1BD6C3A4004A7B4C /* TQTStylesheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4D1EC1BD6C3A4004A7B4C /* TQTStylesheets.m */; settings = {ASSET_TAGS = (); }; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
 		5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28F1A6FEF2D00A48259 /* Main.storyboard */; };
 		5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD2911A6FEF2D00A48259 /* Info.plist */; };
@@ -79,15 +78,52 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D27CA4D1B472BEF00F20EEE /* TQTButtonStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTButtonStylesheet.h; sourceTree = "<group>"; };
+		4D27CA4E1B472BEF00F20EEE /* TQTButtonStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTButtonStylesheet.m; sourceTree = "<group>"; };
+		4D27CA511B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomCheckboxButtonViewStylesheet.h; sourceTree = "<group>"; };
+		4D27CA521B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomCheckboxButtonViewStylesheet.m; sourceTree = "<group>"; };
+		4D27CA541B472BEF00F20EEE /* TQTCustomRadioButtonViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomRadioButtonViewStylesheet.h; sourceTree = "<group>"; };
+		4D27CA551B472BEF00F20EEE /* TQTCustomRadioButtonViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomRadioButtonViewStylesheet.m; sourceTree = "<group>"; };
+		4D27CA571B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomTextFieldViewStylesheet.h; sourceTree = "<group>"; };
+		4D27CA581B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomTextFieldViewStylesheet.m; sourceTree = "<group>"; };
+		4D27CA5B1B472BEF00F20EEE /* SampleListItemContentChildViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleListItemContentChildViewStylesheet.h; sourceTree = "<group>"; };
+		4D27CA5C1B472BEF00F20EEE /* SampleListItemContentChildViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleListItemContentChildViewStylesheet.m; sourceTree = "<group>"; };
+		4D27CA5F1B472BEF00F20EEE /* TQTViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTViewStylesheet.h; sourceTree = "<group>"; };
+		4D27CA601B472BEF00F20EEE /* TQTViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTViewStylesheet.m; sourceTree = "<group>"; };
+		4D27CA621B472BEF00F20EEE /* TQTBaseStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTBaseStylesheet.h; sourceTree = "<group>"; };
+		4D27CA631B472BEF00F20EEE /* TQTBaseStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTBaseStylesheet.m; sourceTree = "<group>"; };
+		4D27CA661B472BEF00F20EEE /* TQTBodyStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTBodyStylesheet.h; sourceTree = "<group>"; };
+		4D27CA671B472BEF00F20EEE /* TQTBodyStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTBodyStylesheet.m; sourceTree = "<group>"; };
+		4D27CA691B472BEF00F20EEE /* TQTCaptionStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCaptionStylesheet.h; sourceTree = "<group>"; };
+		4D27CA6A1B472BEF00F20EEE /* TQTCaptionStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCaptionStylesheet.m; sourceTree = "<group>"; };
+		4D27CA6C1B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTFormTextualElementsStylesheet.h; sourceTree = "<group>"; };
+		4D27CA6D1B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTFormTextualElementsStylesheet.m; sourceTree = "<group>"; };
+		4D27CA6F1B472BEF00F20EEE /* TQTLabelStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTLabelStylesheet.h; sourceTree = "<group>"; };
+		4D27CA701B472BEF00F20EEE /* TQTLabelStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTLabelStylesheet.m; sourceTree = "<group>"; };
+		4D27CA721B472BEF00F20EEE /* TQTTitleStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTTitleStylesheet.h; sourceTree = "<group>"; };
+		4D27CA731B472BEF00F20EEE /* TQTTitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTTitleStylesheet.m; sourceTree = "<group>"; };
+		4D27CA751B472BEF00F20EEE /* TQTStylesheetImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTStylesheetImporter.h; sourceTree = "<group>"; };
+		4D27CA761B472BEF00F20EEE /* TQTStylesheetImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTStylesheetImporter.m; sourceTree = "<group>"; };
+		4D27CABA1B47358900F20EEE /* TQTInvalidStyleRuleException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTInvalidStyleRuleException.h; sourceTree = "<group>"; };
+		4D27CABB1B47358900F20EEE /* TQTInvalidStyleRuleException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTInvalidStyleRuleException.m; sourceTree = "<group>"; };
+		4D27CABC1B47358900F20EEE /* TQTUnknownKeyException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTUnknownKeyException.h; sourceTree = "<group>"; };
+		4D27CABD1B47358900F20EEE /* TQTUnknownKeyException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTUnknownKeyException.m; sourceTree = "<group>"; };
+		4D27CAC01B47358900F20EEE /* TQTStylesheetsProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTStylesheetsProperties.h; sourceTree = "<group>"; };
+		4D27CAC21B47358900F20EEE /* UIButton+TQTButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TQTButtonStyle.h"; sourceTree = "<group>"; };
+		4D27CAC31B47358900F20EEE /* UIButton+TQTButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TQTButtonStyle.m"; sourceTree = "<group>"; };
+		4D27CAC61B47358900F20EEE /* UIImage+TQTImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TQTImageWithColor.h"; sourceTree = "<group>"; };
+		4D27CAC71B47358900F20EEE /* UIImage+TQTImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TQTImageWithColor.m"; sourceTree = "<group>"; };
+		4D27CACB1B47358900F20EEE /* UIView+TQTViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TQTViewStyle.h"; sourceTree = "<group>"; };
+		4D27CACC1B47358900F20EEE /* UIView+TQTViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TQTViewStyle.m"; sourceTree = "<group>"; };
+		4D27CAD41B473E9B00F20EEE /* TQTBaseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTBaseException.h; sourceTree = "<group>"; };
+		4D27CAD51B473E9B00F20EEE /* TQTBaseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTBaseException.m; sourceTree = "<group>"; };
+		4D27CADC1B5004BA00F20EEE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D3167CF1B0BCDAC00C3010B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4D3167D01B0BCDAC00C3010B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		4D3167D21B0BCDEB00C3010B /* Components.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Components.h; sourceTree = "<group>"; };
 		4D3167D31B0BCE8600C3010B /* Fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fonts.h; sourceTree = "<group>"; };
 		4D3167D41B0BCEFD00C3010B /* Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
 		4D3167D51B0BDB1800C3010B /* UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
-		4D3167F91B0BDEE400C3010B /* Stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stylesheet.h; sourceTree = "<group>"; };
-		4DBF296C1B2DDF3200B5710D /* TQTBaseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTBaseException.h; sourceTree = "<group>"; };
-		4DBF296D1B2DDF3200B5710D /* TQTBaseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTBaseException.m; sourceTree = "<group>"; };
 		4DBF296E1B2DDF3200B5710D /* TQTMissingMethodImplementationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTMissingMethodImplementationException.h; sourceTree = "<group>"; };
 		4DBF296F1B2DDF3200B5710D /* TQTMissingMethodImplementationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTMissingMethodImplementationException.m; sourceTree = "<group>"; };
 		4DBF29731B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TQTAttachToSuperview.h"; sourceTree = "<group>"; };
@@ -151,51 +187,12 @@
 		4DBF29DD1B2DDF4900B5710D /* TQTGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTGuideViewController.h; sourceTree = "<group>"; };
 		4DBF29DE1B2DDF4900B5710D /* TQTGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTGuideViewController.m; sourceTree = "<group>"; };
 		4DBF29DF1B2DDF4900B5710D /* TQTGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TQTGuideViewController.xib; sourceTree = "<group>"; };
-		4DBF29F31B2DDF5200B5710D /* TQTInvalidStyleRuleException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTInvalidStyleRuleException.h; sourceTree = "<group>"; };
-		4DBF29F41B2DDF5200B5710D /* TQTInvalidStyleRuleException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTInvalidStyleRuleException.m; sourceTree = "<group>"; };
-		4DBF29F51B2DDF5200B5710D /* TQTUnknownKeyException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTUnknownKeyException.h; sourceTree = "<group>"; };
-		4DBF29F61B2DDF5200B5710D /* TQTUnknownKeyException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTUnknownKeyException.m; sourceTree = "<group>"; };
-		4DBF29F71B2DDF5200B5710D /* TQTWrongClassNameException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTWrongClassNameException.h; sourceTree = "<group>"; };
-		4DBF29F81B2DDF5200B5710D /* TQTWrongClassNameException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTWrongClassNameException.m; sourceTree = "<group>"; };
-		4DBF29FD1B2DDF5200B5710D /* TQTButtonStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTButtonStylesheet.h; sourceTree = "<group>"; };
-		4DBF29FE1B2DDF5200B5710D /* TQTButtonStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTButtonStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A011B2DDF5200B5710D /* TQTCustomCheckboxButtonViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomCheckboxButtonViewStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A021B2DDF5200B5710D /* TQTCustomCheckboxButtonViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomCheckboxButtonViewStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A041B2DDF5200B5710D /* TQTCustomRadioButtonViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomRadioButtonViewStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A051B2DDF5200B5710D /* TQTCustomRadioButtonViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomRadioButtonViewStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A071B2DDF5200B5710D /* TQTCustomTextFieldViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCustomTextFieldViewStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A081B2DDF5200B5710D /* TQTCustomTextFieldViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCustomTextFieldViewStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A0B1B2DDF5200B5710D /* SampleListItemContentChildViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleListItemContentChildViewStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A0C1B2DDF5200B5710D /* SampleListItemContentChildViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleListItemContentChildViewStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A0F1B2DDF5200B5710D /* TQTViewStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTViewStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A101B2DDF5200B5710D /* TQTViewStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTViewStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A121B2DDF5200B5710D /* TQTBaseStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTBaseStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A131B2DDF5200B5710D /* TQTBaseStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTBaseStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A161B2DDF5200B5710D /* TQTBodyStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTBodyStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A171B2DDF5200B5710D /* TQTBodyStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTBodyStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A191B2DDF5200B5710D /* TQTCaptionStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTCaptionStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A1A1B2DDF5200B5710D /* TQTCaptionStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTCaptionStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A1C1B2DDF5200B5710D /* TQTFormTextualElementsStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTFormTextualElementsStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A1D1B2DDF5200B5710D /* TQTFormTextualElementsStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTFormTextualElementsStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A1F1B2DDF5200B5710D /* TQTLabelStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTLabelStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A201B2DDF5200B5710D /* TQTLabelStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTLabelStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A221B2DDF5200B5710D /* TQTTitleStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTTitleStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A231B2DDF5200B5710D /* TQTTitleStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTTitleStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A241B2DDF5200B5710D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4DBF2A251B2DDF5200B5710D /* TQTMainStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTMainStylesheet.h; sourceTree = "<group>"; };
-		4DBF2A261B2DDF5200B5710D /* TQTMainStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTMainStylesheet.m; sourceTree = "<group>"; };
-		4DBF2A281B2DDF5200B5710D /* UIButton+TQTButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TQTButtonStyle.h"; sourceTree = "<group>"; };
-		4DBF2A291B2DDF5200B5710D /* UIButton+TQTButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TQTButtonStyle.m"; sourceTree = "<group>"; };
-		4DBF2A2C1B2DDF5200B5710D /* UIImage+TQTImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TQTImageWithColor.h"; sourceTree = "<group>"; };
-		4DBF2A2D1B2DDF5200B5710D /* UIImage+TQTImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TQTImageWithColor.m"; sourceTree = "<group>"; };
-		4DBF2A2F1B2DDF5200B5710D /* TQTViewAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTViewAttributes.h; sourceTree = "<group>"; };
-		4DBF2A301B2DDF5200B5710D /* TQTViewAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTViewAttributes.m; sourceTree = "<group>"; };
-		4DBF2A311B2DDF5200B5710D /* UIView+TQTViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TQTViewStyle.h"; sourceTree = "<group>"; };
-		4DBF2A321B2DDF5200B5710D /* UIView+TQTViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TQTViewStyle.m"; sourceTree = "<group>"; };
 		4DCE3DCB1B277577002C7995 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		4DCE3DCC1B277577002C7995 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		4DCE3DCD1B277577002C7995 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		4DCE414B1B279533002C7995 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4DD4D1EB1BD6C3A4004A7B4C /* TQTStylesheets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTStylesheets.h; sourceTree = "<group>"; };
+		4DD4D1EC1BD6C3A4004A7B4C /* TQTStylesheets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTStylesheets.m; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		5BECD28F1A6FEF2D00A48259 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -231,10 +228,249 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4D27CA491B472BEF00F20EEE /* Stylesheets */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA4A1B472BEF00F20EEE /* Components */,
+				4D27CA751B472BEF00F20EEE /* TQTStylesheetImporter.h */,
+				4D27CA761B472BEF00F20EEE /* TQTStylesheetImporter.m */,
+			);
+			path = Stylesheets;
+			sourceTree = "<group>";
+		};
+		4D27CA4A1B472BEF00F20EEE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA4B1B472BEF00F20EEE /* Controls */,
+				4D27CA4F1B472BEF00F20EEE /* Forms */,
+				4D27CA591B472BEF00F20EEE /* Lists */,
+				4D27CA5D1B472BEF00F20EEE /* OtherComponents */,
+				4D27CA611B472BEF00F20EEE /* TQTBaseStylesheet */,
+				4D27CA641B472BEF00F20EEE /* Typography */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4D27CA4B1B472BEF00F20EEE /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA4C1B472BEF00F20EEE /* TQTButtonStylesheet */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		4D27CA4C1B472BEF00F20EEE /* TQTButtonStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA4D1B472BEF00F20EEE /* TQTButtonStylesheet.h */,
+				4D27CA4E1B472BEF00F20EEE /* TQTButtonStylesheet.m */,
+			);
+			path = TQTButtonStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA4F1B472BEF00F20EEE /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA501B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet */,
+				4D27CA531B472BEF00F20EEE /* TQTCustomRadioButtonStylesheet */,
+				4D27CA561B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		4D27CA501B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA511B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet.h */,
+				4D27CA521B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet.m */,
+			);
+			path = TQTCustomCheckboxButtonViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA531B472BEF00F20EEE /* TQTCustomRadioButtonStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA541B472BEF00F20EEE /* TQTCustomRadioButtonViewStylesheet.h */,
+				4D27CA551B472BEF00F20EEE /* TQTCustomRadioButtonViewStylesheet.m */,
+			);
+			path = TQTCustomRadioButtonStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA561B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA571B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet.h */,
+				4D27CA581B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet.m */,
+			);
+			path = TQTCustomTextFieldViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA591B472BEF00F20EEE /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA5A1B472BEF00F20EEE /* SampleTableViewItemCellContentViewStylesheet */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		4D27CA5A1B472BEF00F20EEE /* SampleTableViewItemCellContentViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA5B1B472BEF00F20EEE /* SampleListItemContentChildViewStylesheet.h */,
+				4D27CA5C1B472BEF00F20EEE /* SampleListItemContentChildViewStylesheet.m */,
+			);
+			path = SampleTableViewItemCellContentViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA5D1B472BEF00F20EEE /* OtherComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA5E1B472BEF00F20EEE /* TQTViewStylesheet */,
+			);
+			path = OtherComponents;
+			sourceTree = "<group>";
+		};
+		4D27CA5E1B472BEF00F20EEE /* TQTViewStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA5F1B472BEF00F20EEE /* TQTViewStylesheet.h */,
+				4D27CA601B472BEF00F20EEE /* TQTViewStylesheet.m */,
+			);
+			path = TQTViewStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA611B472BEF00F20EEE /* TQTBaseStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA621B472BEF00F20EEE /* TQTBaseStylesheet.h */,
+				4D27CA631B472BEF00F20EEE /* TQTBaseStylesheet.m */,
+			);
+			path = TQTBaseStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA641B472BEF00F20EEE /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA651B472BEF00F20EEE /* TQTBodyStylesheet */,
+				4D27CA681B472BEF00F20EEE /* TQTCaptionStylesheet */,
+				4D27CA6B1B472BEF00F20EEE /* TQTFormTextualElementsStylesheet */,
+				4D27CA6E1B472BEF00F20EEE /* TQTLabelStylesheet */,
+				4D27CA711B472BEF00F20EEE /* TQTTitleStylesheet */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		4D27CA651B472BEF00F20EEE /* TQTBodyStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA661B472BEF00F20EEE /* TQTBodyStylesheet.h */,
+				4D27CA671B472BEF00F20EEE /* TQTBodyStylesheet.m */,
+			);
+			path = TQTBodyStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA681B472BEF00F20EEE /* TQTCaptionStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA691B472BEF00F20EEE /* TQTCaptionStylesheet.h */,
+				4D27CA6A1B472BEF00F20EEE /* TQTCaptionStylesheet.m */,
+			);
+			path = TQTCaptionStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA6B1B472BEF00F20EEE /* TQTFormTextualElementsStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA6C1B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.h */,
+				4D27CA6D1B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.m */,
+			);
+			path = TQTFormTextualElementsStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA6E1B472BEF00F20EEE /* TQTLabelStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA6F1B472BEF00F20EEE /* TQTLabelStylesheet.h */,
+				4D27CA701B472BEF00F20EEE /* TQTLabelStylesheet.m */,
+			);
+			path = TQTLabelStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CA711B472BEF00F20EEE /* TQTTitleStylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CA721B472BEF00F20EEE /* TQTTitleStylesheet.h */,
+				4D27CA731B472BEF00F20EEE /* TQTTitleStylesheet.m */,
+			);
+			path = TQTTitleStylesheet;
+			sourceTree = "<group>";
+		};
+		4D27CAB81B47358900F20EEE /* TQTStylesheets */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CAB91B47358900F20EEE /* Exceptions */,
+				4D27CADC1B5004BA00F20EEE /* README.md */,
+				4DD4D1EB1BD6C3A4004A7B4C /* TQTStylesheets.h */,
+				4DD4D1EC1BD6C3A4004A7B4C /* TQTStylesheets.m */,
+				4D27CAC01B47358900F20EEE /* TQTStylesheetsProperties.h */,
+				4D27CAC11B47358900F20EEE /* UIButton */,
+				4D27CAC41B47358900F20EEE /* UIImage */,
+				4D27CAC81B47358900F20EEE /* UIView */,
+			);
+			path = TQTStylesheets;
+			sourceTree = "<group>";
+		};
+		4D27CAB91B47358900F20EEE /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CAD41B473E9B00F20EEE /* TQTBaseException.h */,
+				4D27CAD51B473E9B00F20EEE /* TQTBaseException.m */,
+				4D27CABA1B47358900F20EEE /* TQTInvalidStyleRuleException.h */,
+				4D27CABB1B47358900F20EEE /* TQTInvalidStyleRuleException.m */,
+				4D27CABC1B47358900F20EEE /* TQTUnknownKeyException.h */,
+				4D27CABD1B47358900F20EEE /* TQTUnknownKeyException.m */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		4D27CAC11B47358900F20EEE /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CAC21B47358900F20EEE /* UIButton+TQTButtonStyle.h */,
+				4D27CAC31B47358900F20EEE /* UIButton+TQTButtonStyle.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		4D27CAC41B47358900F20EEE /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CAC51B47358900F20EEE /* UIImage+ TQTImageWithColor */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		4D27CAC51B47358900F20EEE /* UIImage+ TQTImageWithColor */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CAC61B47358900F20EEE /* UIImage+TQTImageWithColor.h */,
+				4D27CAC71B47358900F20EEE /* UIImage+TQTImageWithColor.m */,
+			);
+			path = "UIImage+ TQTImageWithColor";
+			sourceTree = "<group>";
+		};
+		4D27CAC81B47358900F20EEE /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				4D27CACB1B47358900F20EEE /* UIView+TQTViewStyle.h */,
+				4D27CACC1B47358900F20EEE /* UIView+TQTViewStyle.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		4D3167CE1B0BCDAC00C3010B /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				4D3167F91B0BDEE400C3010B /* Stylesheet.h */,
 				4D3167CF1B0BCDAC00C3010B /* Constants.h */,
 				4D3167D01B0BCDAC00C3010B /* Constants.m */,
 				4D3167D21B0BCDEB00C3010B /* Components.h */,
@@ -248,8 +484,6 @@
 		4DBF296B1B2DDF3200B5710D /* Exceptions */ = {
 			isa = PBXGroup;
 			children = (
-				4DBF296C1B2DDF3200B5710D /* TQTBaseException.h */,
-				4DBF296D1B2DDF3200B5710D /* TQTBaseException.m */,
 				4DBF296E1B2DDF3200B5710D /* TQTMissingMethodImplementationException.h */,
 				4DBF296F1B2DDF3200B5710D /* TQTMissingMethodImplementationException.m */,
 			);
@@ -554,246 +788,6 @@
 			path = TQTGuideTitleView;
 			sourceTree = "<group>";
 		};
-		4DBF29F11B2DDF5200B5710D /* Styleguide */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29F21B2DDF5200B5710D /* Exceptions */,
-				4DBF29F91B2DDF5200B5710D /* Stylesheets */,
-				4DBF2A271B2DDF5200B5710D /* UIButton */,
-				4DBF2A2A1B2DDF5200B5710D /* UIImage */,
-				4DBF2A2E1B2DDF5200B5710D /* UIView */,
-			);
-			path = Styleguide;
-			sourceTree = "<group>";
-		};
-		4DBF29F21B2DDF5200B5710D /* Exceptions */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29F31B2DDF5200B5710D /* TQTInvalidStyleRuleException.h */,
-				4DBF29F41B2DDF5200B5710D /* TQTInvalidStyleRuleException.m */,
-				4DBF29F51B2DDF5200B5710D /* TQTUnknownKeyException.h */,
-				4DBF29F61B2DDF5200B5710D /* TQTUnknownKeyException.m */,
-				4DBF29F71B2DDF5200B5710D /* TQTWrongClassNameException.h */,
-				4DBF29F81B2DDF5200B5710D /* TQTWrongClassNameException.m */,
-			);
-			path = Exceptions;
-			sourceTree = "<group>";
-		};
-		4DBF29F91B2DDF5200B5710D /* Stylesheets */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29FA1B2DDF5200B5710D /* Components */,
-				4DBF2A241B2DDF5200B5710D /* README.md */,
-				4DBF2A251B2DDF5200B5710D /* TQTMainStylesheet.h */,
-				4DBF2A261B2DDF5200B5710D /* TQTMainStylesheet.m */,
-			);
-			path = Stylesheets;
-			sourceTree = "<group>";
-		};
-		4DBF29FA1B2DDF5200B5710D /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29FB1B2DDF5200B5710D /* Controls */,
-				4DBF29FF1B2DDF5200B5710D /* Forms */,
-				4DBF2A091B2DDF5200B5710D /* Lists */,
-				4DBF2A0D1B2DDF5200B5710D /* OtherComponents */,
-				4DBF2A111B2DDF5200B5710D /* TQTBaseStylesheet */,
-				4DBF2A141B2DDF5200B5710D /* Typography */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		4DBF29FB1B2DDF5200B5710D /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29FC1B2DDF5200B5710D /* TQTButtonStylesheet */,
-			);
-			path = Controls;
-			sourceTree = "<group>";
-		};
-		4DBF29FC1B2DDF5200B5710D /* TQTButtonStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF29FD1B2DDF5200B5710D /* TQTButtonStylesheet.h */,
-				4DBF29FE1B2DDF5200B5710D /* TQTButtonStylesheet.m */,
-			);
-			path = TQTButtonStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF29FF1B2DDF5200B5710D /* Forms */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A001B2DDF5200B5710D /* TQTCustomCheckboxButtonViewStylesheet */,
-				4DBF2A031B2DDF5200B5710D /* TQTCustomRadioButtonStylesheet */,
-				4DBF2A061B2DDF5200B5710D /* TQTCustomTextFieldViewStylesheet */,
-			);
-			path = Forms;
-			sourceTree = "<group>";
-		};
-		4DBF2A001B2DDF5200B5710D /* TQTCustomCheckboxButtonViewStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A011B2DDF5200B5710D /* TQTCustomCheckboxButtonViewStylesheet.h */,
-				4DBF2A021B2DDF5200B5710D /* TQTCustomCheckboxButtonViewStylesheet.m */,
-			);
-			path = TQTCustomCheckboxButtonViewStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A031B2DDF5200B5710D /* TQTCustomRadioButtonStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A041B2DDF5200B5710D /* TQTCustomRadioButtonViewStylesheet.h */,
-				4DBF2A051B2DDF5200B5710D /* TQTCustomRadioButtonViewStylesheet.m */,
-			);
-			path = TQTCustomRadioButtonStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A061B2DDF5200B5710D /* TQTCustomTextFieldViewStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A071B2DDF5200B5710D /* TQTCustomTextFieldViewStylesheet.h */,
-				4DBF2A081B2DDF5200B5710D /* TQTCustomTextFieldViewStylesheet.m */,
-			);
-			path = TQTCustomTextFieldViewStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A091B2DDF5200B5710D /* Lists */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A0A1B2DDF5200B5710D /* SampleTableViewItemCellContentViewStylesheet */,
-			);
-			path = Lists;
-			sourceTree = "<group>";
-		};
-		4DBF2A0A1B2DDF5200B5710D /* SampleTableViewItemCellContentViewStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A0B1B2DDF5200B5710D /* SampleListItemContentChildViewStylesheet.h */,
-				4DBF2A0C1B2DDF5200B5710D /* SampleListItemContentChildViewStylesheet.m */,
-			);
-			path = SampleTableViewItemCellContentViewStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A0D1B2DDF5200B5710D /* OtherComponents */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A0E1B2DDF5200B5710D /* TQTViewStylesheet */,
-			);
-			path = OtherComponents;
-			sourceTree = "<group>";
-		};
-		4DBF2A0E1B2DDF5200B5710D /* TQTViewStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A0F1B2DDF5200B5710D /* TQTViewStylesheet.h */,
-				4DBF2A101B2DDF5200B5710D /* TQTViewStylesheet.m */,
-			);
-			path = TQTViewStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A111B2DDF5200B5710D /* TQTBaseStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A121B2DDF5200B5710D /* TQTBaseStylesheet.h */,
-				4DBF2A131B2DDF5200B5710D /* TQTBaseStylesheet.m */,
-			);
-			path = TQTBaseStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A141B2DDF5200B5710D /* Typography */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A151B2DDF5200B5710D /* TQTBodyStylesheet */,
-				4DBF2A181B2DDF5200B5710D /* TQTCaptionStylesheet */,
-				4DBF2A1B1B2DDF5200B5710D /* TQTFormTextualElementsStylesheet */,
-				4DBF2A1E1B2DDF5200B5710D /* TQTLabelStylesheet */,
-				4DBF2A211B2DDF5200B5710D /* TQTTitleStylesheet */,
-			);
-			path = Typography;
-			sourceTree = "<group>";
-		};
-		4DBF2A151B2DDF5200B5710D /* TQTBodyStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A161B2DDF5200B5710D /* TQTBodyStylesheet.h */,
-				4DBF2A171B2DDF5200B5710D /* TQTBodyStylesheet.m */,
-			);
-			path = TQTBodyStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A181B2DDF5200B5710D /* TQTCaptionStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A191B2DDF5200B5710D /* TQTCaptionStylesheet.h */,
-				4DBF2A1A1B2DDF5200B5710D /* TQTCaptionStylesheet.m */,
-			);
-			path = TQTCaptionStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A1B1B2DDF5200B5710D /* TQTFormTextualElementsStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A1C1B2DDF5200B5710D /* TQTFormTextualElementsStylesheet.h */,
-				4DBF2A1D1B2DDF5200B5710D /* TQTFormTextualElementsStylesheet.m */,
-			);
-			path = TQTFormTextualElementsStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A1E1B2DDF5200B5710D /* TQTLabelStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A1F1B2DDF5200B5710D /* TQTLabelStylesheet.h */,
-				4DBF2A201B2DDF5200B5710D /* TQTLabelStylesheet.m */,
-			);
-			path = TQTLabelStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A211B2DDF5200B5710D /* TQTTitleStylesheet */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A221B2DDF5200B5710D /* TQTTitleStylesheet.h */,
-				4DBF2A231B2DDF5200B5710D /* TQTTitleStylesheet.m */,
-			);
-			path = TQTTitleStylesheet;
-			sourceTree = "<group>";
-		};
-		4DBF2A271B2DDF5200B5710D /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A281B2DDF5200B5710D /* UIButton+TQTButtonStyle.h */,
-				4DBF2A291B2DDF5200B5710D /* UIButton+TQTButtonStyle.m */,
-			);
-			path = UIButton;
-			sourceTree = "<group>";
-		};
-		4DBF2A2A1B2DDF5200B5710D /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A2B1B2DDF5200B5710D /* UIImage+ TQTImageWithColor */,
-			);
-			path = UIImage;
-			sourceTree = "<group>";
-		};
-		4DBF2A2B1B2DDF5200B5710D /* UIImage+ TQTImageWithColor */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A2C1B2DDF5200B5710D /* UIImage+TQTImageWithColor.h */,
-				4DBF2A2D1B2DDF5200B5710D /* UIImage+TQTImageWithColor.m */,
-			);
-			path = "UIImage+ TQTImageWithColor";
-			sourceTree = "<group>";
-		};
-		4DBF2A2E1B2DDF5200B5710D /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				4DBF2A2F1B2DDF5200B5710D /* TQTViewAttributes.h */,
-				4DBF2A301B2DDF5200B5710D /* TQTViewAttributes.m */,
-				4DBF2A311B2DDF5200B5710D /* UIView+TQTViewStyle.h */,
-				4DBF2A321B2DDF5200B5710D /* UIView+TQTViewStyle.m */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
 		4DCE3DCA1B277577002C7995 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -845,7 +839,8 @@
 				5BFCA8D91A792AE7001B1BA5 /* Components */,
 				5BFCA8DF1A792BEE001B1BA5 /* Models */,
 				5BFCA8D11A7928B0001B1BA5 /* Modules */,
-				4DBF29F11B2DDF5200B5710D /* Styleguide */,
+				4D27CAB81B47358900F20EEE /* TQTStylesheets */,
+				4D27CA491B472BEF00F20EEE /* Stylesheets */,
 				5BECD28C1A6FEF2D00A48259 /* Resources */,
 				5BECD2901A6FEF2D00A48259 /* Supporting Files */,
 			);
@@ -1033,55 +1028,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D3167D11B0BCDAC00C3010B /* Constants.m in Sources */,
+				4D27CA7E1B472BEF00F20EEE /* TQTBodyStylesheet.m in Sources */,
 				5BECD2971A6FEF2D00A48259 /* main.m in Sources */,
+				4D27CA7D1B472BEF00F20EEE /* TQTBaseStylesheet.m in Sources */,
+				4D27CAD61B473E9B00F20EEE /* TQTBaseException.m in Sources */,
 				4DBF29E31B2DDF4900B5710D /* TQTControlsViewController.m in Sources */,
 				4DBF29A51B2DDF4200B5710D /* TQTCustomCheckboxButtonView.m in Sources */,
+				4D27CACE1B47358900F20EEE /* TQTUnknownKeyException.m in Sources */,
 				4DBF29EF1B2DDF4900B5710D /* TQTGuideViewController.m in Sources */,
-				4DBF2A351B2DDF5200B5710D /* TQTWrongClassNameException.m in Sources */,
-				4DBF2A431B2DDF5200B5710D /* TQTMainStylesheet.m in Sources */,
-				4DBF2A381B2DDF5200B5710D /* TQTCustomRadioButtonViewStylesheet.m in Sources */,
-				4DBF2A401B2DDF5200B5710D /* TQTLabelStylesheet.m in Sources */,
-				4DBF2A341B2DDF5200B5710D /* TQTUnknownKeyException.m in Sources */,
+				4D27CACD1B47358900F20EEE /* TQTInvalidStyleRuleException.m in Sources */,
+				4D27CA801B472BEF00F20EEE /* TQTFormTextualElementsStylesheet.m in Sources */,
+				4D27CA7B1B472BEF00F20EEE /* SampleListItemContentChildViewStylesheet.m in Sources */,
+				4D27CA781B472BEF00F20EEE /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */,
+				4D27CA7F1B472BEF00F20EEE /* TQTCaptionStylesheet.m in Sources */,
 				4DBF29AA1B2DDF4200B5710D /* SampeNameTextFieldView.m in Sources */,
 				4DBF29B11B2DDF4200B5710D /* TQTNullContentChildViewClassException.m in Sources */,
-				4DBF2A421B2DDF5200B5710D /* README.md in Sources */,
+				4D27CAD11B47358900F20EEE /* UIImage+TQTImageWithColor.m in Sources */,
 				4DBF29E71B2DDF4900B5710D /* TQTListsViewController.m in Sources */,
-				4DBF2A391B2DDF5200B5710D /* TQTCustomTextFieldViewStylesheet.m in Sources */,
-				4DBF2A451B2DDF5200B5710D /* UIImage+TQTImageWithColor.m in Sources */,
+				4D27CA811B472BEF00F20EEE /* TQTLabelStylesheet.m in Sources */,
 				4DBF29A81B2DDF4200B5710D /* TQTCustomRadioButtonView.m in Sources */,
+				4D27CA841B472BEF00F20EEE /* TQTStylesheetImporter.m in Sources */,
+				4DD4D1ED1BD6C3A4004A7B4C /* TQTStylesheets.m in Sources */,
+				4D27CA791B472BEF00F20EEE /* TQTCustomRadioButtonViewStylesheet.m in Sources */,
 				4DBF29A71B2DDF4200B5710D /* TQTCustomPickerView.m in Sources */,
+				4D27CA7C1B472BEF00F20EEE /* TQTViewStylesheet.m in Sources */,
+				4D27CAD31B47358900F20EEE /* UIView+TQTViewStyle.m in Sources */,
 				4DBF29AF1B2DDF4200B5710D /* SampleTableViewPrimaryHeaderView.m in Sources */,
 				4DBF29E61B2DDF4900B5710D /* TQTExampleVCTableViewData.m in Sources */,
+				4D27CAD01B47358900F20EEE /* UIButton+TQTButtonStyle.m in Sources */,
 				4DBF29B21B2DDF4200B5710D /* TQTBaseTableViewCell.m in Sources */,
 				4DBF29E51B2DDF4900B5710D /* TQTExamplesTableViewController.m in Sources */,
+				4D27CA771B472BEF00F20EEE /* TQTButtonStylesheet.m in Sources */,
 				4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */,
-				4DBF2A3A1B2DDF5200B5710D /* SampleListItemContentChildViewStylesheet.m in Sources */,
-				4DBF2A3B1B2DDF5200B5710D /* TQTViewStylesheet.m in Sources */,
-				4DBF2A471B2DDF5200B5710D /* UIView+TQTViewStyle.m in Sources */,
 				4DBF29E91B2DDF4900B5710D /* TQTTypographyViewController.m in Sources */,
-				4DBF2A441B2DDF5200B5710D /* UIButton+TQTButtonStyle.m in Sources */,
-				4DBF2A371B2DDF5200B5710D /* TQTCustomCheckboxButtonViewStylesheet.m in Sources */,
 				4DBF29AB1B2DDF4200B5710D /* TQTCustomTextFieldView.m in Sources */,
-				4DBF2A331B2DDF5200B5710D /* TQTInvalidStyleRuleException.m in Sources */,
-				4DBF2A411B2DDF5200B5710D /* TQTTitleStylesheet.m in Sources */,
 				4DBF29EB1B2DDF4900B5710D /* TQTGuideSubtitleView.m in Sources */,
 				4DBF29B41B2DDF4200B5710D /* TQTTitleView.m in Sources */,
 				4DBF29E01B2DDF4900B5710D /* TQTColorSwatchesViewController.m in Sources */,
-				4DBF2A3F1B2DDF5200B5710D /* TQTFormTextualElementsStylesheet.m in Sources */,
-				4DBF2A361B2DDF5200B5710D /* TQTButtonStylesheet.m in Sources */,
-				4DBF29701B2DDF3200B5710D /* TQTBaseException.m in Sources */,
-				4DBF2A3E1B2DDF5200B5710D /* TQTCaptionStylesheet.m in Sources */,
 				4DBF29E11B2DDF4900B5710D /* TQTComponentsViewController.m in Sources */,
+				4D27CA821B472BEF00F20EEE /* TQTTitleStylesheet.m in Sources */,
+				4D27CA7A1B472BEF00F20EEE /* TQTCustomTextFieldViewStylesheet.m in Sources */,
 				5BFCA8DE1A792BE1001B1BA5 /* AppDelegate.m in Sources */,
 				4DBF29751B2DDF3B00B5710D /* UIView+TQTAttachToSuperview.m in Sources */,
 				4DBF29711B2DDF3200B5710D /* TQTMissingMethodImplementationException.m in Sources */,
 				4DBF29B31B2DDF4200B5710D /* TQTBaseComponentsView.m in Sources */,
-				4DBF2A461B2DDF5200B5710D /* TQTViewAttributes.m in Sources */,
+				4D27CADD1B5004BA00F20EEE /* README.md in Sources */,
 				4DBF29EA1B2DDF4900B5710D /* TQTGuideTableViewDataModel.m in Sources */,
 				4DBF29ED1B2DDF4900B5710D /* TQTGuideTitleView.m in Sources */,
-				4DBF2A3C1B2DDF5200B5710D /* TQTBaseStylesheet.m in Sources */,
 				4DBF29E41B2DDF4900B5710D /* TQTFormsViewController.m in Sources */,
-				4DBF2A3D1B2DDF5200B5710D /* TQTBodyStylesheet.m in Sources */,
 				4DBF29AD1B2DDF4200B5710D /* SampleListItemContentChildView.m in Sources */,
 				4DBF29E81B2DDF4900B5710D /* TQTOtherComponentsViewController.m in Sources */,
 			);
