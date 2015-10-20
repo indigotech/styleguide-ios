@@ -1,5 +1,5 @@
 //
-//  UIViewAttributes.h
+//  TQTStylesheets.h
 //  Netshoes
 //
 //  Created by Taqtile on 4/23/15.
