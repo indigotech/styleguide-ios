@@ -1,6 +1,6 @@
 //
 //  Stylesheet.h
-//  Netshoes
+//  
 //
 //  Created by Taqtile on 4/24/15.
 //  Copyright (c) 2015 Taqtile. All rights reserved.
@@ -14,8 +14,8 @@ All constants in this file use the following pattern (in eBNF):
  ,in fact, the properties you want to set in your UI class
 *****************/
 
-#ifndef Netshoes_Stylesheet_h
-#define Netshoes_Stylesheet_h
+#ifndef Stylesheet_h
+#define Stylesheet_h
 
 #define STYLESHEET_KEYWORD                              @"stylesheet"
 
