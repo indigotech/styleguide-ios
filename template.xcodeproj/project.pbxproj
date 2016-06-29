@@ -102,8 +102,8 @@
 		4DCE3DE61B277577002C7995 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCC1B277577002C7995 /* HomeViewController.m */; };
 		4DCE3DE71B277577002C7995 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE3DCD1B277577002C7995 /* HomeViewController.xib */; };
 		4DCE414C1B279533002C7995 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE414B1B279533002C7995 /* Images.xcassets */; };
-		4DD4D1FB1BD6D0F5004A7B4C /* TQTStylesheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4D1FA1BD6D0F5004A7B4C /* TQTStylesheets.m */; settings = {ASSET_TAGS = (); }; };
-		4DD4D1FC1BD6D0F5004A7B4C /* TQTStylesheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4D1FA1BD6D0F5004A7B4C /* TQTStylesheets.m */; settings = {ASSET_TAGS = (); }; };
+		4DD4D1FB1BD6D0F5004A7B4C /* TQTStylesheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4D1FA1BD6D0F5004A7B4C /* TQTStylesheets.m */; };
+		4DD4D1FC1BD6D0F5004A7B4C /* TQTStylesheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4D1FA1BD6D0F5004A7B4C /* TQTStylesheets.m */; };
 		4DFBC6911B5D465A0012A0AE /* GuideInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DFBC6521B5D46430012A0AE /* GuideInfo.plist */; };
 		4DFBC6921B5D465E0012A0AE /* MainGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFBC6531B5D46430012A0AE /* MainGuide.storyboard */; };
 		4DFBC6931B5D466A0012A0AE /* TQTColorSwatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBC6581B5D46430012A0AE /* TQTColorSwatchesViewController.m */; };
@@ -1016,6 +1016,7 @@
 				5BAC04931A695923004805CC /* Frameworks */,
 				5BAC04941A695923004805CC /* Resources */,
 				4032F5B1DD7677A2502B03DE /* Copy Pods Resources */,
+				5C4CBFFEF5639E22A144DC9C /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1164,6 +1165,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4CBFFEF5639E22A144DC9C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
