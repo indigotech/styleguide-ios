@@ -40,11 +40,6 @@ All constants in this file use the following pattern (in eBNF):
 #define PK_BUTTON_TITLE_EDGE_INSETS                            @"buttonTitleEdgeInsets"
 #define PK_BUTTON_IMAGE_EDGE_INSETS                            @"buttonImageEdgeInsets"
 
-// Float labeled textfield: https://github.com/jverdi/JVFloatLabeledTextField
-#define PK_FLOATLABELED_TEXTFIELD_LABEL_FONT                   @"floatingLabel.font"
-#define PK_FLOATLABELED_TEXTFIELD_LABEL_COLOR                  @"floatingLabelTextColor"
-#define PK_FLOATLABELED_TEXTFIELD_LABEL_ACTIVE_COLOR           @"floatingLabelActiveTextColor"
-
 #define PK_IMAGE_VIEW_TINT_COLOR                               @"tintColor"
 
 #define PK_TEXTVIEW_FONT                                       @"font"
@@ -92,5 +87,24 @@ All constants in this file use the following pattern (in eBNF):
 #define PK_VIEW_SHADOW_OFFSET                                  @"layer.shadowOffset"
 #define PK_VIEW_SHADOW_OPACITY                                 @"layer.shadowOpacity"
 #define PK_VIEW_SHADOW_RADIUS                                  @"layer.shadowRadius"
+
+#define PK_PAGECONTROL_TINT_COLOR                              @"pageIndicatorTintColor"
+#define PK_PAGECONTROL_CURRENT_PAGE                            @"currentPageIndicatorTintColor"
+
+/*****************
+ PODS
+*****************/
+
+// Float labeled textfield: https://github.com/jverdi/JVFloatLabeledTextField
+#define PK_FLOATLABELED_TEXTFIELD_LABEL_FONT                   @"floatingLabel.font"
+#define PK_FLOATLABELED_TEXTFIELD_LABEL_COLOR                  @"floatingLabelTextColor"
+#define PK_FLOATLABELED_TEXTFIELD_LABEL_ACTIVE_COLOR           @"floatingLabelActiveTextColor"
+
+// AXRatingView: https://github.com/akiroom/AXRatingView
+#define PK_AXRATINGVIEW_MARK_CHARACTER                         @"markCharacter"
+#define PK_AXRATINGVIEW_MARK_FONT                              @"markFont"
+#define PK_AXRATINGVIEW_NUMBER_OF_STARS                        @"numberOfStar"
+#define PK_AXRATINGVIEW_BASE_COLOR                             @"baseColor"
+#define PK_AXRATINGVIEW_HIGHLIGHT_COLOR                        @"highlightColor"
 
 #endif

@@ -20,16 +20,17 @@
  * To set a style, you would set a key "stylesheet" with type String
  * and value your style (ex: "H2_Label").
  *
- * @param value the view on which an attribute was set
- * @param key the undefined value
+ * @param syle the undefined value
  */
--(void)setValue:(id)value forUndefinedKey:(NSString *)key
-{
-    if([key isEqualToString:STYLESHEET_KEYWORD]) {
-        [[TQTStylesheets sharedInstance] setStyle:value forView:self];
-    } else {
-        @throw [[TQTUnknownKeyException alloc] initWithKeyName:key];
-    }
+-(void)setStylesheet:(NSString *)style {
+    [[TQTStylesheets sharedInstance] setStyle:style forView:self];
+}
+
+/**
+ * This method always returns an empty screen. Therefore, nowadays it is not possible to get the current applied style
+ */
+-(NSString *)stylesheet {
+    return @"";
 }
 
 #pragma mark - Properties
