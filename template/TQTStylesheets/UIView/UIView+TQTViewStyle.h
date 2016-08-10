@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (TQTViewStyle)
+
+@property (strong, nonatomic) IBInspectable NSString *stylesheet;
 @property (strong, nonatomic) UIColor *borderColor;
+
 @end
