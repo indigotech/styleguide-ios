@@ -1,6 +1,22 @@
+**Insert TQTStylesheets image or logo**
+
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](Insert MIT badge)
+
+> TQTStylesheets is a stylesheet library written in Objective-C to create styles and easily use them in interface builder or programmatically
+
+## Features
+
+## Requirements
+
+## Installation
+
+### Cocoapods
+
+## Usage
+
 This is the folder for the component style rules.
 
-# How to create a component stylesheet
+### How to create a component stylesheet
 
 To add your component:
 1. Create a file .h and .m for your class. The file name has the following format (in eBNF - [Extended Backus Naur Form](http://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_Form)):
@@ -30,7 +46,7 @@ TQTStylesheets *sharedInstance = [TQTStylesheets sharedInstance];
 [sharedInstance import:[TQTBaseStylesheet stylesheet]];
 ```
 
-# YourComponentAttributeName name convention
+#### YourComponentAttributeName name convention
 
 The YourComponentAttributeName has the following convention (in eBNF):
 ```
@@ -38,7 +54,35 @@ The YourComponentAttributeName has the following convention (in eBNF):
 ```
 obs:component_name, subcomponent_name, type_name, state_name, class_name_without_UI are all CamelCase
 
-# BaseStylesheet
+#### BaseStylesheet
 
 You can create BaseStylesheet which is a stylesheet that contains rules for the
 basic UI classes, for instance, UILabel, UITextField etc.
+
+## Demo App
+
+### About
+
+### How to run
+
+## Issues
+
+
+## Contributing
+Find on our [roadmap](https://github.com/afonsopacifer/open-source-boilerplate/issues/1) the next steps of the project ;)
+<br>
+Want to contribute? [Follow these recommendations](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/CONTRIBUTING.md).
+
+## Credits
+
+This library has been created by [Hashi](Inser github profile), ... and ... and its currently being manteined by TQT
+
+## Versioning
+
+To keep better organization of releases we follow the [Semantic Versioning 2.0.0](http://semver.org/) guidelines.
+
+## History
+See [Releases](https://github.com/afonsopacifer/open-source-boilerplate/releases) for detailed changelog.
+
+## License
+[MIT License](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
