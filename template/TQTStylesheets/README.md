@@ -1,4 +1,4 @@
-**Insert TQTStylesheets image or logo**
+# TQTStylesheets
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](Insert MIT badge)
 
@@ -6,58 +6,96 @@
 
 ## Features
 
+- Create reusable styles to views
+- Apply those styles directly in your views using interface builder
+- Apply or change styles inside your swift or Objective-C code
+
 ## Requirements
+
+- iOS 9.0+
+- Xcode 7+
+- Objective-C or Swift
 
 ## Installation
 
 ### Cocoapods
 
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'TargetName' do
+pod 'TQTStylesheets', '1.0.0'
+end
+```
+
 ## Usage
 
-This is the folder for the component style rules.
+### Setup
 
-### How to create a component stylesheet
+1. Create a class called `TQTStylesheetImporter` with a static method `setupTQTStylesheet()` to import all your styles
+
+TQTStylesheetImporter.swift
+```swift
+import TQTStylesheets
+
+class TQTStylesheetImporter {
+  static func setupTQTStylesheet() {
+    let shared: TQTStylesheets = TQTStylesheets.sharedInstance()
+  }
+}
+```
+
+2. Call the above method in your `AppDelegate`
+
+AppDelegate.swift:
+```swift
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    TQTStylesheetImporter.setupTQTStylesheet()
+  }
+}
+```
+
+### Creating custom styles
 
 To add your component:
 1. Create a file .h and .m for your class. The file name has the following format (in eBNF - [Extended Backus Naur Form](http://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_Form)):
-```
-    component_name "Stylesheet"
-```
+
 2. Declare a class method 'stylesheet' in you .h:
-``` objective-c
-    + (NSDictionary *)stylesheet;
-```
+
 3. To add styles to your component,add to the dictionary in the `stylesheet` method:
  - your component attribute name as the key of the dictionary
  - a dictionary containing the properties and theirs values as the value of the dictionary.
 
  ex of a implementation of `stylesheet`:
-``` objective-c
+```objective-c
     return @{
              @"YourComponentAttributeName": @{
                      @"propertyNameOfYourComponent": VALUE_OF_PROPERTY,
                      },
              };
 ```
-4. Finally, import your just created stylesheet using TQTStylesheets. To do it, call the import method 
+4. Finally, import your just created stylesheet using TQTStylesheets. To do it, call the import method
 Ex:
 ``` objective-c
 TQTStylesheets *sharedInstance = [TQTStylesheets sharedInstance];
 [sharedInstance import:[TQTBaseStylesheet stylesheet]];
 ```
 
-#### YourComponentAttributeName name convention
+### Applying styles using interface builder
 
-The YourComponentAttributeName has the following convention (in eBNF):
-```
-    component_name + subcomponent_name + ["_Type" + type_name] + ["_Is" + state_name] + "_" + class_name_without_UI
-```
-obs:component_name, subcomponent_name, type_name, state_name, class_name_without_UI are all CamelCase
+### Applying styles in Swift code
 
 #### BaseStylesheet
 
 You can create BaseStylesheet which is a stylesheet that contains rules for the
 basic UI classes, for instance, UILabel, UITextField etc.
+
+#### Recommended structure
+
+
 
 ## Demo App
 
