@@ -60,42 +60,69 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ### Creating custom styles
 
-To add your component:
-1. Create a file .h and .m for your class. The file name has the following format (in eBNF - [Extended Backus Naur Form](http://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_Form)):
+1. Create a file with a class
 
-2. Declare a class method 'stylesheet' in you .h:
-
-3. To add styles to your component,add to the dictionary in the `stylesheet` method:
- - your component attribute name as the key of the dictionary
- - a dictionary containing the properties and theirs values as the value of the dictionary.
-
- ex of a implementation of `stylesheet`:
-```objective-c
-    return @{
-             @"YourComponentAttributeName": @{
-                     @"propertyNameOfYourComponent": VALUE_OF_PROPERTY,
-                     },
-             };
+ButtonStylesheet.swift
+```swift
+class ButtonStylesheet {
+  static func stylesheet() -> Dictionary {
+    return [
+      "Primary_Button": [
+        "highlightedTitleColor": UIColor.fromHex(COLOR_GRAY_EXTRA_DARK)
+      ]
+    ]
+  }
+}
 ```
-4. Finally, import your just created stylesheet using TQTStylesheets. To do it, call the import method
-Ex:
-``` objective-c
-TQTStylesheets *sharedInstance = [TQTStylesheets sharedInstance];
-[sharedInstance import:[TQTBaseStylesheet stylesheet]];
+
+`Primary_Button` is the name of your style
+`highlightedTitleColor` is the name of the property which will be changed
+`UIColor.fromHex(COLOR_GRAY_EXTRA_DARK)` is the value of the property
+
+instead of `highlightedTitleColor` you could use `PK_BUTTON_HIGHLIGHTED_BACKGROUND_IMAGE` which is a constant definition to this String. All properties and definitions built in this Pod can be found in the file `TQTStylesheetsProperties.h` if you need to add a new property to any kind of view you only need to check Apple's documentation and any property can be defined in your style.
+
+
+2. Use the newly created class in `TQTStylesheetImporter` to import your new style
+
+TQTStylesheetImporter.swift
+```swift
+import TQTStylesheets
+
+class TQTStylesheetImporter {
+  static func setupTQTStylesheet() {
+    let shared: TQTStylesheets = TQTStylesheets.sharedInstance()
+    shared.import(stylesheet: ButtonStylesheet.stylesheet())
+  }
+}
 ```
 
 ### Applying styles using interface builder
 
+**Insert print screens**
+
 ### Applying styles in Swift code
 
-#### BaseStylesheet
+ViewController.swift
+```swift
+import TQTStylesheets
 
-You can create BaseStylesheet which is a stylesheet that contains rules for the
-basic UI classes, for instance, UILabel, UITextField etc.
+class ViewController: UIViewController {
+  @IBOutlet weak var label: UILabel!
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    let shared: TQTStylesheets = TQTStylesheets.sharedInstance()
+    shared.setStyle("YourStyle", for: label)
+  }
+}
+```
+
 
 #### Recommended structure
 
-
+```
+├──
+```
 
 ## Demo App
 
@@ -103,7 +130,7 @@ basic UI classes, for instance, UILabel, UITextField etc.
 
 ### How to run
 
-## Issues
+
 
 
 ## Contributing
@@ -113,14 +140,12 @@ Want to contribute? [Follow these recommendations](https://github.com/afonsopaci
 
 ## Credits
 
-This library has been created by [Hashi](Inser github profile), ... and ... and its currently being manteined by TQT
+This library has been created by [Hashi](https://github.com/ghashi/) its currently being maintained by Taqtile.
 
 ## Versioning
 
 To keep better organization of releases we follow the [Semantic Versioning 2.0.0](http://semver.org/) guidelines.
 
-## History
-See [Releases](https://github.com/afonsopacifer/open-source-boilerplate/releases) for detailed changelog.
 
 ## License
-[MIT License](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
+[MIT License]()

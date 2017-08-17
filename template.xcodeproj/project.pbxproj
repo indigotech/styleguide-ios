@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1D30A21F43E49D0000EAD0 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D30A11F43E49D0000EAD0 /* UIColorExtensions.swift */; };
 		4D7BFCD31D5BA66E0002CB8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7BFC6E1D5BA66E0002CB8B /* AppDelegate.m */; };
 		4D7BFCD41D5BA66E0002CB8B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4D7BFC831D5BA66E0002CB8B /* .gitkeep */; };
 		4D7BFCD51D5BA66E0002CB8B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7BFC871D5BA66E0002CB8B /* HomeViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D1D30A01F43E49D0000EAD0 /* template-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "template-Bridging-Header.h"; sourceTree = "<group>"; };
+		4D1D30A11F43E49D0000EAD0 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		4D7BFC6D1D5BA66E0002CB8B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D7BFC6E1D5BA66E0002CB8B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4D7BFC831D5BA66E0002CB8B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -514,6 +517,8 @@
 				4D7BFCC91D5BA66E0002CB8B /* UIButton */,
 				4D7BFCCC1D5BA66E0002CB8B /* UIImage */,
 				4D7BFCD01D5BA66E0002CB8B /* UIView */,
+				4D1D30A11F43E49D0000EAD0 /* UIColorExtensions.swift */,
+				4D1D30A01F43E49D0000EAD0 /* template-Bridging-Header.h */,
 			);
 			path = TQTStylesheets;
 			sourceTree = "<group>";
@@ -615,6 +620,7 @@
 				TargetAttributes = {
 					5BAC04951A695923004805CC = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -673,6 +679,7 @@
 				4D7BFCDC1D5BA66E0002CB8B /* TQTBodyStylesheet.m in Sources */,
 				4D7BFCE91D5BA66E0002CB8B /* README.md in Sources */,
 				4D7BFCD51D5BA66E0002CB8B /* HomeViewController.m in Sources */,
+				4D1D30A21F43E49D0000EAD0 /* UIColorExtensions.swift in Sources */,
 				4D7BFCE11D5BA66E0002CB8B /* TQTStylesheetImporter.m in Sources */,
 				4D7BFCE01D5BA66E0002CB8B /* TQTTitleStylesheet.m in Sources */,
 				4D7BFCE41D5BA66E0002CB8B /* main.m in Sources */,
@@ -770,9 +777,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID = br.com.template;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/template/Example/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "template/TQTStylesheets/template-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -783,9 +794,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID = br.com.template;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/template/Example/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "QA-$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "template/TQTStylesheets/template-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Release-Staging";
@@ -835,9 +849,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID = br.com.template;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/template/Example/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "template/TQTStylesheets/template-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Release-Production";

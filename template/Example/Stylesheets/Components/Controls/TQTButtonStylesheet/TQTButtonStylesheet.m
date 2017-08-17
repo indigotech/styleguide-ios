@@ -12,6 +12,7 @@
 #import "Fonts.h"
 #import "TQTStylesheetsProperties.h"
 #import "Components.h"
+#import "template-Swift.h"
 
 @implementation TQTButtonStylesheet
 + (NSDictionary *)stylesheet {
