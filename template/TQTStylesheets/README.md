@@ -117,21 +117,11 @@ class ViewController: UIViewController {
 }
 ```
 
-
-#### Recommended structure
-
-```
-├──
-```
-
 ## Demo App
 
 ### About
 
-### How to run
-
-
-
+The demo app contains a simple styleguide with Headings, buttons and styles. Its main purpose is to be a example on how to use this pod and serve as a reference to create new styles.
 
 ## Contributing
 Find on our [roadmap](https://github.com/afonsopacifer/open-source-boilerplate/issues/1) the next steps of the project ;)
