@@ -14,6 +14,7 @@
 #import "TQTStylesheetImporter.h"
 #import "TQTStylesheets.h"
 #import "TQTTitleStylesheet.h"
+#import "template-Swift.h"
 
 
 @implementation TQTStylesheetImporter
@@ -25,5 +26,6 @@
     [sharedInstance import:[TQTLabelStylesheet stylesheet]];
     [sharedInstance import:[TQTCaptionStylesheet stylesheet]];
     [sharedInstance import:[TQTBodyStylesheet stylesheet]];
+    [sharedInstance import:[StackViewStylesheet stylesheet]];
 }
 @end
